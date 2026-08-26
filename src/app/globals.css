@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+/* Paleta oscura profesional: canvas casi negro, acento teal, oro para detalles. */
+@theme inline {
+  --color-canvas: #07080c;
+  --color-surface: #101218;
+  --color-elevated: #181c26;
+  --color-line: rgb(255 255 255 / 0.08);
+  --color-line-strong: rgb(255 255 255 / 0.14);
+  --color-ink: #f3f5f8;
+  --color-muted: #9aa3b2;
+  --color-accent: #5eead4;
+  --color-accent-dim: #2dd4bf;
+  --color-gold: #f5c16c;
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+html,
+body {
+  background: var(--color-canvas);
+  color: var(--color-ink);
+}
+
+body {
+  min-height: 100vh;
+  font-family: var(--font-sans), ui-sans-serif, system-ui, sans-serif;
+  text-rendering: optimizeLegibility;
+}
+
+/* Rejilla sutil del hero: se apaga en móviles para no competir con el texto. */
+.hero-grid {
+  background-image:
+    linear-gradient(to right, rgb(255 255 255 / 0.035) 1px, transparent 1px),
+    linear-gradient(to bottom, rgb(255 255 255 / 0.035) 1px, transparent 1px);
+  background-size: 56px 56px;
+  mask-image: radial-gradient(ellipse 70% 60% at 50% 0%, #000 40%, transparent 75%);
+}
+
+.glow-teal {
+  background: radial-gradient(
+    60% 50% at 50% 0%,
+    rgb(45 212 191 / 0.18),
+    transparent 70%
+  );
+}
+
+::selection {
+  background: rgb(94 234 212 / 0.28);
+  color: #fff;
+}
