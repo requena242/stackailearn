@@ -9,16 +9,17 @@ Producción: proyecto Cloudflare Pages `stackailearn`.
 | Node | 20 |
 | Functions | `functions/` en la raíz |
 
-## Git → Pages (objetivo)
+## Git → Pages
 
-Repo: se crea en GitHub. En el Dash de Cloudflare:
+El proyecto actual nació por **Direct Upload**. La API de Cloudflare no deja cambiar `source` a Git en ese tipo de proyecto.
 
-1. Workers & Pages → `stackailearn` → Settings → Builds & deployments.
-2. Connect to Git → GitHub → `requena242/stackailearn` (o el owner que salga).
-3. Production branch: `main`.
-4. Build command / output como la tabla.
+Opciones (elige una):
 
-A partir de ahí, un merge a `main` publica. El bot **no** despliega.
+1. **GitHub Action** (ya está en `.github/workflows/pages.yml`). En el repo: Settings → Secrets →
+   - `CLOUDFLARE_API_TOKEN` (permisos Pages Edit + Account Read)
+   - `CLOUDFLARE_ACCOUNT_ID` = `a2fe780e5de701ccd7570e3a03a78752`
+   Un merge a `main` publica. El bot **no** despliega.
+2. **Proyecto Pages nuevo desde Git** (`requena242/stackailearn`, branch `main`, build/output de la tabla) y mover los custom domains `stackailearn.com` / `www`. No se puede «conectar Git» al proyecto Direct Upload existente.
 
 ## Manual (si Git aún no está conectado)
 
