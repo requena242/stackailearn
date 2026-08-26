@@ -147,6 +147,131 @@ export const comparisons: Comparison[] = [
       },
     },
   },
+  {
+    slug: "chatgpt-vs-perplexity",
+    toolSlugs: ["chatgpt", "perplexity"],
+    updatedAt: "2026-08-26",
+    copy: {
+      es: {
+        title: "ChatGPT vs Perplexity",
+        excerpt:
+          "Redactar y pensar en un chat, o briefar con citas. No sustituyen el mismo paso del trabajo.",
+        verdict:
+          "Usa Perplexity para acotar hechos y abrir fuentes. Pasa a ChatGPT (o Claude) cuando toque redactar, variar tono o guardar el flujo. Si pegas el párrafo de Perplexity en un informe, estás publicando a un intermediario.",
+        rows: [
+          {
+            label: "Mejor para",
+            values: [
+              "Redactar, idear y un flujo que se repite",
+              "Pregunta acotada con citas que puedes abrir",
+            ],
+          },
+          {
+            label: "Fuentes",
+            values: [
+              "Búsqueda opcional; hay que pedir que marque lo incierto",
+              "Citas en la respuesta; el trabajo es abrir dos",
+            ],
+          },
+          {
+            label: "Prosa",
+            values: ["Muy alta si el briefing es bueno", "Correcta; no es un editor"],
+          },
+          {
+            label: "Riesgo",
+            values: [
+              "Texto fluido que inventa con naturalidad",
+              "Resumen que parece fuente primaria y no lo es",
+            ],
+          },
+          {
+            label: "Cuándo cambiar",
+            values: [
+              "Cuando ya tienes hechos y falta el entregable",
+              "Cuando aún no sabes qué está respaldado",
+            ],
+          },
+          {
+            label: "Plan de entrada",
+            values: ["Gratis + Plus / Team", "Gratis + Pro"],
+          },
+        ],
+        faq: [
+          {
+            q: "¿Puedo usar solo uno de los dos?",
+            a: "Sí. Si solo escribes, ChatGPT basta. Si solo investigas una cifra o una fecha, Perplexity basta. El error es usar el mismo chat para las dos cosas y no abrir fuentes.",
+          },
+          {
+            q: "¿Cuál posiciona mejor como «buscador con IA»?",
+            a: "Perplexity se presenta como respuesta con citas. ChatGPT con búsqueda también cita, pero el hábito por defecto es redactar. Elige por el entregable, no por el marketing.",
+          },
+          {
+            q: "¿Y Claude?",
+            a: "Cuando el texto es largo y el tono importa, Claude suele ganar a los dos como editor. No sustituye a Perplexity para abrir fuentes.",
+          },
+        ],
+      },
+      en: {
+        title: "ChatGPT vs Perplexity",
+        excerpt:
+          "Write and think in a chat, or brief with citations. They do not replace the same step.",
+        verdict:
+          "Use Perplexity to bound facts and open sources. Move to ChatGPT (or Claude) when you need to draft, vary tone or keep a repeatable flow. If you paste Perplexity's paragraph into a report, you are publishing an intermediary.",
+        rows: [
+          {
+            label: "Best for",
+            values: [
+              "Drafting, ideation and a flow you repeat",
+              "A bounded question with citations you can open",
+            ],
+          },
+          {
+            label: "Sources",
+            values: [
+              "Optional search; you must ask it to flag uncertainty",
+              "Citations in the answer; the work is opening two of them",
+            ],
+          },
+          {
+            label: "Prose",
+            values: ["Very high if the brief is good", "Fine; it is not an editor"],
+          },
+          {
+            label: "Risk",
+            values: [
+              "Fluent text that invents smoothly",
+              "A summary that looks like a primary source and is not",
+            ],
+          },
+          {
+            label: "When to switch",
+            values: [
+              "When you already have facts and need the deliverable",
+              "When you still do not know what is backed",
+            ],
+          },
+          {
+            label: "Entry plan",
+            values: ["Free + Plus / Team", "Free + Pro"],
+          },
+        ],
+        faq: [
+          {
+            q: "Can I use only one of them?",
+            a: "Yes. If you only write, ChatGPT is enough. If you only need a figure or a date, Perplexity is enough. The failure is using one chat for both and never opening sources.",
+          },
+          {
+            q: "Which one is the better «AI search»?",
+            a: "Perplexity presents itself as an answer with citations. ChatGPT with search also cites, but the default habit is drafting. Pick by the deliverable, not the marketing.",
+          },
+          {
+            q: "What about Claude?",
+            a: "When the piece is long and voice matters, Claude usually beats both as an editor. It does not replace Perplexity for opening sources.",
+          },
+        ],
+      },
+    },
+  },
 ];
 
 export function getComparison(slug: string) {
