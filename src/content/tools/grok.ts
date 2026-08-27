@@ -24,7 +24,11 @@ export const grok: Tool = {
   tags: ["chat", "actualidad", "xai", "grok.com"],
   alternatives: ["chatgpt", "claude", "perplexity"],
   relatedTools: ["chatgpt", "claude", "grok-bot"],
-  relatedTutorials: ["chatgpt-primeros-pasos", "grok-bot-primer-teammate"],
+  relatedTutorials: [
+    "grok-primer-flujo",
+    "chatgpt-primeros-pasos",
+    "grok-bot-primer-teammate",
+  ],
   screenshots: [
     toolImage(slug, "hero", "hero", {
       es: {
