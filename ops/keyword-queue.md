@@ -4,7 +4,7 @@ Una fila = un PR. El bot coge la primera `queued`. Estados: `queued` → `in-pr`
 
 | # | Keyword | Tipo | Slug propuesto | Estado | Notas |
 | --- | --- | --- | --- | --- | --- |
-| 1 | ChatGPT vs Perplexity | comparativa | `chatgpt-vs-perplexity` | queued | Ambos en catálogo |
+| 1 | ChatGPT vs Perplexity | comparativa | `chatgpt-vs-perplexity` | in-pr | Ambos en catálogo |
 | 2 | Grok: primer flujo útil | tutorial | `grok-primer-flujo` | queued | Ficha grok sin tutorial |
 | 3 | Midjourney vs Runway | comparativa | `midjourney-vs-runway` | queued | Imagen vs vídeo |
 | 4 | Grok Bot vs Hermes Agent | comparativa | `grok-bot-vs-hermes-agent` | queued | Ambos en catálogo |
