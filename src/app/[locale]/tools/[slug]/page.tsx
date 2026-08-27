@@ -7,6 +7,7 @@ import { AdSlot } from "@/components/ads/AdSlot";
 import { AffiliateCTA } from "@/components/affiliate/AffiliateCTA";
 import { AffiliateDisclosure } from "@/components/affiliate/AffiliateDisclosure";
 import { resolveImage } from "@/content/media";
+import { publicAssetExists } from "@/lib/public-file";
 import { getCategory } from "@/data/categories";
 import { getAllTools, getTool } from "@/data/tools";
 import { getTutorialsByTool } from "@/data/tutorials";
@@ -86,7 +87,9 @@ export default async function ToolPage({ params }: Props) {
         <AffiliateDisclosure />
       </div>
 
-      {hero ? <ScreenshotSlot media={resolveImage(hero, locale)} priority /> : null}
+      {hero && publicAssetExists(hero.src) ? (
+        <ScreenshotSlot media={resolveImage(hero, locale)} priority />
+      ) : null}
 
       <div className="mt-8 flex flex-col gap-6 border-b border-line pb-10 lg:flex-row lg:items-start lg:justify-between">
         <div className="flex gap-4">
@@ -213,12 +216,14 @@ export default async function ToolPage({ params }: Props) {
             </section>
           ) : null}
 
-          {gallery.length > 0 ? (
+          {gallery.some((image) => publicAssetExists(image.src)) ? (
             <section className="mt-10">
               <h2 className="text-xl font-semibold text-ink">{t("screenshots")}</h2>
-              {gallery.map((image) => (
-                <ScreenshotSlot key={image.id} media={resolveImage(image, locale)} />
-              ))}
+              {gallery
+                .filter((image) => publicAssetExists(image.src))
+                .map((image) => (
+                  <ScreenshotSlot key={image.id} media={resolveImage(image, locale)} />
+                ))}
             </section>
           ) : null}
         </div>

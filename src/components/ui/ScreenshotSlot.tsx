@@ -4,15 +4,19 @@ import { useState } from "react";
 import { ImageIcon } from "lucide-react";
 import type { MediaHint } from "@/types/content";
 
-/** Muestra la foto si existe; si no, el brief de qué captura hay que hacer. */
+/** Muestra la foto si carga. Si falta, o el brief (héroes) o nada (pasos). */
 export function ScreenshotSlot({
   media,
   priority = false,
+  hideIfMissing = false,
 }: {
   media: MediaHint;
   priority?: boolean;
+  hideIfMissing?: boolean;
 }) {
   const [failed, setFailed] = useState(!media.src);
+
+  if (failed && hideIfMissing) return null;
 
   return (
     <figure className="mt-5 overflow-hidden rounded-2xl border border-line bg-canvas">

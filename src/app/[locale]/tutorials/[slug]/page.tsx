@@ -4,6 +4,7 @@ import { getTranslations, setRequestLocale } from "next-intl/server";
 import { CheckCircle2, Clock, Eye } from "lucide-react";
 import { Link } from "@/i18n/navigation";
 import { resolveImage, stepShot } from "@/content/media";
+import { publicAssetExists } from "@/lib/public-file";
 import { getCategory } from "@/data/categories";
 import { getPathsForTutorial } from "@/data/paths";
 import { getTool } from "@/data/tools";
@@ -88,7 +89,9 @@ export default async function TutorialPage({ params }: Props) {
       </div>
 
       <article className="mx-auto max-w-3xl">
-        <ScreenshotSlot media={resolveImage(tutorial.hero, locale)} priority />
+        {publicAssetExists(tutorial.hero.src) ? (
+          <ScreenshotSlot media={resolveImage(tutorial.hero, locale)} priority />
+        ) : null}
 
         <div className="mt-8 flex flex-wrap items-center gap-2">
           <Badge>{t(tutorial.level)}</Badge>
@@ -156,7 +159,18 @@ export default async function TutorialPage({ params }: Props) {
         </section>
 
         <ol className="mt-12 space-y-8">
-          {copy.steps.map((step, index) => (
+          {copy.steps.map((step, index) => {
+            const stepMedia =
+              step.screenshot ??
+              stepShot(
+                tutorial.slug,
+                index + 1,
+                locale,
+                step.title,
+                step.imageDescription,
+                step.whatYouShouldSee,
+              );
+            return (
             <li
               key={step.title}
               id={`paso-${index + 1}`}
@@ -184,19 +198,9 @@ export default async function TutorialPage({ params }: Props) {
                   </span>
                 </p>
               ) : null}
-              <ScreenshotSlot
-                media={
-                  step.screenshot ??
-                  stepShot(
-                    tutorial.slug,
-                    index + 1,
-                    locale,
-                    step.title,
-                    step.imageDescription,
-                    step.whatYouShouldSee,
-                  )
-                }
-              />
+              {publicAssetExists(stepMedia.src) ? (
+                <ScreenshotSlot media={stepMedia} hideIfMissing />
+              ) : null}
               {step.code ? (
                 <pre className="mt-4 overflow-x-auto rounded-xl border border-line bg-canvas p-4 text-xs leading-relaxed text-accent">
                   <code>{step.code.content}</code>
@@ -218,7 +222,8 @@ export default async function TutorialPage({ params }: Props) {
                 <AdSlot id="tutorialBetweenSteps" className="mb-0 mt-8" />
               ) : null}
             </li>
-          ))}
+          );
+          })}
         </ol>
 
         <section className="mt-14">
