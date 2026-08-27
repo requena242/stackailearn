@@ -272,6 +272,157 @@ export const comparisons: Comparison[] = [
       },
     },
   },
+  {
+    slug: "midjourney-vs-runway",
+    toolSlugs: ["midjourney", "runway"],
+    updatedAt: "2026-08-27",
+    copy: {
+      es: {
+        title: "Midjourney vs Runway",
+        excerpt:
+          "Un still que se puede dirigir, o un clip corto. No resuelven el mismo fotograma.",
+        verdict:
+          "Empieza en Midjourney si el plano aún no existe. Pasa a Runway cuando el still ya aguanta y solo falta un gesto o una cámara. Si generas vídeo sobre un encuadre flojo, multiplicas el problema y quemas créditos. No elijas por «quién hace IA visual»: elige por si el entregable es una imagen o un prototipo de 4–8 segundos.",
+        rows: [
+          {
+            label: "Mejor para",
+            values: [
+              "Dirección de arte, moodboards y stills de campaña",
+              "Clips de 4–8 s y prototipos de motion",
+            ],
+          },
+          {
+            label: "Unidad de trabajo",
+            values: [
+              "Un plano fijo que puedes variar y remixar",
+              "Un still + una acción + una cámara",
+            ],
+          },
+          {
+            label: "Calidad que importa",
+            values: [
+              "Sujeto, luz y encuadre cuando el prompt está pensado",
+              "El gesto; la física y las manos siguen fallando",
+            ],
+          },
+          {
+            label: "Riesgo",
+            values: [
+              "Minutos en prompts vagos y un look «bonito genérico»",
+              "Créditos en tomas a ciegas; un clip «wow» no es un master",
+            ],
+          },
+          {
+            label: "Cuándo cambiar",
+            values: [
+              "Cuando el still ya se sostiene y quieres movimiento",
+              "Cuando el plano base es flojo: vuelve al still, no apiles adjetivos",
+            ],
+          },
+          {
+            label: "Plan de entrada",
+            values: [
+              "De pago (Basic / Standard / Pro / Mega)",
+              "Gratis con créditos + Standard / Pro",
+            ],
+          },
+          {
+            label: "No lo uses para",
+            values: [
+              "Logos, texto nítido o UI pixel-perfect",
+              "Un vídeo de 60 s para cliente final sin post",
+            ],
+          },
+        ],
+        faq: [
+          {
+            q: "¿Puedo saltarme Midjourney y generar el vídeo desde texto en Runway?",
+            a: "Puedes. Suele salir más caro y más flojo. Si no controlas el plano en un still, el modelo de vídeo improvisa sujeto, luz y cámara a la vez. Un still dirigido (Midjourney o una foto real) reduce las variables.",
+          },
+          {
+            q: "¿Runway sustituye a Midjourney para stills?",
+            a: "No. Runway es motion. Midjourney está pensado para grids, variaciones y un estilo que puedes iterar. Si solo necesitas imágenes, no pagues créditos de vídeo.",
+          },
+          {
+            q: "¿Sirve esta pareja para un anuncio de cliente?",
+            a: "Sirve para moodboard y prototipo interno. El still o el clip «bonito» no limpian derechos de marca, de personas ni de estilo ajeno. El master de campaña sigue yendo a edición y a un rodaje si hace falta.",
+          },
+        ],
+      },
+      en: {
+        title: "Midjourney vs Runway",
+        excerpt:
+          "A still you can direct, or a short clip. They do not solve the same frame.",
+        verdict:
+          "Start in Midjourney if the shot does not exist yet. Move to Runway when the still already holds and you only need a gesture or a camera move. If you generate video on a weak frame, you multiply the problem and burn credits. Do not pick by «who does visual AI»: pick by whether the deliverable is an image or a 4–8 second prototype.",
+        rows: [
+          {
+            label: "Best for",
+            values: [
+              "Art direction, moodboards and campaign stills",
+              "4–8 s clips and motion prototypes",
+            ],
+          },
+          {
+            label: "Unit of work",
+            values: [
+              "A locked frame you can vary and remix",
+              "A still + one action + one camera",
+            ],
+          },
+          {
+            label: "Quality that matters",
+            values: [
+              "Subject, light and framing when the prompt is thought through",
+              "The gesture; physics and hands still fail",
+            ],
+          },
+          {
+            label: "Risk",
+            values: [
+              "Minutes on vague prompts and a generic pretty look",
+              "Credits on blind takes; a «wow» clip is not a master",
+            ],
+          },
+          {
+            label: "When to switch",
+            values: [
+              "When the still already holds and you want motion",
+              "When the base frame is weak: go back to the still, do not stack adjectives",
+            ],
+          },
+          {
+            label: "Entry plan",
+            values: [
+              "Paid (Basic / Standard / Pro / Mega)",
+              "Free credits + Standard / Pro",
+            ],
+          },
+          {
+            label: "Do not use it for",
+            values: [
+              "Logos, sharp type or pixel-perfect UI",
+              "A 60 s film for a final client with no post",
+            ],
+          },
+        ],
+        faq: [
+          {
+            q: "Can I skip Midjourney and generate the video from text in Runway?",
+            a: "You can. It is usually more expensive and weaker. If you do not lock the shot as a still, the video model improvises subject, light and camera at once. A directed still (Midjourney or a real photo) cuts the variables.",
+          },
+          {
+            q: "Does Runway replace Midjourney for stills?",
+            a: "No. Runway is motion. Midjourney is built for grids, variations and a style you can iterate. If you only need images, do not spend video credits.",
+          },
+          {
+            q: "Is this pair enough for a client ad?",
+            a: "It is enough for a moodboard and an internal prototype. A pretty still or clip does not clear brand, likeness or someone else’s style. The campaign master still goes to an editor — and to a shoot if you need one.",
+          },
+        ],
+      },
+    },
+  },
 ];
 
 export function getComparison(slug: string) {
