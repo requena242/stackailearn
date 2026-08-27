@@ -4,4 +4,5 @@ Una línea por página mergeada.
 
 | Fecha | Tipo | Slug | Keyword | URL ES |
 | --- | --- | --- | --- | --- |
-| 2026-08-26 | comparativa | chatgpt-vs-perplexity | ChatGPT vs Perplexity | /es/compare/chatgpt-vs-perplexity/ (PR) |
+| 2026-08-26 | comparativa | chatgpt-vs-perplexity | ChatGPT vs Perplexity | https://stackailearn.com/es/compare/chatgpt-vs-perplexity/ |
+| 2026-08-27 | tutorial | grok-primer-flujo | Grok: primer flujo útil | /es/tutorials/grok-primer-flujo/ (PR) |

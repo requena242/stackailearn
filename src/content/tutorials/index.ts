@@ -5,9 +5,11 @@ import { cursorComoIde } from "./cursor-como-ide-con-ia";
 import { hermesAgentPrimer } from "./hermes-agent-primer-flujo";
 import { midjourneyPrompts } from "./midjourney-prompts-que-funcionan";
 import { perplexityInvestigacion } from "./perplexity-investigacion-con-fuentes";
+import { grokPrimerFlujo } from "./grok-primer-flujo";
 import { grokBotPrimer } from "./supporting";
 
 export const catalogTutorials: Tutorial[] = [
+  grokPrimerFlujo,
   grokBotPrimer,
   hermesAgentPrimer,
   chatgptPrimerosPasos,
