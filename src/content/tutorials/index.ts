@@ -6,9 +6,11 @@ import { hermesAgentPrimer } from "./hermes-agent-primer-flujo";
 import { midjourneyPrompts } from "./midjourney-prompts-que-funcionan";
 import { perplexityInvestigacion } from "./perplexity-investigacion-con-fuentes";
 import { grokPrimerFlujo } from "./grok-primer-flujo";
+import { notionAiPrimerFlujo } from "./notion-ai-primer-flujo";
 import { grokBotPrimer } from "./supporting";
 
 export const catalogTutorials: Tutorial[] = [
+  notionAiPrimerFlujo,
   grokPrimerFlujo,
   grokBotPrimer,
   hermesAgentPrimer,
