@@ -14,5 +14,5 @@ export const SITE = {
    * Cloudflare Web Analytics: token del beacon (Dash → Analytics → Web Analytics).
    * Vacío = no se carga el script.
    */
-  cloudflareBeaconToken: "",
+  cloudflareBeaconToken: "9b10ca11d87548dcae94bbdc0ff628a1",
 } as const;
