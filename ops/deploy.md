@@ -15,10 +15,10 @@ El proyecto actual nació por **Direct Upload**. La API de Cloudflare no deja ca
 
 Opciones (elige una):
 
-1. **GitHub Action** (ya está en `.github/workflows/pages.yml`). En el repo: Settings → Secrets →
+1. **GitHub Action** (`.github/workflows/pages.yml`). Secrets del repo:
    - `CLOUDFLARE_API_TOKEN` (permisos Pages Edit + Account Read)
    - `CLOUDFLARE_ACCOUNT_ID` = `a2fe780e5de701ccd7570e3a03a78752`
-   Un merge a `main` publica. El bot **no** despliega.
+   Un merge a `main` publica. El bot **sí mergea**. El Action despliega. Sin esos secrets el merge no llega a producción.
 2. **Proyecto Pages nuevo desde Git** (`requena242/stackailearn`, branch `main`, build/output de la tabla) y mover los custom domains `stackailearn.com` / `www`. No se puede «conectar Git» al proyecto Direct Upload existente.
 
 ## Manual (si Git aún no está conectado)

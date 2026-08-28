@@ -423,6 +423,157 @@ export const comparisons: Comparison[] = [
       },
     },
   },
+  {
+    slug: "grok-bot-vs-hermes-agent",
+    toolSlugs: ["grok-bot", "hermes-agent"],
+    updatedAt: "2026-08-28",
+    copy: {
+      es: {
+        title: "Grok Bot vs Hermes Agent",
+        excerpt:
+          "Un teammate con ordenador en la nube, o un agente CLI en tu máquina. No es grok.com contra un chat.",
+        verdict:
+          "Elige Grok Bot si el trabajo debe terminar en apps web reales (mail, docs, un panel) y quieres un compañero con memoria y un Agent Computer compartido. Elige Hermes si vives en la terminal, quieres el agente en tu propio hardware y aceptas montar proveedor y gateway tú. Grok Bot no es el chat de grok.com ni el Grok de X: es un teammate de pago con onboarding en cursor.com/bot/onboarding. Hermes es software libre en hermes-agent.nousresearch.com; el modelo lo pagas aparte.",
+        rows: [
+          {
+            label: "Mejor para",
+            values: [
+              "Delegar un oficio que acaba en herramientas reales",
+              "Un agente en tu terminal con archivos y shell locales",
+            ],
+          },
+          {
+            label: "Dónde vive",
+            values: [
+              "Ordenador en la nube (navegador, archivos, terminal)",
+              "Tu máquina; gateway a Telegram/Slack después",
+            ],
+          },
+          {
+            label: "Memoria y oficio",
+            values: [
+              "Bot con nombre, instrucciones y memoria por rol",
+              "Hilos en CLI; tú defines modelo y herramientas",
+            ],
+          },
+          {
+            label: "Logins y control",
+            values: [
+              "Tú entras en Agent Computer (2FA, CAPTCHA); sesión compartida",
+              "Tus credenciales de API o modelo local en tu box",
+            ],
+          },
+          {
+            label: "Riesgo",
+            values: [
+              "Sin oficio claro, improvisa y ensucia la máquina compartida",
+              "Gateway o cron antes de que el chat funcione = bot mudo",
+            ],
+          },
+          {
+            label: "Cuándo cambiar",
+            values: [
+              "Cuando el trabajo es código en tu repo local, no en la nube",
+              "Cuando necesitas un navegador remoto y handoffs con revisión",
+            ],
+          },
+          {
+            label: "Plan de entrada",
+            values: [
+              "SuperGrok Plus/Heavy o Cursor Pro+/Ultra/Teams",
+              "Gratis el agente; pagas proveedor del modelo o hardware local",
+            ],
+          },
+        ],
+        faq: [
+          {
+            q: "¿Grok Bot es lo mismo que grok.com?",
+            a: "No. grok.com es un chat de texto. Grok Bot es un teammate con un ordenador en la nube. Si solo quieres preguntar algo, no instales el bot.",
+          },
+          {
+            q: "¿Hermes sustituye a Grok Bot?",
+            a: "No en apps web. Hermes opera en tu terminal y en tus archivos. Si el entregable es un informe en Google Docs o un panel de admin, Grok Bot está pensado para eso. Si el entregable es un script, un diff o un bot en Telegram, Hermes encaja mejor.",
+          },
+          {
+            q: "¿Cuál es más barato?",
+            a: "Hermes no tiene plan propio: pagas el modelo o corres local. Grok Bot exige un plan de Cursor/xAI y no tiene tier gratuito. La comparación no es «gratis vs de pago» sino «¿quieres un teammate en la nube o un agente en tu máquina?».",
+          },
+        ],
+      },
+      en: {
+        title: "Grok Bot vs Hermes Agent",
+        excerpt:
+          "A teammate with a cloud computer, or a CLI agent on your machine. Not grok.com vs a chat.",
+        verdict:
+          "Pick Grok Bot when the work must finish in real web apps (mail, docs, an admin panel) and you want a teammate with memory and a shared Agent Computer. Pick Hermes when you live in the terminal, want the agent on your own hardware and will wire up provider and gateway yourself. Grok Bot is not the grok.com chat or the Grok on X: it is a paid teammate with onboarding at cursor.com/bot/onboarding. Hermes is free software at hermes-agent.nousresearch.com; you pay for the model separately.",
+        rows: [
+          {
+            label: "Best for",
+            values: [
+              "Delegating a job that ends in real tools",
+              "An agent in your terminal with local files and shell",
+            ],
+          },
+          {
+            label: "Where it lives",
+            values: [
+              "Cloud computer (browser, files, terminal)",
+              "Your machine; Telegram/Slack gateway later",
+            ],
+          },
+          {
+            label: "Memory and job",
+            values: [
+              "Named bot with instructions and per-role memory",
+              "CLI threads; you pick model and tools",
+            ],
+          },
+          {
+            label: "Logins and control",
+            values: [
+              "You sign in via Agent Computer (2FA, CAPTCHA); shared session",
+              "Your API credentials or local model on your box",
+            ],
+          },
+          {
+            label: "Risk",
+            values: [
+              "Without a clear job, it improvises and dirties the shared machine",
+              "Gateway or cron before chat works = a mute bot",
+            ],
+          },
+          {
+            label: "When to switch",
+            values: [
+              "When the work is code in your local repo, not in the cloud",
+              "When you need a remote browser and handoffs with a review point",
+            ],
+          },
+          {
+            label: "Entry plan",
+            values: [
+              "SuperGrok Plus/Heavy or Cursor Pro+/Ultra/Teams",
+              "Agent is free; you pay the model provider or local hardware",
+            ],
+          },
+        ],
+        faq: [
+          {
+            q: "Is Grok Bot the same as grok.com?",
+            a: "No. grok.com is a text chat. Grok Bot is a teammate with a cloud computer. If you only want to ask a question, do not install the bot.",
+          },
+          {
+            q: "Does Hermes replace Grok Bot?",
+            a: "Not for web apps. Hermes runs in your terminal and on your files. If the deliverable is a report in Google Docs or an admin panel, Grok Bot is built for that. If the deliverable is a script, a diff or a Telegram bot, Hermes fits better.",
+          },
+          {
+            q: "Which one is cheaper?",
+            a: "Hermes has no plan of its own: you pay for the model or run local. Grok Bot requires a Cursor/xAI plan and has no free tier. The comparison is not «free vs paid» but «do you want a cloud teammate or an agent on your machine?».",
+          },
+        ],
+      },
+    },
+  },
 ];
 
 export function getComparison(slug: string) {
