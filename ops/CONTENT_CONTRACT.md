@@ -58,11 +58,11 @@ Añade un objeto al array de `src/data/comparisons.ts`.
    - comparativa → `/es/compare/{slug}/`
 3. En `ops/keyword-queue.md` pasa la fila a `in-pr` (al abrir el PR) y a `published` (tras el merge).
 4. Añade una línea en `ops/publish-log.md`.
-5. Abre **PR**. No hagas push a `main`. No ejecutes `wrangler pages deploy`.
+5. Abre **PR**, espera a que `npm run build` pase, mergea. El deploy lo hace GitHub Actions al entrar en `main`.
 
 ## Prohibido
 
-- Merge a `main`.
+- Force-push a `main`.
 - Inventar programas de afiliado.
 - Publicar sin `copy.en`.
 - Cambiar `src/data/affiliates.ts` salvo que Javier pegue una URL real.
