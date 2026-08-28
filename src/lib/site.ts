@@ -9,7 +9,7 @@ export const SITE = {
    * Search Console: pega el content del meta que te da Google.
    * Vacío = no se emite la etiqueta.
    */
-  googleSiteVerification: "",
+  googleSiteVerification: "SC63SF17xbyVQBj_kpBXlveqaxd8jlsFVvq9GRbAqDw",
   /**
    * Cloudflare Web Analytics: token del beacon (Dash → Analytics → Web Analytics).
    * Vacío = no se carga el script.
