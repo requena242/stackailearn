@@ -18,7 +18,7 @@ export const newsletter = {
   enabled: true,
   provider: "buttondown" as NewsletterProvider,
   buttondown: {
-    username: "",
+    username: "stackailearn",
   },
   convertkit: {
     formId: "",
