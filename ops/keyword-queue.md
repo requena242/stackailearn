@@ -7,7 +7,7 @@ Una fila = un PR. El bot coge la primera `queued`. Estados: `queued` → `in-pr`
 | 1 | ChatGPT vs Perplexity | comparativa | `chatgpt-vs-perplexity` | published | Mergeado PR #1 |
 | 2 | Grok: primer flujo útil | tutorial | `grok-primer-flujo` | published | Mergeado PR #2 |
 | 3 | Midjourney vs Runway | comparativa | `midjourney-vs-runway` | published | Mergeado PR #3 |
-| 4 | Grok Bot vs Hermes Agent | comparativa | `grok-bot-vs-hermes-agent` | queued | Ambos en catálogo |
+| 4 | Grok Bot vs Hermes Agent | comparativa | `grok-bot-vs-hermes-agent` | in-pr | Ambos en catálogo |
 | 5 | Notion AI: primer flujo | tutorial | `notion-ai-primer-flujo` | queued | Ficha sin tutorial |
 | 6 | Runway: primer clip | tutorial | `runway-primer-clip` | queued | Ficha sin tutorial |
 | 7 | ElevenLabs | ficha | `elevenlabs` | queued | Cierra hueco audio |
