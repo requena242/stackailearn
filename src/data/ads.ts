@@ -34,7 +34,7 @@ export type AdSlotConfig = {
 export const ads = {
   enabled: false,
   /** Muestra el recuadro reservado aunque los anuncios estén apagados. */
-  previewSlots: true,
+  previewSlots: false,
   provider: "adsense" as AdProvider,
   adsense: {
     publisherId: "ca-pub-XXXXXXXXXXXXXXXX",
