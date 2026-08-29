@@ -28,7 +28,7 @@ export async function PackMethod({ locale }: { locale: string }) {
         ))}
       </ol>
 
-      <ol className="space-y-6">
+      <ol className="space-y-8">
         {lessons.map((lesson) => {
           const file = lesson.fileId ? fileById(lesson.fileId) : undefined;
 
@@ -36,7 +36,7 @@ export async function PackMethod({ locale }: { locale: string }) {
             <li
               key={lesson.day}
               id={`dia-${lesson.day}`}
-              className="scroll-mt-24 rounded-2xl border border-line bg-surface p-5 sm:p-7"
+              className="scroll-mt-24 rounded-2xl border border-line bg-surface p-5 sm:p-8"
             >
               <div className="flex flex-wrap items-center gap-2">
                 <Badge>{t("day", { n: lesson.day })}</Badge>
@@ -44,21 +44,45 @@ export async function PackMethod({ locale }: { locale: string }) {
                   {t("minutes", { count: lesson.minutes })}
                 </span>
               </div>
-              <h2 className="mt-3 text-xl font-semibold tracking-tight text-ink">
+              <h2 className="mt-3 text-xl font-semibold tracking-tight text-ink sm:text-2xl">
                 {lesson.title}
               </h2>
-              <p className="mt-2 text-sm leading-relaxed text-muted">{lesson.goal}</p>
+              <p className="mt-2 text-sm font-medium text-ink/80">{lesson.goal}</p>
+              <p className="mt-3 text-sm leading-relaxed text-muted">{lesson.context}</p>
 
-              <h3 className="mt-5 text-xs font-semibold uppercase tracking-[0.14em] text-accent">
+              <h3 className="mt-6 text-xs font-semibold uppercase tracking-[0.14em] text-accent">
                 {t("stepsLabel")}
               </h3>
-              <ol className="mt-3 list-decimal space-y-2 pl-5 text-sm leading-relaxed text-ink/90">
+              <ol className="mt-3 list-decimal space-y-2.5 pl-5 text-sm leading-relaxed text-ink/90">
                 {lesson.steps.map((step) => (
                   <li key={step}>{step}</li>
                 ))}
               </ol>
 
-              <p className="mt-5 rounded-xl border border-line bg-elevated/50 px-4 py-3 text-sm text-ink">
+              <aside className="mt-6 rounded-2xl border border-accent/20 bg-accent/5 px-4 py-4 sm:px-5">
+                <p className="text-xs font-semibold uppercase tracking-[0.14em] text-accent">
+                  {t("exampleLabel")}
+                </p>
+                <p className="mt-2 whitespace-pre-line text-sm leading-relaxed text-ink/90">
+                  {lesson.example}
+                </p>
+              </aside>
+
+              <h3 className="mt-6 text-xs font-semibold uppercase tracking-[0.14em] text-gold">
+                {t("mistakesLabel")}
+              </h3>
+              <ul className="mt-3 space-y-2">
+                {lesson.mistakes.map((item) => (
+                  <li
+                    key={item}
+                    className="rounded-xl border border-gold/20 bg-gold/5 px-4 py-2.5 text-sm leading-relaxed text-ink/90"
+                  >
+                    {item}
+                  </li>
+                ))}
+              </ul>
+
+              <p className="mt-6 rounded-xl border border-line bg-elevated/50 px-4 py-3 text-sm text-ink">
                 <span className="font-semibold text-accent">{t("doneLabel")} </span>
                 {lesson.done}
               </p>

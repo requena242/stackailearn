@@ -10,7 +10,8 @@ export type PackFileId =
   | "tutorial"
   | "compare"
   | "tool"
-  | "checklist";
+  | "checklist"
+  | "week";
 
 export type PackFile = {
   id: PackFileId;
@@ -83,6 +84,17 @@ export const packFiles: PackFile[] = [
     title: {
       es: "Checklist de 14 días",
       en: "14-day checklist",
+    },
+  },
+  {
+    id: "week",
+    filename: {
+      es: "ejemplo-semana.es.md",
+      en: "ejemplo-semana.en.md",
+    },
+    title: {
+      es: "Semana tipo (rellena)",
+      en: "Worked sample week",
     },
   },
 ];
