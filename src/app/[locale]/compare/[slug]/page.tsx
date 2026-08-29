@@ -8,6 +8,7 @@ import { comparisonJsonLd, faqJsonLd } from "@/lib/schema";
 import { buildMetadata, localizedPath } from "@/lib/seo";
 import { Breadcrumbs } from "@/components/ui/Breadcrumbs";
 import { CompareTable } from "@/components/compare/CompareTable";
+import { PackCta } from "@/components/pack/PackCta";
 import { Container } from "@/components/ui/Container";
 import { JsonLd } from "@/components/ui/JsonLd";
 
@@ -56,6 +57,9 @@ export default async function ComparisonPage({ params }: Props) {
         ]}
       />
       <CompareTable comparison={comparison} locale={locale} />
+      <div className="mt-10">
+        <PackCta compact contained={false} />
+      </div>
       <p className="mt-10">
         <Link href="/compare" className="text-sm text-accent hover:text-accent-dim">
           ← {t("title")}

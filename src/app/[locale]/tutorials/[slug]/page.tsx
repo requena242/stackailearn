@@ -15,6 +15,7 @@ import { articleJsonLd, howToJsonLd } from "@/lib/schema";
 import { buildMetadata, localizedPath } from "@/lib/seo";
 import { AdSlot } from "@/components/ads/AdSlot";
 import { AffiliateCTA } from "@/components/affiliate/AffiliateCTA";
+import { PackCta } from "@/components/pack/PackCta";
 import { AffiliateDisclosure } from "@/components/affiliate/AffiliateDisclosure";
 import { EmailCapture } from "@/components/newsletter/EmailCapture";
 import { shouldInsertBetweenSteps } from "@/lib/ads";
@@ -307,6 +308,10 @@ export default async function TutorialPage({ params }: Props) {
           </div>
         </section>
       ) : null}
+
+      <div className="mt-16">
+        <PackCta contained={false} />
+      </div>
 
       {next.length > 0 ? (
         <section className="mt-16">

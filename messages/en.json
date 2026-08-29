@@ -28,7 +28,11 @@
     "privacyTitle": "Privacy",
     "privacyDescription": "What data StackAI Learn processes, why, and how to contact us.",
     "termsTitle": "Terms of use",
-    "termsDescription": "Terms for using the StackAI Learn directory and tutorials."
+    "termsDescription": "Terms for using the StackAI Learn directory and tutorials.",
+    "packTitle": "Stack AI in 14 days — method and templates",
+    "packDescription": "Not another endless AI course. The method + templates to publish tutorials and comparisons with Cursor and Grok Bot in 14 days.",
+    "packThanksTitle": "Pack access — Stack AI in 14 days",
+    "packThanksDescription": "Download the templates and the 14-day checklist from the Stack AI in 14 days pack."
   },
   "nav": {
     "tools": "Tools",
@@ -38,6 +42,7 @@
     "recommended": "Picks",
     "paths": "Paths",
     "search": "Search",
+    "pack": "Pack",
     "openMenu": "Open menu",
     "closeMenu": "Close menu"
   },
@@ -279,5 +284,41 @@
     "title": "This page does not exist.",
     "body": "The link may be wrong, or the profile is not published yet.",
     "cta": "Back to home"
+  },
+  "pack": {
+    "eyebrow": "One product",
+    "title": "Stack AI in 14 days",
+    "promise": "Not another endless AI course. The method + templates to publish tutorials and comparisons with Cursor and Grok Bot in 14 days.",
+    "priceUsd": "≈ ${usd}",
+    "buy": "Buy",
+    "checkoutPreview": "Checkout is not connected yet. The button opens the files so you can see what is included.",
+    "forTitle": "Who it is for",
+    "forBody": "For someone who wants to publish tool profiles, tutorials and comparisons with Cursor and a Grok Bot that only drafts. If you already have a site — or you are about to ship one — this is the method and the templates.",
+    "notForTitle": "Who it is not for",
+    "notForBody": "Not for anyone looking for a 40-hour video course, or a shortcut to «live off AI». It also does not replace learning Cursor.",
+    "daysTitle": "What is included",
+    "daysSubtitle": "Fourteen days. One block a day. No endless module.",
+    "day": "Day {n}",
+    "filesTitle": "What you get",
+    "filesSubtitle": "Markdown, ready to copy. In the language of this page.",
+    "howTitle": "How it works",
+    "howBody": "You buy (or open the preview). Immediate access to the files. No login, no membership: you keep the markdown.",
+    "faqTitle": "Short FAQ",
+    "faq1q": "Is this a video course?",
+    "faq1a": "No. Method + templates. You read, you copy, you publish.",
+    "faq2q": "Do I need to know how to code?",
+    "faq2a": "No. You need to use Cursor. The pack assumes you open it and give it instructions.",
+    "faq3q": "Does it promise income?",
+    "faq3a": "No. It promises a working method for publishing with judgment. The rest is on you.",
+    "ctaEyebrow": "Pack",
+    "ctaTitle": "Want the full method?",
+    "ctaText": "This tutorial is one piece. The pack has the templates and the 14-day plan to publish the rest.",
+    "ctaTextCompact": "The pack has the templates and the 14-day plan to publish the rest. Not another course.",
+    "ctaButton": "See the pack",
+    "thanksEyebrow": "Pack",
+    "thanksTitle": "Here are the files",
+    "thanksLead": "Download them in this language. Start with the checklist and today's template.",
+    "thanksPreview": "This is the access page. When checkout is live, you will land here after payment.",
+    "backToPack": "Back to the pack page"
   }
 }

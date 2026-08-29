@@ -4,6 +4,7 @@ import { CompareTeaser } from "@/components/home/CompareTeaser";
 import { CategoryGrid } from "@/components/home/CategoryGrid";
 import { Hero } from "@/components/home/Hero";
 import { LatestTutorials } from "@/components/home/LatestTutorials";
+import { PackCta } from "@/components/pack/PackCta";
 import { AdSlot } from "@/components/ads/AdSlot";
 import { RecommendedTools } from "@/components/affiliate/RecommendedTools";
 import { PopularTools } from "@/components/home/PopularTools";
@@ -53,6 +54,7 @@ export default async function HomePage({ params }: Props) {
       <CategoryGrid locale={locale} />
       <PopularTools locale={locale} />
       <LatestTutorials locale={locale} />
+      <PackCta compact />
       <CompareTeaser locale={locale} />
     </>
   );

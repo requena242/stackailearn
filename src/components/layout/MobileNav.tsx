@@ -3,30 +3,9 @@
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
 import { useTranslations } from "next-intl";
+import { mobileNavItems } from "@/data/nav";
 import { Link, usePathname } from "@/i18n/navigation";
 import { cn } from "@/lib/cn";
-
-type Item = {
-  href:
-    | "/tools"
-    | "/recommended"
-    | "/tutorials"
-    | "/paths"
-    | "/search"
-    | "/compare"
-    | "/about";
-  key: string;
-};
-
-const items: Item[] = [
-  { href: "/tools", key: "tools" },
-  { href: "/recommended", key: "recommended" },
-  { href: "/tutorials", key: "tutorials" },
-  { href: "/paths", key: "paths" },
-  { href: "/search", key: "search" },
-  { href: "/compare", key: "compare" },
-  { href: "/about", key: "about" },
-];
 
 export function MobileNav() {
   const t = useTranslations("nav");
@@ -48,7 +27,7 @@ export function MobileNav() {
       {open ? (
         <div className="absolute inset-x-0 top-full border-b border-line bg-canvas/95 px-5 py-4 backdrop-blur-xl">
           <nav className="flex flex-col gap-1">
-            {items.map((item) => (
+            {mobileNavItems.map((item) => (
               <Link
                 key={item.href}
                 href={item.href}

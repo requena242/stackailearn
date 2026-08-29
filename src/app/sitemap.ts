@@ -19,6 +19,8 @@ const staticPaths = [
   "/disclosure",
   "/privacy",
   "/terms",
+  "/pack",
+  "/pack/thanks",
 ];
 
 export const dynamic = "force-static";

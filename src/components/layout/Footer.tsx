@@ -64,6 +64,11 @@ export async function Footer() {
               </Link>
             </li>
             <li>
+              <Link href="/pack" className="text-ink/80 hover:text-accent">
+                {nav("pack")}
+              </Link>
+            </li>
+            <li>
               <Link href="/about" className="text-ink/80 hover:text-accent">
                 {nav("about")}
               </Link>

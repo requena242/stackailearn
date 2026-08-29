@@ -28,7 +28,11 @@
     "privacyTitle": "Privacidad",
     "privacyDescription": "Qué datos trata StackAI Learn, para qué y cómo contactarnos.",
     "termsTitle": "Términos de uso",
-    "termsDescription": "Condiciones de uso del directorio y los tutoriales de StackAI Learn."
+    "termsDescription": "Condiciones de uso del directorio y los tutoriales de StackAI Learn.",
+    "packTitle": "Stack AI en 14 días — método y plantillas",
+    "packDescription": "No es un curso eterno de IA. Es el método + plantillas para publicar tutoriales y comparativas con Cursor y Grok Bot en 14 días.",
+    "packThanksTitle": "Acceso al pack — Stack AI en 14 días",
+    "packThanksDescription": "Descarga las plantillas y el checklist del pack Stack AI en 14 días."
   },
   "nav": {
     "tools": "Herramientas",
@@ -38,6 +42,7 @@
     "recommended": "Recomendados",
     "paths": "Rutas",
     "search": "Buscar",
+    "pack": "Pack",
     "openMenu": "Abrir menú",
     "closeMenu": "Cerrar menú"
   },
@@ -279,5 +284,41 @@
     "title": "Esta página no existe.",
     "body": "Puede que el enlace esté mal o que la ficha aún no esté publicada.",
     "cta": "Volver al inicio"
+  },
+  "pack": {
+    "eyebrow": "Un solo producto",
+    "title": "Stack AI en 14 días",
+    "promise": "No es un curso eterno de IA. Es el método + plantillas para publicar tutoriales y comparativas con Cursor y Grok Bot en 14 días.",
+    "priceUsd": "≈ ${usd}",
+    "buy": "Comprar",
+    "checkoutPreview": "El pago aún no está conectado. El botón abre los archivos para que veas qué incluye.",
+    "forTitle": "Para quién es",
+    "forBody": "Para quien quiere publicar fichas, tutoriales y comparativas con Cursor y un Grok Bot que solo redacta borradores. Si ya tienes un sitio o lo vas a montar, esto te da el método y las plantillas.",
+    "notForTitle": "Para quién no es",
+    "notForBody": "No es para quien busca un curso de vídeo de 40 horas, ni un atajo para «vivir de la IA». Tampoco sustituye aprender a usar Cursor.",
+    "daysTitle": "Lo que incluye",
+    "daysSubtitle": "Catorce días. Un bloque cada día. Nada de módulo eterno.",
+    "day": "Día {n}",
+    "filesTitle": "Qué te llevas",
+    "filesSubtitle": "Markdown, listos para copiar. En el idioma de esta página.",
+    "howTitle": "Cómo funciona",
+    "howBody": "Compras (o abres el preview). Acceso inmediato a los archivos. No hay login ni membresía: te quedas los markdown.",
+    "faqTitle": "Preguntas cortas",
+    "faq1q": "¿Es un curso de vídeo?",
+    "faq1a": "No. Método + plantillas. Lees, copias, publicas.",
+    "faq2q": "¿Hay que saber programar?",
+    "faq2a": "No. Hay que usar Cursor. El pack asume que lo abres y le das instrucciones.",
+    "faq3q": "¿Promete ingresos?",
+    "faq3a": "No. Promete un método de trabajo para publicar con criterio. El resto depende de ti.",
+    "ctaEyebrow": "Pack",
+    "ctaTitle": "¿Quieres el método completo?",
+    "ctaText": "Este tutorial es una pieza. El pack tiene las plantillas y los 14 días para publicar el resto.",
+    "ctaTextCompact": "El pack tiene las plantillas y los 14 días para publicar el resto. Sin curso eterno.",
+    "ctaButton": "Ver el pack",
+    "thanksEyebrow": "Pack",
+    "thanksTitle": "Aquí están los archivos",
+    "thanksLead": "Descárgalos en este idioma. Empieza por el checklist y la plantilla que toque hoy.",
+    "thanksPreview": "Esto es la página de acceso. Cuando el pago esté conectado, llegarás aquí después del checkout.",
+    "backToPack": "Volver a la página del pack"
   }
 }

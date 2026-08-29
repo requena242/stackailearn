@@ -5,17 +5,9 @@ import { Link, usePathname } from "@/i18n/navigation";
 import { Logo } from "@/components/brand/Logo";
 import { SearchBox } from "@/components/search/SearchBox";
 import { Container } from "@/components/ui/Container";
+import { headerNavItems } from "@/data/nav";
 import { MobileNav } from "./MobileNav";
 import { cn } from "@/lib/cn";
-
-const items = [
-  { href: "/tools" as const, key: "tools" },
-  { href: "/recommended" as const, key: "recommended" },
-  { href: "/tutorials" as const, key: "tutorials" },
-  { href: "/paths" as const, key: "paths" },
-  { href: "/compare" as const, key: "compare" },
-  { href: "/about" as const, key: "about" },
-];
 
 export function Header() {
   const t = useTranslations("nav");
@@ -27,7 +19,7 @@ export function Header() {
         <Logo />
 
         <nav className="hidden items-center gap-1 md:flex">
-          {items.map((item) => {
+          {headerNavItems.map((item) => {
             const active =
               pathname === item.href || pathname.startsWith(`${item.href}/`);
 
@@ -36,7 +28,7 @@ export function Header() {
                 key={item.href}
                 href={item.href}
                 className={cn(
-                  "rounded-full px-3.5 py-1.5 text-sm font-medium transition",
+                  "rounded-full px-2.5 py-1.5 text-sm font-medium transition lg:px-3.5",
                   active ? "bg-elevated text-ink" : "text-muted hover:text-ink",
                 )}
               >

@@ -6,6 +6,7 @@ import { comparisons } from "@/data/comparisons";
 import { getTool } from "@/data/tools";
 import { pick } from "@/lib/content";
 import { buildMetadata } from "@/lib/seo";
+import { PackCta } from "@/components/pack/PackCta";
 import { Container } from "@/components/ui/Container";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 
@@ -58,6 +59,10 @@ export default async function ComparePage({ params }: Props) {
             </Link>
           );
         })}
+      </div>
+
+      <div className="mt-12">
+        <PackCta compact contained={false} />
       </div>
     </Container>
   );
