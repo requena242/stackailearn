@@ -9,3 +9,4 @@ Una línea por página mergeada.
 | 2026-08-27 | comparativa | midjourney-vs-runway | Midjourney vs Runway | https://stackailearn.com/es/compare/midjourney-vs-runway/ |
 | 2026-08-28 | comparativa | grok-bot-vs-hermes-agent | Grok Bot vs Hermes Agent | https://stackailearn.com/es/compare/grok-bot-vs-hermes-agent/ |
 | 2026-08-28 | tutorial | notion-ai-primer-flujo | Notion AI: primer flujo | https://stackailearn.com/es/tutorials/notion-ai-primer-flujo/ |
+| 2026-08-29 | tutorial | runway-primer-clip | Runway: primer clip | https://stackailearn.com/es/tutorials/runway-primer-clip/ |

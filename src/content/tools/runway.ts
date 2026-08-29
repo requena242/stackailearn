@@ -17,14 +17,14 @@ export const runway: Tool = {
   image: `/media/tools/${slug}/hero.jpg`,
   rating: 4.1,
   ratingCount: 380,
-  lastUpdated: "2026-08-26",
+  lastUpdated: "2026-08-29",
   difficulty: "intermediate",
   platforms: ["web"],
   useTypes: ["create"],
   tags: ["vídeo", "gen-3", "motion", "clips", "prototipo"],
   alternatives: ["midjourney", "chatgpt"],
   relatedTools: ["midjourney", "chatgpt"],
-  relatedTutorials: ["midjourney-prompts-que-funcionan"],
+  relatedTutorials: ["runway-primer-clip", "midjourney-prompts-que-funcionan"],
   screenshots: [
     toolImage(slug, "hero", "hero", {
       es: {
