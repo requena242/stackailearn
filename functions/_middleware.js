@@ -86,6 +86,18 @@ export async function onRequest(context) {
   const url = new URL(context.request.url);
   const pathname = url.pathname;
 
+  // Los .md del pack no son públicos. Cubre leftovers de deploys viejos y CDN.
+  if (/\.md$/i.test(pathname) && /\/pack\//i.test(pathname)) {
+    return new Response("Not found", {
+      status: 404,
+      headers: {
+        "content-type": "text/plain; charset=utf-8",
+        "cache-control": "no-store",
+        "x-robots-tag": "noindex, nofollow",
+      },
+    });
+  }
+
   if (isStaticAsset(pathname) || !isUnprefixedSection(pathname)) {
     return context.next();
   }
