@@ -1,4 +1,3 @@
-import type { Locale } from "@/i18n/config";
 import type { Localized } from "@/types/content";
 
 export const PACK_PRICE_EUR = 29;
@@ -98,11 +97,6 @@ export const packFiles: PackFile[] = [
     },
   },
 ];
-
-export function packFileHref(locale: string, file: PackFile) {
-  const name = file.filename[locale as Locale] ?? file.filename.en;
-  return `/pack/${name}`;
-}
 
 export const packDays: Localized<{ day: number; title: string; body: string }[]> =
   {

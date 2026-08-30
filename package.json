@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack",
-    "build": "next build",
+    "build": "node scripts/sync-pack-campus.mjs && node scripts/export-build.mjs",
     "start": "next start",
     "preview": "npx --yes serve out",
     "lint": "eslint"

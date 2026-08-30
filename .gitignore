@@ -35,6 +35,11 @@ yarn-error.log*
 .env*
 !.env.example
 
+# campus pack (generado en build; el origen es content/pack + src/data)
+functions/api/pack/campus-data.js
+content/pack/lessons.json
+.api-stash
+
 # vercel
 .vercel
 

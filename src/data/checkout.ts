@@ -3,8 +3,8 @@
  * Producto propio (stackailearn), no Aptus ni FMT.
  * El extracto bancario dice GESTEDIA STACKAI.
  *
- * Success URL del link: https://stackailearn.com/pack/thanks
- * (la Function redirige al locale detectado).
+ * Success URL del link:
+ * https://stackailearn.com/pack/thanks?session_id={CHECKOUT_SESSION_ID}
  *
  * NEXT_PUBLIC_PACK_CHECKOUT_URL puede sustituir el link en el build.
  */

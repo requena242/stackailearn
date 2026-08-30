@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
-import { PackMethod } from "@/components/pack/PackMethod";
+import { PackAccess } from "@/components/pack/PackAccess";
 import { Container } from "@/components/ui/Container";
 import { buildMetadata } from "@/lib/seo";
 
@@ -10,12 +10,15 @@ type Props = { params: Promise<{ locale: string }> };
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "meta" });
-  return buildMetadata({
-    locale,
-    title: t("packThanksTitle"),
-    description: t("packThanksDescription"),
-    path: "/pack/thanks",
-  });
+  return {
+    ...buildMetadata({
+      locale,
+      title: t("packThanksTitle"),
+      description: t("packThanksDescription"),
+      path: "/pack/thanks",
+    }),
+    robots: { index: false, follow: false, nocache: true },
+  };
 }
 
 export default async function PackThanksPage({ params }: Props) {
@@ -33,10 +36,7 @@ export default async function PackThanksPage({ params }: Props) {
           {t("thanksTitle")}
         </h1>
         <p className="mt-5 text-lg leading-relaxed text-muted">{t("thanksLead")}</p>
-        <p className="mt-3 text-sm leading-relaxed text-muted">{t("thanksHow")}</p>
-
-        <PackMethod locale={locale} />
-
+        <PackAccess locale={locale} />
         <p className="mt-12">
           <Link href="/pack" className="text-sm text-accent hover:text-accent-dim">
             ← {t("backToPack")}

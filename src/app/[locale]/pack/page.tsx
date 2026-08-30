@@ -2,9 +2,11 @@ import type { Metadata } from "next";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { AffiliateDisclosure } from "@/components/affiliate/AffiliateDisclosure";
 import { PackBuyButton } from "@/components/pack/PackBuyButton";
+import { PackLessonList } from "@/components/pack/PackLessonList";
 import { Badge } from "@/components/ui/Badge";
 import { Container } from "@/components/ui/Container";
 import { packCheckoutReady } from "@/data/checkout";
+import { packDay1 } from "@/data/pack-day1";
 import { PACK_PRICE_EUR, PACK_PRICE_USD_APPROX, packDays, packFiles } from "@/data/pack";
 import { pick } from "@/lib/content";
 import { buildMetadata } from "@/lib/seo";
@@ -27,6 +29,7 @@ export default async function PackPage({ params }: Props) {
   setRequestLocale(locale);
   const t = await getTranslations("pack");
   const days = pick(packDays, locale);
+  const day1 = pick(packDay1, locale);
   const files = packFiles.map((file) => ({
     id: file.id,
     title: pick(file.title, locale),
@@ -92,6 +95,25 @@ export default async function PackPage({ params }: Props) {
               </li>
             ))}
           </ol>
+        </section>
+
+        <section className="mt-16">
+          <h2 className="text-2xl font-semibold tracking-tight text-ink">
+            {t("sampleTitle")}
+          </h2>
+          <p className="mt-2 text-sm text-muted">{t("sampleSubtitle")}</p>
+          <PackLessonList
+            lessons={[day1]}
+            labels={{
+              day: (n) => t("day", { n }),
+              minutes: (count) => t("minutes", { count }),
+              stepsLabel: t("stepsLabel"),
+              exampleLabel: t("exampleLabel"),
+              mistakesLabel: t("mistakesLabel"),
+              doneLabel: t("doneLabel"),
+              openTemplate: (name) => t("openTemplate", { name }),
+            }}
+          />
         </section>
 
         <section className="mt-16">

@@ -27,7 +27,8 @@ export function LocaleRedirect({ path = "/" }: { path?: string }) {
 
     persistLocaleCookie(detected);
     const suffix = withTrailingSlash(path);
-    window.location.replace(`/${detected}${suffix === "/" ? "/" : suffix}`);
+    const target = `/${detected}${suffix === "/" ? "/" : suffix}`;
+    window.location.replace(`${target}${window.location.search}`);
   }, [path]);
 
   return (
