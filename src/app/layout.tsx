@@ -28,6 +28,21 @@ export const metadata: Metadata = {
   applicationName: SITE.name,
   authors: [{ name: SITE.name, url: SITE.url }],
   icons: { icon: "/favicon.svg" },
+  openGraph: {
+    images: [
+      {
+        url: "/og.png",
+        width: 1200,
+        height: 630,
+        alt: SITE.name,
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    site: "@stackailearn",
+    images: ["/og.png"],
+  },
   ...(SITE.googleSiteVerification
     ? { verification: { google: SITE.googleSiteVerification } }
     : {}),
