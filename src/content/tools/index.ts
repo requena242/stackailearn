@@ -2,6 +2,7 @@ import type { Tool } from "@/types/content";
 import { chatgpt } from "./chatgpt";
 import { claude } from "./claude";
 import { cursor } from "./cursor";
+import { elevenlabs } from "./elevenlabs";
 import { grok } from "./grok";
 import { grokBot } from "./grok-bot";
 import { hermesAgent } from "./hermes-agent";
@@ -17,6 +18,7 @@ export const catalogTools: Tool[] = [
   grokBot,
   midjourney,
   cursor,
+  elevenlabs,
   perplexity,
   runway,
   notionAi,
