@@ -11,7 +11,7 @@ Una fila = un PR. El bot coge la primera `queued`. Estados: `queued` → `in-pr`
 | 5 | Notion AI: primer flujo | tutorial | `notion-ai-primer-flujo` | published | Mergeado PR #13 |
 | 6 | Runway: primer clip | tutorial | `runway-primer-clip` | published | Mergeado PR #16 |
 | 7 | ElevenLabs | ficha | `elevenlabs` | published | Mergeado PR #18 |
-| 8 | Suno | ficha | `suno` | queued | Cierra hueco audio |
+| 8 | Suno | ficha | `suno` | in-pr | Cierra hueco audio |
 | 9 | ElevenLabs: primer voiceover | tutorial | `elevenlabs-primer-voiceover` | queued | Tras #7 |
 | 10 | Suno: primer tema | tutorial | `suno-primer-tema` | queued | Tras #8 |
 | 11 | Mejores herramientas de IA para escribir 2026 | comparativa | `mejores-herramientas-ia-escribir` | queued | Cluster texto |

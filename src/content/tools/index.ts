@@ -10,6 +10,7 @@ import { midjourney } from "./midjourney";
 import { notionAi } from "./notion-ai";
 import { perplexity } from "./perplexity";
 import { runway } from "./runway";
+import { suno } from "./suno";
 
 export const catalogTools: Tool[] = [
   chatgpt,
@@ -19,6 +20,7 @@ export const catalogTools: Tool[] = [
   midjourney,
   cursor,
   elevenlabs,
+  suno,
   perplexity,
   runway,
   notionAi,
