@@ -11,3 +11,4 @@ Una línea por página mergeada.
 | 2026-08-28 | tutorial | notion-ai-primer-flujo | Notion AI: primer flujo | https://stackailearn.com/es/tutorials/notion-ai-primer-flujo/ |
 | 2026-08-29 | tutorial | runway-primer-clip | Runway: primer clip | https://stackailearn.com/es/tutorials/runway-primer-clip/ |
 | 2026-08-30 | ficha | elevenlabs | ElevenLabs | https://stackailearn.com/es/tools/elevenlabs/ |
+| 2026-08-31 | ficha | suno | Suno | https://stackailearn.com/es/tools/suno/ |
