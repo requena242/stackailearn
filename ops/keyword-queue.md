@@ -12,7 +12,7 @@ Una fila = un PR. El bot coge la primera `queued`. Estados: `queued` → `in-pr`
 | 6 | Runway: primer clip | tutorial | `runway-primer-clip` | published | Mergeado PR #16 |
 | 7 | ElevenLabs | ficha | `elevenlabs` | published | Mergeado PR #18 |
 | 8 | Suno | ficha | `suno` | published | Mergeado PR #20 |
-| 9 | ElevenLabs: primer voiceover | tutorial | `elevenlabs-primer-voiceover` | queued | Tras #7 |
+| 9 | ElevenLabs: primer voiceover | tutorial | `elevenlabs-primer-voiceover` | in-pr | Tras #7 |
 | 10 | Suno: primer tema | tutorial | `suno-primer-tema` | queued | Tras #8 |
 | 11 | Mejores herramientas de IA para escribir 2026 | comparativa | `mejores-herramientas-ia-escribir` | queued | Cluster texto |
 | 12 | ChatGPT alternativas | tutorial | `chatgpt-alternativas` | queued | Claude / Grok |
