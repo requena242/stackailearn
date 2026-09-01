@@ -24,7 +24,7 @@ export const elevenlabs: Tool = {
   tags: ["voz", "tts", "voiceover", "clonación", "doblaje", "locución"],
   alternatives: ["chatgpt", "runway"],
   relatedTools: ["runway", "midjourney", "chatgpt"],
-  relatedTutorials: ["runway-primer-clip", "chatgpt-primeros-pasos"],
+  relatedTutorials: ["elevenlabs-primer-voiceover", "runway-primer-clip", "chatgpt-primeros-pasos"],
   screenshots: [
     toolImage(slug, "hero", "hero", {
       es: {
