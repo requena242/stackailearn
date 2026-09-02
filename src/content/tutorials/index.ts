@@ -8,10 +8,12 @@ import { perplexityInvestigacion } from "./perplexity-investigacion-con-fuentes"
 import { grokPrimerFlujo } from "./grok-primer-flujo";
 import { notionAiPrimerFlujo } from "./notion-ai-primer-flujo";
 import { elevenlabsPrimerVoiceover } from "./elevenlabs-primer-voiceover";
+import { sunoPrimerTema } from "./suno-primer-tema";
 import { runwayPrimerClip } from "./runway-primer-clip";
 import { grokBotPrimer } from "./supporting";
 
 export const catalogTutorials: Tutorial[] = [
+  sunoPrimerTema,
   elevenlabsPrimerVoiceover,
   runwayPrimerClip,
   notionAiPrimerFlujo,
