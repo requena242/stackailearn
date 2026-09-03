@@ -574,6 +574,155 @@ export const comparisons: Comparison[] = [
       },
     },
   },
+  {
+    slug: "mejores-herramientas-ia-escribir",
+    toolSlugs: ["chatgpt", "claude", "notion-ai"],
+    updatedAt: "2026-09-03",
+    copy: {
+      es: {
+        title: "Mejores herramientas de IA para escribir (2026)",
+        excerpt:
+          "ChatGPT, Claude y Notion AI cubren tres sitios distintos del flujo de escritura. Cuál encaja según dónde empiezas el texto.",
+        verdict:
+          "Para borradores rápidos, variar tono y un comodín que aguanta casi cualquier tarea, ChatGPT. Para artículos largos, informes y un tono cuidado, Claude. Para escribir donde ya viven tus notas, actas y wikis, Notion AI. Muchos equipos combinan dos: Claude o ChatGPT para el primer borrador y Notion AI para pulir dentro del documento compartido.",
+        rows: [
+          {
+            label: "Mejor para",
+            values: [
+              "Borradores, ideación y tareas variadas",
+              "Texto largo, edición y tono consistente",
+              "Escribir dentro de páginas y bases de datos",
+            ],
+          },
+          {
+            label: "Calidad de prosa",
+            values: ["Muy alta", "Excelente en piezas largas", "Buena; depende del contexto de la página"],
+          },
+          {
+            label: "Dónde trabajas",
+            values: ["Chat en navegador o app", "Chat en navegador o app", "Dentro de Notion, junto a tus docs"],
+          },
+          {
+            label: "Contexto de documentos",
+            values: [
+              "Lo que pegas o subes al chat",
+              "Lo que pegas; muy bueno con archivos largos",
+              "Lee la página, la base y el workspace",
+            ],
+          },
+          {
+            label: "Colaboración",
+            values: [
+              "Compartir chat o exportar texto",
+              "Compartir chat o exportar texto",
+              "Comentarios, permisos y wiki en el mismo sitio",
+            ],
+          },
+          {
+            label: "Riesgo",
+            values: [
+              "Texto fluido que inventa con naturalidad",
+              "Puede alargar sin aportar si el briefing es vago",
+              "Resume bien, pero no sustituye un editor dedicado",
+            ],
+          },
+          {
+            label: "Plan de entrada",
+            values: ["Gratis + Plus / Team", "Gratis + Pro", "Incluido en planes Business / Plus de Notion"],
+          },
+        ],
+        faq: [
+          {
+            q: "¿Puedo usar solo una de las tres?",
+            a: "Sí. Si solo redactas en un chat, ChatGPT o Claude bastan. Si tu fuente de verdad ya es Notion, Notion AI evita copiar y pegar. El error es elegir por marketing y no por dónde empieza tu texto.",
+          },
+          {
+            q: "¿Notion AI sustituye a ChatGPT o Claude?",
+            a: "No del todo. Notion AI gana cuando el borrador vive en una página compartida. Para idear desde cero, variar estilos o trabajar fuera de Notion, un chat dedicado sigue siendo más flexible.",
+          },
+          {
+            q: "¿Cuál es mejor para textos largos?",
+            a: "Claude suele ganar en artículos, informes y edición de tono en piezas de varias páginas. ChatGPT también aguanta, pero Claude destaca cuando el briefing pide voz y estructura. Notion AI ayuda a resumir y reescribir bloques dentro de un doc existente.",
+          },
+          {
+            q: "¿Son gratuitas?",
+            a: "Las tres tienen tier gratuito o prueba limitada, pero el uso serio de escritura suele pedir un plan de pago: Plus o Team en ChatGPT, Pro en Claude, y un plan de Notion con IA incluida o como add-on según tu workspace.",
+          },
+        ],
+      },
+      en: {
+        title: "Best AI writing tools (2026)",
+        excerpt:
+          "ChatGPT, Claude and Notion AI cover three different spots in the writing flow. Which one fits depends on where your text starts.",
+        verdict:
+          "For quick drafts, tone shifts and a generalist that handles almost any task, ChatGPT. For long articles, reports and careful voice, Claude. For writing where your notes, minutes and wikis already live, Notion AI. Many teams combine two: Claude or ChatGPT for the first draft, Notion AI to polish inside the shared document.",
+        rows: [
+          {
+            label: "Best for",
+            values: [
+              "Drafts, ideation and varied tasks",
+              "Long-form copy, editing and consistent tone",
+              "Writing inside pages and databases",
+            ],
+          },
+          {
+            label: "Prose quality",
+            values: ["Very high", "Excellent on long pieces", "Good; depends on page context"],
+          },
+          {
+            label: "Where you work",
+            values: ["Browser or app chat", "Browser or app chat", "Inside Notion, next to your docs"],
+          },
+          {
+            label: "Document context",
+            values: [
+              "Whatever you paste or upload to the chat",
+              "Whatever you paste; very good with long files",
+              "Reads the page, database and workspace",
+            ],
+          },
+          {
+            label: "Collaboration",
+            values: [
+              "Share the chat or export text",
+              "Share the chat or export text",
+              "Comments, permissions and wiki in one place",
+            ],
+          },
+          {
+            label: "Risk",
+            values: [
+              "Fluent text that invents smoothly",
+              "Can pad without adding if the brief is vague",
+              "Summarizes well, but is not a dedicated editor",
+            ],
+          },
+          {
+            label: "Entry plan",
+            values: ["Free + Plus / Team", "Free + Pro", "Included in Notion Business / Plus plans"],
+          },
+        ],
+        faq: [
+          {
+            q: "Can I use only one of the three?",
+            a: "Yes. If you only draft in a chat, ChatGPT or Claude is enough. If your source of truth is already Notion, Notion AI saves copy-paste. The mistake is picking by marketing instead of where your text starts.",
+          },
+          {
+            q: "Does Notion AI replace ChatGPT or Claude?",
+            a: "Not entirely. Notion AI wins when the draft lives in a shared page. For ideation from scratch, style shifts or work outside Notion, a dedicated chat stays more flexible.",
+          },
+          {
+            q: "Which one is best for long-form writing?",
+            a: "Claude usually wins on articles, reports and tone editing across several pages. ChatGPT also holds up, but Claude stands out when the brief asks for voice and structure. Notion AI helps summarize and rewrite blocks inside an existing doc.",
+          },
+          {
+            q: "Are they free?",
+            a: "All three have a free tier or limited trial, but serious writing usually needs a paid plan: Plus or Team on ChatGPT, Pro on Claude, and a Notion plan with AI included or as an add-on depending on your workspace.",
+          },
+        ],
+      },
+    },
+  },
 ];
 
 export function getComparison(slug: string) {

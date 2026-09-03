@@ -14,7 +14,7 @@ Una fila = un PR. El bot coge la primera `queued`. Estados: `queued` → `in-pr`
 | 8 | Suno | ficha | `suno` | published | Mergeado PR #20 |
 | 9 | ElevenLabs: primer voiceover | tutorial | `elevenlabs-primer-voiceover` | published | Mergeado PR #23 |
 | 10 | Suno: primer tema | tutorial | `suno-primer-tema` | published | Mergeado PR #25 |
-| 11 | Mejores herramientas de IA para escribir 2026 | comparativa | `mejores-herramientas-ia-escribir` | queued | Cluster texto |
+| 11 | Mejores herramientas de IA para escribir 2026 | comparativa | `mejores-herramientas-ia-escribir` | in-pr | Cluster texto |
 | 12 | ChatGPT alternativas | tutorial | `chatgpt-alternativas` | queued | Claude / Grok |
 | 13 | Cursor vs Claude para código | comparativa | `cursor-vs-claude-codigo` | queued | Claude ya en catálogo |
 | 14 | Perplexity vs ChatGPT búsqueda | comparativa | `perplexity-vs-chatgpt-busqueda` | queued | Distinto ángulo que #1 |
