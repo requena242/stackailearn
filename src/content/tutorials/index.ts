@@ -1,4 +1,5 @@
 import type { Tutorial } from "@/types/content";
+import { chatgptAlternativas } from "./chatgpt-alternativas";
 import { chatgptPrimerosPasos } from "./chatgpt-primeros-pasos";
 import { claudeEscrituraLarga } from "./claude-escritura-larga";
 import { cursorComoIde } from "./cursor-como-ide-con-ia";
@@ -13,6 +14,7 @@ import { runwayPrimerClip } from "./runway-primer-clip";
 import { grokBotPrimer } from "./supporting";
 
 export const catalogTutorials: Tutorial[] = [
+  chatgptAlternativas,
   sunoPrimerTema,
   elevenlabsPrimerVoiceover,
   runwayPrimerClip,
