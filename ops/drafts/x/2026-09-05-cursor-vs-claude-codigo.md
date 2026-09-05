@@ -1,14 +1,13 @@
 # Draft X — Cursor vs Claude para código
 
-Estado: publicar vía Typefully (Publish now) a @stackailearn. NUNCA compositor de x.com.
+Estado: publicado vía Typefully
+Live: https://x.com/stackailearn/status/2096099820398375407
 URL: https://stackailearn.com/es/compare/cursor-vs-claude-codigo/
 
 ## Standalone (ES)
 
-Claude escribe bien el plan. Cursor lo deja en el repo.
+Claude escribe el plan. Cursor lo deja en el repo.
 
-Si el cambio tiene que tocar archivos reales, abre Cursor: el valor está en el diff, no en el párrafo del chat. Si aún estás diseñando el enfoque, revisando un diseño largo o usando Projects, Claude suele ir mejor.
-
-La combinación habitual: pensar y revisar en Claude, aplicar y iterar el diff en Cursor. No son rivales directos; resuelven momentos distintos del mismo flujo.
+Diseño o Projects → Claude. Diffs en archivos reales → Cursor. Suele ir juntos.
 
 https://stackailearn.com/es/compare/cursor-vs-claude-codigo/
