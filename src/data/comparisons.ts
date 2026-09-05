@@ -148,6 +148,153 @@ export const comparisons: Comparison[] = [
     },
   },
   {
+    slug: "cursor-vs-claude-codigo",
+    toolSlugs: ["cursor", "claude"],
+    updatedAt: "2026-09-05",
+    copy: {
+      es: {
+        title: "Cursor vs Claude para programar",
+        excerpt:
+          "Un agente en el repo o un chat con contexto largo. No resuelven el mismo paso del flujo.",
+        verdict:
+          "Cursor gana cuando el cambio tiene que aterrizar en archivos reales del repo: diffs, refactors y tests con el proyecto indexado. Claude gana para diseñar el enfoque, revisar un diff pegado con calma, leer varios archivos de golpe o mantener un proyecto con instrucciones persistentes. La combinación habitual: arquitectura y revisión en Claude (o Claude Projects), aplicar y pulir en Cursor.",
+        rows: [
+          {
+            label: "Contexto",
+            values: [
+              "El repo indexado y archivos abiertos",
+              "Lo que pegas, subes o guardas en un Project",
+            ],
+          },
+          {
+            label: "Aplicar cambios",
+            values: ["Diffs en el editor", "Copiar y pegar a mano (o pegar en Cursor)"],
+          },
+          {
+            label: "Mejor momento",
+            values: [
+              "Implementar, refactorizar y escribir tests",
+              "Diseñar, desatascar y revisar código con calma",
+            ],
+          },
+          {
+            label: "Revisión de código",
+            values: [
+              "Diff visible; tú apruebas o rechazas",
+              "Lectura larga y crítica en chat; muy bueno señalando riesgos",
+            ],
+          },
+          {
+            label: "Memoria del proyecto",
+            values: [
+              "Reglas del repo y memories del IDE",
+              "Claude Projects: voz, restricciones y docs de referencia",
+            ],
+          },
+          {
+            label: "Riesgo",
+            values: [
+              "Agentes demasiado ambiciosos en un solo prompt",
+              "Código generado desconectado del repo real",
+            ],
+          },
+          {
+            label: "Precio típico",
+            values: ["Suscripción de IDE (Pro / Team)", "Gratis + Pro / Team"],
+          },
+        ],
+        faq: [
+          {
+            q: "¿Puedo usar solo Claude para programar?",
+            a: "Sí, si copias y pegas y el repo es pequeño. Cuando el cambio toca muchos archivos o quieres diffs revisables, Cursor ahorra errores de sincronización.",
+          },
+          {
+            q: "¿Claude Projects sustituye a Cursor?",
+            a: "No. Projects guarda contexto e instrucciones para el chat. Cursor aplica cambios en el repo. Muchos equipos diseñan en un Project y ejecutan en Cursor.",
+          },
+          {
+            q: "¿Y ChatGPT?",
+            a: "Para diseño rápido y snippets, ChatGPT y Claude se parecen. Claude suele ganar en revisiones largas y tono cuidado; Cursor sigue siendo quien toca el diff.",
+          },
+          {
+            q: "¿Cuál es más barato?",
+            a: "Claude tiene tier gratuito usable para preguntas puntuales. Cursor cobra por el IDE y el uso de agentes. La pregunta útil no es el precio sino si el entregable es un diff en el repo o un plan en el chat.",
+          },
+        ],
+      },
+      en: {
+        title: "Cursor vs Claude for coding",
+        excerpt:
+          "An agent in the repo or a chat with long context. They do not replace the same step in the flow.",
+        verdict:
+          "Cursor wins when the change has to land in real repo files: diffs, refactors and tests with the project indexed. Claude wins for designing the approach, calmly reviewing a pasted diff, reading several files at once or keeping a project with persistent instructions. The usual combo: architecture and review in Claude (or Claude Projects), apply and polish in Cursor.",
+        rows: [
+          {
+            label: "Context",
+            values: [
+              "The indexed repo and open files",
+              "Whatever you paste, upload or store in a Project",
+            ],
+          },
+          {
+            label: "Applying changes",
+            values: ["Diffs in the editor", "Copy and paste by hand (or paste into Cursor)"],
+          },
+          {
+            label: "Best moment",
+            values: [
+              "Implement, refactor and write tests",
+              "Design, unblock and review code with care",
+            ],
+          },
+          {
+            label: "Code review",
+            values: [
+              "Visible diff; you accept or reject",
+              "Long, careful read in chat; very good at flagging risks",
+            ],
+          },
+          {
+            label: "Project memory",
+            values: [
+              "Repo rules and IDE memories",
+              "Claude Projects: voice, constraints and reference docs",
+            ],
+          },
+          {
+            label: "Risk",
+            values: [
+              "Over-ambitious agents in one prompt",
+              "Generated code disconnected from the real repo",
+            ],
+          },
+          {
+            label: "Typical price",
+            values: ["IDE subscription (Pro / Team)", "Free + Pro / Team"],
+          },
+        ],
+        faq: [
+          {
+            q: "Can I use only Claude for coding?",
+            a: "Yes, if you copy and paste and the repo is small. When the change touches many files or you want reviewable diffs, Cursor saves sync mistakes.",
+          },
+          {
+            q: "Do Claude Projects replace Cursor?",
+            a: "No. Projects store context and instructions for the chat. Cursor applies changes in the repo. Many teams design in a Project and execute in Cursor.",
+          },
+          {
+            q: "What about ChatGPT?",
+            a: "For quick design and snippets, ChatGPT and Claude are similar. Claude usually wins on long reviews and careful tone; Cursor is still the one that touches the diff.",
+          },
+          {
+            q: "Which one is cheaper?",
+            a: "Claude has a free tier usable for one-off questions. Cursor charges for the IDE and agent usage. The useful question is not price but whether the deliverable is a diff in the repo or a plan in the chat.",
+          },
+        ],
+      },
+    },
+  },
+  {
     slug: "chatgpt-vs-perplexity",
     toolSlugs: ["chatgpt", "perplexity"],
     updatedAt: "2026-08-26",
