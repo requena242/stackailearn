@@ -16,3 +16,4 @@ Una línea por página mergeada.
 | 2026-09-02 | tutorial | suno-primer-tema | Suno: primer tema | https://stackailearn.com/es/tutorials/suno-primer-tema/ |
 | 2026-09-03 | comparativa | mejores-herramientas-ia-escribir | Mejores herramientas de IA para escribir 2026 | https://stackailearn.com/es/compare/mejores-herramientas-ia-escribir/ |
 | 2026-09-04 | tutorial | chatgpt-alternativas | ChatGPT alternativas | https://stackailearn.com/es/tutorials/chatgpt-alternativas/ |
+| 2026-09-05 | comparativa | cursor-vs-claude-codigo | Cursor vs Claude para código | https://stackailearn.com/es/compare/cursor-vs-claude-codigo/ |
