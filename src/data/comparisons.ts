@@ -870,6 +870,179 @@ export const comparisons: Comparison[] = [
       },
     },
   },
+  {
+    slug: "perplexity-vs-chatgpt-busqueda",
+    toolSlugs: ["perplexity", "chatgpt"],
+    updatedAt: "2026-09-06",
+    copy: {
+      es: {
+        title: "Perplexity vs ChatGPT búsqueda",
+        excerpt:
+          "Dos formas de buscar con IA: uno nace como buscador con citas, el otro como chat que puede buscar. No compiten en la misma pantalla mental.",
+        verdict:
+          "Para una pregunta acotada con fuentes que vas a abrir, Perplexity gana: la interfaz empuja a citar y a seguir enlaces. ChatGPT con búsqueda sirve cuando ya estás en un hilo de redacción y solo necesitas contrastar un dato sin cambiar de herramienta. El fallo habitual: leer el resumen como si fuera la fuente y no abrir dos citas antes de decidir.",
+        rows: [
+          {
+            label: "Mejor como buscador",
+            values: [
+              "Respuesta con referencias numeradas; el flujo es buscar → abrir → decidir",
+              "Búsqueda dentro del chat; útil si ya redactas en el mismo hilo",
+            ],
+          },
+          {
+            label: "Citas visibles",
+            values: [
+              "Siempre en la respuesta; difícil ignorarlas",
+              "Aparecen, pero el texto largo las entierra si no las buscas",
+            ],
+          },
+          {
+            label: "UX de búsqueda",
+            values: [
+              "Página de pregunta única; historial de consultas de investigación",
+              "Ventana de chat; la búsqueda es un modo, no el producto entero",
+            ],
+          },
+          {
+            label: "Modos / enfoque",
+            values: [
+              "Focus (All, Academic, Writing, etc.) acota el tipo de fuente",
+              "Búsqueda web on/off; sin perfiles tan explícitos de fuente",
+            ],
+          },
+          {
+            label: "Formato de respuesta",
+            values: [
+              "Resumen denso con párrafos cortos y notas al pie",
+              "Prosa conversacional; más fácil confundir opinión con hecho",
+            ],
+          },
+          {
+            label: "Riesgo principal",
+            values: [
+              "Resumen que parece verificado porque lleva números de cita",
+              "Texto fluido que cita mal o mezcla fuente con inferencia",
+            ],
+          },
+          {
+            label: "Hábito que importa",
+            values: [
+              "Abrir al menos dos fuentes antes de copiar un dato",
+              "Pedir explícitamente «solo lo que aparece en fuentes» y revisar enlaces",
+            ],
+          },
+          {
+            label: "Cuándo cambiar",
+            values: [
+              "Cuando ya tienes hechos y toca redactar, variar tono o iterar borrador",
+              "Cuando la pregunta es solo «¿qué dicen las fuentes?» y no un entregable",
+            ],
+          },
+        ],
+        faq: [
+          {
+            q: "¿ChatGPT con búsqueda sustituye a Perplexity?",
+            a: "Para una consulta puntual dentro de un hilo de escritura, a menudo sí. Si tu trabajo es investigar varias preguntas seguidas y comparar fuentes, la UX de Perplexity ahorra fricción: menos scroll, más citas visibles.",
+          },
+          {
+            q: "¿Tengo que abrir todas las citas?",
+            a: "No todas, pero sí al menos dos en temas donde te importe la precisión. Las citas son punteros, no garantía: a veces el enlace no respalda la frase que lo acompaña.",
+          },
+          {
+            q: "¿Para qué sirven los modos Focus de Perplexity?",
+            a: "Acotan el tipo de fuente: académico prioriza papers, Writing prioriza guías editoriales, etc. No sustituyen abrir el enlace, pero reducen ruido cuando sabes qué clase de evidencia buscas.",
+          },
+          {
+            q: "¿Cuándo usar búsqueda en ChatGPT en lugar de Perplexity?",
+            a: "Cuando ya tienes contexto en el chat (borrador, instrucciones, tono) y solo necesitas verificar una cifra, una fecha o un nombre. Cambia a Perplexity cuando la investigación es el paso principal, no un paréntesis.",
+          },
+        ],
+      },
+      en: {
+        title: "Perplexity vs ChatGPT search",
+        excerpt:
+          "Two ways to search with AI: one built as a cited search engine, the other as a chat that can search. They do not compete on the same mental screen.",
+        verdict:
+          "For a bounded question with sources you will actually open, Perplexity wins: the interface pushes citations and follow-up links. ChatGPT with search fits when you are already in a drafting thread and only need to cross-check a fact without switching tools. The usual failure: reading the summary as if it were the source and not opening two citations before deciding.",
+        rows: [
+          {
+            label: "Best as a search engine",
+            values: [
+              "Answer with numbered references; the flow is search → open → decide",
+              "Search inside the chat; useful when you already draft in the same thread",
+            ],
+          },
+          {
+            label: "Visible citations",
+            values: [
+              "Always in the answer; hard to ignore them",
+              "They appear, but long prose buries them unless you look",
+            ],
+          },
+          {
+            label: "Search UX",
+            values: [
+              "Single-question page; history of research queries",
+              "Chat window; search is a mode, not the whole product",
+            ],
+          },
+          {
+            label: "Modes / focus",
+            values: [
+              "Focus (All, Academic, Writing, etc.) narrows source type",
+              "Web search on/off; no equally explicit source profiles",
+            ],
+          },
+          {
+            label: "Answer format",
+            values: [
+              "Dense summary with short paragraphs and footnotes",
+              "Conversational prose; easier to mix opinion with fact",
+            ],
+          },
+          {
+            label: "Main risk",
+            values: [
+              "A summary that looks verified because it has citation numbers",
+              "Fluent text that cites poorly or blends source with inference",
+            ],
+          },
+          {
+            label: "Habit that matters",
+            values: [
+              "Open at least two sources before copying a figure",
+              "Ask explicitly for «only what appears in sources» and check links",
+            ],
+          },
+          {
+            label: "When to switch",
+            values: [
+              "When you already have facts and need to draft, shift tone or iterate",
+              "When the question is only «what do sources say?» and not a deliverable",
+            ],
+          },
+        ],
+        faq: [
+          {
+            q: "Does ChatGPT with search replace Perplexity?",
+            a: "For a one-off check inside a writing thread, often yes. If your job is several research questions in a row and comparing sources, Perplexity's UX saves friction: less scrolling, more visible citations.",
+          },
+          {
+            q: "Do I have to open every citation?",
+            a: "Not all of them, but at least two on topics where precision matters. Citations are pointers, not proof: sometimes the link does not support the sentence it sits next to.",
+          },
+          {
+            q: "What are Perplexity Focus modes for?",
+            a: "They narrow source type: Academic prioritizes papers, Writing prioritizes editorial guides, and so on. They do not replace opening the link, but they cut noise when you know what kind of evidence you need.",
+          },
+          {
+            q: "When should I use ChatGPT search instead of Perplexity?",
+            a: "When you already have context in the chat (draft, instructions, tone) and only need to verify a figure, date or name. Switch to Perplexity when research is the main step, not a parenthesis.",
+          },
+        ],
+      },
+    },
+  },
 ];
 
 export function getComparison(slug: string) {
