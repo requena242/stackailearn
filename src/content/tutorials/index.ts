@@ -3,6 +3,7 @@ import { chatgptAlternativas } from "./chatgpt-alternativas";
 import { chatgptPrimerosPasos } from "./chatgpt-primeros-pasos";
 import { claudeEscrituraLarga } from "./claude-escritura-larga";
 import { cursorComoIde } from "./cursor-como-ide-con-ia";
+import { cursorRepoExistente } from "./cursor-repo-existente";
 import { hermesAgentPrimer } from "./hermes-agent-primer-flujo";
 import { midjourneyPrompts } from "./midjourney-prompts-que-funcionan";
 import { perplexityInvestigacion } from "./perplexity-investigacion-con-fuentes";
@@ -14,6 +15,7 @@ import { runwayPrimerClip } from "./runway-primer-clip";
 import { grokBotPrimer } from "./supporting";
 
 export const catalogTutorials: Tutorial[] = [
+  cursorRepoExistente,
   chatgptAlternativas,
   sunoPrimerTema,
   elevenlabsPrimerVoiceover,

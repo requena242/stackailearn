@@ -24,7 +24,11 @@ export const cursor: Tool = {
   tags: ["ide", "diffs", "agentes", "repo", "pair-programming"],
   alternatives: ["chatgpt", "hermes-agent", "claude"],
   relatedTools: ["hermes-agent", "grok-bot", "chatgpt"],
-  relatedTutorials: ["cursor-como-ide-con-ia", "hermes-agent-primer-flujo"],
+  relatedTutorials: [
+    "cursor-repo-existente",
+    "cursor-como-ide-con-ia",
+    "hermes-agent-primer-flujo",
+  ],
   screenshots: [
     toolImage(slug, "hero", "hero", {
       es: {
