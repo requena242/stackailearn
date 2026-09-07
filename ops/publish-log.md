@@ -18,3 +18,4 @@ Una línea por página mergeada.
 | 2026-09-04 | tutorial | chatgpt-alternativas | ChatGPT alternativas | https://stackailearn.com/es/tutorials/chatgpt-alternativas/ |
 | 2026-09-05 | comparativa | cursor-vs-claude-codigo | Cursor vs Claude para código | https://stackailearn.com/es/compare/cursor-vs-claude-codigo/ |
 | 2026-09-06 | comparativa | perplexity-vs-chatgpt-busqueda | Perplexity vs ChatGPT búsqueda | https://stackailearn.com/es/compare/perplexity-vs-chatgpt-busqueda/ |
+| 2026-09-07 | tutorial | cursor-repo-existente | Cómo usar Cursor para un repo existente | https://stackailearn.com/es/tutorials/cursor-repo-existente/ |

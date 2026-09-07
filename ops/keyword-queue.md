@@ -18,7 +18,7 @@ Una fila = un PR. El bot coge la primera `queued`. Estados: `queued` → `in-pr`
 | 12 | ChatGPT alternativas | tutorial | `chatgpt-alternativas` | published | Mergeado PR #30 |
 | 13 | Cursor vs Claude para código | comparativa | `cursor-vs-claude-codigo` | published | Mergeado PR #32 |
 | 14 | Perplexity vs ChatGPT búsqueda | comparativa | `perplexity-vs-chatgpt-busqueda` | published | Mergeado PR #35 |
-| 15 | Cómo usar Cursor para un repo existente | tutorial | `cursor-repo-existente` | in-pr | Complementa el flagship |
+| 15 | Cómo usar Cursor para un repo existente | tutorial | `cursor-repo-existente` | published | Mergeado PR #37 |
 | 16 | Mejor IA para imágenes 2026 | comparativa | `mejor-ia-imagenes` | queued | Midjourney + Runway |
 | 17 | Claude Projects: primer flujo | tutorial | `claude-projects-primer-flujo` | queued | |
 | 18 | Grok vs ChatGPT | comparativa | `grok-vs-chatgpt` | queued | |
