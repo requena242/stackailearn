@@ -19,3 +19,4 @@ Una línea por página mergeada.
 | 2026-09-05 | comparativa | cursor-vs-claude-codigo | Cursor vs Claude para código | https://stackailearn.com/es/compare/cursor-vs-claude-codigo/ |
 | 2026-09-06 | comparativa | perplexity-vs-chatgpt-busqueda | Perplexity vs ChatGPT búsqueda | https://stackailearn.com/es/compare/perplexity-vs-chatgpt-busqueda/ |
 | 2026-09-07 | tutorial | cursor-repo-existente | Cómo usar Cursor para un repo existente | https://stackailearn.com/es/tutorials/cursor-repo-existente/ |
+| 2026-09-08 | comparativa | mejor-ia-imagenes | Mejor IA para imágenes 2026 | https://stackailearn.com/es/compare/mejor-ia-imagenes/ |
