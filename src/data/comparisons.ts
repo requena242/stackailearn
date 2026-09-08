@@ -1043,6 +1043,179 @@ export const comparisons: Comparison[] = [
       },
     },
   },
+  {
+    slug: "mejor-ia-imagenes",
+    toolSlugs: ["midjourney", "runway"],
+    updatedAt: "2026-09-08",
+    copy: {
+      es: {
+        title: "Mejor IA para imágenes (2026)",
+        excerpt:
+          "Midjourney y Runway generan imágenes, pero no con el mismo objetivo. En 2026, uno está hecho para stills; el otro, para que un still se mueva.",
+        verdict:
+          "Para imágenes fijas en 2026 — moodboards, concept art, stills de campaña, variaciones de estilo — Midjourney gana: el producto entero gira en torno al plano. Runway puede sacar stills, pero su interfaz y sus créditos están pensados para vídeo; úsalo para imágenes solo si ya trabajas en Runway y necesitas un frame de partida antes de animar. Si tu entregable es una imagen, no pagues el impuesto de un motor de motion.",
+        rows: [
+          {
+            label: "Mejor para stills",
+            values: [
+              "Dirección de arte, moodboards y conceptos de campaña",
+              "Frames de partida para un clip de 4–8 s",
+            ],
+          },
+          {
+            label: "Calidad de imagen fija",
+            values: [
+              "Muy alta: sujeto, luz y encuadre cuando el prompt está dirigido",
+              "Aceptable como boceto; no compite con un motor de still dedicado",
+            ],
+          },
+          {
+            label: "Control creativo",
+            values: [
+              "Aspect ratio, stylize, referencias (--sref), variaciones y remix",
+              "Prompt de texto o imagen; menos herramientas para iterar un look",
+            ],
+          },
+          {
+            label: "Iteración de estilo",
+            values: [
+              "Grids, variaciones y moodboards en minutos",
+              "Cada intento compite con créditos de vídeo en la misma cuenta",
+            ],
+          },
+          {
+            label: "Flujo típico",
+            values: [
+              "Prompt → grid → elegir → variar → exportar still",
+              "Still (propio o importado) → animar → el still es un paso intermedio",
+            ],
+          },
+          {
+            label: "Riesgo",
+            values: [
+              "Look «bonito genérico» si el prompt es vago",
+              "Gastar créditos de vídeo en una imagen que Midjourney haría mejor y más barato",
+            ],
+          },
+          {
+            label: "Plan de entrada",
+            values: [
+              "De pago (Basic / Standard / Pro / Mega)",
+              "Gratis con créditos + Standard / Pro",
+            ],
+          },
+          {
+            label: "No lo uses para",
+            values: [
+              "Logos, texto nítido o UI pixel-perfect",
+              "Un catálogo de stills de campaña sin pasar por un motor de imagen",
+            ],
+          },
+        ],
+        faq: [
+          {
+            q: "¿Runway puede sustituir a Midjourney para imágenes?",
+            a: "Para un frame suelto, no. Runway genera stills, pero la calidad, la iteración y el coste por imagen favorecen a Midjourney cuando el entregable es una foto o un concepto fijo. Runway entra cuando ese still ya va a moverse.",
+          },
+          {
+            q: "¿Necesito las dos si solo quiero imágenes?",
+            a: "No. Si no vas a animar, Midjourney basta. Añade Runway solo cuando tengas un still que aguanta y quieras probar un gesto o una cámara antes de un rodaje.",
+          },
+          {
+            q: "¿Cuál es mejor para un moodboard de 20 imágenes?",
+            a: "Midjourney. Los grids, las variaciones y el stylize están pensados para explorar un look en serie. En Runway cada imagen compite con el presupuesto de clips.",
+          },
+          {
+            q: "¿Sirven para un anuncio de cliente?",
+            a: "Sirven para concepto interno y prototipo. El still o el frame no resuelven derechos de marca, de personas ni de estilo ajeno. El master de campaña sigue yendo a edición y, si hace falta, a rodaje.",
+          },
+        ],
+      },
+      en: {
+        title: "Best AI for images (2026)",
+        excerpt:
+          "Midjourney and Runway both generate images, but not with the same goal. In 2026, one is built for stills; the other, to make a still move.",
+        verdict:
+          "For fixed images in 2026 — moodboards, concept art, campaign stills, style variations — Midjourney wins: the whole product revolves around the frame. Runway can output stills, but its interface and credits are built for video; use it for images only if you already work in Runway and need a starting frame before animating. If your deliverable is an image, do not pay the motion-engine tax.",
+        rows: [
+          {
+            label: "Best for stills",
+            values: [
+              "Art direction, moodboards and campaign concepts",
+              "Starting frames for a 4–8 s clip",
+            ],
+          },
+          {
+            label: "Fixed-image quality",
+            values: [
+              "Very high: subject, light and framing when the prompt is directed",
+              "Fine as a sketch; does not compete with a dedicated still engine",
+            ],
+          },
+          {
+            label: "Creative control",
+            values: [
+              "Aspect ratio, stylize, references (--sref), variations and remix",
+              "Text or image prompt; fewer tools to iterate a look",
+            ],
+          },
+          {
+            label: "Style iteration",
+            values: [
+              "Grids, variations and moodboards in minutes",
+              "Each attempt competes with video credits in the same account",
+            ],
+          },
+          {
+            label: "Typical flow",
+            values: [
+              "Prompt → grid → pick → vary → export still",
+              "Still (own or imported) → animate → the still is an intermediate step",
+            ],
+          },
+          {
+            label: "Risk",
+            values: [
+              "Generic pretty look if the prompt is vague",
+              "Spending video credits on an image Midjourney would do better and cheaper",
+            ],
+          },
+          {
+            label: "Entry plan",
+            values: [
+              "Paid (Basic / Standard / Pro / Mega)",
+              "Free with credits + Standard / Pro",
+            ],
+          },
+          {
+            label: "Do not use for",
+            values: [
+              "Logos, sharp text or pixel-perfect UI",
+              "A campaign still catalog without going through an image engine",
+            ],
+          },
+        ],
+        faq: [
+          {
+            q: "Can Runway replace Midjourney for images?",
+            a: "For a standalone frame, no. Runway generates stills, but quality, iteration and cost per image favor Midjourney when the deliverable is a fixed photo or concept. Runway enters when that still is about to move.",
+          },
+          {
+            q: "Do I need both if I only want images?",
+            a: "No. If you are not animating, Midjourney is enough. Add Runway only when you have a still that holds and want to test a gesture or camera move before a shoot.",
+          },
+          {
+            q: "Which one is better for a 20-image moodboard?",
+            a: "Midjourney. Grids, variations and stylize are built to explore a look in series. In Runway each image competes with your clip budget.",
+          },
+          {
+            q: "Are they good for a client ad?",
+            a: "They work for internal concept and prototype. A still or frame does not clear brand, likeness or third-party style rights. The campaign master still goes to edit and, if needed, to a shoot.",
+          },
+        ],
+      },
+    },
+  },
 ];
 
 export function getComparison(slug: string) {
