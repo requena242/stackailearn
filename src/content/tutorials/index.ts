@@ -2,6 +2,7 @@ import type { Tutorial } from "@/types/content";
 import { chatgptAlternativas } from "./chatgpt-alternativas";
 import { chatgptPrimerosPasos } from "./chatgpt-primeros-pasos";
 import { claudeEscrituraLarga } from "./claude-escritura-larga";
+import { claudeProjectsPrimerFlujo } from "./claude-projects-primer-flujo";
 import { cursorComoIde } from "./cursor-como-ide-con-ia";
 import { cursorRepoExistente } from "./cursor-repo-existente";
 import { hermesAgentPrimer } from "./hermes-agent-primer-flujo";
@@ -26,6 +27,7 @@ export const catalogTutorials: Tutorial[] = [
   hermesAgentPrimer,
   chatgptPrimerosPasos,
   claudeEscrituraLarga,
+  claudeProjectsPrimerFlujo,
   midjourneyPrompts,
   cursorComoIde,
   perplexityInvestigacion,
