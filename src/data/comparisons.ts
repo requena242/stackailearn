@@ -1216,6 +1216,173 @@ export const comparisons: Comparison[] = [
       },
     },
   },
+  {
+    slug: "grok-vs-chatgpt",
+    toolSlugs: ["grok", "chatgpt"],
+    updatedAt: "2026-09-10",
+    copy: {
+      es: {
+        title: "Grok vs ChatGPT",
+        excerpt:
+          "Dos chats generalistas con temperamentos distintos: uno apuesta por pulso de actualidad y tono directo; el otro por ecosistema, GPTs e integraciones.",
+        verdict:
+          "Elige Grok (grok.com) cuando quieras una primera lectura de algo reciente, un contraste rápido de titulares o un tono más seco sin montar un flujo. Elige ChatGPT cuando el trabajo es repetible (GPTs, proyectos), cuando necesitas el comodín con más plugins e integraciones, o cuando el entregable es redacción, código o brainstorming con variantes. Muchos equipos mantienen ChatGPT como base y abren Grok para contrastar actualidad — no para sustituir todo el ecosistema. No confundas Grok con Grok Bot: el bot con ordenador es otra ficha.",
+        rows: [
+          {
+            label: "Mejor para",
+            values: [
+              "Pulso de actualidad, titulares recientes y contraste rápido",
+              "Tareas generales, flujos repetibles y trabajo diario de redacción",
+            ],
+          },
+          {
+            label: "Tono y estilo",
+            values: [
+              "Más directo e informal; menos «corporativo»",
+              "Conversacional y adaptable; fácil de briefar por audiencia",
+            ],
+          },
+          {
+            label: "Actualidad y fuentes",
+            values: [
+              "Fuerte cuando la búsqueda está activa; útil en X / noticias",
+              "Búsqueda web integrada; buena para contrastar dentro del hilo",
+            ],
+          },
+          {
+            label: "Ecosistema",
+            values: [
+              "grok.com, apps xAI y vínculo con X; sin GPTs ni marketplace",
+              "GPTs, proyectos, voz, imágenes y el ecosistema OpenAI más amplio",
+            ],
+          },
+          {
+            label: "Código y plugins",
+            values: [
+              "Útil para snippets y explicaciones; no es su foco principal",
+              "Muy bueno en código, análisis de datos y extensiones vía GPTs",
+            ],
+          },
+          {
+            label: "Plan de entrada",
+            values: ["Gratis limitado + SuperGrok / planes xAI", "Gratis + Plus / Team"],
+          },
+          {
+            label: "Riesgo principal",
+            values: [
+              "Confundirlo con Grok Bot o aceptar cifras recientes sin fuente primaria",
+              "Aceptar el primer borrador sin variantes ni marcar lo incierto",
+            ],
+          },
+          {
+            label: "Cuándo abrir el otro",
+            values: [
+              "Cuando necesitas GPTs, proyectos o un flujo que se repite cada semana",
+              "Cuando la pregunta es «¿qué está pasando ahora?» y quieres un segundo temperamento",
+            ],
+          },
+        ],
+        faq: [
+          {
+            q: "¿Grok sustituye a ChatGPT?",
+            a: "Para una pregunta puntual de actualidad o un contraste de tono, a menudo sí. Para un flujo de trabajo con GPTs guardados, proyectos o integraciones, ChatGPT sigue siendo el comodín. No hace falta elegir uno solo: muchos usan ChatGPT como base y Grok para contrastar.",
+          },
+          {
+            q: "¿Grok es lo mismo que Grok Bot?",
+            a: "No. Grok es el chat en grok.com (y apps xAI). Grok Bot es un teammate con ordenador en Cursor: otra herramienta, otro plan y otro caso de uso. Esta comparativa habla solo del chat.",
+          },
+          {
+            q: "¿Cuál es mejor para noticias y eventos recientes?",
+            a: "Grok suele ganar cuando quieres una primera lectura rápida con tono directo y contexto de lo que circula en X. ChatGPT con búsqueda sirve si ya estás en un hilo de redacción y solo necesitas contrastar un dato sin cambiar de herramienta.",
+          },
+          {
+            q: "¿Cuál conviene si empiezo desde cero?",
+            a: "ChatGPT: más tutoriales, GPTs de la comunidad y un camino claro de gratis a Plus. Grok tiene sentido cuando ya dominas el briefing básico y quieres un segundo temperamento para actualidad, no como única herramienta.",
+          },
+        ],
+      },
+      en: {
+        title: "Grok vs ChatGPT",
+        excerpt:
+          "Two generalist chats with different temperaments: one bets on a live pulse and direct tone; the other on ecosystem, GPTs and integrations.",
+        verdict:
+          "Pick Grok (grok.com) when you want a first read on something recent, a quick headline contrast or a drier tone without building a workflow. Pick ChatGPT when the work is repeatable (GPTs, projects), when you need the most connected generalist with plugins and integrations, or when the deliverable is drafting, code or brainstorming with variants. Many teams keep ChatGPT as the base and open Grok to challenge current events — not to replace the whole ecosystem. Do not confuse Grok with Grok Bot: the computer teammate is a different profile.",
+        rows: [
+          {
+            label: "Best for",
+            values: [
+              "Live pulse, recent headlines and quick contrast",
+              "General tasks, repeatable flows and daily drafting work",
+            ],
+          },
+          {
+            label: "Tone and style",
+            values: [
+              "More direct and informal; less «corporate»",
+              "Conversational and adaptable; easy to brief by audience",
+            ],
+          },
+          {
+            label: "Freshness and sources",
+            values: [
+              "Strong when search is on; useful for X / news context",
+              "Integrated web search; good for cross-checking inside the thread",
+            ],
+          },
+          {
+            label: "Ecosystem",
+            values: [
+              "grok.com, xAI apps and X tie-in; no GPTs or marketplace",
+              "GPTs, projects, voice, images and the broader OpenAI stack",
+            ],
+          },
+          {
+            label: "Code and plugins",
+            values: [
+              "Fine for snippets and explanations; not the main focus",
+              "Very good at code, data analysis and extensions via GPTs",
+            ],
+          },
+          {
+            label: "Entry plan",
+            values: ["Limited free + SuperGrok / xAI plans", "Free + Plus / Team"],
+          },
+          {
+            label: "Main risk",
+            values: [
+              "Confusing it with Grok Bot or accepting recent figures without a primary source",
+              "Accepting the first draft without variants or marking uncertainty",
+            ],
+          },
+          {
+            label: "When to open the other",
+            values: [
+              "When you need GPTs, projects or a flow you repeat every week",
+              "When the question is «what is happening now?» and you want a second temperament",
+            ],
+          },
+        ],
+        faq: [
+          {
+            q: "Can Grok replace ChatGPT?",
+            a: "For a pointed current-events question or a tone contrast, often yes. For a workflow with saved GPTs, projects or integrations, ChatGPT remains the generalist. You do not have to pick one: many use ChatGPT as the base and Grok to challenge.",
+          },
+          {
+            q: "Is Grok the same as Grok Bot?",
+            a: "No. Grok is the chat at grok.com (and xAI apps). Grok Bot is a computer teammate in Cursor: a different tool, plan and use case. This comparison covers only the chat.",
+          },
+          {
+            q: "Which is better for news and recent events?",
+            a: "Grok often wins when you want a quick first read with direct tone and context from what circulates on X. ChatGPT with search fits when you are already in a drafting thread and only need to cross-check a fact without switching tools.",
+          },
+          {
+            q: "Which one if I am starting from scratch?",
+            a: "ChatGPT: more tutorials, community GPTs and a clear path from free to Plus. Grok makes sense once you already know basic briefing and want a second temperament for current events — not as your only tool.",
+          },
+        ],
+      },
+    },
+  },
 ];
 
 export function getComparison(slug: string) {
