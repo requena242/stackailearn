@@ -21,3 +21,4 @@ Una línea por página mergeada.
 | 2026-09-07 | tutorial | cursor-repo-existente | Cómo usar Cursor para un repo existente | https://stackailearn.com/es/tutorials/cursor-repo-existente/ |
 | 2026-09-08 | comparativa | mejor-ia-imagenes | Mejor IA para imágenes 2026 | https://stackailearn.com/es/compare/mejor-ia-imagenes/ |
 | 2026-09-09 | tutorial | claude-projects-primer-flujo | Claude Projects: primer flujo | https://stackailearn.com/es/tutorials/claude-projects-primer-flujo/ |
+| 2026-09-10 | comparativa | grok-vs-chatgpt | Grok vs ChatGPT | https://stackailearn.com/es/compare/grok-vs-chatgpt/ |
