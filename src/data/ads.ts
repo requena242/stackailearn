@@ -32,12 +32,12 @@ export type AdSlotConfig = {
 };
 
 export const ads = {
-  enabled: false,
+  enabled: true,
   /** Muestra el recuadro reservado aunque los anuncios estén apagados. */
   previewSlots: false,
   provider: "adsense" as AdProvider,
   adsense: {
-    publisherId: "ca-pub-XXXXXXXXXXXXXXXX",
+    publisherId: "ca-pub-1320050788438186",
   },
   ezoic: {
     scriptSrc: "https://www.ezojs.com/ezoic/sa.min.js",
@@ -48,31 +48,31 @@ export const ads = {
     homeHero: {
       enabled: true,
       format: "horizontal",
-      slotId: "",
+      slotId: "1682538283",
       ezoicId: "ezoic-pub-ad-placeholder-home",
     },
     tutorialAfterIntro: {
       enabled: true,
       format: "horizontal",
-      slotId: "",
+      slotId: "9587737010",
       ezoicId: "ezoic-pub-ad-placeholder-intro",
     },
     tutorialBetweenSteps: {
       enabled: true,
       format: "rectangle",
-      slotId: "",
+      slotId: "5592651684",
       ezoicId: "ezoic-pub-ad-placeholder-steps",
     },
     tutorialEnd: {
       enabled: true,
       format: "horizontal",
-      slotId: "",
+      slotId: "2719076334",
       ezoicId: "ezoic-pub-ad-placeholder-end",
     },
     toolSidebar: {
       enabled: true,
       format: "sidebar",
-      slotId: "",
+      slotId: "2119958880",
       ezoicId: "ezoic-pub-ad-placeholder-sidebar",
     },
   } satisfies Record<AdSlotId, AdSlotConfig>,

@@ -13,9 +13,8 @@ export function adsPreview() {
 export function isAdsLive() {
   if (!ads.enabled) return false;
   if (ads.provider === "ezoic") return Boolean(ads.ezoic.scriptSrc);
-  return Boolean(
-    ads.adsense.publisherId && ads.adsense.publisherId !== PLACEHOLDER_PUB,
-  );
+  const publisherId = ads.adsense.publisherId as string;
+  return Boolean(publisherId && publisherId !== PLACEHOLDER_PUB);
 }
 
 export function isSlotOn(id: AdSlotId) {
