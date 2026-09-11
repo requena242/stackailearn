@@ -1383,6 +1383,173 @@ export const comparisons: Comparison[] = [
       },
     },
   },
+  {
+    slug: "notion-ai-vs-chatgpt",
+    toolSlugs: ["notion-ai", "chatgpt"],
+    updatedAt: "2026-09-11",
+    copy: {
+      es: {
+        title: "Notion AI vs ChatGPT",
+        excerpt:
+          "Uno escribe donde ya vive el wiki; el otro es el comodín para borradores, GPTs e ideación fuera del workspace. Cuándo usar cada uno y el combo habitual.",
+        verdict:
+          "Elige Notion AI cuando el texto ya tiene página, dueño y contexto en el workspace: actas, FAQs internas, resúmenes de una base de datos o un primer borrador que el equipo verá en la misma wiki. Elige ChatGPT cuando el trabajo empieza en blanco, necesitas variantes de tono, GPTs guardados, código o brainstorming sin pegar nada en Notion todavía. El combo más común: esbozo en ChatGPT (o el brief en un hilo) y pulido en Notion AI cuando el doc ya vive en una página; a la inversa, si la reunión quedó en Notion, resume y estructura ahí y saca a ChatGPT solo lo que vaya fuera del wiki.",
+        rows: [
+          {
+            label: "Mejor para",
+            values: [
+              "Escribir y resumir dentro de páginas, bases y wikis del equipo",
+              "Borradores generales, GPTs, ideación y tareas fuera del workspace",
+            ],
+          },
+          {
+            label: "Contexto",
+            values: [
+              "Lee la página y el workspace; no hace falta copiar el brief",
+              "Hilo nuevo o proyecto; pegas lo que haga falta o partes de cero",
+            ],
+          },
+          {
+            label: "Colaboración",
+            values: [
+              "El equipo ve el mismo doc con permisos de Notion",
+              "Hilos privados o compartidos; el wiki no se actualiza solo",
+            ],
+          },
+          {
+            label: "Calidad de prosa",
+            values: [
+              "Suficiente para internos y estructura; no es el mejor redactor",
+              "Muy alta; fácil pedir variantes, tonos y longitudes",
+            ],
+          },
+          {
+            label: "Flujos repetibles",
+            values: [
+              "Plantillas de página y acciones sobre el doc abierto",
+              "GPTs, proyectos, voz e integraciones del ecosistema OpenAI",
+            ],
+          },
+          {
+            label: "Plan de entrada",
+            values: ["Notion Free/Plus + add-on IA según plan", "Gratis + Plus / Team"],
+          },
+          {
+            label: "Riesgo principal",
+            values: [
+              "Resumir un workspace desordenado como si fuera fuente de verdad",
+              "Quedarte en el chat y no volcar el acuerdo a la wiki del equipo",
+            ],
+          },
+          {
+            label: "Cuándo abrir el otro",
+            values: [
+              "Cuando el entregable es un artículo largo, código o un GPT que repites cada semana",
+              "Cuando la reunión ya está en Notion y quieres acta sin copiar-pegar",
+            ],
+          },
+        ],
+        faq: [
+          {
+            q: "¿Notion AI sustituye a ChatGPT?",
+            a: "No del todo. Notion AI gana cuando el contexto ya está en una página o base de datos. ChatGPT sigue siendo mejor para empezar en blanco, probar tonos y usar GPTs. Muchos equipos usan los dos: borrador en ChatGPT, versión final en la wiki con Notion AI.",
+          },
+          {
+            q: "¿Puedo pegar de ChatGPT a Notion?",
+            a: "Sí, y es un flujo habitual. El límite es que el equipo no ve el hilo de ChatGPT: si el acuerdo importa, la página en Notion debe ser la fuente. Notion AI ayuda a adaptar el pegado al formato del workspace (encabezados, propiedades, checklist).",
+          },
+          {
+            q: "¿Cuál conviene para actas de reunión?",
+            a: "Si la reunión ya se apunta en Notion (notas crudas o transcripción), Notion AI resume y saca decisiones en el mismo sitio. Si solo tienes un audio o un Word suelto, ChatGPT puede dar el primer borrador; luego lo pegas o lo pasas a una página con dueño.",
+          },
+          {
+            q: "¿Necesito pagar los dos?",
+            a: "No es obligatorio. Puedes probar Notion con IA en el plan que toque y ChatGPT en gratis. Un equipo que vive en Notion suele pagar el workspace + IA; ChatGPT Plus entra cuando el volumen de borradores externos o GPTs lo justifica.",
+          },
+        ],
+      },
+      en: {
+        title: "Notion AI vs ChatGPT",
+        excerpt:
+          "One writes where the wiki already lives; the other is the generalist for drafts, GPTs and ideation outside the workspace. When to use each and the usual combo.",
+        verdict:
+          "Pick Notion AI when the text already has a page, owner and context in the workspace: meeting notes, internal FAQs, database summaries or a first draft the team will see in the same wiki. Pick ChatGPT when the work starts blank, you need tone variants, saved GPTs, code or brainstorming without pasting into Notion yet. The most common combo: outline in ChatGPT (or the brief in a thread) and polish with Notion AI once the doc lives on a page; the reverse when the meeting already sits in Notion — summarize and structure there, and open ChatGPT only for what leaves the wiki.",
+        rows: [
+          {
+            label: "Best for",
+            values: [
+              "Writing and summarizing inside team pages, databases and wikis",
+              "General drafts, GPTs, ideation and tasks outside the workspace",
+            ],
+          },
+          {
+            label: "Context",
+            values: [
+              "Reads the page and workspace; no need to copy the brief over",
+              "New thread or project; paste what you need or start from scratch",
+            ],
+          },
+          {
+            label: "Collaboration",
+            values: [
+              "The team sees the same doc with Notion permissions",
+              "Private or shared threads; the wiki does not update on its own",
+            ],
+          },
+          {
+            label: "Prose quality",
+            values: [
+              "Enough for internal docs and structure; not the top writer",
+              "Very high; easy to ask for variants, tones and lengths",
+            ],
+          },
+          {
+            label: "Repeatable flows",
+            values: [
+              "Page templates and actions on the open doc",
+              "GPTs, projects, voice and the broader OpenAI stack",
+            ],
+          },
+          {
+            label: "Entry plan",
+            values: ["Notion Free/Plus + AI add-on per plan", "Free + Plus / Team"],
+          },
+          {
+            label: "Main risk",
+            values: [
+              "Summarizing a messy workspace as if it were source of truth",
+              "Staying in chat and never moving the agreement into the team wiki",
+            ],
+          },
+          {
+            label: "When to open the other",
+            values: [
+              "When the deliverable is a long article, code or a GPT you reuse every week",
+              "When the meeting is already in Notion and you want notes without copy-paste",
+            ],
+          },
+        ],
+        faq: [
+          {
+            q: "Can Notion AI replace ChatGPT?",
+            a: "Not entirely. Notion AI wins when context already lives on a page or database. ChatGPT remains better for starting blank, trying tones and using GPTs. Many teams use both: draft in ChatGPT, final version in the wiki with Notion AI.",
+          },
+          {
+            q: "Can I paste from ChatGPT into Notion?",
+            a: "Yes, and it is a common flow. The limit is the team does not see the ChatGPT thread: if the agreement matters, the Notion page should be the source. Notion AI helps adapt the paste to workspace format (headings, properties, checklists).",
+          },
+          {
+            q: "Which one for meeting notes?",
+            a: "If the meeting is already captured in Notion (raw notes or transcript), Notion AI summarizes and pulls decisions in place. If you only have audio or a loose document, ChatGPT can produce the first draft; then paste it or move it to a page with an owner.",
+          },
+          {
+            q: "Do I need to pay for both?",
+            a: "Not required. You can try Notion with AI on your plan and ChatGPT on free. A team that lives in Notion often pays workspace + AI; ChatGPT Plus makes sense when external draft volume or GPTs justify it.",
+          },
+        ],
+      },
+    },
+  },
 ];
 
 export function getComparison(slug: string) {
