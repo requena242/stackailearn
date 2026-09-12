@@ -1,4 +1,5 @@
 import type { Tutorial } from "@/types/content";
+import { elegirModeloTexto } from "./elegir-modelo-texto";
 import { chatgptAlternativas } from "./chatgpt-alternativas";
 import { chatgptPrimerosPasos } from "./chatgpt-primeros-pasos";
 import { claudeEscrituraLarga } from "./claude-escritura-larga";
@@ -16,6 +17,7 @@ import { runwayPrimerClip } from "./runway-primer-clip";
 import { grokBotPrimer } from "./supporting";
 
 export const catalogTutorials: Tutorial[] = [
+  elegirModeloTexto,
   cursorRepoExistente,
   chatgptAlternativas,
   sunoPrimerTema,
