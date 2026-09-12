@@ -23,3 +23,4 @@ Una línea por página mergeada.
 | 2026-09-09 | tutorial | claude-projects-primer-flujo | Claude Projects: primer flujo | https://stackailearn.com/es/tutorials/claude-projects-primer-flujo/ |
 | 2026-09-10 | comparativa | grok-vs-chatgpt | Grok vs ChatGPT | https://stackailearn.com/es/compare/grok-vs-chatgpt/ |
 | 2026-09-11 | comparativa | notion-ai-vs-chatgpt | Notion AI vs ChatGPT | https://stackailearn.com/es/compare/notion-ai-vs-chatgpt/ |
+| 2026-09-12 | tutorial | elegir-modelo-texto | Cómo elegir un modelo de texto | https://stackailearn.com/es/tutorials/elegir-modelo-texto/ |
