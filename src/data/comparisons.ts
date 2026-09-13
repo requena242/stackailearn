@@ -1217,6 +1217,179 @@ export const comparisons: Comparison[] = [
     },
   },
   {
+    slug: "runway-vs-midjourney-stills",
+    toolSlugs: ["runway", "midjourney"],
+    updatedAt: "2026-09-13",
+    copy: {
+      es: {
+        title: "Runway vs Midjourney para stills",
+        excerpt:
+          "Solo imágenes fijas: product shots, key art, stills de campaña y concept art. Sin clips ni motion.",
+        verdict:
+          "Si el entregable es un still — product shot, keyframe de referencia, pieza de marketing o concept art que no se va a animar — Midjourney gana: grids, variaciones y export en alta resolución están pensados para eso. Runway puede sacar un frame, pero cada intento compite con créditos de vídeo y la iteración de look es más lenta. Usa Runway para stills solo cuando ya tienes un proyecto de motion abierto y necesitas un frame de partida en la misma sesión antes de animar; para un catálogo de imágenes fijas, no mezcles motores.",
+        rows: [
+          {
+            label: "Product shots",
+            values: [
+              "Aceptable como boceto; poca iteración de encuadre y luz",
+              "Muy alto: sujeto, material y fondo cuando el prompt describe el plano",
+            ],
+          },
+          {
+            label: "Key art y stills de campaña",
+            values: [
+              "Un frame suelto; no hay moodboard ni serie coherente",
+              "Grids, variaciones y --sref para un look de campaña en serie",
+            ],
+          },
+          {
+            label: "Concept art",
+            values: [
+              "Rápido para una idea; calidad inferior a un motor de imagen",
+              "Exploración de estilo, cámara y paleta en minutos",
+            ],
+          },
+          {
+            label: "Export del still final",
+            values: [
+              "Frame extraído del flujo de vídeo; resolución limitada al modelo",
+              "Upscale y descarga en alta resolución desde el grid",
+            ],
+          },
+          {
+            label: "Iteración por entregable",
+            values: [
+              "Cada imagen gasta créditos compartidos con Gen-3 y motion",
+              "Remix, vary region y variaciones sin «impuesto» de vídeo",
+            ],
+          },
+          {
+            label: "Keyframe antes de animar",
+            values: [
+              "Nativo: el still vive en el mismo proyecto que el clip",
+              "Mejor still, pero hay que importar el PNG a Runway después",
+            ],
+          },
+          {
+            label: "Riesgo en un brief de stills",
+            values: [
+              "Presupuesto de vídeo quemado en imágenes que no se animarán",
+              "Look genérico si el prompt es vago; minutos en refinamiento",
+            ],
+          },
+          {
+            label: "No lo uses para",
+            values: [
+              "Un catálogo de 30 product shots sin pasar por motion",
+              "Un clip de 4–8 s (hay otra comparativa para eso)",
+            ],
+          },
+        ],
+        faq: [
+          {
+            q: "¿Runway sirve para product shots de e-commerce?",
+            a: "Para un boceto interno, sí. Para un catálogo de stills finales, no compite: la iteración de encuadre, material y fondo es más barata y rápida en Midjourney, y el export en alta resolución está pensado para imágenes, no para extraer un frame de un motor de vídeo.",
+          },
+          {
+            q: "¿Cuál uso para key art de un spot que luego se animará?",
+            a: "Genera el key art en Midjourney: controlas luz, encuadre y estilo. Importa el PNG a Runway solo cuando el still ya aguanta y quieres probar un gesto o una cámara. No generes el key art directamente en Runway salvo que sea un prototipo de un solo frame.",
+          },
+          {
+            q: "¿Puedo hacer concept art solo con Runway?",
+            a: "Puedes, pero pagarás créditos de vídeo por cada exploración. Midjourney está hecho para variar un concepto en grid: misma escena, distinta cámara, distinto stylize. Para concept art que no se anima, ese flujo gana.",
+          },
+          {
+            q: "¿En qué se diferencia de la comparativa general Midjourney vs Runway?",
+            a: "La comparativa general cubre still + clip y cuándo pasar de imagen a motion. Esta página solo compara cuando el entregable es una imagen fija: product shot, key art, still de campaña o concept art. Si tu plan incluye vídeo, empieza aquí para el still y luego mira la otra para el clip.",
+          },
+        ],
+      },
+      en: {
+        title: "Runway vs Midjourney for stills",
+        excerpt:
+          "Fixed images only: product shots, key art, campaign stills and concept art. No clips or motion.",
+        verdict:
+          "If the deliverable is a still — product shot, reference keyframe, marketing frame or concept art that will not be animated — Midjourney wins: grids, variations and high-res export are built for that. Runway can output a frame, but each attempt competes with video credits and look iteration is slower. Use Runway for stills only when you already have a motion project open and need a starting frame in the same session before animating; for a catalog of fixed images, do not mix engines.",
+        rows: [
+          {
+            label: "Product shots",
+            values: [
+              "Fine as a sketch; little iteration on framing and light",
+              "Very high: subject, material and background when the prompt describes the shot",
+            ],
+          },
+          {
+            label: "Key art and campaign stills",
+            values: [
+              "A loose frame; no moodboard or coherent series",
+              "Grids, variations and --sref for a campaign look in series",
+            ],
+          },
+          {
+            label: "Concept art",
+            values: [
+              "Fast for one idea; quality below a dedicated image engine",
+              "Style, camera and palette exploration in minutes",
+            ],
+          },
+          {
+            label: "Final still export",
+            values: [
+              "Frame pulled from the video flow; resolution capped by the model",
+              "Upscale and high-res download from the grid",
+            ],
+          },
+          {
+            label: "Iteration per deliverable",
+            values: [
+              "Each image spends credits shared with Gen-3 and motion",
+              "Remix, vary region and variations with no video tax",
+            ],
+          },
+          {
+            label: "Keyframe before animating",
+            values: [
+              "Native: the still lives in the same project as the clip",
+              "Better still, but you must import the PNG into Runway after",
+            ],
+          },
+          {
+            label: "Risk on a stills brief",
+            values: [
+              "Video budget burned on images that will never be animated",
+              "Generic look if the prompt is vague; minutes on refinement",
+            ],
+          },
+          {
+            label: "Do not use for",
+            values: [
+              "A 30-shot product catalog with no motion pass",
+              "A 4–8 s clip (there is another comparison for that)",
+            ],
+          },
+        ],
+        faq: [
+          {
+            q: "Is Runway good for e-commerce product shots?",
+            a: "For an internal sketch, yes. For a catalog of final stills, it does not compete: framing, material and background iteration is cheaper and faster in Midjourney, and high-res export is built for images, not for pulling a frame from a video engine.",
+          },
+          {
+            q: "Which one for key art on a spot that will be animated later?",
+            a: "Generate the key art in Midjourney: you control light, framing and style. Import the PNG into Runway only when the still already holds and you want to test a gesture or camera move. Do not generate key art directly in Runway unless it is a one-off single-frame prototype.",
+          },
+          {
+            q: "Can I do concept art with Runway only?",
+            a: "You can, but you will spend video credits on every exploration. Midjourney is built to vary a concept in a grid: same scene, different camera, different stylize. For concept art that will not be animated, that flow wins.",
+          },
+          {
+            q: "How is this different from the general Midjourney vs Runway comparison?",
+            a: "The general comparison covers still + clip and when to move from image to motion. This page only compares when the deliverable is a fixed image: product shot, key art, campaign still or concept art. If your plan includes video, start here for the still, then read the other for the clip.",
+          },
+        ],
+      },
+    },
+  },
+  {
     slug: "grok-vs-chatgpt",
     toolSlugs: ["grok", "chatgpt"],
     updatedAt: "2026-09-10",
