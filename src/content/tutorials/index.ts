@@ -7,6 +7,7 @@ import { claudeProjectsPrimerFlujo } from "./claude-projects-primer-flujo";
 import { cursorComoIde } from "./cursor-como-ide-con-ia";
 import { cursorRepoExistente } from "./cursor-repo-existente";
 import { hermesAgentPrimer } from "./hermes-agent-primer-flujo";
+import { hermesAgentSegundoFlujo } from "./hermes-agent-segundo-flujo";
 import { midjourneyPrompts } from "./midjourney-prompts-que-funcionan";
 import { perplexityInvestigacion } from "./perplexity-investigacion-con-fuentes";
 import { grokPrimerFlujo } from "./grok-primer-flujo";
@@ -27,6 +28,7 @@ export const catalogTutorials: Tutorial[] = [
   grokPrimerFlujo,
   grokBotPrimer,
   hermesAgentPrimer,
+  hermesAgentSegundoFlujo,
   chatgptPrimerosPasos,
   claudeEscrituraLarga,
   claudeProjectsPrimerFlujo,
