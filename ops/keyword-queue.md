@@ -25,7 +25,7 @@ Una fila = un PR. El bot coge la primera `queued`. Estados: `queued` → `in-pr`
 | 19 | Notion AI vs ChatGPT | comparativa | `notion-ai-vs-chatgpt` | published | Mergeado PR #45 |
 | 20 | Cómo elegir un modelo de texto | tutorial | `elegir-modelo-texto` | published | Mergeado PR #48 |
 | 21 | Runway vs Midjourney para stills | comparativa | `runway-vs-midjourney-stills` | published | Mergeado PR #50 |
-| 22 | Hermes Agent: segundo flujo | tutorial | `hermes-agent-segundo-flujo` | queued | Tras el primer tutorial |
+| 22 | Hermes Agent: segundo flujo | tutorial | `hermes-agent-segundo-flujo` | in-pr | Tras el primer tutorial |
 | 23 | Mejores herramientas de IA para código 2026 | comparativa | `mejores-herramientas-ia-codigo` | queued | Cursor + ChatGPT |
 | 24 | Perplexity Collections | tutorial | `perplexity-collections` | queued | |
 | 25 | ChatGPT GPTs: cuándo merecen la pena | tutorial | `chatgpt-gpts-cuando` | queued | |
