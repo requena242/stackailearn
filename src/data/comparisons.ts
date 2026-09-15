@@ -1723,6 +1723,179 @@ export const comparisons: Comparison[] = [
       },
     },
   },
+  {
+    slug: "mejores-herramientas-ia-codigo",
+    toolSlugs: ["cursor", "chatgpt", "claude"],
+    updatedAt: "2026-09-15",
+    copy: {
+      es: {
+        title: "Mejores herramientas de IA para código (2026)",
+        excerpt:
+          "Cursor, ChatGPT y Claude cubren tres pasos distintos del flujo de programación. Cuál encaja según dónde empieza tu tarea.",
+        verdict:
+          "Para aplicar cambios en el repo con diffs revisables, refactors y tests con el proyecto indexado, Cursor. Para diseñar enfoques, desatascar con snippets y un comodín que aguanta casi cualquier lenguaje, ChatGPT. Para revisar código con calma, leer varios archivos de golpe y mantener un proyecto con instrucciones persistentes, Claude. La combinación habitual: arquitectura y revisión en Claude o ChatGPT, ejecutar y pulir en Cursor.",
+        rows: [
+          {
+            label: "Mejor para",
+            values: [
+              "Implementar, refactorizar y escribir tests en el repo",
+              "Diseñar, desatascar y pegar snippets rápidos",
+              "Revisar diffs, leer contexto largo y diseñar con calma",
+            ],
+          },
+          {
+            label: "Contexto del código",
+            values: [
+              "El repo indexado y archivos abiertos",
+              "Lo que pegas en el chat o subes al hilo",
+              "Lo que pegas, subes o guardas en un Project",
+            ],
+          },
+          {
+            label: "Aplicar cambios",
+            values: [
+              "Diffs en el editor; tú apruebas o rechazas",
+              "Copiar y pegar a mano (o pegar en Cursor)",
+              "Copiar y pegar a mano (o pegar en Cursor)",
+            ],
+          },
+          {
+            label: "Revisión y tests",
+            values: [
+              "Agente propone cambios; tú validas en el diff",
+              "Bueno señalando enfoques; el repo no se actualiza solo",
+              "Excelente lectura crítica y riesgos en diffs pegados",
+            ],
+          },
+          {
+            label: "Proyectos largos",
+            values: [
+              "Reglas del repo, memories y agentes multiarchivo",
+              "Proyectos y GPTs; contexto manual por hilo",
+              "Claude Projects: voz, restricciones y docs de referencia",
+            ],
+          },
+          {
+            label: "Riesgo",
+            values: [
+              "Agentes demasiado ambiciosos en un solo prompt",
+              "Código fluido desconectado del repo real",
+              "Plan sólido que no aterriza sin copiar al IDE",
+            ],
+          },
+          {
+            label: "Plan de entrada",
+            values: [
+              "Suscripción de IDE (Pro / Team)",
+              "Gratis + Plus / Team",
+              "Gratis + Pro / Team",
+            ],
+          },
+        ],
+        faq: [
+          {
+            q: "¿Puedo programar solo con ChatGPT o Claude?",
+            a: "Sí, si copias y pegas y el repo es pequeño. Cuando el cambio toca muchos archivos o quieres diffs revisables, Cursor ahorra errores de sincronización y tiempo de copiar.",
+          },
+          {
+            q: "¿Cursor sustituye a ChatGPT y Claude?",
+            a: "No del todo. Cursor gana en el repo. ChatGPT y Claude siguen siendo mejores para pensar el enfoque, explicar un error sin abrir el IDE o revisar un diff pegado con calma. Muchos equipos diseñan en chat y ejecutan en Cursor.",
+          },
+          {
+            q: "¿ChatGPT o Claude para revisar código?",
+            a: "Claude suele ganar en revisiones largas y señalar riesgos con tono cuidado. ChatGPT es muy bueno para explicar enfoques y proponer alternativas rápidas. Ninguno sustituye ver el diff en tu editor: Cursor cierra el ciclo.",
+          },
+          {
+            q: "¿Cuál es más barato para empezar?",
+            a: "ChatGPT y Claude tienen tier gratuito usable para preguntas puntuales. Cursor cobra por el IDE y el uso de agentes. La pregunta útil no es el precio sino si el entregable es un diff en el repo o un plan en el chat.",
+          },
+        ],
+      },
+      en: {
+        title: "Best AI coding tools (2026)",
+        excerpt:
+          "Cursor, ChatGPT and Claude cover three different steps in the programming flow. Which one fits depends on where your task starts.",
+        verdict:
+          "For applying changes in the repo with reviewable diffs, refactors and tests with the project indexed, Cursor. For designing approaches, unblocking with snippets and a generalist that handles almost any language, ChatGPT. For calmly reviewing code, reading several files at once and keeping a project with persistent instructions, Claude. The usual combo: architecture and review in Claude or ChatGPT, execute and polish in Cursor.",
+        rows: [
+          {
+            label: "Best for",
+            values: [
+              "Implement, refactor and write tests in the repo",
+              "Design, unblock and paste quick snippets",
+              "Review diffs, read long context and design with care",
+            ],
+          },
+          {
+            label: "Code context",
+            values: [
+              "The indexed repo and open files",
+              "Whatever you paste into the chat or upload to the thread",
+              "Whatever you paste, upload or store in a Project",
+            ],
+          },
+          {
+            label: "Applying changes",
+            values: [
+              "Diffs in the editor; you approve or reject",
+              "Copy and paste by hand (or paste into Cursor)",
+              "Copy and paste by hand (or paste into Cursor)",
+            ],
+          },
+          {
+            label: "Review and tests",
+            values: [
+              "Agent proposes changes; you validate in the diff",
+              "Good at suggesting approaches; the repo does not update itself",
+              "Excellent critical reading and risks on pasted diffs",
+            ],
+          },
+          {
+            label: "Long projects",
+            values: [
+              "Repo rules, memories and multi-file agents",
+              "Projects and GPTs; manual context per thread",
+              "Claude Projects: voice, constraints and reference docs",
+            ],
+          },
+          {
+            label: "Risk",
+            values: [
+              "Over-ambitious agents in a single prompt",
+              "Fluent code disconnected from the real repo",
+              "Solid plan that does not land without copying into the IDE",
+            ],
+          },
+          {
+            label: "Entry plan",
+            values: [
+              "IDE subscription (Pro / Team)",
+              "Free + Plus / Team",
+              "Free + Pro / Team",
+            ],
+          },
+        ],
+        faq: [
+          {
+            q: "Can I code with only ChatGPT or Claude?",
+            a: "Yes, if you copy and paste and the repo is small. When the change touches many files or you want reviewable diffs, Cursor saves sync mistakes and copy-paste time.",
+          },
+          {
+            q: "Does Cursor replace ChatGPT and Claude?",
+            a: "Not entirely. Cursor wins in the repo. ChatGPT and Claude remain better for thinking through the approach, explaining an error without opening the IDE or calmly reviewing a pasted diff. Many teams design in chat and execute in Cursor.",
+          },
+          {
+            q: "ChatGPT or Claude for code review?",
+            a: "Claude often wins on long reviews and flagging risks with a careful tone. ChatGPT is very good at explaining approaches and suggesting quick alternatives. Neither replaces seeing the diff in your editor: Cursor closes the loop.",
+          },
+          {
+            q: "Which is cheapest to start?",
+            a: "ChatGPT and Claude have a usable free tier for one-off questions. Cursor charges for the IDE and agent usage. The useful question is not price but whether the deliverable is a diff in the repo or a plan in the chat.",
+          },
+        ],
+      },
+    },
+  },
 ];
 
 export function getComparison(slug: string) {
