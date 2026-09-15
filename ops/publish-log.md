@@ -26,3 +26,4 @@ Una línea por página mergeada.
 | 2026-09-12 | tutorial | elegir-modelo-texto | Cómo elegir un modelo de texto | https://stackailearn.com/es/tutorials/elegir-modelo-texto/ |
 | 2026-09-13 | comparativa | runway-vs-midjourney-stills | Runway vs Midjourney para stills | https://stackailearn.com/es/compare/runway-vs-midjourney-stills/ |
 | 2026-09-14 | tutorial | hermes-agent-segundo-flujo | Hermes Agent: segundo flujo | https://stackailearn.com/es/tutorials/hermes-agent-segundo-flujo/ |
+| 2026-09-15 | comparativa | mejores-herramientas-ia-codigo | Mejores herramientas de IA para código 2026 | https://stackailearn.com/es/compare/mejores-herramientas-ia-codigo/ |
