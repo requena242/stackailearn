@@ -28,7 +28,7 @@ Una fila = un PR. El bot coge la primera `queued`. Estados: `queued` → `in-pr`
 | 22 | Hermes Agent: segundo flujo | tutorial | `hermes-agent-segundo-flujo` | published | Mergeado PR #52 |
 | 23 | Mejores herramientas de IA para código 2026 | comparativa | `mejores-herramientas-ia-codigo` | published | Mergeado PR #54 |
 | 24 | Perplexity Collections | tutorial | `perplexity-collections` | published | Mergeado PR #56 |
-| 25 | ChatGPT GPTs: cuándo merecen la pena | tutorial | `chatgpt-gpts-cuando` | queued | |
+| 25 | ChatGPT GPTs: cuándo merecen la pena | tutorial | `chatgpt-gpts-cuando` | published | Mergeado PR #58 |
 | 26 | Midjourney: variaciones vs upscale | tutorial | `midjourney-variaciones-upscale` | queued | |
 | 27 | Audio IA: ElevenLabs vs Suno | comparativa | `elevenlabs-vs-suno` | queued | Tras #7 y #8 |
 | 28 | Alternativas a Midjourney | tutorial | `alternativas-midjourney` | queued | |
