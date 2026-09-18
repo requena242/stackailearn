@@ -1,4 +1,5 @@
 import type { Tutorial } from "@/types/content";
+import { midjourneyVariacionesUpscale } from "./midjourney-variaciones-upscale";
 import { chatgptGptsCuando } from "./chatgpt-gpts-cuando";
 import { elegirModeloTexto } from "./elegir-modelo-texto";
 import { chatgptAlternativas } from "./chatgpt-alternativas";
@@ -20,6 +21,7 @@ import { runwayPrimerClip } from "./runway-primer-clip";
 import { grokBotPrimer } from "./supporting";
 
 export const catalogTutorials: Tutorial[] = [
+  midjourneyVariacionesUpscale,
   chatgptGptsCuando,
   perplexityCollections,
   elegirModeloTexto,
