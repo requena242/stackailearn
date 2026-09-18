@@ -5,6 +5,10 @@ URL: https://stackailearn.com/es/tutorials/midjourney-variaciones-upscale/
 
 ## Standalone (ES)
 
-¿Variar o upscale en Midjourney? Vary Subtle/Strong para explorar el grid. Cuando la composición esté cerrada, Upscale Subtle una sola vez. Si dudas entre las 4 celdas, aún no es momento de U.
+Variar o upscale: no es lo mismo.
+
+En Midjourney, las variaciones exploran el plano. El upscale congela una composición.
+
+Flujo corto: genera → elige el grid → Vary Subtle/Strong hasta que el encuadre funcione → Upscale una vez.
 
 https://stackailearn.com/es/tutorials/midjourney-variaciones-upscale/
