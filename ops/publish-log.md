@@ -29,3 +29,4 @@ Una línea por página mergeada.
 | 2026-09-15 | comparativa | mejores-herramientas-ia-codigo | Mejores herramientas de IA para código 2026 | https://stackailearn.com/es/compare/mejores-herramientas-ia-codigo/ |
 | 2026-09-16 | tutorial | perplexity-collections | Perplexity Collections | https://stackailearn.com/es/tutorials/perplexity-collections/ |
 | 2026-09-17 | tutorial | chatgpt-gpts-cuando | ChatGPT GPTs: cuándo merecen la pena | https://stackailearn.com/es/tutorials/chatgpt-gpts-cuando/ |
+| 2026-09-18 | tutorial | midjourney-variaciones-upscale | Midjourney: variaciones vs upscale | https://stackailearn.com/es/tutorials/midjourney-variaciones-upscale/ |
