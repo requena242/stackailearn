@@ -30,3 +30,4 @@ Una línea por página mergeada.
 | 2026-09-16 | tutorial | perplexity-collections | Perplexity Collections | https://stackailearn.com/es/tutorials/perplexity-collections/ |
 | 2026-09-17 | tutorial | chatgpt-gpts-cuando | ChatGPT GPTs: cuándo merecen la pena | https://stackailearn.com/es/tutorials/chatgpt-gpts-cuando/ |
 | 2026-09-18 | tutorial | midjourney-variaciones-upscale | Midjourney: variaciones vs upscale | https://stackailearn.com/es/tutorials/midjourney-variaciones-upscale/ |
+| 2026-09-19 | comparativa | elevenlabs-vs-suno | Audio IA: ElevenLabs vs Suno | https://stackailearn.com/es/compare/elevenlabs-vs-suno/ |
