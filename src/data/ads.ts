@@ -32,6 +32,7 @@ export type AdSlotConfig = {
 };
 
 export const ads = {
+  // Off until AdSense policy review passes / Javier says to re-enable (low-value content rejection).
   enabled: false,
   /** Muestra el recuadro reservado aunque los anuncios estén apagados. */
   previewSlots: false,

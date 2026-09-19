@@ -1902,6 +1902,179 @@ export const comparisons: Comparison[] = [
       },
     },
   },
+  {
+    slug: "elevenlabs-vs-suno",
+    toolSlugs: ["elevenlabs", "suno"],
+    updatedAt: "2026-09-19",
+    copy: {
+      es: {
+        title: "ElevenLabs vs Suno",
+        excerpt:
+          "Voz hablada sobre un guion, o una canción con letra y producción. No compiten en la misma pista.",
+        verdict:
+          "ElevenLabs si el entregable es voz hablada: locución, doblaje o TTS sobre un guion ya cerrado. Suno si el entregable es música: tema de fondo, jingle o maqueta con letra y producción. No son sustitutos — muchos clips usan Runway para el vídeo, ElevenLabs para la voz y Suno para el fondo.",
+        rows: [
+          {
+            label: "Mejor para",
+            values: [
+              "Voiceover, narración y doblaje de un guion",
+              "Canciones, jingles y temas de fondo con letra",
+            ],
+          },
+          {
+            label: "Unidad de trabajo",
+            values: [
+              "Un guion de 30–90 s que se lee en voz alta",
+              "Un prompt musical (género + tempo + tema)",
+            ],
+          },
+          {
+            label: "Entrada típica",
+            values: [
+              "Texto con puntuación y pausas pensadas",
+              "Descripción de estilo; la letra la genera el modelo",
+            ],
+          },
+          {
+            label: "Calidad que importa",
+            values: [
+              "Entonación, claridad y acento en frases habladas",
+              "Producción, hook y coherencia de la letra cantada",
+            ],
+          },
+          {
+            label: "Riesgo",
+            values: [
+              "Créditos en iteraciones del mismo guion mal escrito",
+              "Letra genérica o incoherente; regenerar sin cambiar el prompt",
+            ],
+          },
+          {
+            label: "Cuándo cambiar",
+            values: [
+              "Cuando necesitas música, no locución — pasa a Suno",
+              "Cuando solo quieres leer un guion — vuelve a ElevenLabs",
+            ],
+          },
+          {
+            label: "Plan de entrada",
+            values: [
+              "Gratis con créditos + Starter / Creator / Pro",
+              "Gratis (~10 canciones/día) + Pro / Premier",
+            ],
+          },
+          {
+            label: "No lo uses para",
+            values: [
+              "Componer una canción con letra y banda",
+              "Locución o TTS de un párrafo explicativo",
+            ],
+          },
+        ],
+        faq: [
+          {
+            q: "¿Suno sustituye a ElevenLabs?",
+            a: "No. Suno genera canciones con música, letra y voz cantada. ElevenLabs convierte texto en voz hablada. Si el clip necesita un narrador, usa ElevenLabs; si necesita un tema de fondo, usa Suno.",
+          },
+          {
+            q: "¿Puedo usar los dos en el mismo clip?",
+            a: "Sí, y es lo habitual: Runway para el vídeo, ElevenLabs para la voz en off y Suno para la banda sonora. Sincroniza y mezcla en un editor de vídeo; ninguna de las dos herramientas hace montaje.",
+          },
+          {
+            q: "¿Cuál permite uso comercial?",
+            a: "Las dos en planes de pago, con reglas distintas. ElevenLabs detalla derechos por voz y plan; Suno exige Pro o Premier para publicar con fines comerciales. Lee los términos antes de monetizar.",
+          },
+          {
+            q: "¿Escribo el guion en ChatGPT y luego elijo herramienta?",
+            a: "Sí. Cierra el guion hablado en ChatGPT o Claude y pásalo a ElevenLabs. Para Suno, el prompt es musical (género, tempo, tema), no un guion de locución pegado tal cual.",
+          },
+        ],
+      },
+      en: {
+        title: "ElevenLabs vs Suno",
+        excerpt:
+          "Spoken voice from a script, or a song with lyrics and production. They do not compete on the same track.",
+        verdict:
+          "ElevenLabs when the deliverable is spoken voice: voiceover, dubbing or TTS from a locked script. Suno when the deliverable is music: background track, jingle or mockup with lyrics and production. They are not substitutes — many clips use Runway for video, ElevenLabs for voice and Suno for the bed.",
+        rows: [
+          {
+            label: "Best for",
+            values: [
+              "Voiceover, narration and dubbing from a script",
+              "Songs, jingles and background tracks with lyrics",
+            ],
+          },
+          {
+            label: "Unit of work",
+            values: [
+              "A 30–90 s script read aloud",
+              "A music prompt (genre + tempo + theme)",
+            ],
+          },
+          {
+            label: "Typical input",
+            values: [
+              "Text with punctuation and pauses thought through",
+              "Style description; the model generates the lyrics",
+            ],
+          },
+          {
+            label: "Quality that matters",
+            values: [
+              "Intonation, clarity and accent on spoken lines",
+              "Production, hook and coherence of sung lyrics",
+            ],
+          },
+          {
+            label: "Risk",
+            values: [
+              "Credits on iterations of the same poorly written script",
+              "Generic or incoherent lyrics; regenerating without changing the prompt",
+            ],
+          },
+          {
+            label: "When to switch",
+            values: [
+              "When you need music, not voiceover — move to Suno",
+              "When you only want to read a script aloud — go back to ElevenLabs",
+            ],
+          },
+          {
+            label: "Entry plan",
+            values: [
+              "Free with credits + Starter / Creator / Pro",
+              "Free (~10 songs/day) + Pro / Premier",
+            ],
+          },
+          {
+            label: "Don't use for",
+            values: [
+              "Composing a song with lyrics and a band",
+              "Voiceover or TTS of an explanatory paragraph",
+            ],
+          },
+        ],
+        faq: [
+          {
+            q: "Does Suno replace ElevenLabs?",
+            a: "No. Suno generates songs with music, lyrics and sung vocals. ElevenLabs turns text into spoken voice. If the clip needs a narrator, use ElevenLabs; if it needs a background track, use Suno.",
+          },
+          {
+            q: "Can I use both in the same clip?",
+            a: "Yes, and it is common: Runway for video, ElevenLabs for voiceover and Suno for the soundtrack. Sync and mix in a video editor; neither tool handles editing.",
+          },
+          {
+            q: "Which one allows commercial use?",
+            a: "Both on paid plans, with different rules. ElevenLabs spells out rights per voice and plan; Suno requires Pro or Premier to publish commercially. Read the terms before monetizing.",
+          },
+          {
+            q: "Do I write the script in ChatGPT and then pick a tool?",
+            a: "Yes. Lock the spoken script in ChatGPT or Claude and pass it to ElevenLabs. For Suno, the prompt is musical (genre, tempo, theme), not a voiceover script pasted as-is.",
+          },
+        ],
+      },
+    },
+  },
 ];
 
 export function getComparison(slug: string) {
