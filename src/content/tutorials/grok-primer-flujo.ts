@@ -10,7 +10,7 @@ export const grokPrimerFlujo: Tutorial = {
   level: "beginner",
   estimatedTime: 14,
   publishedAt: "2026-08-27",
-  lastUpdated: "2026-08-27",
+  lastUpdated: "2026-09-19",
   toolsUsed: ["grok", "chatgpt", "perplexity"],
   relatedTutorials: [
     "chatgpt-primeros-pasos",
@@ -62,7 +62,7 @@ export const grokPrimerFlujo: Tutorial = {
           whatYouShouldSee:
             "Una ventana de chat en grok.com. Sin panel de máquina remota. Sin lista de teammates.",
           warning:
-            "Grok Bot no se «activa» por chatear aquí. Son productos distintos y planes distintos.",
+            "Grok Bot no se «activa» por chatear aquí. Son productos distintos y planes distintos. Si la URL no es grok.com, para: este tutorial no aplica.",
           imageDescription:
             "Barra de direcciones con grok.com y el composer del chat, sin UI de Agent Computer.",
         },
@@ -73,6 +73,8 @@ export const grokPrimerFlujo: Tutorial = {
           whatYouShouldSee:
             "2–4 líneas en el composer, con año y una exclusión, antes de enviar.",
           tip: "Si no puedes ponerle año, aún no es una pregunta de actualidad: es charla. Para charla, ChatGPT o Claude suelen ir mejor.",
+          warning:
+            "Si tras dos intentos la pregunta sigue sin fecha ni exclusión, para: no es un flujo de actualidad. Cambia de herramienta o redefine el trabajo.",
           imageDescription:
             "Composer de grok.com con la pregunta datada y la exclusión visibles.",
         },
@@ -84,7 +86,7 @@ export const grokPrimerFlujo: Tutorial = {
             "Una respuesta con tres etiquetas claras. Al menos un [FALTA] o una fecha si el tema es reciente.",
           tip: "Si todo llega como un solo párrafo seguro, el modelo no cortó. Repite la instrucción de etiquetas en el siguiente mensaje.",
           warning:
-            "Un tono directo no convierte una opinión en hecho. El corte lo pides tú.",
+            "Un tono directo no convierte una opinión en hecho. El corte lo pides tú. Si no hay etiquetas tras el segundo mensaje, para y reformula: el modelo no está siguiendo el formato.",
           imageDescription:
             "Respuesta de Grok con bloques HECHO / ESTIMACIÓN / OPINIÓN visibles.",
         },
@@ -97,6 +99,8 @@ export const grokPrimerFlujo: Tutorial = {
           tip: "Grok gana en tono seco. Perplexity gana cuando tienes que abrir dos URLs. No los uses para el mismo entregable.",
           proTip:
             "Si el tema es un titular de hoy, prioriza la fuente primaria (comunicado, paper, filing) sobre el recuento de posts.",
+          warning:
+            "Regla de decisión: si ningún hecho sobrevive al contraste, no publiques. Grok te dio un ángulo, no un veredicto verificado.",
           imageDescription:
             "Dos ventanas: grok.com y una fuente abierta o Perplexity con citas.",
         },
@@ -153,9 +157,17 @@ export const grokPrimerFlujo: Tutorial = {
           title: "Un hilo para diez temas",
           body: "El tono y los hechos se contaminan. Un chat, una pregunta.",
         },
+        {
+          title: "Seguir chateando cuando ya tienes el ángulo",
+          body: "Si el corte hecho/opinión ya está y contrastaste, para. Más mensajes añaden prosa, no hechos. El siguiente paso es redactar en otro sitio.",
+        },
+        {
+          title: "Confundir tono directo con verificación",
+          body: "Grok suena seguro. Eso no sustituye abrir una fuente. Si no abriste ninguna, no tienes investigación —tienes una segunda opinión.",
+        },
       ],
       conclusion:
-        "Grok en grok.com es un chat directo para acotar algo reciente. No es un redactor senior ni un teammate con máquina. Si en 14 minutos sales con un corte hecho/opinión y un ángulo contrastado, ya lo usaste bien. El entregable se escribe en otro sitio.",
+        "Grok en grok.com es un chat directo para acotar algo reciente. No es un redactor senior ni un teammate con máquina. Si en 14 minutos sales con un corte hecho/opinión y un ángulo contrastado, ya lo usaste bien. Si no contrastaste ni abriste una fuente, para antes de publicar. El entregable se escribe en otro sitio.",
       nextSteps: [
         "Si te faltan citas que abrir, sigue el tutorial de Perplexity.",
         "Si el siguiente paso es redactar un email o un brief, usa el método de ChatGPT.",
@@ -195,7 +207,7 @@ export const grokPrimerFlujo: Tutorial = {
           whatYouShouldSee:
             "A chat window on grok.com. No remote-machine panel. No teammate list.",
           warning:
-            "Grok Bot does not «turn on» because you chatted here. Different products, different plans.",
+            "Grok Bot does not «turn on» because you chatted here. Different products, different plans. If the URL is not grok.com, stop: this tutorial does not apply.",
           imageDescription:
             "Address bar showing grok.com and the chat composer, no Agent Computer UI.",
         },
@@ -206,6 +218,8 @@ export const grokPrimerFlujo: Tutorial = {
           whatYouShouldSee:
             "2–4 lines in the composer, with a year and an exclusion, before you send.",
           tip: "If you cannot put a year on it, it is not a current-events question: it is chat. For chat, ChatGPT or Claude are usually better.",
+          warning:
+            "If after two tries the question still has no date or exclusion, stop: this is not a current-events flow. Switch tools or redefine the job.",
           imageDescription:
             "grok.com composer with the dated question and the exclusion visible.",
         },
@@ -217,7 +231,7 @@ export const grokPrimerFlujo: Tutorial = {
             "An answer with three clear labels. At least one [MISSING] or a date if the topic is recent.",
           tip: "If everything arrives as one confident paragraph, it did not split. Repeat the label instruction in the next message.",
           warning:
-            "A direct tone does not turn an opinion into a fact. You ask for the split.",
+            "A direct tone does not turn an opinion into a fact. You ask for the split. If there are no labels after the second message, stop and reformulate: the model is not following the format.",
           imageDescription:
             "Grok answer with FACT / ESTIMATE / OPINION blocks visible.",
         },
@@ -230,6 +244,8 @@ export const grokPrimerFlujo: Tutorial = {
           tip: "Grok wins on dry tone. Perplexity wins when you must open two URLs. Do not use them for the same deliverable.",
           proTip:
             "If the topic is today’s headline, prefer the primary source (release, paper, filing) over a count of posts.",
+          warning:
+            "Decision rule: if no fact survives the contrast, do not publish. Grok gave you an angle, not a verified verdict.",
           imageDescription:
             "Two windows: grok.com and an opened source or Perplexity with citations.",
         },
@@ -286,9 +302,17 @@ export const grokPrimerFlujo: Tutorial = {
           title: "One thread for ten topics",
           body: "Tone and facts bleed. One chat, one question.",
         },
+        {
+          title: "Keeping the chat going when you already have the angle",
+          body: "If the fact/opinion split is done and you contrasted, stop. More messages add prose, not facts. The next step is drafting elsewhere.",
+        },
+        {
+          title: "Confusing direct tone with verification",
+          body: "Grok sounds confident. That does not replace opening a source. If you opened none, you do not have research — you have a second opinion.",
+        },
       ],
       conclusion:
-        "Grok on grok.com is a direct chat for bounding something recent. It is not a senior writer and not a teammate with a machine. If in 14 minutes you leave with a fact/opinion split and a contrasted angle, you used it well. The deliverable is written elsewhere.",
+        "Grok on grok.com is a direct chat for bounding something recent. It is not a senior writer and not a teammate with a machine. If in 14 minutes you leave with a fact/opinion split and a contrasted angle, you used it well. If you did not contrast or open a source, stop before you publish. The deliverable is written elsewhere.",
       nextSteps: [
         "If you need citations to open, follow the Perplexity tutorial.",
         "If the next step is an email or a brief, use the ChatGPT method.",

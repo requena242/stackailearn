@@ -17,7 +17,7 @@ export const cursor: Tool = {
   image: `/media/tools/${slug}/hero.jpg`,
   rating: 4.8,
   ratingCount: 1120,
-  lastUpdated: "2026-08-26",
+  lastUpdated: "2026-09-19",
   difficulty: "intermediate",
   platforms: ["windows", "macos", "linux"],
   useTypes: ["code", "automate"],
@@ -53,14 +53,16 @@ export const cursor: Tool = {
       pricingDetails:
         "Hay un plan Hobby limitado. Pro, Pro+ y planes de equipo desbloquean más uso de agentes y modelos. Ultra y Teams entran si el volumen es alto. El editor en sí se descarga en cursor.com; el coste está en el uso de modelos.",
       bestFor: [
-        "Quien ya programa y quiere acelerar cambios acotados",
-        "Equipos que revisan PRs y pueden exigir tests",
-        "Explorar un repo ajeno con preguntas ancladas a archivos",
+        "Un bug reproducible o un test rojo en un repo que ya conoces",
+        "Un refactor local de 1–3 archivos con tests que puedes ejecutar",
+        "Entrar a un repo ajeno: preguntas Ask ancladas a archivos antes de tocar código",
+        "Equipos con revisión de PR: el diff es el entregable, no el párrafo del chat",
       ],
       notFor: [
-        "Quien no sabe leer un diff (el agente no sustituye eso)",
-        "Cambios de producción sin sucursal, test ni rollback",
-        "Tareas que viven en el navegador o en un CRM: eso es otro tipo de agente",
+        "Quien no puede leer un diff ni decir «esto está mal» al verlo",
+        "«Arregla la app» sin rama, sin test y sin forma de revertir",
+        "Trabajo que termina en Gmail, un CRM o un PDF: ahí va Grok Bot o Hermes, no el IDE",
+        "Reescrituras de arquitectura completas en un solo prompt",
       ],
       pros: [
         "El contexto es el repo, no un chat vacío",
@@ -83,22 +85,33 @@ export const cursor: Tool = {
       ],
       faq: [
         {
+          q: "¿Qué es Cursor?",
+          a: "Un IDE basado en VS Code (cursor.com) con chat y Agent que leen tu repositorio y proponen cambios como diffs revisables. No es un chat genérico: el valor está en el diff que apruebas o rechazas, no en el párrafo del panel lateral.",
+        },
+        {
           q: "¿Sustituye a saber programar?",
           a: "No. Acelera a quien ya puede decir «esto está mal» al ver el diff. Si no puedes revisar, estás copiando código a ciegas.",
+        },
+        {
+          q: "¿Cursor o Grok Bot?",
+          a: "Cursor es el editor para código en tu máquina. Grok Bot es un teammate con Agent Computer para trabajo que termina en apps web (CRM, panel, PDF). Si el entregable es un diff en el repo, quédate en Cursor.",
         },
         {
           q: "¿Cursor o Hermes Agent?",
           a: "Cursor es el IDE del día a día. Hermes es un agente CLI que vive en tu máquina y en un gateway. Empieza por Cursor; Hermes cuando quieras el mismo oficio fuera del editor.",
         },
+        {
+          q: "¿Cuándo parar y no aprobar el diff?",
+          a: "Para si toca más de ~40 líneas sin pedirlo, si cambia archivos fuera del alcance, si el test pasa pero debilitó aserciones, o si no entiendes una línea. Revert y reduce el alcance.",
+        },
       ],
       quickTutorial: {
-        title: "Un cambio acotado, no un rewrite",
+        title: "Un cambio acotado en 4 pasos",
         steps: [
-          "Abre el repo en una rama nueva. Reproduce el bug o el test que falla.",
-          "En Agent, escribe el resultado, los archivos permitidos y lo que no debe tocar.",
-          "Pide un plan de 5 líneas antes de que edite.",
-          "Revisa el diff como un PR: nombres, tests, efectos laterales.",
-          "Si el test pasa de forma sospechosa, mira si lo debilitó. Si no te convence, revert.",
+          "Rama nueva + bug o test rojo reproducible. Sin eso, no abras Agent.",
+          "Agent: resultado en una frase, archivos permitidos (máx. 3), y «no toques X». Pide plan de 5 líneas antes de editar.",
+          "Revisa el diff como un PR: nombres, imports, tests, efectos laterales. Rechaza si supera el alcance.",
+          "Ejecuta tests. Si pasan de forma sospechosa (aserciones vacías, mocks excesivos), revert y acota.",
         ],
       },
     },
@@ -111,14 +124,16 @@ export const cursor: Tool = {
       pricingDetails:
         "A limited Hobby plan exists. Pro, Pro+ and team plans unlock more agent usage and models. Ultra and Teams matter at high volume. The editor itself is a download from cursor.com; you pay for model use.",
       bestFor: [
-        "People who already ship code and want faster scoped changes",
-        "Teams that review PRs and can require tests",
-        "Exploring someone else’s repo with questions pinned to files",
+        "A reproducible bug or a failing test in a repo you already know",
+        "A local refactor across 1–3 files with tests you can run",
+        "Landing in someone else’s repo: Ask questions pinned to files before you edit",
+        "Teams with PR review: the diff is the deliverable, not the chat paragraph",
       ],
       notFor: [
-        "Anyone who cannot read a diff (the agent does not replace that)",
-        "Production changes with no branch, test or rollback",
-        "Work that lives in a browser or a CRM — that is a different kind of agent",
+        "Anyone who cannot read a diff or say «this is wrong» when they see it",
+        "«Fix the app» with no branch, no test and no way to revert",
+        "Work that ends in Gmail, a CRM or a PDF — that is Grok Bot or Hermes, not the IDE",
+        "Full architecture rewrites in a single prompt",
       ],
       pros: [
         "Context is the repo, not an empty chat",
@@ -141,22 +156,33 @@ export const cursor: Tool = {
       ],
       faq: [
         {
+          q: "What is Cursor?",
+          a: "A VS Code–based IDE (cursor.com) with chat and Agent that read your repository and propose edits as reviewable diffs. It is not a generic chat: the value is the diff you approve or reject, not the sidebar paragraph.",
+        },
+        {
           q: "Does it replace knowing how to code?",
           a: "No. It speeds up people who can already say «this is wrong» when they see a diff. If you cannot review, you are pasting code blind.",
+        },
+        {
+          q: "Cursor or Grok Bot?",
+          a: "Cursor is the editor for code on your machine. Grok Bot is a teammate with Agent Computer for work that finishes in web apps (CRM, admin, PDF). If the deliverable is a diff in the repo, stay in Cursor.",
         },
         {
           q: "Cursor or Hermes Agent?",
           a: "Cursor is the daily IDE. Hermes is a CLI agent on your machine and, later, a gateway. Start with Cursor; add Hermes when you want the same job outside the editor.",
         },
+        {
+          q: "When should I stop and not approve the diff?",
+          a: "Stop if it touches more than ~40 lines unasked, edits files outside scope, passes tests by weakening assertions, or you do not understand a line. Revert and shrink scope.",
+        },
       ],
       quickTutorial: {
-        title: "A scoped change, not a rewrite",
+        title: "A scoped change in 4 steps",
         steps: [
-          "Open the repo on a new branch. Reproduce the bug or the failing test.",
-          "In Agent, write the outcome, allowed files and what it must not touch.",
-          "Ask for a 5-line plan before it edits.",
-          "Review the diff like a PR: names, tests, side effects.",
-          "If the test passes in a suspicious way, check whether it weakened it. If you are not convinced, revert.",
+          "New branch + reproducible bug or failing test. Without that, do not open Agent.",
+          "Agent: one-sentence outcome, allowed files (max 3), and «do not touch X». Ask for a 5-line plan before edits.",
+          "Review the diff like a PR: names, imports, tests, side effects. Reject if it exceeds scope.",
+          "Run tests. If they pass suspiciously (empty assertions, heavy mocks), revert and narrow scope.",
         ],
       },
     },
