@@ -297,7 +297,7 @@ export const comparisons: Comparison[] = [
   {
     slug: "chatgpt-vs-perplexity",
     toolSlugs: ["chatgpt", "perplexity"],
-    updatedAt: "2026-08-26",
+    updatedAt: "2026-09-19",
     copy: {
       es: {
         title: "ChatGPT vs Perplexity",
@@ -309,38 +309,41 @@ export const comparisons: Comparison[] = [
           {
             label: "Mejor para",
             values: [
-              "Redactar, idear y un flujo que se repite",
-              "Pregunta acotada con citas que puedes abrir",
+              "Email de 150 palabras, tres variantes de titular, brief interno que se repite cada martes",
+              "«¿Qué dice la documentación oficial de X sobre Y?» con 3 enlaces que abres",
             ],
           },
           {
             label: "Fuentes",
             values: [
-              "Búsqueda opcional; hay que pedir que marque lo incierto",
-              "Citas en la respuesta; el trabajo es abrir dos",
+              "Búsqueda opcional; pide «marca [?] lo que no esté en mis notas»",
+              "Citas en la respuesta; abre al menos dos y mira fecha y autor",
             ],
           },
           {
             label: "Prosa",
-            values: ["Muy alta si el briefing es bueno", "Correcta; no es un editor"],
+            values: [
+              "Alta si el brief tiene formato, audiencia y límite de palabras",
+              "Correcta para resumir; no sustituye a un editor de tono largo",
+            ],
           },
           {
             label: "Riesgo",
             values: [
-              "Texto fluido que inventa con naturalidad",
-              "Resumen que parece fuente primaria y no lo es",
+              "Cifra inventada que suena precisa («un 23 % de…»)",
+              "Resumen que citas como si fuera el paper original",
             ],
           },
           {
             label: "Cuándo cambiar",
             values: [
-              "Cuando ya tienes hechos y falta el entregable",
-              "Cuando aún no sabes qué está respaldado",
+              "Cuando ya tienes 3 hechos verificados y falta el párrafo final",
+              "Cuando aún no sabes si la cifra tiene fuente primaria",
             ],
           },
           {
             label: "Plan de entrada",
-            values: ["Gratis + Plus / Team", "Gratis + Pro"],
+            values: ["Gratis + Plus / Team (chatgpt.com)", "Gratis + Pro (perplexity.ai)"],
           },
         ],
         faq: [
@@ -368,38 +371,41 @@ export const comparisons: Comparison[] = [
           {
             label: "Best for",
             values: [
-              "Drafting, ideation and a flow you repeat",
-              "A bounded question with citations you can open",
+              "A 150-word email, three headline variants, an internal brief you repeat every Tuesday",
+              "«What does X's official documentation say about Y?» with 3 links you open",
             ],
           },
           {
             label: "Sources",
             values: [
-              "Optional search; you must ask it to flag uncertainty",
-              "Citations in the answer; the work is opening two of them",
+              "Optional search; ask it to «mark [?] anything not in my notes»",
+              "Citations in the answer; open at least two and check date and author",
             ],
           },
           {
             label: "Prose",
-            values: ["Very high if the brief is good", "Fine; it is not an editor"],
+            values: [
+              "High if the brief has format, audience and a word limit",
+              "Fine for summarising; it does not replace a long-form tone editor",
+            ],
           },
           {
             label: "Risk",
             values: [
-              "Fluent text that invents smoothly",
-              "A summary that looks like a primary source and is not",
+              "An invented figure that sounds precise («23 % of…»)",
+              "A summary you cite as if it were the original paper",
             ],
           },
           {
             label: "When to switch",
             values: [
-              "When you already have facts and need the deliverable",
-              "When you still do not know what is backed",
+              "When you already have 3 verified facts and need the final paragraph",
+              "When you still do not know whether the figure has a primary source",
             ],
           },
           {
             label: "Entry plan",
-            values: ["Free + Plus / Team", "Free + Pro"],
+            values: ["Free + Plus / Team (chatgpt.com)", "Free + Pro (perplexity.ai)"],
           },
         ],
         faq: [

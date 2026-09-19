@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { Container } from "@/components/ui/Container";
 import { buildMetadata } from "@/lib/seo";
@@ -28,11 +29,55 @@ export default async function AboutPage({ params }: Props) {
           {t("title")}
         </h1>
         <p className="mt-6 text-xl leading-relaxed text-muted">{t("lead")}</p>
-        <div className="mt-8 space-y-5 text-base leading-relaxed text-ink/90">
+
+        <h2 className="mt-14 text-2xl font-semibold text-ink">{t("whoTitle")}</h2>
+        <div className="mt-6 space-y-5 text-base leading-relaxed text-ink/90">
+          <p>{t("whoP1")}</p>
+          <p>{t("whoP2")}</p>
+        </div>
+
+        <h2 className="mt-14 text-2xl font-semibold text-ink">{t("publishTitle")}</h2>
+        <div className="mt-6 space-y-5 text-base leading-relaxed text-ink/90">
           <p>{t("p1")}</p>
           <p>{t("p2")}</p>
           <p>{t("p3")}</p>
         </div>
+
+        <h2 className="mt-14 text-2xl font-semibold text-ink">{t("editorialTitle")}</h2>
+        <div className="mt-6 space-y-5 text-base leading-relaxed text-ink/90">
+          <p>{t("editorialP1")}</p>
+          <p>{t("editorialP2")}</p>
+          <p>{t("editorialP3")}</p>
+        </div>
+
+        <h2 className="mt-14 text-2xl font-semibold text-ink">{t("compareTitle")}</h2>
+        <div className="mt-6 space-y-5 text-base leading-relaxed text-ink/90">
+          <p>{t("compareP1")}</p>
+          <p>{t("compareP2")}</p>
+        </div>
+
+        <h2 className="mt-14 text-2xl font-semibold text-ink">{t("affiliateTitle")}</h2>
+        <p className="mt-6 text-base leading-relaxed text-ink/90">
+          {t("affiliateP1")}{" "}
+          <Link href="/disclosure" className="text-accent hover:underline">
+            {t("affiliateLink")}
+          </Link>
+          .
+        </p>
+
+        <h2 className="mt-14 text-2xl font-semibold text-ink">{t("workflowsTitle")}</h2>
+        <p className="mt-6 text-base leading-relaxed text-ink/90">{t("workflowsP1")}</p>
+
+        <h2 className="mt-14 text-2xl font-semibold text-ink">{t("contactTitle")}</h2>
+        <p className="mt-6 text-base leading-relaxed text-ink/90">
+          {t("contactLead")}{" "}
+          <a
+            href="mailto:hello@stackailearn.com"
+            className="text-accent hover:underline"
+          >
+            hello@stackailearn.com
+          </a>
+        </p>
 
         <h2 className="mt-14 text-2xl font-semibold text-ink">{t("valuesTitle")}</h2>
         <div className="mt-6 grid gap-4 sm:grid-cols-3">
