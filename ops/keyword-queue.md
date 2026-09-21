@@ -32,5 +32,5 @@ Una fila = un PR. El bot coge la primera `queued`. Estados: `queued` → `in-pr`
 | 26 | Midjourney: variaciones vs upscale | tutorial | `midjourney-variaciones-upscale` | published | Mergeado PR #60 |
 | 27 | Audio IA: ElevenLabs vs Suno | comparativa | `elevenlabs-vs-suno` | published | Mergeado PR #63 |
 | 28 | Alternativas a Midjourney | tutorial | `alternativas-midjourney` | published | Mergeado PR #68 |
-| 29 | Cómo briefar a Claude para un documento largo | tutorial | `claude-briefing-documento` | queued | |
+| 29 | Cómo briefar a Claude para un documento largo | tutorial | `claude-briefing-documento` | in-pr | |
 | 30 | Grok Bot: segundo teammate | tutorial | `grok-bot-segundo-teammate` | queued | |
