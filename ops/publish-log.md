@@ -33,3 +33,4 @@ Una línea por página mergeada.
 | 2026-09-19 | comparativa | elevenlabs-vs-suno | Audio IA: ElevenLabs vs Suno | https://stackailearn.com/es/compare/elevenlabs-vs-suno/ |
 | 2026-09-20 | tutorial | alternativas-midjourney | Alternativas a Midjourney | https://stackailearn.com/es/tutorials/alternativas-midjourney/ |
 | 2026-09-21 | tutorial | claude-briefing-documento | Cómo briefar a Claude para un documento largo | https://stackailearn.com/es/tutorials/claude-briefing-documento/ |
+| 2026-09-22 | tutorial | grok-bot-segundo-teammate | Segundo teammate en Grok Bot | https://stackailearn.com/es/tutorials/grok-bot-segundo-teammate/ |
