@@ -24,7 +24,11 @@ export const grokBot: Tool = {
   tags: ["teammate", "ordenador-nube", "rutinas", "xai", "cursor"],
   alternatives: ["hermes-agent", "cursor", "chatgpt"],
   relatedTools: ["hermes-agent", "cursor", "grok"],
-  relatedTutorials: ["grok-bot-primer-teammate", "hermes-agent-primer-flujo"],
+  relatedTutorials: [
+    "grok-bot-primer-teammate",
+    "grok-bot-segundo-teammate",
+    "hermes-agent-primer-flujo",
+  ],
   screenshots: [
     toolImage(slug, "hero", "hero", {
       es: {

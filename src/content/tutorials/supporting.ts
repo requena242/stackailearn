@@ -176,7 +176,11 @@ export const grokBotPrimer: Tutorial = {
   publishedAt: "2026-08-25",
   lastUpdated: "2026-09-19",
   toolsUsed: ["grok-bot", "hermes-agent", "cursor"],
-  relatedTutorials: ["hermes-agent-primer-flujo", "cursor-como-ide-con-ia"],
+  relatedTutorials: [
+    "grok-bot-segundo-teammate",
+    "hermes-agent-primer-flujo",
+    "cursor-como-ide-con-ia",
+  ],
   tags: ["grok-bot", "teammate", "xai"],
   hero: tutorialHero("grok-bot-primer-teammate", {
     es: {

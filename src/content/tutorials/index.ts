@@ -1,4 +1,5 @@
 import type { Tutorial } from "@/types/content";
+import { grokBotSegundoTeammate } from "./grok-bot-segundo-teammate";
 import { claudeBriefingDocumento } from "./claude-briefing-documento";
 import { alternativasMidjourney } from "./alternativas-midjourney";
 import { midjourneyVariacionesUpscale } from "./midjourney-variaciones-upscale";
@@ -23,6 +24,7 @@ import { runwayPrimerClip } from "./runway-primer-clip";
 import { grokBotPrimer } from "./supporting";
 
 export const catalogTutorials: Tutorial[] = [
+  grokBotSegundoTeammate,
   claudeBriefingDocumento,
   alternativasMidjourney,
   midjourneyVariacionesUpscale,
