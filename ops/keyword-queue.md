@@ -34,3 +34,11 @@ Una fila = un PR. El bot coge la primera `queued`. Estados: `queued` → `in-pr`
 | 28 | Alternativas a Midjourney | tutorial | `alternativas-midjourney` | published | Mergeado PR #68 |
 | 29 | Cómo briefar a Claude para un documento largo | tutorial | `claude-briefing-documento` | published | Mergeado PR #70 |
 | 30 | Grok Bot: segundo teammate | tutorial | `grok-bot-segundo-teammate` | published | Mergeado PR #72 |
+| 31 | ChatGPT Projects: primer flujo | tutorial | `chatgpt-projects-primer-flujo` | in-pr | Content PR de hoy |
+| 32 | Grok Bot: primera rutina programada | tutorial | `grok-bot-primera-rutina` | queued | Tras segundo teammate |
+| 33 | Cursor Cloud Agent: primer PR | tutorial | `cursor-cloud-agent-primer-pr` | queued | |
+| 34 | Claude vs ChatGPT para escritura | comparativa | `claude-vs-chatgpt-escritura` | queued | toolSlugs claude, chatgpt |
+| 35 | Midjourney: estilo con --sref | tutorial | `midjourney-sref-estilo` | queued | |
+| 36 | Notion AI en bases de datos | tutorial | `notion-ai-bases-datos` | queued | |
+| 37 | Mejores herramientas de IA para vídeo 2026 | comparativa | `mejores-herramientas-ia-video` | queued | runway + midjourney (+ otro slug existente si encaja) |
+| 38 | Suno: variaciones y stems | tutorial | `suno-variaciones-stems` | queued | |
