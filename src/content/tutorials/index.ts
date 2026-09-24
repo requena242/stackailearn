@@ -1,5 +1,6 @@
 import type { Tutorial } from "@/types/content";
 import { chatgptProjectsPrimerFlujo } from "./chatgpt-projects-primer-flujo";
+import { grokBotPrimeraRutina } from "./grok-bot-primera-rutina";
 import { grokBotSegundoTeammate } from "./grok-bot-segundo-teammate";
 import { claudeBriefingDocumento } from "./claude-briefing-documento";
 import { alternativasMidjourney } from "./alternativas-midjourney";
@@ -25,6 +26,7 @@ import { runwayPrimerClip } from "./runway-primer-clip";
 import { grokBotPrimer } from "./supporting";
 
 export const catalogTutorials: Tutorial[] = [
+  grokBotPrimeraRutina,
   chatgptProjectsPrimerFlujo,
   grokBotSegundoTeammate,
   claudeBriefingDocumento,
