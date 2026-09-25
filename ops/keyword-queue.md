@@ -36,7 +36,7 @@ Una fila = un PR. El bot coge la primera `queued`. Estados: `queued` → `in-pr`
 | 30 | Grok Bot: segundo teammate | tutorial | `grok-bot-segundo-teammate` | published | Mergeado PR #72 |
 | 31 | ChatGPT Projects: primer flujo | tutorial | `chatgpt-projects-primer-flujo` | published | Mergeado PR #74 |
 | 32 | Grok Bot: primera rutina programada | tutorial | `grok-bot-primera-rutina` | published | Mergeado PR #76 |
-| 33 | Cursor Cloud Agent: primer PR | tutorial | `cursor-cloud-agent-primer-pr` | queued | |
+| 33 | Cursor Cloud Agent: primer PR | tutorial | `cursor-cloud-agent-primer-pr` | in-pr | |
 | 34 | Claude vs ChatGPT para escritura | comparativa | `claude-vs-chatgpt-escritura` | queued | toolSlugs claude, chatgpt |
 | 35 | Midjourney: estilo con --sref | tutorial | `midjourney-sref-estilo` | queued | |
 | 36 | Notion AI en bases de datos | tutorial | `notion-ai-bases-datos` | queued | |

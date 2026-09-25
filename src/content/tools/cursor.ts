@@ -25,6 +25,7 @@ export const cursor: Tool = {
   alternatives: ["chatgpt", "hermes-agent", "claude"],
   relatedTools: ["hermes-agent", "grok-bot", "chatgpt"],
   relatedTutorials: [
+    "cursor-cloud-agent-primer-pr",
     "cursor-repo-existente",
     "cursor-como-ide-con-ia",
     "hermes-agent-primer-flujo",
