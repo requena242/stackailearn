@@ -5,6 +5,6 @@ URL: https://stackailearn.com/es/compare/claude-vs-chatgpt-escritura/
 
 ## Standalone (ES)
 
-¿Documento largo o borrador rápido? Claude suele ir mejor cuando editas bloques extensos, mantienes tono y reescribes sin perder el hilo. ChatGPT encaja para primeras versiones en minutos, GPTs con instrucciones fijas o dictado por voz. Muchas veces: esbozo en uno y pulido en el otro.
+¿Doc largo o borrador rápido? Claude suele ganar en edición larga y tono. ChatGPT, en primeras versiones, GPTs y voz.
 
 https://stackailearn.com/es/compare/claude-vs-chatgpt-escritura/
