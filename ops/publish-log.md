@@ -37,3 +37,4 @@ Una línea por página mergeada.
 | 2026-09-23 | tutorial | chatgpt-projects-primer-flujo | ChatGPT Projects: primer flujo | https://stackailearn.com/es/tutorials/chatgpt-projects-primer-flujo/ |
 | 2026-09-24 | tutorial | grok-bot-primera-rutina | Grok Bot: primera rutina programada | https://stackailearn.com/es/tutorials/grok-bot-primera-rutina/ |
 | 2026-09-25 | tutorial | cursor-cloud-agent-primer-pr | Cursor Cloud Agent: tu primer PR desde la nube (2026) | https://stackailearn.com/es/tutorials/cursor-cloud-agent-primer-pr/ |
+| 2026-09-26 | comparativa | claude-vs-chatgpt-escritura | Claude vs ChatGPT para escritura | https://stackailearn.com/es/compare/claude-vs-chatgpt-escritura/ |
