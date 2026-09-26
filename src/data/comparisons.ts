@@ -1563,6 +1563,195 @@ export const comparisons: Comparison[] = [
     },
   },
   {
+    slug: "claude-vs-chatgpt-escritura",
+    toolSlugs: ["claude", "chatgpt"],
+    updatedAt: "2026-09-26",
+    copy: {
+      es: {
+        title: "Claude vs ChatGPT para escritura",
+        excerpt:
+          "Dos chats fuertes en redacción: uno prioriza documentos largos, estructura y edición cuidadosa; el otro velocidad de borrador, GPTs personalizados y voz. Solo escritura — no código.",
+        verdict:
+          "Elige Claude cuando el entregable es un ensayo, un informe largo o un doc que exige secciones claras, tono uniforme y varias pasadas de revisión: Projects, Artifacts y un briefing detallado encajan bien. Elige ChatGPT cuando necesitas el primer borrador rápido, muchas variantes de tono, un Custom GPT para un estilo que repites (emails, posts) o dictar por voz antes de pulir. El combo habitual: esbozo y brainstorming en ChatGPT, estructura y edición fina en Claude — o al revés si ya tienes el esquema y solo quieres acelerar párrafos.",
+        rows: [
+          {
+            label: "Mejor para",
+            values: [
+              "Ensayos, informes largos, edición y tono consistente en piezas extensas",
+              "Borradores rápidos, emails, blogs, variantes y flujos con GPTs guardados",
+            ],
+          },
+          {
+            label: "Calidad de prosa y edición",
+            values: [
+              "Muy cuidadosa en revisar, acortar y alinear con un brief largo",
+              "Muy alta en primeras versiones; fácil pedir reescrituras y tonos distintos",
+            ],
+          },
+          {
+            label: "Documentos largos y estructura",
+            values: [
+              "Fuerte en outline, secciones y mantener el hilo en muchas páginas",
+              "Bueno con proyectos e instrucciones; a veces hay que reforzar el esquema",
+            ],
+          },
+          {
+            label: "Flujos repetibles (Projects, Artifacts, GPTs)",
+            values: [
+              "Projects + Artifacts para docs vivos y versiones en el mismo hilo",
+              "Custom GPTs y Projects para plantillas de estilo (newsletter, actas, tono de marca)",
+            ],
+          },
+          {
+            label: "Variantes y brainstorming",
+            values: [
+              "Sólido con instrucciones claras; menos orientado a diez titulares en un clic",
+              "Muy ágil generando opciones, ángulos y primeras líneas sin brief pesado",
+            ],
+          },
+          {
+            label: "Ecosistema",
+            values: [
+              "claude.ai, apps Anthropic; foco en texto y documentos",
+              "Voz, imágenes, búsqueda, plugins y marketplace de GPTs de la comunidad",
+            ],
+          },
+          {
+            label: "Plan de entrada",
+            values: ["Gratis limitado + Pro / Team", "Gratis + Plus / Team"],
+          },
+          {
+            label: "Riesgo principal",
+            values: [
+              "Aceptar un doc largo sin contrastar datos o citas que pediste incluir",
+              "Publicar el primer borrador sin pasada de edición ni marcar lo incierto",
+            ],
+          },
+          {
+            label: "Cuándo abrir el otro",
+            values: [
+              "Cuando quieres diez asuntos de email, un Custom GPT o dictar el borrador",
+              "Cuando el texto ya supera varias pantallas y necesitas estructura y pulido",
+            ],
+          },
+        ],
+        faq: [
+          {
+            q: "¿Claude sustituye a ChatGPT para redactar?",
+            a: "Para documentos largos y edición fina, muchos equipos prefieren Claude. Para el día a día de borradores rápidos, GPTs y voz, ChatGPT sigue siendo el comodín. No hace falta elegir uno: es común redactar en uno y revisar en el otro.",
+          },
+          {
+            q: "¿Cuál conviene para un documento largo o un ensayo?",
+            a: "Claude suele ganar cuando el brief incluye secciones, tono y longitud, y vas a iterar varias veces en el mismo hilo o Project. ChatGPT también llega lejos con un buen esquema; si el esquema es débil, Claude suele ordenar mejor.",
+          },
+          {
+            q: "¿Cuál para emails y borradores rápidos?",
+            a: "ChatGPT: más rápido en variantes, Custom GPTs para tu estilo y dictado por voz. Claude sirve si el email es largo, delicado en tono o parte de un doc mayor que ya tienes en un Project.",
+          },
+          {
+            q: "¿Hace falta pagar los dos?",
+            a: "No. Puedes probar ambos en gratis con límites. Claude Pro y ChatGPT Plus entran cuando el volumen de escritura larga o de GPTs repetidos lo justifica; muchos pagan solo uno y abren el otro en gratis para contrastar.",
+          },
+          {
+            q: "¿Y si ya leo la comparativa de tres (ChatGPT vs Claude vs Grok)?",
+            a: "Esa página reparte el comodín general y el pulso de actualidad. Aquí solo comparamos escritura entre Claude y ChatGPT: estructura, edición y flujos de redacción, sin código ni noticias.",
+          },
+        ],
+      },
+      en: {
+        title: "Claude vs ChatGPT for writing",
+        excerpt:
+          "Two strong writing chats: one favors long documents, structure and careful editing; the other draft speed, custom GPTs and voice. Writing only — not code.",
+        verdict:
+          "Pick Claude when the deliverable is an essay, a long report or a doc that needs clear sections, steady tone and several revision passes: Projects, Artifacts and a detailed brief fit well. Pick ChatGPT when you need a fast first draft, many tone variants, a Custom GPT for a style you repeat (emails, posts) or voice dictation before polish. The usual combo: outline and brainstorm in ChatGPT, structure and fine edit in Claude — or the reverse if you already have the skeleton and only want to speed up paragraphs.",
+        rows: [
+          {
+            label: "Best for",
+            values: [
+              "Essays, long reports, editing and consistent tone across long pieces",
+              "Quick drafts, emails, blogs, variants and flows with saved GPTs",
+            ],
+          },
+          {
+            label: "Prose quality and editing",
+            values: [
+              "Very careful at revising, tightening and matching a long brief",
+              "Very strong on first versions; easy to ask for rewrites and different tones",
+            ],
+          },
+          {
+            label: "Long documents and structure",
+            values: [
+              "Strong on outlines, sections and holding the thread across many pages",
+              "Good with projects and instructions; sometimes you need to reinforce the outline",
+            ],
+          },
+          {
+            label: "Repeatable flows (Projects, Artifacts, GPTs)",
+            values: [
+              "Projects + Artifacts for living docs and versions in the same thread",
+              "Custom GPTs and Projects for style templates (newsletter, notes, brand voice)",
+            ],
+          },
+          {
+            label: "Variants and brainstorming",
+            values: [
+              "Solid with clear instructions; less geared to ten headlines in one click",
+              "Very agile at options, angles and opening lines without a heavy brief",
+            ],
+          },
+          {
+            label: "Ecosystem",
+            values: [
+              "claude.ai, Anthropic apps; focus on text and documents",
+              "Voice, images, search, plugins and the community GPT marketplace",
+            ],
+          },
+          {
+            label: "Entry plan",
+            values: ["Limited free + Pro / Team", "Free + Plus / Team"],
+          },
+          {
+            label: "Main risk",
+            values: [
+              "Accepting a long doc without cross-checking facts or citations you asked to include",
+              "Publishing the first draft without an editing pass or marking uncertainty",
+            ],
+          },
+          {
+            label: "When to open the other",
+            values: [
+              "When you want ten email subjects, a Custom GPT or to dictate the draft",
+              "When the text already spans several screens and you need structure and polish",
+            ],
+          },
+        ],
+        faq: [
+          {
+            q: "Can Claude replace ChatGPT for writing?",
+            a: "For long documents and fine editing, many teams prefer Claude. For day-to-day quick drafts, GPTs and voice, ChatGPT remains the generalist. You do not have to pick one: drafting in one tool and revising in the other is common.",
+          },
+          {
+            q: "Which one for a long document or essay?",
+            a: "Claude often wins when the brief includes sections, tone and length, and you will iterate several times in the same thread or Project. ChatGPT also goes far with a solid outline; if the outline is weak, Claude usually structures better.",
+          },
+          {
+            q: "Which one for emails and quick drafts?",
+            a: "ChatGPT: faster variants, Custom GPTs for your style and voice dictation. Claude fits when the email is long, tone-sensitive or part of a larger doc you already keep in a Project.",
+          },
+          {
+            q: "Do I need to pay for both?",
+            a: "No. You can try both on free tiers with limits. Claude Pro and ChatGPT Plus matter when the volume of long writing or repeated GPTs justifies it; many pay for only one and open the other on free to contrast.",
+          },
+          {
+            q: "How is this different from the three-way ChatGPT vs Claude vs Grok page?",
+            a: "That page splits the generalist and the current-events angle. Here we only compare writing between Claude and ChatGPT: structure, editing and drafting flows — no code or news.",
+          },
+        ],
+      },
+    },
+  },
+  {
     slug: "notion-ai-vs-chatgpt",
     toolSlugs: ["notion-ai", "chatgpt"],
     updatedAt: "2026-09-11",
