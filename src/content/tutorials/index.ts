@@ -6,6 +6,7 @@ import { grokBotSegundoTeammate } from "./grok-bot-segundo-teammate";
 import { claudeBriefingDocumento } from "./claude-briefing-documento";
 import { alternativasMidjourney } from "./alternativas-midjourney";
 import { midjourneyVariacionesUpscale } from "./midjourney-variaciones-upscale";
+import { midjourneySrefEstilo } from "./midjourney-sref-estilo";
 import { chatgptGptsCuando } from "./chatgpt-gpts-cuando";
 import { elegirModeloTexto } from "./elegir-modelo-texto";
 import { chatgptAlternativas } from "./chatgpt-alternativas";
@@ -34,6 +35,7 @@ export const catalogTutorials: Tutorial[] = [
   claudeBriefingDocumento,
   alternativasMidjourney,
   midjourneyVariacionesUpscale,
+  midjourneySrefEstilo,
   chatgptGptsCuando,
   perplexityCollections,
   elegirModeloTexto,
