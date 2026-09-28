@@ -1,4 +1,5 @@
 import type { Tutorial } from "@/types/content";
+import { notionAiBasesDatos } from "./notion-ai-bases-datos";
 import { chatgptProjectsPrimerFlujo } from "./chatgpt-projects-primer-flujo";
 import { cursorCloudAgentPrimerPr } from "./cursor-cloud-agent-primer-pr";
 import { grokBotPrimeraRutina } from "./grok-bot-primera-rutina";
@@ -28,6 +29,7 @@ import { runwayPrimerClip } from "./runway-primer-clip";
 import { grokBotPrimer } from "./supporting";
 
 export const catalogTutorials: Tutorial[] = [
+  notionAiBasesDatos,
   cursorCloudAgentPrimerPr,
   grokBotPrimeraRutina,
   chatgptProjectsPrimerFlujo,
