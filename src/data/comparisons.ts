@@ -2264,6 +2264,179 @@ export const comparisons: Comparison[] = [
       },
     },
   },
+  {
+    slug: "mejores-herramientas-ia-video",
+    toolSlugs: ["runway", "midjourney", "elevenlabs"],
+    updatedAt: "2026-09-29",
+    copy: {
+      es: {
+        title: "Mejores herramientas de IA para vídeo (2026)",
+        excerpt:
+          "Runway, Midjourney y ElevenLabs cubren tres roles distintos en un clip: motion, stills de storyboard y voz hablada. Cuál encaja según qué falta en tu pipeline.",
+        verdict:
+          "Para el clip en movimiento — Gen video, cámara y secuencias cortas — Runway. Para stills, storyboard, keyframes y referencias de estilo que alimentan el vídeo (no sustituye motion completo), Midjourney. Para locución, narración y doblaje sobre un guion cerrado, ElevenLabs. La combinación habitual: frames y look en Midjourney, animación en Runway, voz en off en ElevenLabs; el montaje y la mezcla siguen en un editor de vídeo.",
+        rows: [
+          {
+            label: "Mejor para",
+            values: [
+              "Clips generados, motion y secuencias de 4–10 s",
+              "Stills, storyboard, keyframes y --sref de estilo",
+              "Voiceover, narración y doblaje de un guion",
+            ],
+          },
+          {
+            label: "Unidad de trabajo",
+            values: [
+              "Un shot o un clip con prompt de cámara y acción",
+              "Un frame o una serie de frames de referencia",
+              "Un guion de 30–120 s leído en voz alta",
+            ],
+          },
+          {
+            label: "Dónde trabajas",
+            values: [
+              "Runway en navegador: timeline y proyectos de vídeo",
+              "Discord o web de Midjourney; export PNG",
+              "ElevenLabs en navegador o API; biblioteca de voces",
+            ],
+          },
+          {
+            label: "Entrada típica",
+            values: [
+              "Texto + imagen de referencia o keyframe importado",
+              "Prompt de imagen; variaciones en grid",
+              "Texto con puntuación, pausas y voz elegida",
+            ],
+          },
+          {
+            label: "Calidad y control",
+            values: [
+              "Motion coherente; limitado por duración y modelo",
+              "Look y composición muy altos en still; sin timeline",
+              "Entonación y claridad en frases habladas",
+            ],
+          },
+          {
+            label: "Riesgo",
+            values: [
+              "Créditos de vídeo en iteraciones de un mismo plano",
+              "Confundir un still bonito con un clip terminado",
+              "Créditos en regenerar el mismo guion mal escrito",
+            ],
+          },
+          {
+            label: "Plan de entrada",
+            values: [
+              "Gratis limitado + Standard / Pro / Unlimited",
+              "Plan básico + suscripción según generaciones",
+              "Gratis con créditos + Starter / Creator / Pro",
+            ],
+          },
+        ],
+        faq: [
+          {
+            q: "¿Midjourney sustituye a Runway para vídeo?",
+            a: "No. Midjourney entrega imágenes fijas y referencias de estilo; Runway genera motion y clips. Muchos flujos empiezan en Midjourney para el keyframe y pasan a Runway para animar. Si el entregable es solo motion, Runway es el motor; Midjourney entra antes o al lado, no en lugar de él.",
+          },
+          {
+            q: "¿Puedo usar solo Runway sin Midjourney ni ElevenLabs?",
+            a: "Sí, si el clip no necesita storyboard previo ni voz hablada. Runway puede partir de un prompt de texto o de una imagen subida. Añade Midjourney cuando necesitas explorar look en grid; añade ElevenLabs cuando el vídeo lleva narración o doblaje.",
+          },
+          {
+            q: "¿ElevenLabs hace la banda sonora del vídeo?",
+            a: "No es su fuerte: ElevenLabs convierte texto en voz hablada. Para música de fondo o jingles suele ir otra herramienta del catálogo; aquí encaja la locución. Cierra el guion hablado antes de generar y sincroniza en tu editor.",
+          },
+          {
+            q: "¿En qué orden encadenar las tres?",
+            a: "Lo habitual: define estilo y frames en Midjourney, importa el keyframe a Runway y genera el motion, exporta el clip mudo, genera la voz en ElevenLabs y monta audio + vídeo en Premiere, DaVinci o similar. Ninguna de las tres sustituye el montaje final.",
+          },
+        ],
+      },
+      en: {
+        title: "Best AI video tools (2026)",
+        excerpt:
+          "Runway, Midjourney and ElevenLabs cover three different roles in a clip: motion, storyboard stills and spoken voice. Which one fits depends on what is missing in your pipeline.",
+        verdict:
+          "For moving footage — Gen video, camera and short sequences — Runway. For stills, storyboards, keyframes and style references that feed the video (not a full motion substitute), Midjourney. For voiceover, narration and dubbing from a locked script, ElevenLabs. The usual combo: look and frames in Midjourney, animation in Runway, voiceover in ElevenLabs; editing and mix still happen in a video editor.",
+        rows: [
+          {
+            label: "Best for",
+            values: [
+              "Generated clips, motion and 4–10 s sequences",
+              "Stills, storyboards, keyframes and --sref style",
+              "Voiceover, narration and dubbing from a script",
+            ],
+          },
+          {
+            label: "Unit of work",
+            values: [
+              "One shot or clip with camera and action prompt",
+              "One frame or a series of reference frames",
+              "A 30–120 s script read aloud",
+            ],
+          },
+          {
+            label: "Where you work",
+            values: [
+              "Runway in the browser: timeline and video projects",
+              "Midjourney on Discord or web; PNG export",
+              "ElevenLabs in the browser or API; voice library",
+            ],
+          },
+          {
+            label: "Typical input",
+            values: [
+              "Text + reference image or imported keyframe",
+              "Image prompt; variations in a grid",
+              "Text with punctuation, pauses and chosen voice",
+            ],
+          },
+          {
+            label: "Quality and control",
+            values: [
+              "Coherent motion; limited by duration and model",
+              "Very high look and composition on stills; no timeline",
+              "Intonation and clarity on spoken lines",
+            ],
+          },
+          {
+            label: "Risk",
+            values: [
+              "Video credits on iterations of the same shot",
+              "Confusing a pretty still with a finished clip",
+              "Credits regenerating the same poorly written script",
+            ],
+          },
+          {
+            label: "Entry plan",
+            values: [
+              "Limited free + Standard / Pro / Unlimited",
+              "Basic plan + subscription by generation volume",
+              "Free with credits + Starter / Creator / Pro",
+            ],
+          },
+        ],
+        faq: [
+          {
+            q: "Does Midjourney replace Runway for video?",
+            a: "No. Midjourney delivers fixed images and style references; Runway generates motion and clips. Many workflows start in Midjourney for the keyframe and move to Runway to animate. If the deliverable is motion only, Runway is the engine; Midjourney sits before or beside it, not instead of it.",
+          },
+          {
+            q: "Can I use only Runway without Midjourney or ElevenLabs?",
+            a: "Yes, if the clip does not need a prior storyboard or spoken voice. Runway can start from a text prompt or an uploaded image. Add Midjourney when you need to explore look in a grid; add ElevenLabs when the video needs narration or dubbing.",
+          },
+          {
+            q: "Does ElevenLabs score the video soundtrack?",
+            a: "That is not its strength: ElevenLabs turns text into spoken voice. Background music or jingles usually belong to another catalog tool; here it fits voiceover. Lock the spoken script before generating and sync in your editor.",
+          },
+          {
+            q: "In what order should I chain the three?",
+            a: "The usual path: define style and frames in Midjourney, import the keyframe into Runway and generate motion, export the silent clip, generate voice in ElevenLabs and assemble audio + video in Premiere, DaVinci or similar. None of the three replaces final editing.",
+          },
+        ],
+      },
+    },
+  },
 ];
 
 export function getComparison(slug: string) {
