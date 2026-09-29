@@ -40,5 +40,9 @@ Una fila = un PR. El bot coge la primera `queued`. Estados: `queued` → `in-pr`
 | 34 | Claude vs ChatGPT para escritura | comparativa | `claude-vs-chatgpt-escritura` | published | Mergeado PR #80 |
 | 35 | Midjourney: estilo con --sref | tutorial | `midjourney-sref-estilo` | published | Mergeado PR #84 |
 | 36 | Notion AI en bases de datos | tutorial | `notion-ai-bases-datos` | published | Mergeado PR #86 |
+<<<<<<< Updated upstream
 | 37 | Mejores herramientas de IA para vídeo 2026 | comparativa | `mejores-herramientas-ia-video` | in-pr | runway + midjourney + elevenlabs; PR content abierto |
+=======
+| 37 | Mejores herramientas de IA para vídeo 2026 | comparativa | `mejores-herramientas-ia-video` | published | Mergeado PR #88; runway + midjourney + elevenlabs |
+>>>>>>> Stashed changes
 | 38 | Suno: variaciones y stems | tutorial | `suno-variaciones-stems` | queued | |
