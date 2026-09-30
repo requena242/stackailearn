@@ -41,3 +41,4 @@ Una línea por página mergeada.
 | 2026-09-27 | tutorial | midjourney-sref-estilo | Midjourney: estilo con --sref | https://stackailearn.com/es/tutorials/midjourney-sref-estilo/ |
 | 2026-09-28 | tutorial | notion-ai-bases-datos | Notion AI en bases de datos | https://stackailearn.com/es/tutorials/notion-ai-bases-datos/ |
 | 2026-09-29 | comparativa | mejores-herramientas-ia-video | Mejores herramientas de IA para vídeo 2026 | https://stackailearn.com/es/compare/mejores-herramientas-ia-video/ |
+| 2026-09-30 | tutorial | suno-variaciones-stems | Suno: variaciones y stems | https://stackailearn.com/es/tutorials/suno-variaciones-stems/ |
