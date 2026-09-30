@@ -25,10 +25,12 @@ import { grokPrimerFlujo } from "./grok-primer-flujo";
 import { notionAiPrimerFlujo } from "./notion-ai-primer-flujo";
 import { elevenlabsPrimerVoiceover } from "./elevenlabs-primer-voiceover";
 import { sunoPrimerTema } from "./suno-primer-tema";
+import { sunoVariacionesStems } from "./suno-variaciones-stems";
 import { runwayPrimerClip } from "./runway-primer-clip";
 import { grokBotPrimer } from "./supporting";
 
 export const catalogTutorials: Tutorial[] = [
+  sunoVariacionesStems,
   notionAiBasesDatos,
   cursorCloudAgentPrimerPr,
   grokBotPrimeraRutina,
