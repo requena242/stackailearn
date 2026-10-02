@@ -12,7 +12,11 @@ export const midjourneyPrompts: Tutorial = {
   publishedAt: "2026-08-05",
   lastUpdated: "2026-08-26",
   toolsUsed: ["midjourney", "runway", "chatgpt"],
-  relatedTutorials: ["chatgpt-primeros-pasos", "cursor-como-ide-con-ia"],
+  relatedTutorials: [
+    "chatgpt-primeros-pasos",
+    "runway-primer-clip",
+    "alternativas-midjourney",
+  ],
   tags: ["midjourney", "prompts", "imagen", "dirección-de-arte", "2026"],
   hero: tutorialHero(slug, {
     es: {
@@ -164,7 +168,7 @@ export const midjourneyPrompts: Tutorial = {
         "Dirigir en Midjourney es decidir un plano y defenderlo en el grid. Los prompts mágicos solo aceleran el camino hacia el mismo café de stock. Si puedes explicar por qué ganó la imagen 2 (luz, ángulo, exclusión), ya no estás «tirando generaciones»: estás haciendo dirección de arte.",
       nextSteps: [
         "Repite el mismo sujeto mañana con otra luz. Compara los dos prompts, no solo los JPG.",
-        "Si necesitas motion, abre Runway con un solo still y una acción.",
+        "Si necesitas motion, sigue runway-primer-clip con un solo still y una acción.",
         "Si el brief de campaña aún es «moderno y cálido», vuelve al tutorial de ChatGPT y traduce eso a plano antes de gastar GPU.",
       ],
       takeaway:
@@ -307,7 +311,7 @@ export const midjourneyPrompts: Tutorial = {
         "Directing in Midjourney is deciding a shot and defending it on the grid. Magic prompts only speed the path to the same stock coffee. If you can explain why image 2 won (light, angle, exclusion), you are no longer «rolling generations». You are doing art direction.",
       nextSteps: [
         "Repeat the same subject tomorrow with a different light. Compare the two prompts, not just the JPGs.",
-        "If you need motion, open Runway with one still and one action.",
+        "If you need motion, follow runway-primer-clip with one still and one action.",
         "If the campaign brief is still «modern and warm», go back to the ChatGPT tutorial and translate that into a shot before you spend GPU.",
       ],
       takeaway:

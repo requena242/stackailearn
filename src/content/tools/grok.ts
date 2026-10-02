@@ -26,8 +26,9 @@ export const grok: Tool = {
   relatedTools: ["chatgpt", "claude", "grok-bot"],
   relatedTutorials: [
     "grok-primer-flujo",
-    "chatgpt-primeros-pasos",
     "grok-bot-primer-teammate",
+    "grok-bot-primera-rutina",
+    "chatgpt-primeros-pasos",
   ],
   screenshots: [
     toolImage(slug, "hero", "hero", {

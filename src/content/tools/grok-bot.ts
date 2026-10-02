@@ -27,6 +27,8 @@ export const grokBot: Tool = {
   relatedTutorials: [
     "grok-bot-primer-teammate",
     "grok-bot-segundo-teammate",
+    "grok-bot-primera-rutina",
+    "grok-primer-flujo",
     "hermes-agent-primer-flujo",
   ],
   screenshots: [

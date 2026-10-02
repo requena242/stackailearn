@@ -170,6 +170,7 @@ export const chatgptProjectsPrimerFlujo: Tutorial = {
       nextSteps: [
         "Si aún no dominas el briefing, refuerza con chatgpt-primeros-pasos antes de otro contenedor.",
         "Para decidir entre Project y Custom GPT, aplica el criterio de chatgpt-gpts-cuando con tres tareas reales.",
+        "Si dudas entre Grok y ChatGPT como chat general, contrasta con grok-vs-chatgpt antes de invertir en más contenedores.",
         "Si tu equipo usa Claude para el mismo patrón, compara con claude-projects-primer-flujo y quédate con una herramienta por caso.",
       ],
       takeaway:
@@ -177,9 +178,9 @@ export const chatgptProjectsPrimerFlujo: Tutorial = {
     },
     en: {
       title: "ChatGPT Projects: your first context workflow (2026)",
-      metaTitle: "ChatGPT Projects: first useful flow in 2026",
+      metaTitle: "Projects in ChatGPT: first useful flow in 2026",
       metaDescription:
-        "Create a project on chatgpt.com, write instructions, upload files and chat with fixed context. When to use Projects vs a plain chat or Custom GPT.",
+        "Create a ChatGPT Project on chatgpt.com, write instructions, upload files and chat with fixed context. When to use Projects vs a plain chat or Custom GPT.",
       excerpt:
         "Define the purpose, create the project, set instructions, upload references and work inside the project — not in a chat that forgets the brief every Monday.",
       intro:
@@ -313,6 +314,7 @@ export const chatgptProjectsPrimerFlujo: Tutorial = {
       nextSteps: [
         "If briefing still wobbles, strengthen it with chatgpt-primeros-pasos before another container.",
         "To choose between Project and Custom GPT, apply the criteria in chatgpt-gpts-cuando with three real tasks.",
+        "If you are choosing between Grok and ChatGPT as your general chat, read grok-vs-chatgpt before adding more containers.",
         "If your team uses Claude for the same pattern, compare with claude-projects-primer-flujo and pick one tool per case.",
       ],
       takeaway:

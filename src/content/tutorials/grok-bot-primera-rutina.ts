@@ -15,6 +15,7 @@ export const grokBotPrimeraRutina: Tutorial = {
   relatedTutorials: [
     "grok-bot-primer-teammate",
     "grok-bot-segundo-teammate",
+    "grok-primer-flujo",
     "hermes-agent-segundo-flujo",
   ],
   tags: ["grok-bot", "rutina", "routine", "programada", "schedule"],

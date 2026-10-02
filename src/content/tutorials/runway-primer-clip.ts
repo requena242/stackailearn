@@ -12,7 +12,11 @@ export const runwayPrimerClip: Tutorial = {
   publishedAt: "2026-08-29",
   lastUpdated: "2026-08-29",
   toolsUsed: ["runway", "midjourney", "chatgpt"],
-  relatedTutorials: ["midjourney-prompts-que-funcionan", "chatgpt-primeros-pasos"],
+  relatedTutorials: [
+    "midjourney-prompts-que-funcionan",
+    "alternativas-midjourney",
+    "chatgpt-primeros-pasos",
+  ],
   tags: ["runway", "gen-4", "clip", "motion", "image-to-video"],
   hero: tutorialHero(slug, {
     es: {
@@ -154,9 +158,10 @@ export const runwayPrimerClip: Tutorial = {
       conclusion:
         "Tu primer clip útil en Runway sale de un still dirigido y un prompt corto de motion. Gen-4 Turbo en 5 s te enseña qué gestos leen antes de gastar en modelos caros. Si el encuadre base es flojo, vuelve a Midjourney — Runway no lo salva.",
       nextSteps: [
-        "Si el still aún no existe, sigue el tutorial de Midjourney y vuelve con un keeper.",
+        "Si el still aún no existe, sigue midjourney-prompts-que-funcionan y vuelve con un keeper.",
         "Si necesitas el titular del anuncio, abre ChatGPT con el still como contexto visual.",
-        "Para comparar cuándo Runway y cuándo Midjourney, mira la comparativa del catálogo.",
+        "Para still + clip, lee midjourney-vs-runway; si solo dudas entre stills fijos, runway-vs-midjourney-stills.",
+        "Para el pipeline vídeo (motion, stills, voz), mira mejores-herramientas-ia-video.",
       ],
       takeaway:
         "Still que funciona → Gen-4 Turbo → motion (acción + cámara) → 5 s → keeper. Prototipo, no película.",
@@ -288,9 +293,10 @@ export const runwayPrimerClip: Tutorial = {
       conclusion:
         "Your first useful Runway clip comes from a directed still and a short motion prompt. Gen-4 Turbo at 5 s teaches which gestures read before you spend on expensive models. If the base frame is weak, go back to Midjourney — Runway will not save it.",
       nextSteps: [
-        "If the still does not exist yet, follow the Midjourney tutorial and come back with a keeper.",
+        "If the still does not exist yet, follow midjourney-prompts-que-funcionan and come back with a keeper.",
         "If you need the ad headline, open ChatGPT with the still as visual context.",
-        "To compare when Runway vs Midjourney, see the catalog comparison.",
+        "For still plus clip, read midjourney-vs-runway; if you only doubt fixed stills, runway-vs-midjourney-stills.",
+        "For the video pipeline (motion, stills, voice), see mejores-herramientas-ia-video.",
       ],
       takeaway:
         "Working still → Gen-4 Turbo → motion (action + camera) → 5 s → keeper. Prototype, not film.",
