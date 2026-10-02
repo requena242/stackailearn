@@ -47,9 +47,7 @@ export const metadata: Metadata = {
     ? { verification: { google: SITE.googleSiteVerification } }
     : {}),
   other: {
-    ...(SITE.pinterestDomainVerification
-      ? { "p:domain_verify": SITE.pinterestDomainVerification }
-      : {}),
+    "p:domain_verify": SITE.pinterestDomainVerification,
     ...(isAdsLive() && ads.provider === "adsense"
       ? { "google-adsense-account": ads.adsense.publisherId }
       : {}),
