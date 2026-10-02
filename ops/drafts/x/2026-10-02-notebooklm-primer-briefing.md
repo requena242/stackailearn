@@ -5,6 +5,6 @@ URL: https://stackailearn.com/es/tutorials/notebooklm-primer-briefing/
 
 ## Standalone (ES)
 
-NotebookLM: sube 2–5 fuentes, crea el cuaderno, pide el briefing con una pregunta y cierra repasando con el audio overview. Flujo 2026.
+NotebookLM: cuaderno con tus PDFs y Docs, citas al pasaje concreto, briefing en Studio; el entregable lo redactas fuera. Guía 2026.
 
 https://stackailearn.com/es/tutorials/notebooklm-primer-briefing/
