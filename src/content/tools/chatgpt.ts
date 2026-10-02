@@ -24,7 +24,12 @@ export const chatgpt: Tool = {
   tags: ["chat", "redacción", "gpts", "briefing", "openai"],
   alternatives: ["claude", "grok", "perplexity"],
   relatedTools: ["claude", "perplexity", "notion-ai"],
-  relatedTutorials: ["chatgpt-primeros-pasos", "claude-escritura-larga"],
+  relatedTutorials: [
+    "chatgpt-primeros-pasos",
+    "chatgpt-projects-primer-flujo",
+    "chatgpt-gpts-cuando",
+    "claude-escritura-larga",
+  ],
   screenshots: [
     toolImage(slug, "hero", "hero", {
       es: {

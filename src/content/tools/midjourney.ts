@@ -24,7 +24,11 @@ export const midjourney: Tool = {
   tags: ["imagen", "prompts", "dirección-de-arte", "stylize", "moodboard"],
   alternatives: ["chatgpt", "runway"],
   relatedTools: ["runway", "chatgpt"],
-  relatedTutorials: ["midjourney-prompts-que-funcionan"],
+  relatedTutorials: [
+    "midjourney-prompts-que-funcionan",
+    "runway-primer-clip",
+    "alternativas-midjourney",
+  ],
   screenshots: [
     toolImage(slug, "hero", "hero", {
       es: {

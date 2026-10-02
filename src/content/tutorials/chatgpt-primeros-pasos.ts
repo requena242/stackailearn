@@ -15,6 +15,8 @@ export const chatgptPrimerosPasos: Tutorial = {
   relatedTutorials: [
     "perplexity-investigacion-con-fuentes",
     "claude-escritura-larga",
+    "chatgpt-projects-primer-flujo",
+    "chatgpt-gpts-cuando",
   ],
   tags: ["chatgpt", "briefing", "principiante", "escritura", "2026"],
   hero: tutorialHero(slug, {
@@ -167,6 +169,7 @@ export const chatgptPrimerosPasos: Tutorial = {
       nextSteps: [
         "Repite el flujo mañana con otra tarea real (no un ejemplo inventado).",
         "Si te faltan fuentes, haz el brief de hechos en Perplexity y vuelve aquí a redactar.",
+        "Si repites el mismo brief y archivos cada semana, pasa a chatgpt-projects-primer-flujo (Projects en ChatGPT).",
         "Si el siguiente texto pasa de 800 palabras y el tono se aplana, abre la guía de Claude.",
       ],
       takeaway:
@@ -309,6 +312,7 @@ export const chatgptPrimerosPasos: Tutorial = {
       nextSteps: [
         "Run the flow tomorrow on another real task (not a made-up example).",
         "If you lack sources, build the facts brief in Perplexity and come back here to write.",
+        "If you repeat the same brief and files every week, move to chatgpt-projects-primer-flujo (Projects in ChatGPT).",
         "If the next piece goes past 800 words and the tone flattens, open the Claude guide.",
       ],
       takeaway:

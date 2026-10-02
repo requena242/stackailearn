@@ -24,7 +24,11 @@ export const runway: Tool = {
   tags: ["vídeo", "gen-3", "motion", "clips", "prototipo"],
   alternatives: ["midjourney", "chatgpt"],
   relatedTools: ["midjourney", "chatgpt"],
-  relatedTutorials: ["runway-primer-clip", "midjourney-prompts-que-funcionan"],
+  relatedTutorials: [
+    "runway-primer-clip",
+    "midjourney-prompts-que-funcionan",
+    "elevenlabs-primer-voiceover",
+  ],
   screenshots: [
     toolImage(slug, "hero", "hero", {
       es: {

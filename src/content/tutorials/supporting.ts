@@ -177,6 +177,7 @@ export const grokBotPrimer: Tutorial = {
   lastUpdated: "2026-09-19",
   toolsUsed: ["grok-bot", "hermes-agent", "cursor"],
   relatedTutorials: [
+    "grok-primer-flujo",
     "grok-bot-segundo-teammate",
     "hermes-agent-primer-flujo",
     "cursor-como-ide-con-ia",

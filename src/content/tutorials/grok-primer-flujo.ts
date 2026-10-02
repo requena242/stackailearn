@@ -16,6 +16,7 @@ export const grokPrimerFlujo: Tutorial = {
     "chatgpt-primeros-pasos",
     "perplexity-investigacion-con-fuentes",
     "grok-bot-primer-teammate",
+    "grok-bot-primera-rutina",
   ],
   tags: ["grok", "grok.com", "actualidad", "contraste", "principiante"],
   hero: tutorialHero(slug, {
@@ -171,6 +172,7 @@ export const grokPrimerFlujo: Tutorial = {
       nextSteps: [
         "Si te faltan citas que abrir, sigue el tutorial de Perplexity.",
         "Si el siguiente paso es redactar un email o un brief, usa el método de ChatGPT.",
+        "Si dudas entre Grok y ChatGPT como chat base, revisa la comparativa grok-vs-chatgpt del catálogo.",
         "Si lo que quieres es un compañero en una VM, abre Grok Bot: primer teammate.",
       ],
       takeaway:
@@ -316,6 +318,7 @@ export const grokPrimerFlujo: Tutorial = {
       nextSteps: [
         "If you need citations to open, follow the Perplexity tutorial.",
         "If the next step is an email or a brief, use the ChatGPT method.",
+        "If you are choosing between Grok and ChatGPT as your chat, read the grok-vs-chatgpt comparison in the catalog.",
         "If you want a teammate on a VM, open Grok Bot: first teammate.",
       ],
       takeaway:

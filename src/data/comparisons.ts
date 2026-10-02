@@ -435,7 +435,7 @@ export const comparisons: Comparison[] = [
         excerpt:
           "Un still que se puede dirigir, o un clip corto. No resuelven el mismo fotograma.",
         verdict:
-          "Empieza en Midjourney si el plano aún no existe. Pasa a Runway cuando el still ya aguanta y solo falta un gesto o una cámara. Si generas vídeo sobre un encuadre flojo, multiplicas el problema y quemas créditos. No elijas por «quién hace IA visual»: elige por si el entregable es una imagen o un prototipo de 4–8 segundos.",
+          "Empieza en Midjourney si el plano aún no existe. Pasa a Runway cuando el still ya aguanta y solo falta un gesto o una cámara. Si generas vídeo sobre un encuadre flojo, multiplicas el problema y quemas créditos. No elijas por «quién hace IA visual»: elige por si el entregable es una imagen o un prototipo de 4–8 segundos. Para el primer clip, runway-primer-clip; si solo comparas stills fijos, runway-vs-midjourney-stills.",
         rows: [
           {
             label: "Mejor para",
@@ -507,7 +507,7 @@ export const comparisons: Comparison[] = [
         excerpt:
           "A still you can direct, or a short clip. They do not solve the same frame.",
         verdict:
-          "Start in Midjourney if the shot does not exist yet. Move to Runway when the still already holds and you only need a gesture or a camera move. If you generate video on a weak frame, you multiply the problem and burn credits. Do not pick by «who does visual AI»: pick by whether the deliverable is an image or a 4–8 second prototype.",
+          "Start in Midjourney if the shot does not exist yet. Move to Runway when the still already holds and you only need a gesture or a camera move. If you generate video on a weak frame, you multiply the problem and burn credits. Do not pick by «who does visual AI»: pick by whether the deliverable is an image or a 4–8 second prototype. For your first clip, runway-primer-clip; if you only compare fixed stills, runway-vs-midjourney-stills.",
         rows: [
           {
             label: "Best for",
@@ -1232,7 +1232,7 @@ export const comparisons: Comparison[] = [
         excerpt:
           "Solo imágenes fijas: product shots, key art, stills de campaña y concept art. Sin clips ni motion.",
         verdict:
-          "Si el entregable es un still — product shot, keyframe de referencia, pieza de marketing o concept art que no se va a animar — Midjourney gana: grids, variaciones y export en alta resolución están pensados para eso. Runway puede sacar un frame, pero cada intento compite con créditos de vídeo y la iteración de look es más lenta. Usa Runway para stills solo cuando ya tienes un proyecto de motion abierto y necesitas un frame de partida en la misma sesión antes de animar; para un catálogo de imágenes fijas, no mezcles motores.",
+          "Si el entregable es un still — product shot, keyframe de referencia, pieza de marketing o concept art que no se va a animar — Midjourney gana: grids, variaciones y export en alta resolución están pensados para eso. Runway puede sacar un frame, pero cada intento compite con créditos de vídeo y la iteración de look es más lenta. Usa Runway para stills solo cuando ya tienes un proyecto de motion abierto y necesitas un frame de partida en la misma sesión antes de animar; para un catálogo de imágenes fijas, no mezcles motores. Si el plan incluye animar el keyframe, midjourney-vs-runway y luego runway-primer-clip.",
         rows: [
           {
             label: "Product shots",
@@ -1315,7 +1315,7 @@ export const comparisons: Comparison[] = [
         excerpt:
           "Fixed images only: product shots, key art, campaign stills and concept art. No clips or motion.",
         verdict:
-          "If the deliverable is a still — product shot, reference keyframe, marketing frame or concept art that will not be animated — Midjourney wins: grids, variations and high-res export are built for that. Runway can output a frame, but each attempt competes with video credits and look iteration is slower. Use Runway for stills only when you already have a motion project open and need a starting frame in the same session before animating; for a catalog of fixed images, do not mix engines.",
+          "If the deliverable is a still — product shot, reference keyframe, marketing frame or concept art that will not be animated — Midjourney wins: grids, variations and high-res export are built for that. Runway can output a frame, but each attempt competes with video credits and look iteration is slower. Use Runway for stills only when you already have a motion project open and need a starting frame in the same session before animating; for a catalog of fixed images, do not mix engines. If you will animate the keyframe, read midjourney-vs-runway then runway-primer-clip.",
         rows: [
           {
             label: "Product shots",
@@ -1405,7 +1405,7 @@ export const comparisons: Comparison[] = [
         excerpt:
           "Dos chats generalistas con temperamentos distintos: uno apuesta por pulso de actualidad y tono directo; el otro por ecosistema, GPTs e integraciones.",
         verdict:
-          "Elige Grok (grok.com) cuando quieras una primera lectura de algo reciente, un contraste rápido de titulares o un tono más seco sin montar un flujo. Elige ChatGPT cuando el trabajo es repetible (GPTs, proyectos), cuando necesitas el comodín con más plugins e integraciones, o cuando el entregable es redacción, código o brainstorming con variantes. Muchos equipos mantienen ChatGPT como base y abren Grok para contrastar actualidad — no para sustituir todo el ecosistema. No confundas Grok con Grok Bot: el bot con ordenador es otra ficha.",
+          "Elige Grok (grok.com) cuando quieras una primera lectura de algo reciente, un contraste rápido de titulares o un tono más seco sin montar un flujo. Elige ChatGPT cuando el trabajo es repetible (GPTs, proyectos), cuando necesitas el comodín con más plugins e integraciones, o cuando el entregable es redacción, código o brainstorming con variantes. Muchos equipos mantienen ChatGPT como base y abren Grok para contrastar actualidad — no para sustituir todo el ecosistema. No confundas Grok con Grok Bot: el bot con ordenador es otra ficha. Primer flujo en cada chat: grok-primer-flujo y chatgpt-primeros-pasos; para Projects en ChatGPT, chatgpt-projects-primer-flujo; para el teammate, grok-bot-primer-teammate.",
         rows: [
           {
             label: "Mejor para",
@@ -1485,7 +1485,7 @@ export const comparisons: Comparison[] = [
         excerpt:
           "Two generalist chats with different temperaments: one bets on a live pulse and direct tone; the other on ecosystem, GPTs and integrations.",
         verdict:
-          "Pick Grok (grok.com) when you want a first read on something recent, a quick headline contrast or a drier tone without building a workflow. Pick ChatGPT when the work is repeatable (GPTs, projects), when you need the most connected generalist with plugins and integrations, or when the deliverable is drafting, code or brainstorming with variants. Many teams keep ChatGPT as the base and open Grok to challenge current events — not to replace the whole ecosystem. Do not confuse Grok with Grok Bot: the computer teammate is a different profile.",
+          "Pick Grok (grok.com) when you want a first read on something recent, a quick headline contrast or a drier tone without building a workflow. Pick ChatGPT when the work is repeatable (GPTs, projects), when you need the most connected generalist with plugins and integrations, or when the deliverable is drafting, code or brainstorming with variants. Many teams keep ChatGPT as the base and open Grok to challenge current events — not to replace the whole ecosystem. Do not confuse Grok with Grok Bot: the computer teammate is a different profile. First flows: grok-primer-flujo and chatgpt-primeros-pasos; for Projects in ChatGPT, chatgpt-projects-primer-flujo; for the teammate, grok-bot-primer-teammate.",
         rows: [
           {
             label: "Best for",
@@ -2274,7 +2274,7 @@ export const comparisons: Comparison[] = [
         excerpt:
           "Runway, Midjourney y ElevenLabs cubren tres roles distintos en un clip: motion, stills de storyboard y voz hablada. Cuál encaja según qué falta en tu pipeline.",
         verdict:
-          "Para el clip en movimiento — Gen video, cámara y secuencias cortas — Runway. Para stills, storyboard, keyframes y referencias de estilo que alimentan el vídeo (no sustituye motion completo), Midjourney. Para locución, narración y doblaje sobre un guion cerrado, ElevenLabs. La combinación habitual: frames y look en Midjourney, animación en Runway, voz en off en ElevenLabs; el montaje y la mezcla siguen en un editor de vídeo.",
+          "Para el clip en movimiento — Gen video, cámara y secuencias cortas — Runway. Para stills, storyboard, keyframes y referencias de estilo que alimentan el vídeo (no sustituye motion completo), Midjourney. Para locución, narración y doblaje sobre un guion cerrado, ElevenLabs. La combinación habitual: frames y look en Midjourney, animación en Runway, voz en off en ElevenLabs; el montaje y la mezcla siguen en un editor de vídeo. Empieza por midjourney-vs-runway si dudas del reparto still/clip, y por runway-primer-clip para el primer motion.",
         rows: [
           {
             label: "Mejor para",
@@ -2357,7 +2357,7 @@ export const comparisons: Comparison[] = [
         excerpt:
           "Runway, Midjourney and ElevenLabs cover three different roles in a clip: motion, storyboard stills and spoken voice. Which one fits depends on what is missing in your pipeline.",
         verdict:
-          "For moving footage — Gen video, camera and short sequences — Runway. For stills, storyboards, keyframes and style references that feed the video (not a full motion substitute), Midjourney. For voiceover, narration and dubbing from a locked script, ElevenLabs. The usual combo: look and frames in Midjourney, animation in Runway, voiceover in ElevenLabs; editing and mix still happen in a video editor.",
+          "For moving footage — Gen video, camera and short sequences — Runway. For stills, storyboards, keyframes and style references that feed the video (not a full motion substitute), Midjourney. For voiceover, narration and dubbing from a locked script, ElevenLabs. The usual combo: look and frames in Midjourney, animation in Runway, voiceover in ElevenLabs; editing and mix still happen in a video editor. Start with midjourney-vs-runway if you are unsure about still versus clip, and runway-primer-clip for your first motion take.",
         rows: [
           {
             label: "Best for",

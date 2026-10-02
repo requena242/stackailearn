@@ -14,6 +14,7 @@ export const chatgptGptsCuando: Tutorial = {
   toolsUsed: ["chatgpt"],
   relatedTutorials: [
     "chatgpt-primeros-pasos",
+    "chatgpt-projects-primer-flujo",
     "chatgpt-alternativas",
     "claude-projects-primer-flujo",
     "elegir-modelo-texto",

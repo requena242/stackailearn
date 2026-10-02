@@ -15,8 +15,8 @@ export const alternativasMidjourney: Tutorial = {
   relatedTutorials: [
     "midjourney-variaciones-upscale",
     "midjourney-prompts-que-funcionan",
-    "chatgpt-alternativas",
     "runway-primer-clip",
+    "chatgpt-alternativas",
   ],
   tags: [
     "midjourney",
@@ -143,7 +143,7 @@ export const alternativasMidjourney: Tutorial = {
           whatYouShouldSee:
             "Tres líneas de regla personal en notas, más una nota «planes: ver web sept 2026». Sin ranking viral.",
           warning:
-            "No sustituyas una comparativa del catálogo por intuición. Si solo dudas entre dos stills fijos, lee mejor-ia-imagenes o runway-vs-midjourney-stills.",
+            "No sustituyas una comparativa del catálogo por intuición. Para still + clip, midjourney-vs-runway; si solo dudas entre stills fijos, runway-vs-midjourney-stills o mejor-ia-imagenes.",
           imageDescription:
             "Notas con tres reglas de una línea e iconos discretos de midjourney.com, runwayml.com y chatgpt.com.",
         },
@@ -299,7 +299,7 @@ export const alternativasMidjourney: Tutorial = {
           whatYouShouldSee:
             "Three personal rule lines in notes, plus a «plans: check web Sep 2026» note. No viral ranking.",
           warning:
-            "Do not replace a catalog comparison with gut feel. If you only doubt two fixed stills, read mejor-ia-imagenes or runway-vs-midjourney-stills.",
+            "Do not replace a catalog comparison with gut feel. For still plus clip, midjourney-vs-runway; if you only doubt fixed stills, runway-vs-midjourney-stills or mejor-ia-imagenes.",
           imageDescription:
             "Notes with three one-line rules and discreet midjourney.com, runwayml.com and chatgpt.com icons.",
         },
