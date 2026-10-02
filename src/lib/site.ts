@@ -10,6 +10,8 @@ export const SITE = {
    * Vacío = no se emite la etiqueta.
    */
   googleSiteVerification: "SC63SF17xbyVQBj_kpBXlveqaxd8jlsFVvq9GRbAqDw",
+  /** Pinterest domain verify: content del meta que te da Pinterest. Vacío = no se emite. */
+  pinterestDomainVerification: "c3dd29889efee9e34be9ee1ea921838a",
   /**
    * Cloudflare Web Analytics: token del beacon (Dash → Analytics → Web Analytics).
    * Vacío = no se carga el script.

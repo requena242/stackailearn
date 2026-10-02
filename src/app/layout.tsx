@@ -46,9 +46,12 @@ export const metadata: Metadata = {
   ...(SITE.googleSiteVerification
     ? { verification: { google: SITE.googleSiteVerification } }
     : {}),
-  ...(isAdsLive() && ads.provider === "adsense"
-    ? { other: { "google-adsense-account": ads.adsense.publisherId } }
-    : {}),
+  other: {
+    "p:domain_verify": SITE.pinterestDomainVerification,
+    ...(isAdsLive() && ads.provider === "adsense"
+      ? { "google-adsense-account": ads.adsense.publisherId }
+      : {}),
+  },
 };
 
 /**
