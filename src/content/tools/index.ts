@@ -7,6 +7,7 @@ import { grok } from "./grok";
 import { grokBot } from "./grok-bot";
 import { hermesAgent } from "./hermes-agent";
 import { midjourney } from "./midjourney";
+import { notebooklm } from "./notebooklm";
 import { notionAi } from "./notion-ai";
 import { perplexity } from "./perplexity";
 import { runway } from "./runway";
@@ -22,6 +23,7 @@ export const catalogTools: Tool[] = [
   elevenlabs,
   suno,
   perplexity,
+  notebooklm,
   runway,
   notionAi,
   hermesAgent,
