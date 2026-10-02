@@ -42,7 +42,7 @@ Una fila = un PR. El bot coge la primera `queued`. Estados: `queued` → `in-pr`
 | 36 | Notion AI en bases de datos | tutorial | `notion-ai-bases-datos` | published | Mergeado PR #86 |
 | 37 | Mejores herramientas de IA para vídeo 2026 | comparativa | `mejores-herramientas-ia-video` | published | Mergeado PR #88; runway + midjourney + elevenlabs |
 | 38 | Suno: variaciones y stems | tutorial | `suno-variaciones-stems` | published | Mergeado PR #92 |
-| 39 | NotebookLM: primer briefing | tutorial | `notebooklm-primer-briefing` | queued | |
+| 39 | NotebookLM: primer briefing | tutorial | `notebooklm-primer-briefing` | in-pr | content PR notebooklm-primer-briefing + ficha notebooklm |
 | 40 | Gemini vs ChatGPT para trabajo diario | comparativa | `gemini-vs-chatgpt-diario` | queued | |
 | 41 | Kling: primer clip de vídeo | tutorial | `kling-primer-clip` | queued | |
 | 42 | Ideogram vs Midjourney para tipografía | comparativa | `ideogram-vs-midjourney-tipografia` | queued | |
