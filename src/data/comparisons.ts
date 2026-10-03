@@ -2437,6 +2437,179 @@ export const comparisons: Comparison[] = [
       },
     },
   },
+  {
+    slug: "gemini-vs-chatgpt-diario",
+    toolSlugs: ["gemini", "chatgpt"],
+    updatedAt: "2026-10-03",
+    copy: {
+      es: {
+        title: "Gemini vs ChatGPT para trabajo diario",
+        excerpt:
+          "Dos generalistas para el escritorio: uno encaja con Google, adjuntos y Workspace; el otro con GPTs, Projects y el ecosistema más amplio. Email, docs, investigación ligera y planificación — sin humo.",
+        verdict:
+          "Elige Gemini si tu día a día pasa por Gmail, Drive, Docs o Calendar y quieres adjuntar capturas, PDFs o contexto de Google sin montar un proyecto aparte: borradores de email, resúmenes de reunión, tablas de la semana y Gems para repetir un estilo encajan bien. Elige ChatGPT si tu flujo vive en briefings reutilizables, Custom GPTs, Projects con varios hilos o necesitas el comodín con búsqueda, voz e imágenes en un solo lugar aunque no uses Google. Para investigación ligera con fuentes abiertas, cualquiera sirve si abres los enlaces; para corpus cerrado con citas obligatorias, ninguno sustituye a NotebookLM. Combo habitual: esbozo y variantes en ChatGPT, pegado y pulido en Gemini cuando el entregable termina en Docs — o Gemini como chat único si ya pagas Workspace con Gemini.",
+        rows: [
+          {
+            label: "Mejor para",
+            values: [
+              "Email, Docs, Drive, capturas y planes con contexto Google",
+              "Borradores rápidos, GPTs, Projects y comodín fuera de Google",
+            ],
+          },
+          {
+            label: "Contexto del día a día",
+            values: [
+              "Adjuntos multimodales y extensiones Workspace en planes que las incluyen",
+              "Proyectos e hilos largos; pegas lo que haga falta o partes de cero",
+            ],
+          },
+          {
+            label: "Flujos repetibles",
+            values: [
+              "Gems e instrucciones guardadas; menos marketplace que GPTs",
+              "Custom GPTs, Projects y plantillas de la comunidad muy maduras",
+            ],
+          },
+          {
+            label: "Investigación ligera",
+            values: [
+              "Resumen y síntesis con búsqueda según plan; contrasta fechas y fuentes",
+              "Búsqueda web integrada; útil para orientarte, no para citar sin abrir",
+            ],
+          },
+          {
+            label: "Planificación y docs cortos",
+            values: [
+              "Tablas, checklists y actas cuando pides formato explícito",
+              "Muy ágil en variantes de tono y primeras versiones de texto",
+            ],
+          },
+          {
+            label: "Multimodal",
+            values: [
+              "Fuerte en imagen y PDF en el mismo chat del trabajo",
+              "Imágenes, voz y análisis de archivos según plan y modelo",
+            ],
+          },
+          {
+            label: "Plan de entrada",
+            values: [
+              "Gratis con límites + Google AI Pro / Workspace con Gemini",
+              "Gratis + Plus / Team",
+            ],
+          },
+          {
+            label: "Riesgo principal",
+            values: [
+              "Asumir que Workspace «ya sabe» un doc que no adjuntaste o no compartiste",
+              "Publicar el primer borrador sin marcar cifras o datos inciertos",
+            ],
+          },
+        ],
+        faq: [
+          {
+            q: "¿Cuál uso solo para emails y mensajes cortos?",
+            a: "Los dos sirven. ChatGPT gana si ya tienes un Custom GPT con tu tono. Gemini gana si redactas desde Gmail o adjuntas un hilo capturado y quieres asunto + cuerpo en un formato fijo.",
+          },
+          {
+            q: "¿Y para planificar la semana o una reunión?",
+            a: "Pide siempre salida en tabla o checklist. Gemini encaja si el calendario y los docs están en Google; ChatGPT si prefieres iterar muchas versiones y guardar el briefing en un Project.",
+          },
+          {
+            q: "¿Sustituye uno al otro por completo?",
+            a: "No hace falta. Muchos equipos eligen uno como principal por ecosistema (Google vs OpenAI) y abren el otro en gratis para contrastar un párrafo delicado o un borrador rápido.",
+          },
+          {
+            q: "¿Cuál para investigación con fuentes?",
+            a: "Para noticias o temas abiertos, usa cualquiera y abre las fuentes. Si el entregable son citas solo de PDFs que tú subiste, abre NotebookLM en lugar de forzar Gemini o ChatGPT.",
+          },
+        ],
+      },
+      en: {
+        title: "Gemini vs ChatGPT for daily work",
+        excerpt:
+          "Two generalists for the desk: one fits Google, attachments and Workspace; the other fits GPTs, Projects and the wider ecosystem. Email, docs, light research and planning — no hype.",
+        verdict:
+          "Pick Gemini if your day runs through Gmail, Drive, Docs or Calendar and you want screenshots, PDFs or Google context without a separate project setup: email drafts, meeting summaries, weekly tables and Gems for a repeatable style fit well. Pick ChatGPT if your flow lives in reusable briefs, Custom GPTs, multi-thread Projects or you want the generalist with search, voice and images in one place even outside Google. For light open-web research, either works if you open the links; for a closed corpus with mandatory citations, neither replaces NotebookLM. A common combo: outline and variants in ChatGPT, paste and polish in Gemini when the deliverable lands in Docs — or Gemini alone if you already pay for Workspace with Gemini.",
+        rows: [
+          {
+            label: "Best for",
+            values: [
+              "Email, Docs, Drive, screenshots and plans with Google context",
+              "Quick drafts, GPTs, Projects and a generalist outside Google",
+            ],
+          },
+          {
+            label: "Daily context",
+            values: [
+              "Multimodal attachments and Workspace extensions on plans that include them",
+              "Projects and long threads; paste what you need or start blank",
+            ],
+          },
+          {
+            label: "Repeatable flows",
+            values: [
+              "Gems and saved instructions; smaller marketplace than GPTs",
+              "Custom GPTs, Projects and community templates that are very mature",
+            ],
+          },
+          {
+            label: "Light research",
+            values: [
+              "Summary and synthesis with search per plan; cross-check dates and sources",
+              "Built-in web search; good for orientation, not for citing without opening",
+            ],
+          },
+          {
+            label: "Planning and short docs",
+            values: [
+              "Tables, checklists and notes when you ask for explicit format",
+              "Very agile at tone variants and first versions of text",
+            ],
+          },
+          {
+            label: "Multimodal",
+            values: [
+              "Strong on image and PDF in the same work chat",
+              "Images, voice and file analysis per plan and model",
+            ],
+          },
+          {
+            label: "Entry plan",
+            values: [
+              "Free with limits + Google AI Pro / Workspace with Gemini",
+              "Free + Plus / Team",
+            ],
+          },
+          {
+            label: "Main risk",
+            values: [
+              "Assuming Workspace «already knows» a doc you did not attach or share",
+              "Shipping the first draft without flagging uncertain figures or facts",
+            ],
+          },
+        ],
+        faq: [
+          {
+            q: "Which one only for email and short messages?",
+            a: "Both work. ChatGPT wins if you already have a Custom GPT with your tone. Gemini wins if you draft from Gmail or attach a captured thread and want subject + body in a fixed format.",
+          },
+          {
+            q: "What about planning the week or a meeting?",
+            a: "Always ask for table or checklist output. Gemini fits when calendar and docs live in Google; ChatGPT if you prefer many variants and saving the brief in a Project.",
+          },
+          {
+            q: "Does one fully replace the other?",
+            a: "You do not have to choose. Many teams pick one primary tool by ecosystem (Google vs OpenAI) and open the other on free to contrast a delicate paragraph or a fast draft.",
+          },
+          {
+            q: "Which one for source-based research?",
+            a: "For news or open topics, use either and open the sources. If the deliverable is citations only from PDFs you uploaded, use NotebookLM instead of forcing Gemini or ChatGPT.",
+          },
+        ],
+      },
+    },
+  },
 ];
 
 export function getComparison(slug: string) {
