@@ -3,6 +3,7 @@ import { chatgpt } from "./chatgpt";
 import { claude } from "./claude";
 import { cursor } from "./cursor";
 import { elevenlabs } from "./elevenlabs";
+import { gemini } from "./gemini";
 import { grok } from "./grok";
 import { grokBot } from "./grok-bot";
 import { hermesAgent } from "./hermes-agent";
@@ -16,6 +17,7 @@ import { suno } from "./suno";
 export const catalogTools: Tool[] = [
   chatgpt,
   claude,
+  gemini,
   grok,
   grokBot,
   midjourney,

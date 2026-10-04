@@ -43,7 +43,7 @@ Una fila = un PR. El bot coge la primera `queued`. Estados: `queued` → `in-pr`
 | 37 | Mejores herramientas de IA para vídeo 2026 | comparativa | `mejores-herramientas-ia-video` | published | Mergeado PR #88; runway + midjourney + elevenlabs |
 | 38 | Suno: variaciones y stems | tutorial | `suno-variaciones-stems` | published | Mergeado PR #92 |
 | 39 | NotebookLM: primer briefing | tutorial | `notebooklm-primer-briefing` | published | Mergeado PR #95 (+ ficha notebooklm) |
-| 40 | Gemini vs ChatGPT para trabajo diario | comparativa | `gemini-vs-chatgpt-diario` | queued | |
+| 40 | Gemini vs ChatGPT para trabajo diario | comparativa | `gemini-vs-chatgpt-diario` | in-pr | PR #100 |
 | 41 | Kling: primer clip de vídeo | tutorial | `kling-primer-clip` | queued | |
 | 42 | Ideogram vs Midjourney para tipografía | comparativa | `ideogram-vs-midjourney-tipografia` | queued | |
 | 43 | Cursor: reglas del proyecto (.cursor/rules) | tutorial | `cursor-reglas-proyecto` | queued | |
