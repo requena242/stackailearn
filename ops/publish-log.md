@@ -44,3 +44,4 @@ Una línea por página mergeada.
 | 2026-09-30 | tutorial | suno-variaciones-stems | Suno: variaciones y stems | https://stackailearn.com/es/tutorials/suno-variaciones-stems/ |
 | 2026-10-02 | ficha | notebooklm | NotebookLM | https://stackailearn.com/es/tools/notebooklm/ |
 | 2026-10-02 | tutorial | notebooklm-primer-briefing | NotebookLM: primer briefing | https://stackailearn.com/es/tutorials/notebooklm-primer-briefing/ |
+| 2026-10-04 | comparativa | gemini-vs-chatgpt-diario | Gemini vs ChatGPT para trabajo diario | https://stackailearn.com/es/compare/gemini-vs-chatgpt-diario/ |
