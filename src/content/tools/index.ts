@@ -7,6 +7,7 @@ import { gemini } from "./gemini";
 import { grok } from "./grok";
 import { grokBot } from "./grok-bot";
 import { hermesAgent } from "./hermes-agent";
+import { kling } from "./kling";
 import { midjourney } from "./midjourney";
 import { notebooklm } from "./notebooklm";
 import { notionAi } from "./notion-ai";
@@ -26,6 +27,7 @@ export const catalogTools: Tool[] = [
   suno,
   perplexity,
   notebooklm,
+  kling,
   runway,
   notionAi,
   hermesAgent,
