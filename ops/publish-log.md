@@ -45,3 +45,5 @@ Una línea por página mergeada.
 | 2026-10-02 | ficha | notebooklm | NotebookLM | https://stackailearn.com/es/tools/notebooklm/ |
 | 2026-10-02 | tutorial | notebooklm-primer-briefing | NotebookLM: primer briefing | https://stackailearn.com/es/tutorials/notebooklm-primer-briefing/ |
 | 2026-10-04 | comparativa | gemini-vs-chatgpt-diario | Gemini vs ChatGPT para trabajo diario | https://stackailearn.com/es/compare/gemini-vs-chatgpt-diario/ |
+| 2026-10-05 | ficha | kling | Kling AI | https://stackailearn.com/es/tools/kling/ |
+| 2026-10-05 | tutorial | kling-primer-clip | Kling: primer clip de vídeo | https://stackailearn.com/es/tutorials/kling-primer-clip/ |
