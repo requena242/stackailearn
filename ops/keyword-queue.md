@@ -44,7 +44,7 @@ Una fila = un PR. El bot coge la primera `queued`. Estados: `queued` → `in-pr`
 | 38 | Suno: variaciones y stems | tutorial | `suno-variaciones-stems` | published | Mergeado PR #92 |
 | 39 | NotebookLM: primer briefing | tutorial | `notebooklm-primer-briefing` | published | Mergeado PR #95 (+ ficha notebooklm) |
 | 40 | Gemini vs ChatGPT para trabajo diario | comparativa | `gemini-vs-chatgpt-diario` | published | Mergeado PR #100 |
-| 41 | Kling: primer clip de vídeo | tutorial | `kling-primer-clip` | in-pr | + ficha `kling` |
+| 41 | Kling: primer clip de vídeo | tutorial | `kling-primer-clip` | published | Mergeado PR #102 (+ ficha kling) |
 | 42 | Ideogram vs Midjourney para tipografía | comparativa | `ideogram-vs-midjourney-tipografia` | queued | |
 | 43 | Cursor: reglas del proyecto (.cursor/rules) | tutorial | `cursor-reglas-proyecto` | queued | |
 | 44 | Descript: editar podcast con IA | tutorial | `descript-editar-podcast` | queued | |
