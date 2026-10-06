@@ -2610,6 +2610,187 @@ export const comparisons: Comparison[] = [
       },
     },
   },
+  {
+    slug: "ideogram-vs-midjourney-tipografia",
+    toolSlugs: ["ideogram", "midjourney"],
+    updatedAt: "2026-10-06",
+    copy: {
+      es: {
+        title: "Ideogram vs Midjourney para tipografía",
+        excerpt:
+          "Dos motores de imagen: uno prioriza que el titular se lea en el póster; el otro, dirigir luz, cámara y estilo cuando el texto va en capas aparte.",
+        verdict:
+          "Elige Ideogram cuando el copy vive dentro del JPG — titular de campaña, claim de packaging, nombre en un logo exploratorio o cartelería donde una letra mal puesta invalida el mock. Usa Layerize Text y prompts con comillas; si necesitas layout repetible, mira el JSON de Ideogram 4.x en la documentación del vendor. Elige Midjourney cuando el entregable es moodboard, concept art o still cinematográfico sin texto crítico en imagen, o cuando ya trabajas con --sref y variaciones de look: ahí el control de plano sigue siendo más maduro. Combo habitual: explorar lockup y copy en Ideogram; si el fondo debe ser más «película» y el texto pasa a Figma, genera el still en Midjourney y monta el tipo en diseño. Para reparto general de motores de imagen, mejor-ia-imagenes; para salir de Midjourney, alternativas-midjourney y midjourney-sref-estilo.",
+        rows: [
+          {
+            label: "Mejor para",
+            values: [
+              "Pósters, packaging y logos con texto en el frame",
+              "Moodboards, concept art y stills sin copy crítico",
+            ],
+          },
+          {
+            label: "Legibilidad del texto generado",
+            values: [
+              "Fuerte: el producto se vende por text rendering (guías ideogram.ai)",
+              "Débil: letras, logos y UI en imagen suelen fallar o distorsionarse",
+            ],
+          },
+          {
+            label: "Logos y carteles",
+            values: [
+              "Categorías Poster / Logo; copy entre comillas + Layerize Text",
+              "Mejor como ilustración de fondo; el nombre suele ir en post",
+            ],
+          },
+          {
+            label: "Control de estilo visual",
+            values: [
+              "JSON con bbox y paleta en 4.x; menos cultura --sref",
+              "Muy alto con --ar, stylize, --sref y grids de variación",
+            ],
+          },
+          {
+            label: "Edición tras generar",
+            values: [
+              "Layerize Text, inpaint y remix en canvas (beta en capas de texto)",
+              "Inpaint regional, remix y variaciones; texto no es editable como capa",
+            ],
+          },
+          {
+            label: "Flujo de trabajo",
+            values: [
+              "Prompt con palabras exactas → revisar ortografía → capas de texto",
+              "Prompt de plano → grid → variar luz o cámara → export still",
+            ],
+          },
+          {
+            label: "Plan de entrada",
+            values: [
+              "Gratis con límites + planes de pago según ideogram.ai",
+              "De pago (tiers por GPU; sin plan gratuito útil a largo plazo)",
+            ],
+          },
+          {
+            label: "Riesgo principal",
+            values: [
+              "Confiar en Layerize con tipografía muy curva o decorativa",
+              "Publicar un cartel con titular generado sin leer letra a letra",
+            ],
+          },
+        ],
+        faq: [
+          {
+            q: "¿Cuál uso para un post de Instagram con titular grande?",
+            a: "Ideogram. Escribe el titular entre comillas, pide formato vertical y descarta variantes con errores antes de retocar estilo. Midjourney solo si el texto lo añades tú en el editor.",
+          },
+          {
+            q: "¿Puedo combinar los dos?",
+            a: "Sí. Fondo o escena en Midjourney (sin texto en imagen) y lockup en Ideogram, o al revés: cartel legible en Ideogram y variaciones de color en diseño. No mezcles dos titulares distintos en el mismo entregable sin revisión.",
+          },
+          {
+            q: "¿Cuál para un logo de cliente?",
+            a: "Ninguno sustituye entrega final vectorial. Ideogram sirve para explorar nombre + forma; Midjourney para icono ilustrado sin tipografía integrada. Legal y manual de marca siguen siendo humanos.",
+          },
+          {
+            q: "¿Y para un moodboard de campaña sin copy?",
+            a: "Midjourney. Grids, stylize y --sref encajan mejor cuando no hay palabras en el frame. Si algún frame lleva claim obligatorio, genera ese frame en Ideogram.",
+          },
+          {
+            q: "¿Dónde aprendo el flujo de cada uno?",
+            a: "Ficha ideogram y tutorial alternativas-midjourney; para estilo visual en Midjourney, midjourney-sref-estilo.",
+          },
+        ],
+      },
+      en: {
+        title: "Ideogram vs Midjourney for typography",
+        excerpt:
+          "Two image engines: one optimizes for headlines that read on the poster; the other, for steering light, camera and look when type lives in separate layers.",
+        verdict:
+          "Pick Ideogram when copy lives inside the JPG — campaign headline, packaging claim, name on an exploratory logo or signage where one wrong letter kills the mock. Use Layerize Text and quoted copy in the prompt; for repeatable layout, see Ideogram 4.x JSON in the vendor docs. Pick Midjourney when the deliverable is a moodboard, concept art or cinematic still with no critical in-image type, or when you already work with --sref and look variations: shot control stays more mature there. A common combo: explore lockup and copy in Ideogram; if the background must feel more «cinematic» and type moves to Figma, generate the still in Midjourney and set type in design. For a broader image-engine split, see mejor-ia-imagenes; to move off Midjourney, alternativas-midjourney and midjourney-sref-estilo.",
+        rows: [
+          {
+            label: "Best for",
+            values: [
+              "Posters, packaging and logos with type in frame",
+              "Moodboards, concept art and stills without critical copy",
+            ],
+          },
+          {
+            label: "Generated text legibility",
+            values: [
+              "Strong: the product leads on text rendering (ideogram.ai guides)",
+              "Weak: letters, logos and UI in image often fail or warp",
+            ],
+          },
+          {
+            label: "Logos and posters",
+            values: [
+              "Poster / Logo categories; quoted copy + Layerize Text",
+              "Better as background art; names usually land in post",
+            ],
+          },
+          {
+            label: "Visual style control",
+            values: [
+              "JSON with bbox and palette on 4.x; less --sref culture",
+              "Very high with --ar, stylize, --sref and variation grids",
+            ],
+          },
+          {
+            label: "Post-generation editing",
+            values: [
+              "Layerize Text, inpaint and remix on canvas (text layers in beta)",
+              "Regional inpaint, remix and variations; type is not a layer",
+            ],
+          },
+          {
+            label: "Workflow",
+            values: [
+              "Exact words in prompt → spell-check → text layers",
+              "Shot prompt → grid → vary light or camera → export still",
+            ],
+          },
+          {
+            label: "Entry plan",
+            values: [
+              "Free with limits + paid tiers per ideogram.ai",
+              "Paid (GPU tiers; no useful long-term free plan)",
+            ],
+          },
+          {
+            label: "Main risk",
+            values: [
+              "Trusting Layerize on heavy curve or decorative type",
+              "Shipping a poster headline without reading every letter",
+            ],
+          },
+        ],
+        faq: [
+          {
+            q: "Which one for an Instagram post with a big headline?",
+            a: "Ideogram. Put the headline in quotes, ask for vertical format and discard variants with typos before polishing look. Midjourney only if you add type yourself in the editor.",
+          },
+          {
+            q: "Can I combine both?",
+            a: "Yes. Background or scene in Midjourney (no in-image type) and lockup in Ideogram, or the reverse: readable poster in Ideogram and color variants in design. Do not mix two different headlines in one deliverable without review.",
+          },
+          {
+            q: "Which for a client logo?",
+            a: "Neither replaces final vector delivery. Ideogram helps explore name + shape; Midjourney for illustrated marks without integrated typography. Legal and brand guidelines stay human.",
+          },
+          {
+            q: "What about a campaign moodboard with no copy?",
+            a: "Midjourney. Grids, stylize and --sref fit better when there are no words in frame. If one frame needs a mandatory claim, generate that frame in Ideogram.",
+          },
+          {
+            q: "Where do I learn each workflow?",
+            a: "Ideogram tool page and alternativas-midjourney tutorial; for Midjourney look control, midjourney-sref-estilo.",
+          },
+        ],
+      },
+    },
+  },
 ];
 
 export function getComparison(slug: string) {

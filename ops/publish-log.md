@@ -47,3 +47,5 @@ Una línea por página mergeada.
 | 2026-10-04 | comparativa | gemini-vs-chatgpt-diario | Gemini vs ChatGPT para trabajo diario | https://stackailearn.com/es/compare/gemini-vs-chatgpt-diario/ |
 | 2026-10-05 | ficha | kling | Kling AI | https://stackailearn.com/es/tools/kling/ |
 | 2026-10-05 | tutorial | kling-primer-clip | Kling: primer clip de vídeo | https://stackailearn.com/es/tutorials/kling-primer-clip/ |
+| 2026-10-06 | ficha | ideogram | Ideogram | https://stackailearn.com/es/tools/ideogram/ |
+| 2026-10-06 | comparativa | ideogram-vs-midjourney-tipografia | Ideogram vs Midjourney para tipografía | https://stackailearn.com/es/compare/ideogram-vs-midjourney-tipografia/ |
