@@ -49,3 +49,4 @@ Una línea por página mergeada.
 | 2026-10-05 | tutorial | kling-primer-clip | Kling: primer clip de vídeo | https://stackailearn.com/es/tutorials/kling-primer-clip/ |
 | 2026-10-06 | ficha | ideogram | Ideogram | https://stackailearn.com/es/tools/ideogram/ |
 | 2026-10-06 | comparativa | ideogram-vs-midjourney-tipografia | Ideogram vs Midjourney para tipografía | https://stackailearn.com/es/compare/ideogram-vs-midjourney-tipografia/ |
+| 2026-10-07 | tutorial | cursor-reglas-proyecto | Cursor: reglas del proyecto (.cursor/rules) | https://stackailearn.com/es/tutorials/cursor-reglas-proyecto/ |
