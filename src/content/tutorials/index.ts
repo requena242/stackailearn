@@ -1,4 +1,5 @@
 import type { Tutorial } from "@/types/content";
+import { descriptEditarPodcast } from "./descript-editar-podcast";
 import { cursorReglasProyecto } from "./cursor-reglas-proyecto";
 import { notebooklmPrimerBriefing } from "./notebooklm-primer-briefing";
 import { notionAiBasesDatos } from "./notion-ai-bases-datos";
@@ -33,6 +34,7 @@ import { runwayPrimerClip } from "./runway-primer-clip";
 import { grokBotPrimer } from "./supporting";
 
 export const catalogTutorials: Tutorial[] = [
+  descriptEditarPodcast,
   cursorReglasProyecto,
   klingPrimerClip,
   notebooklmPrimerBriefing,
