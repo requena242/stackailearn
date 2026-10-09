@@ -2791,6 +2791,187 @@ export const comparisons: Comparison[] = [
       },
     },
   },
+  {
+    slug: "v0-vs-lovable-ui",
+    toolSlugs: ["v0", "lovable"],
+    updatedAt: "2026-10-09",
+    copy: {
+      es: {
+        title: "v0 vs Lovable para UI",
+        excerpt:
+          "Dos generadores desde el chat: uno optimiza componentes React/Next para Vercel; el otro, una app con Supabase, auth y Git desde el primer prompt.",
+        verdict:
+          "Elige v0 cuando el entregable es UI en React + Tailwind/shadcn que va a vivir en un repo Next en Vercel — landings, dashboards, formularios y bloques que copias o despliegas sin montar backend desde cero. Elige Lovable cuando quieres un MVP full-stack publicable: login, tablas en Supabase, iteración en preview y sync a GitHub para que un dev siga en Cursor. Combo habitual: prototipo de producto con datos en Lovable; pantallas de marketing o admin refinadas en v0 y mergeadas al mismo repo tras el sync. Para el mapa más amplio de herramientas de código, mejores-herramientas-ia-codigo; para PRs reales en un repo existente, cursor-cloud-agent-primer-pr.",
+        rows: [
+          {
+            label: "Mejor para",
+            values: [
+              "UI React/Next, shadcn y deploy en Vercel",
+              "App con auth, Supabase y publicación desde chat",
+            ],
+          },
+          {
+            label: "Stack principal",
+            values: [
+              "React, Next.js, Tailwind, shadcn (v0.app)",
+              "React, Tailwind, Supabase, hosting del builder",
+            ],
+          },
+          {
+            label: "Backend y datos",
+            values: [
+              "Tú conectas API/DB en tu repo; v0 no empaqueta Supabase",
+              "Supabase integrado en el flujo (auth, tablas según UI)",
+            ],
+          },
+          {
+            label: "Git y handoff",
+            values: [
+              "Copiar código o proyecto Vercel; ideal si ya tienes repo",
+              "Sync GitHub destacado; clonar y abrir en Cursor después",
+            ],
+          },
+          {
+            label: "Iteración",
+            values: [
+              "Chat sobre componentes y páginas con preview web",
+              "Chat sobre pantallas + lógica + datos en la misma sesión",
+            ],
+          },
+          {
+            label: "Curva si no eres dev",
+            values: [
+              "Media: necesitas pegar código o entender deploy Vercel",
+              "Más baja para «tengo una app con login» sin terminal al inicio",
+            ],
+          },
+          {
+            label: "Riesgo principal",
+            values: [
+              "UI bonita con estado o fetch sin revisar en producción",
+              "RLS, secretos y deuda al salir solo del builder",
+            ],
+          },
+          {
+            label: "Plan de entrada",
+            values: [
+              "Gratis con créditos + planes en v0.app",
+              "Gratis con límites + planes en lovable.dev",
+            ],
+          },
+        ],
+        faq: [
+          {
+            q: "¿Solo necesito una landing para campaña?",
+            a: "v0. Describe secciones, pide modo claro/oscuro y copia el código a tu Next en Vercel. Lovable añade backend que no necesitas.",
+          },
+          {
+            q: "¿Quiero CRUD y login para una demo con inversores?",
+            a: "Lovable suele ser más rápido para algo clickeable con usuarios reales en Supabase. Revisa permisos antes de datos sensibles.",
+          },
+          {
+            q: "¿Puedo usar los dos en el mismo proyecto?",
+            a: "Sí: MVP en Lovable con sync a GitHub; pantallas nuevas o marketing en v0 y merge manual o con Cursor en una rama.",
+          },
+          {
+            q: "¿Cuál sustituye a Cursor?",
+            a: "Ninguno. Ambos generan; Cursor revisa diffs en un repo maduro. Flujo: generar aquí, endurecer en Cursor (cursor-repo-existente).",
+          },
+          {
+            q: "¿Dónde encajan en el catálogo de código?",
+            a: "En la comparativa mejores-herramientas-ia-codigo junto a Cursor y Claude; v0 y Lovable son capa «desde prompt», no IDE.",
+          },
+        ],
+      },
+      en: {
+        title: "v0 vs Lovable for UI",
+        excerpt:
+          "Two chat-first generators: one optimizes React/Next components for Vercel; the other, an app with Supabase, auth and Git from the first prompt.",
+        verdict:
+          "Pick v0 when the deliverable is React + Tailwind/shadcn UI that will live in a Next repo on Vercel — landings, dashboards, forms and blocks you copy or deploy without standing up a backend from scratch. Pick Lovable when you want a shippable full-stack MVP: login, Supabase tables, preview iteration and GitHub sync so a developer continues in Cursor. A common combo: product prototype with data in Lovable; marketing or admin screens refined in v0 and merged into the same repo after sync. For the broader code-tool map, see mejores-herramientas-ia-codigo; for real PRs on an existing repo, cursor-cloud-agent-primer-pr.",
+        rows: [
+          {
+            label: "Best for",
+            values: [
+              "React/Next UI, shadcn and deploy on Vercel",
+              "App with auth, Supabase and publish-from-chat",
+            ],
+          },
+          {
+            label: "Core stack",
+            values: [
+              "React, Next.js, Tailwind, shadcn (v0.app)",
+              "React, Tailwind, Supabase, builder hosting",
+            ],
+          },
+          {
+            label: "Backend and data",
+            values: [
+              "You wire API/DB in your repo; v0 does not bundle Supabase",
+              "Supabase integrated in the flow (auth, tables per UI)",
+            ],
+          },
+          {
+            label: "Git and handoff",
+            values: [
+              "Copy code or Vercel project; ideal if you already have a repo",
+              "GitHub sync highlighted; clone and open in Cursor next",
+            ],
+          },
+          {
+            label: "Iteration",
+            values: [
+              "Chat on components and pages with web preview",
+              "Chat on screens + logic + data in one session",
+            ],
+          },
+          {
+            label: "Curve if you are not a developer",
+            values: [
+              "Medium: you paste code or understand Vercel deploy",
+              "Lower for «I have an app with login» without a terminal at first",
+            ],
+          },
+          {
+            label: "Main risk",
+            values: [
+              "Pretty UI with state or fetch unreviewed in production",
+              "RLS, secrets and debt if you never leave the builder",
+            ],
+          },
+          {
+            label: "Entry plan",
+            values: [
+              "Free with credits + paid tiers on v0.app",
+              "Free with limits + paid tiers on lovable.dev",
+            ],
+          },
+        ],
+        faq: [
+          {
+            q: "I only need a campaign landing?",
+            a: "v0. Describe sections, ask for light/dark mode and copy code into your Next on Vercel. Lovable adds backend you do not need.",
+          },
+          {
+            q: "I want CRUD and login for an investor demo?",
+            a: "Lovable is usually faster for something clickable with real users on Supabase. Review permissions before sensitive data.",
+          },
+          {
+            q: "Can I use both on the same project?",
+            a: "Yes: MVP in Lovable with GitHub sync; new or marketing screens in v0 and merge manually or with Cursor on a branch.",
+          },
+          {
+            q: "Which replaces Cursor?",
+            a: "Neither. Both generate; Cursor reviews diffs on a mature repo. Flow: generate here, harden in Cursor (cursor-repo-existente).",
+          },
+          {
+            q: "Where do they fit in the code catalog?",
+            a: "In mejores-herramientas-ia-codigo alongside Cursor and Claude; v0 and Lovable are the «from prompt» layer, not the IDE.",
+          },
+        ],
+      },
+    },
+  },
 ];
 
 export function getComparison(slug: string) {

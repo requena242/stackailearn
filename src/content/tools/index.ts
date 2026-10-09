@@ -16,6 +16,8 @@ import { notionAi } from "./notion-ai";
 import { perplexity } from "./perplexity";
 import { runway } from "./runway";
 import { suno } from "./suno";
+import { v0 } from "./v0";
+import { lovable } from "./lovable";
 
 export const catalogTools: Tool[] = [
   chatgpt,
@@ -35,4 +37,6 @@ export const catalogTools: Tool[] = [
   runway,
   notionAi,
   hermesAgent,
+  v0,
+  lovable,
 ];
