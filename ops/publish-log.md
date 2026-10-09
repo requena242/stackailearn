@@ -52,3 +52,6 @@ Una línea por página mergeada.
 | 2026-10-07 | tutorial | cursor-reglas-proyecto | Cursor: reglas del proyecto (.cursor/rules) | https://stackailearn.com/es/tutorials/cursor-reglas-proyecto/ |
 | 2026-10-08 | ficha | descript | Descript | https://stackailearn.com/es/tools/descript/ |
 | 2026-10-08 | tutorial | descript-editar-podcast | Descript: editar podcast con IA | https://stackailearn.com/es/tutorials/descript-editar-podcast/ |
+| 2026-10-09 | ficha | v0 | v0 | https://stackailearn.com/es/tools/v0/ |
+| 2026-10-09 | ficha | lovable | Lovable | https://stackailearn.com/es/tools/lovable/ |
+| 2026-10-09 | comparativa | v0-vs-lovable-ui | v0 vs Lovable para UI | https://stackailearn.com/es/compare/v0-vs-lovable-ui/ |
