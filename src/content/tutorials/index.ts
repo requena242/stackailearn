@@ -1,4 +1,5 @@
 import type { Tutorial } from "@/types/content";
+import { chatgptMemoriaPersonalizacion } from "./chatgpt-memoria-personalizacion";
 import { descriptEditarPodcast } from "./descript-editar-podcast";
 import { cursorReglasProyecto } from "./cursor-reglas-proyecto";
 import { notebooklmPrimerBriefing } from "./notebooklm-primer-briefing";
@@ -34,6 +35,7 @@ import { runwayPrimerClip } from "./runway-primer-clip";
 import { grokBotPrimer } from "./supporting";
 
 export const catalogTutorials: Tutorial[] = [
+  chatgptMemoriaPersonalizacion,
   descriptEditarPodcast,
   cursorReglasProyecto,
   klingPrimerClip,
