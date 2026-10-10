@@ -62,7 +62,7 @@ export const chatgptMemoriaPersonalizacion: Tutorial = {
         {
           title: "Decide qué va en instrucciones y qué en memoria",
           content:
-            "Antes de tocar ajustes, escribe dos listas en un bloc. Lista A — instrucciones estables que quieres en casi todos los chats: rol, tono, formato, prohibiciones (el mismo rigor que en chatgpt-primeros-pasos). Lista B — hechos que cambian o son delicados: alergias, nombres de clientes, presupuestos, datos de salud. Las custom instructions son guía directa que tú defines; la memoria puede recoger preferencias y detalles a partir de conversaciones y otras fuentes disponibles en tu cuenta. No metas secretos ni PHI en ninguna lista si tu workspace no está pensado para ello. Si el trabajo vive en un contenedor con archivos fijos, valora chatgpt-projects-primer-flujo en paralelo: las instrucciones del proyecto no sustituyen la revisión de memoria global.",
+            "Antes de tocar ajustes, escribe dos listas en un bloc. Lista A — instrucciones estables que quieres en casi todos los chats: rol, tono, formato, prohibiciones (el mismo rigor que en chatgpt-primeros-pasos). Lista B — hechos que cambian o son delicados: alergias, nombres de clientes, presupuestos, datos de salud. Las custom instructions son guía directa que tú defines; la memoria puede recoger preferencias y detalles a partir de conversaciones y otras fuentes disponibles en tu cuenta. No metas secretos ni datos de salud en ninguna lista si tu workspace no está pensado para ello. Si el trabajo vive en un contenedor con archivos fijos, valora chatgpt-projects-primer-flujo en paralelo: las instrucciones del proyecto no sustituyen la revisión de memoria global.",
           whatYouShouldSee:
             "Dos listas cortas: A para Customize ChatGPT, B marcada como «solo si hace falta y revisable».",
           tip: "Si algo solo aplica a un cliente, un Project suele ser mejor que memoria global.",
@@ -83,7 +83,7 @@ export const chatgptMemoriaPersonalizacion: Tutorial = {
         {
           title: "Revisa los controles de Memory en Settings",
           content:
-            "En Settings → Personalization → Memory, localiza los toggles que muestra tu cuenta. Suele aparecer un interruptor principal de Memory y, según la experiencia, opciones como Reference saved memories, Reference chat history, Memory summary o Manage. Activa Memory solo si quieres personalización persistente; si desactivas Memory, los chats pasados no se borran solos, pero ChatGPT deja de crear nueva información recordada hasta que lo vuelvas a encender. Si tienes Reference chat history, entender que apagarlo programa la eliminación de información derivada del historial en los sistemas de OpenAI en un plazo que la ayuda oficial describe (hasta unos 30 días), sin borrar los chats en tu lista. Los nombres exactos pueden variar: confía en lo que ves, no en capturas antiguas.",
+            "En Settings → Personalization → Memory, localiza los toggles que muestra tu cuenta. Suele aparecer un interruptor principal de Memory y, según la experiencia, opciones como Reference saved memories, Reference chat history, Memory summary o Manage. Activa Memory solo si quieres personalización persistente; si desactivas Memory, los chats pasados no se borran solos, pero ChatGPT deja de crear nueva información recordada hasta que lo vuelvas a encender. Si tienes Reference chat history, ten en cuenta que apagarlo programa la eliminación de información derivada del historial en los sistemas de OpenAI en un plazo que la ayuda oficial describe (hasta unos 30 días), sin borrar los chats en tu lista. Los nombres exactos pueden variar: confía en lo que ves, no en capturas antiguas.",
           whatYouShouldSee:
             "Sección Memory con al menos un toggle y enlace Manage o Saved memories si aplica.",
           tip: "En cuentas de equipo o educación, un admin puede ocultar controles; si falta un toggle, pregunta al administrador del workspace.",
@@ -152,7 +152,7 @@ export const chatgptMemoriaPersonalizacion: Tutorial = {
         },
         {
           title: "Cambio de cliente",
-          body: "Boras recuerdos del cliente anterior, revisas Sources en el primer chat nuevo y trabajas en un Project separado.",
+          body: "Borras los recuerdos del cliente anterior, revisas Sources en el primer chat nuevo y trabajas en un Project separado.",
         },
         {
           title: "Consulta puntual sensible",
