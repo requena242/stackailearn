@@ -56,3 +56,5 @@ Una línea por página mergeada.
 | 2026-10-09 | ficha | lovable | Lovable | https://stackailearn.com/es/tools/lovable/ |
 | 2026-10-09 | comparativa | v0-vs-lovable-ui | v0 vs Lovable para UI | https://stackailearn.com/es/compare/v0-vs-lovable-ui/ |
 | 2026-10-10 | tutorial | chatgpt-memoria-personalizacion | ChatGPT: memoria y personalización | https://stackailearn.com/es/tutorials/chatgpt-memoria-personalizacion/ |
+| 2026-10-11 | ficha | leonardo | Leonardo AI | https://stackailearn.com/es/tools/leonardo/ |
+| 2026-10-11 | tutorial | leonardo-primer-flujo | Leonardo AI: primer flujo de imágenes | https://stackailearn.com/es/tutorials/leonardo-primer-flujo/ |
