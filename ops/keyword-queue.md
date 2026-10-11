@@ -50,7 +50,7 @@ Una fila = un PR. El bot coge la primera `queued`. Estados: `queued` → `in-pr`
 | 44 | Descript: editar podcast con IA | tutorial | `descript-editar-podcast` | published | Mergeado PR #108 (+ ficha descript) |
 | 45 | v0 vs Lovable para UI | comparativa | `v0-vs-lovable-ui` | published | Mergeado PR #111 (+ fichas v0 + lovable) |
 | 46 | ChatGPT: memoria y personalización | tutorial | `chatgpt-memoria-personalizacion` | published | Mergeado PR #113 |
-| 47 | Leonardo AI: primer flujo de imágenes | tutorial | `leonardo-primer-flujo` | queued | |
+| 47 | Leonardo AI: primer flujo de imágenes | tutorial | `leonardo-primer-flujo` | published | Mergeado PR #115 (+ ficha leonardo) |
 | 48 | CapCut: subtítulos y B-roll con IA | tutorial | `capcut-subtitulos-broll` | queued | |
 | 49 | Zapier AI vs Make para automatizar | comparativa | `zapier-ai-vs-make` | queued | |
 | 50 | Claude Artifacts: prototipo usable | tutorial | `claude-artifacts-prototipo` | queued | |
