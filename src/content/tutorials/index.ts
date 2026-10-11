@@ -25,6 +25,7 @@ import { hermesAgentSegundoFlujo } from "./hermes-agent-segundo-flujo";
 import { midjourneyPrompts } from "./midjourney-prompts-que-funcionan";
 import { perplexityInvestigacion } from "./perplexity-investigacion-con-fuentes";
 import { perplexityCollections } from "./perplexity-collections";
+import { leonardoPrimerFlujo } from "./leonardo-primer-flujo";
 import { klingPrimerClip } from "./kling-primer-clip";
 import { grokPrimerFlujo } from "./grok-primer-flujo";
 import { notionAiPrimerFlujo } from "./notion-ai-primer-flujo";
@@ -35,6 +36,7 @@ import { runwayPrimerClip } from "./runway-primer-clip";
 import { grokBotPrimer } from "./supporting";
 
 export const catalogTutorials: Tutorial[] = [
+  leonardoPrimerFlujo,
   chatgptMemoriaPersonalizacion,
   descriptEditarPodcast,
   cursorReglasProyecto,
