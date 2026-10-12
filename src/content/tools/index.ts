@@ -1,4 +1,5 @@
 import type { Tool } from "@/types/content";
+import { capcut } from "./capcut";
 import { chatgpt } from "./chatgpt";
 import { claude } from "./claude";
 import { cursor } from "./cursor";
@@ -21,6 +22,7 @@ import { v0 } from "./v0";
 import { lovable } from "./lovable";
 
 export const catalogTools: Tool[] = [
+  capcut,
   chatgpt,
   claude,
   gemini,
