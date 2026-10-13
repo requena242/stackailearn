@@ -20,6 +20,8 @@ import { runway } from "./runway";
 import { suno } from "./suno";
 import { v0 } from "./v0";
 import { lovable } from "./lovable";
+import { make } from "./make";
+import { zapier } from "./zapier";
 
 export const catalogTools: Tool[] = [
   capcut,
@@ -43,4 +45,6 @@ export const catalogTools: Tool[] = [
   hermesAgent,
   v0,
   lovable,
+  zapier,
+  make,
 ];
