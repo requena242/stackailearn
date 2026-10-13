@@ -60,3 +60,6 @@ Una línea por página mergeada.
 | 2026-10-11 | tutorial | leonardo-primer-flujo | Leonardo AI: primer flujo de imágenes | https://stackailearn.com/es/tutorials/leonardo-primer-flujo/ |
 | 2026-10-12 | ficha | capcut | CapCut | https://stackailearn.com/es/tools/capcut/ |
 | 2026-10-12 | tutorial | capcut-subtitulos-broll | CapCut: subtítulos y B-roll con IA | https://stackailearn.com/es/tutorials/capcut-subtitulos-broll/ |
+| 2026-10-13 | ficha | zapier | Zapier | https://stackailearn.com/es/tools/zapier/ |
+| 2026-10-13 | ficha | make | Make | https://stackailearn.com/es/tools/make/ |
+| 2026-10-13 | comparativa | zapier-ai-vs-make | Zapier AI vs Make para automatizar | https://stackailearn.com/es/compare/zapier-ai-vs-make/ |
