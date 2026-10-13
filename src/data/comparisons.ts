@@ -2972,6 +2972,187 @@ export const comparisons: Comparison[] = [
       },
     },
   },
+  {
+    slug: "zapier-ai-vs-make",
+    toolSlugs: ["zapier", "make"],
+    updatedAt: "2026-10-13",
+    copy: {
+      es: {
+        title: "Zapier AI vs Make para automatizar",
+        excerpt:
+          "Dos referentes no-code: Zapier con Zaps y tareas, Make con escenarios y operaciones. Dónde gana cada uno en precio, lógica, IA e integraciones.",
+        verdict:
+          "Elige Zapier cuando el flujo es corto (disparador → pocas acciones), el equipo no quiere un canvas y necesitas el conector más mainstream ya publicado — marketing, ventas y ops que conectan CRM, email, Slack y hojas con filtros simples. Elige Make cuando el mismo disparo se ramifica, hay que transformar JSON, iterar listas o optimizar coste por operación en escenarios medianos; ahí el router y la inspección de bundles compensan la curva inicial. Para IA: Zapier empuja describir y depurar Zaps con Copilot/Agents y pasos de modelo en la línea del Zap; Make encaja módulos de IA y AI Agents dentro de un diagrama ya complejo. Combo habitual: prototipo rápido en Zapier; refactor a Make cuando el historial de tareas o la lógica se vuelven inmanejables. Para productividad en el wiki, notion-ai-primer-flujo; para agentes en máquina, hermes-agent-primer-flujo — capas distintas a Zap/Make.",
+        rows: [
+          {
+            label: "Modelo de consumo",
+            values: [
+              "Tareas por acción exitosa en un Zap (planes por volumen de tareas)",
+              "Operaciones por módulo ejecutado (créditos/planes en make.com)",
+            ],
+          },
+          {
+            label: "Curva de aprendizaje",
+            values: [
+              "Baja: lista trigger → acciones, ideal para el primer flujo",
+              "Media-alta: canvas, routers e iterators desde el día uno",
+            ],
+          },
+          {
+            label: "Editor y lógica",
+            values: [
+              "Paths y filtros; flujo más lineal en la UI",
+              "Routers, bucles, agregadores y JSON en el lienzo",
+            ],
+          },
+          {
+            label: "Funciones de IA",
+            values: [
+              "Copilot, Agents y pasos de IA en el flujo Zap (según plan)",
+              "Módulos de IA y AI Agents encadenados en el escenario",
+            ],
+          },
+          {
+            label: "Integraciones",
+            values: [
+              "Catálogo muy amplio y plantillas de Zaps maduras",
+              "Miles de apps + HTTP fuerte; algún conector nicho llega después",
+            ],
+          },
+          {
+            label: "Datos complejos y errores",
+            values: [
+              "Formateadores útiles; ramas profundas pueden costar tareas",
+              "Inspección de bundle por módulo; mejor para APIs «sucias»",
+            ],
+          },
+          {
+            label: "Equipos y gobierno",
+            values: [
+              "Roles, carpetas compartidas y marketplace orientado a self-service",
+              "Carpetas, escenarios compartidos y roles en planes de equipo",
+            ],
+          },
+          {
+            label: "Mejor primer proyecto",
+            values: [
+              "Formulario → hoja o CRM → Slack en una tarde",
+              "Webhook → router → dos destinos según campo",
+            ],
+          },
+        ],
+        faq: [
+          {
+            q: "¿Cuál es más barato?",
+            a: "Depende del diseño: muchos pasos por disparo penalizan tareas en Zapier; routers en Make multiplican operaciones. Modela tu flujo en papel y mira las páginas de precios oficiales sin asumir cifras fijas.",
+          },
+          {
+            q: "¿Necesito IA en la automatización?",
+            a: "Solo si clasificas texto, resumes tickets o extraes campos. Ambos vendors ofrecen pasos de modelo; la IA no sustituye definir disparador, permisos y qué pasa si falla un paso.",
+          },
+          {
+            q: "¿Puedo usar los dos a la vez?",
+            a: "Sí. Zapier para integraciones rápidas con partners; Make para el escenario central con lógica pesada. Evita duplicar el mismo disparo sin dueño claro.",
+          },
+          {
+            q: "¿Sustituyen a Notion AI o a un agente CLI?",
+            a: "No. Son capa SaaS-to-SaaS. Notion AI vive en páginas; Hermes o Grok Bot en tu entorno de desarrollo o bot.",
+          },
+          {
+            q: "¿Migración Zapier → Make?",
+            a: "Rehaz el diagrama módulo a módulo, prueba con datos reales en staging y apaga el Zap antiguo solo cuando el historial de Make esté limpio una semana.",
+          },
+        ],
+      },
+      en: {
+        title: "Zapier AI vs Make for automation",
+        excerpt:
+          "Two no-code staples: Zapier with Zaps and tasks, Make with scenarios and operations. Where each wins on pricing, logic, AI and integrations.",
+        verdict:
+          "Pick Zapier when the flow is short (trigger → few actions), the team does not want a canvas and you need the most mainstream connector already shipped — marketing, sales and ops wiring CRM, email, Slack and sheets with simple filters. Pick Make when the same trigger branches, you must transform JSON, iterate lists or tune cost per operation on medium scenarios; routers and bundle inspection repay the initial curve. For AI: Zapier pushes describing and debugging Zaps with Copilot/Agents and model steps along the Zap; Make fits AI modules and AI Agents inside an already complex diagram. Common combo: fast prototype on Zapier; refactor to Make when task history or logic becomes unmanageable. For wiki productivity, notion-ai-primer-flujo; for machine agents, hermes-agent-primer-flujo — different layers from Zap/Make.",
+        rows: [
+          {
+            label: "Usage model",
+            values: [
+              "Tasks per successful action in a Zap (plans by task volume)",
+              "Operations per module run (credits/plans on make.com)",
+            ],
+          },
+          {
+            label: "Learning curve",
+            values: [
+              "Low: trigger → actions list, ideal for a first flow",
+              "Medium-high: canvas, routers and iterators from day one",
+            ],
+          },
+          {
+            label: "Editor and logic",
+            values: [
+              "Paths and filters; more linear flow in the UI",
+              "Routers, loops, aggregators and JSON on the canvas",
+            ],
+          },
+          {
+            label: "AI features",
+            values: [
+              "Copilot, Agents and AI steps on the Zap (per plan)",
+              "AI modules and AI Agents chained in the scenario",
+            ],
+          },
+          {
+            label: "Integrations",
+            values: [
+              "Very large catalog and mature Zap templates",
+              "Thousands of apps + strong HTTP; some niche connectors land later",
+            ],
+          },
+          {
+            label: "Complex data and errors",
+            values: [
+              "Helpful formatters; deep branches can cost tasks",
+              "Per-module bundle inspection; better for «messy» APIs",
+            ],
+          },
+          {
+            label: "Teams and governance",
+            values: [
+              "Roles, shared folders and marketplace geared to self-service",
+              "Folders, shared scenarios and roles on team plans",
+            ],
+          },
+          {
+            label: "Best first project",
+            values: [
+              "Form → sheet or CRM → Slack in one afternoon",
+              "Webhook → router → two destinations by field",
+            ],
+          },
+        ],
+        faq: [
+          {
+            q: "Which is cheaper?",
+            a: "It depends on design: many steps per trigger hurt Zapier tasks; routers on Make multiply operations. Sketch the flow on paper and read official pricing pages without assuming fixed numbers.",
+          },
+          {
+            q: "Do I need AI in automation?",
+            a: "Only if you classify text, summarize tickets or extract fields. Both vendors offer model steps; AI does not replace defining trigger, permissions and failure behavior.",
+          },
+          {
+            q: "Can I use both?",
+            a: "Yes. Zapier for quick partner integrations; Make for the central scenario with heavy logic. Avoid duplicating the same trigger without a clear owner.",
+          },
+          {
+            q: "Do they replace Notion AI or a CLI agent?",
+            a: "No. They are SaaS-to-SaaS layers. Notion AI lives on pages; Hermes or Grok Bot in your dev or bot environment.",
+          },
+          {
+            q: "Zapier → Make migration?",
+            a: "Rebuild the diagram module by module, test with real staging data and retire the old Zap only after Make history is clean for a week.",
+          },
+        ],
+      },
+    },
+  },
 ];
 
 export function getComparison(slug: string) {
