@@ -63,3 +63,4 @@ Una línea por página mergeada.
 | 2026-10-13 | ficha | zapier | Zapier | https://stackailearn.com/es/tools/zapier/ |
 | 2026-10-13 | ficha | make | Make | https://stackailearn.com/es/tools/make/ |
 | 2026-10-13 | comparativa | zapier-ai-vs-make | Zapier AI vs Make para automatizar | https://stackailearn.com/es/compare/zapier-ai-vs-make/ |
+| 2026-10-14 | tutorial | claude-artifacts-prototipo | Claude Artifacts: prototipo usable | https://stackailearn.com/es/tutorials/claude-artifacts-prototipo/ |
