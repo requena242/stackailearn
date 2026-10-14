@@ -53,4 +53,18 @@ Una fila = un PR. El bot coge la primera `queued`. Estados: `queued` → `in-pr`
 | 47 | Leonardo AI: primer flujo de imágenes | tutorial | `leonardo-primer-flujo` | published | Mergeado PR #115 (+ ficha leonardo) |
 | 48 | CapCut: subtítulos y B-roll con IA | tutorial | `capcut-subtitulos-broll` | published | Mergeado PR #117 (+ ficha capcut) |
 | 49 | Zapier AI vs Make para automatizar | comparativa | `zapier-ai-vs-make` | published | Mergeado PR #119 (+ fichas zapier + make) |
-| 50 | Claude Artifacts: prototipo usable | tutorial | `claude-artifacts-prototipo` | published | Mergeado PR #121 |
+| 50 | Claude Artifacts: prototipo usable | tutorial | `claude-artifacts-prototipo` | published | Mergeado PR #121 || 51 | NotebookLM: Audio Overview (resumen en audio) | tutorial | `notebooklm-audio-overview` | queued | Enlaza notebooklm-primer-briefing |
+| 52 | NotebookLM vs ChatGPT Projects para estudiar documentos | comparativa | `notebooklm-vs-chatgpt-projects` | queued | Enlaza notebooklm-primer-briefing + chatgpt-projects-primer-flujo |
+| 53 | ChatGPT Projects: organizar un proyecto de trabajo | tutorial | `chatgpt-projects-organizar-trabajo` | queued | Enlaza chatgpt-projects-primer-flujo |
+| 54 | Claude Projects vs ChatGPT Projects | comparativa | `claude-projects-vs-chatgpt-projects` | queued | Enlaza claude-projects-primer-flujo + chatgpt-projects-primer-flujo |
+| 55 | Cursor: depurar errores con el agente | tutorial | `cursor-depurar-errores` | queued | Enlaza cursor-reglas-proyecto + cursor-repo-existente |
+| 56 | Grok: buscar en tiempo real con fuentes | tutorial | `grok-busqueda-tiempo-real` | queued | Enlaza grok-primer-flujo + grok-vs-chatgpt |
+| 57 | Grok vs Claude para el día a día | comparativa | `grok-vs-claude-diario` | queued | Enlaza grok-vs-chatgpt |
+| 58 | Claude: analizar un PDF largo | tutorial | `claude-analizar-pdf` | queued | Enlaza claude-briefing-documento |
+| 59 | NotebookLM vs Perplexity para investigar | comparativa | `notebooklm-vs-perplexity-investigacion` | queued | Enlaza perplexity-investigacion-con-fuentes |
+| 60 | ChatGPT: analizar un Excel o CSV | tutorial | `chatgpt-analizar-excel` | queued | Utilidad trabajo diario |
+| 61 | Gemini: primer flujo en Google Workspace | tutorial | `gemini-workspace-primer-flujo` | queued | Ficha gemini ya existe |
+| 62 | Cursor vs v0 para prototipar una web | comparativa | `cursor-vs-v0-prototipo` | queued | Enlaza v0-vs-lovable-ui + cursor-como-ide-con-ia |
+| 63 | Perplexity: preparar una reunión con fuentes | tutorial | `perplexity-preparar-reunion` | queued | Enlaza perplexity-collections |
+| 64 | Zapier AI: primera automatización con ChatGPT | tutorial | `zapier-ai-primera-automatizacion` | queued | Enlaza zapier-ai-vs-make |
+| 65 | Mejores herramientas de IA para estudiar 2026 | comparativa | `mejores-herramientas-ia-estudiar` | queued | notebooklm + chatgpt + claude + perplexity |
