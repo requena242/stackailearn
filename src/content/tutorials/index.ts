@@ -9,6 +9,7 @@ import { chatgptProjectsPrimerFlujo } from "./chatgpt-projects-primer-flujo";
 import { cursorCloudAgentPrimerPr } from "./cursor-cloud-agent-primer-pr";
 import { grokBotPrimeraRutina } from "./grok-bot-primera-rutina";
 import { grokBotSegundoTeammate } from "./grok-bot-segundo-teammate";
+import { claudeArtifactsPrototipo } from "./claude-artifacts-prototipo";
 import { claudeBriefingDocumento } from "./claude-briefing-documento";
 import { alternativasMidjourney } from "./alternativas-midjourney";
 import { midjourneyVariacionesUpscale } from "./midjourney-variaciones-upscale";
@@ -50,6 +51,7 @@ export const catalogTutorials: Tutorial[] = [
   grokBotPrimeraRutina,
   chatgptProjectsPrimerFlujo,
   grokBotSegundoTeammate,
+  claudeArtifactsPrototipo,
   claudeBriefingDocumento,
   alternativasMidjourney,
   midjourneyVariacionesUpscale,

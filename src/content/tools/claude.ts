@@ -24,7 +24,11 @@ export const claude: Tool = {
   tags: ["escritura-larga", "tono", "documentos", "anthropic", "proyectos"],
   alternatives: ["chatgpt", "grok"],
   relatedTools: ["chatgpt", "cursor", "perplexity"],
-  relatedTutorials: ["claude-escritura-larga", "chatgpt-primeros-pasos"],
+  relatedTutorials: [
+    "claude-artifacts-prototipo",
+    "claude-escritura-larga",
+    "chatgpt-primeros-pasos",
+  ],
   screenshots: [
     toolImage(slug, "hero", "hero", {
       es: {
