@@ -13,7 +13,7 @@ Objetivo: 2 posts al día en X. Siempre vía Buffer Free (nunca el composer de x
 
 ## Banco inicial
 
-1. (notebooklm-primer-briefing) NotebookLM rinde mejor con 3–5 fuentes que con 30. Un cuaderno por entregable, con nombre de proyecto. Si mezclas temas en un cuaderno, las respuestas también se mezclan.
+1. [usado 2026-10-15] (notebooklm-primer-briefing) NotebookLM rinde mejor con 3–5 fuentes que con 30. Un cuaderno por entregable, con nombre de proyecto. Si mezclas temas en un cuaderno, las respuestas también se mezclan.
 2. (notebooklm-primer-briefing, hilo)
    1/ Así saco un briefing fiable con NotebookLM en 10 minutos 🧵
    2/ Pregunta con audiencia y fecha: «Resume para el comité del jueves los 3 riesgos principales».
