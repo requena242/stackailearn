@@ -13,8 +13,10 @@ export const cursorComoIde: Tutorial = {
   lastUpdated: "2026-08-26",
   toolsUsed: ["cursor", "hermes-agent", "chatgpt"],
   relatedTutorials: [
+    "cursor-reglas-proyecto",
+    "cursor-repo-existente",
+    "cursor-cloud-agent-primer-pr",
     "hermes-agent-primer-flujo",
-    "grok-bot-primer-teammate",
   ],
   tags: ["cursor", "diffs", "agentes", "codigo", "2026"],
   hero: tutorialHero(slug, {
@@ -32,9 +34,9 @@ export const cursorComoIde: Tutorial = {
   copy: {
     es: {
       title: "Cómo delegar un cambio en Cursor sin perder el control (2026)",
-      metaTitle: "Cómo usar Cursor con IA sin romper el repo (2026)",
+      metaTitle: "Cursor con IA: método para no romper tu repo (2026)",
       metaDescription:
-        "Rama, alcance, plan de 5 líneas, diff como un PR y test. Un método para el agente de Cursor que no acaba en un rewrite inrevisable.",
+        "Rama, alcance, plan de 5 líneas, revisar el diff como un PR y pasar tu test: el método para usar el agente de Cursor sin rewrites imposibles de revisar.",
       excerpt:
         "El agente toca el repo. Tú acotas archivos, exiges un plan y revisas el diff como si fuera el PR de un junior.",
       intro:

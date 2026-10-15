@@ -13,8 +13,9 @@ export const grokPrimerFlujo: Tutorial = {
   lastUpdated: "2026-09-19",
   toolsUsed: ["grok", "chatgpt", "perplexity"],
   relatedTutorials: [
-    "chatgpt-primeros-pasos",
     "perplexity-investigacion-con-fuentes",
+    "chatgpt-projects-primer-flujo",
+    "chatgpt-primeros-pasos",
     "grok-bot-primer-teammate",
     "grok-bot-primera-rutina",
   ],
@@ -34,9 +35,9 @@ export const grokPrimerFlujo: Tutorial = {
   copy: {
     es: {
       title: "Cómo usar Grok en grok.com sin confundirlo con Grok Bot (2026)",
-      metaTitle: "Grok (grok.com): primer flujo útil en 2026",
+      metaTitle: "Cómo usar Grok en español: primer flujo útil (2026)",
       metaDescription:
-        "Una pregunta datada, hecho frente a opinión, contraste con ChatGPT o Perplexity. Grok es el chat. Grok Bot es otra herramienta.",
+        "Guía rápida de Grok: haz una pregunta con fecha, separa hecho de opinión y contrasta con ChatGPT o Perplexity. Grok Bot es otra herramienta distinta.",
       excerpt:
         "Abre grok.com, haz una pregunta con fecha, pide el corte hecho/opinión y quédate con el ángulo. Redacta en otro sitio.",
       intro:

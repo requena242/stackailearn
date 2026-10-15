@@ -36,9 +36,9 @@ export const notebooklmAudioOverview: Tutorial = {
   copy: {
     es: {
       title: "NotebookLM: Audio Overview — resumen en audio de tus fuentes (2026)",
-      metaTitle: "NotebookLM Audio Overview: resumen en audio con fuentes",
+      metaTitle: "NotebookLM Audio Overview en español: guía paso a paso",
       metaDescription:
-        "Genera un Audio Overview en Studio, elige formato Brief o Deep Dive, personaliza idioma y foco, escucha con criterio y comparte o descarga con cuidado.",
+        "Cómo generar un resumen en audio en NotebookLM: formato Brief o Deep Dive, idioma, foco personalizado y qué revisar antes de compartirlo.",
       excerpt:
         "Convierte las fuentes de un cuaderno en una conversación o monólogo en audio: formato según el uso, prompt de foco, escucha crítica y salida sin tratarla como informe auditado.",
       intro:

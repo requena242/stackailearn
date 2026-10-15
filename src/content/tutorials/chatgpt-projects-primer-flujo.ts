@@ -13,9 +13,10 @@ export const chatgptProjectsPrimerFlujo: Tutorial = {
   lastUpdated: "2026-09-23",
   toolsUsed: ["chatgpt", "claude", "notion-ai"],
   relatedTutorials: [
+    "claude-projects-primer-flujo",
+    "notebooklm-primer-briefing",
     "chatgpt-gpts-cuando",
     "chatgpt-primeros-pasos",
-    "claude-projects-primer-flujo",
     "elegir-modelo-texto",
   ],
   tags: ["chatgpt", "projects", "contexto", "instrucciones", "escritura"],
@@ -34,9 +35,9 @@ export const chatgptProjectsPrimerFlujo: Tutorial = {
   copy: {
     es: {
       title: "ChatGPT Projects: tu primer flujo con contexto (2026)",
-      metaTitle: "ChatGPT Projects: primer flujo útil en 2026",
+      metaTitle: "ChatGPT Projects: qué son y cómo usarlos (guía 2026)",
       metaDescription:
-        "Crea un proyecto en chatgpt.com, escribe instrucciones, sube archivos y chatea con ese contexto fijo. Cuándo usar Projects frente a un chat suelto o un Custom GPT.",
+        "Cómo crear un proyecto en ChatGPT: instrucciones, archivos y chats con contexto fijo. Cuándo te conviene Projects frente a un chat suelto o un GPT.",
       excerpt:
         "Define el propósito, crea el proyecto, fija instrucciones, sube referencias y trabaja dentro del proyecto — no en un chat que olvida el brief cada lunes.",
       intro:
@@ -178,9 +179,9 @@ export const chatgptProjectsPrimerFlujo: Tutorial = {
     },
     en: {
       title: "ChatGPT Projects: your first context workflow (2026)",
-      metaTitle: "Projects in ChatGPT: first useful flow in 2026",
+      metaTitle: "ChatGPT Projects: what they are and how to use them",
       metaDescription:
-        "Create a ChatGPT Project on chatgpt.com, write instructions, upload files and chat with fixed context. When to use Projects vs a plain chat or Custom GPT.",
+        "How to set up a ChatGPT Project: instructions, files and chats that keep context. When Projects beat a plain chat or a Custom GPT.",
       excerpt:
         "Define the purpose, create the project, set instructions, upload references and work inside the project — not in a chat that forgets the brief every Monday.",
       intro:

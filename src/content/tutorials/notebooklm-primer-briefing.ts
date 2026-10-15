@@ -13,10 +13,11 @@ export const notebooklmPrimerBriefing: Tutorial = {
   lastUpdated: "2026-10-02",
   toolsUsed: ["notebooklm"],
   relatedTutorials: [
+    "notebooklm-audio-overview",
+    "chatgpt-projects-primer-flujo",
+    "claude-briefing-documento",
     "perplexity-investigacion-con-fuentes",
-    "chatgpt-primeros-pasos",
     "notion-ai-primer-flujo",
-    "elegir-modelo-texto",
   ],
   tags: ["notebooklm", "briefing", "fuentes", "google", "tutorial"],
   hero: tutorialHero(slug, {
@@ -36,9 +37,9 @@ export const notebooklmPrimerBriefing: Tutorial = {
   copy: {
     es: {
       title: "NotebookLM: tu primer briefing útil con tus fuentes (2026)",
-      metaTitle: "NotebookLM: primer briefing con fuentes y citas",
+      metaTitle: "NotebookLM en español: tu primer briefing paso a paso",
       metaDescription:
-        "Crea un cuaderno, sube 3–5 fuentes, pregunta con audiencia y fecha, valida citas y genera un briefing en Studio. Exporta y escribe el entregable fuera.",
+        "Guía práctica de NotebookLM: crea un cuaderno, sube 3–5 fuentes, pregunta bien, comprueba cada cita y saca un briefing en Studio sin inventar nada.",
       excerpt:
         "Cuaderno, fuentes reales, preguntas con citas y un documento de briefing en Studio — sin tratar el chat como informe final.",
       intro:
@@ -186,9 +187,9 @@ export const notebooklmPrimerBriefing: Tutorial = {
     },
     en: {
       title: "NotebookLM: your first useful briefing from your sources (2026)",
-      metaTitle: "NotebookLM: first briefing with sources and citations",
+      metaTitle: "How to use NotebookLM: your first briefing, step by step",
       metaDescription:
-        "Create a notebook, add 3–5 sources, ask with audience and date, validate citations and generate a briefing in Studio. Export and write the deliverable elsewhere.",
+        "Practical NotebookLM guide: create a notebook, add 3–5 sources, ask a bounded question, check every citation and generate a briefing in Studio.",
       excerpt:
         "Notebook, real sources, cited questions and a briefing document in Studio — without treating chat as the final report.",
       intro:
