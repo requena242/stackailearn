@@ -4,6 +4,7 @@ import { chatgptMemoriaPersonalizacion } from "./chatgpt-memoria-personalizacion
 import { descriptEditarPodcast } from "./descript-editar-podcast";
 import { cursorReglasProyecto } from "./cursor-reglas-proyecto";
 import { notebooklmPrimerBriefing } from "./notebooklm-primer-briefing";
+import { notebooklmAudioOverview } from "./notebooklm-audio-overview";
 import { notionAiBasesDatos } from "./notion-ai-bases-datos";
 import { chatgptProjectsPrimerFlujo } from "./chatgpt-projects-primer-flujo";
 import { cursorCloudAgentPrimerPr } from "./cursor-cloud-agent-primer-pr";
@@ -44,6 +45,7 @@ export const catalogTutorials: Tutorial[] = [
   descriptEditarPodcast,
   cursorReglasProyecto,
   klingPrimerClip,
+  notebooklmAudioOverview,
   notebooklmPrimerBriefing,
   sunoVariacionesStems,
   notionAiBasesDatos,
