@@ -53,7 +53,8 @@ Una fila = un PR. El bot coge la primera `queued`. Estados: `queued` → `in-pr`
 | 47 | Leonardo AI: primer flujo de imágenes | tutorial | `leonardo-primer-flujo` | published | Mergeado PR #115 (+ ficha leonardo) |
 | 48 | CapCut: subtítulos y B-roll con IA | tutorial | `capcut-subtitulos-broll` | published | Mergeado PR #117 (+ ficha capcut) |
 | 49 | Zapier AI vs Make para automatizar | comparativa | `zapier-ai-vs-make` | published | Mergeado PR #119 (+ fichas zapier + make) |
-| 50 | Claude Artifacts: prototipo usable | tutorial | `claude-artifacts-prototipo` | published | Mergeado PR #121 || 51 | NotebookLM: Audio Overview (resumen en audio) | tutorial | `notebooklm-audio-overview` | queued | Enlaza notebooklm-primer-briefing |
+| 50 | Claude Artifacts: prototipo usable | tutorial | `claude-artifacts-prototipo` | published | Mergeado PR #121 |
+| 51 | NotebookLM: Audio Overview (resumen en audio) | tutorial | `notebooklm-audio-overview` | published | Mergeado PR #124 |
 | 52 | NotebookLM vs ChatGPT Projects para estudiar documentos | comparativa | `notebooklm-vs-chatgpt-projects` | queued | Enlaza notebooklm-primer-briefing + chatgpt-projects-primer-flujo |
 | 53 | ChatGPT Projects: organizar un proyecto de trabajo | tutorial | `chatgpt-projects-organizar-trabajo` | queued | Enlaza chatgpt-projects-primer-flujo |
 | 54 | Claude Projects vs ChatGPT Projects | comparativa | `claude-projects-vs-chatgpt-projects` | queued | Enlaza claude-projects-primer-flujo + chatgpt-projects-primer-flujo |
