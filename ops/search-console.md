@@ -27,4 +27,4 @@ Cuando GSC esté verificado, da acceso de **lectura** al Grok Bot (cuenta Google
 No los enciendas hasta que GSC muestre impresiones estables.
 
 - Ads: `src/data/ads.ts` → `enabled: true` + `ca-pub-…` + slot IDs. Hace falta `/privacy` (ya existe).
-- Newsletter: `src/data/newsletter.ts` → un proveedor (Beehiiv o Buttondown) y su ID. El formulario ya está en el footer.
+- Newsletter: `src/data/newsletter.ts` → un proveedor (Buttondown: `stackailearnes`). El formulario ya está en el footer.

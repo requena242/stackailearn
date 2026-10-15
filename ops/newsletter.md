@@ -1,25 +1,20 @@
-# Newsletter semanal (propuesta)
+# Newsletter semanal
 
-## Estado actual (comprobado)
-- El código ya está preparado: `src/data/newsletter.ts` tiene `enabled: true`, `provider: "buttondown"` y `username: "stackailearn"`.
+## Estado actual (comprobado 15/10/2026)
+- Cuenta propia en Buttondown (plan gratis), creada con hello@stackailearn.com: **stackailearnes** → https://buttondown.com/stackailearnes (pública, confirmada).
+- `src/data/newsletter.ts`: `enabled: true`, `provider: "buttondown"`, `username: "stackailearnes"`.
+- El formulario envía a `https://buttondown.com/api/emails/embed-subscribe/stackailearnes`.
+- La página https://buttondown.com/stackailearn **no es nuestra** (el reset de contraseña no llegó a hello@). No usarla.
 - El componente `EmailCapture` (`src/components/newsletter/EmailCapture.tsx`) sale en las páginas de tutorial (variantes tutorial y banner) y en el footer.
-- https://buttondown.com/stackailearn responde 200, así que esa página existe. **Javier tiene que confirmar si la cuenta es suya.** Si no lo es, hay que cambiar de proveedor o desactivar el formulario.
 
-## Opción recomendada: Buttondown (gratis)
-- Plan gratuito hasta 100 suscriptores. Es Markdown y tiene embed por POST, que ya está integrado.
-- Si Javier ya tiene la cuenta «stackailearn», no hay nada que tocar en el código.
-
-## Alternativas gratuitas
-- Beehiiv: plan Launch gratuito hasta unos 2.500 suscriptores. El código acepta `publicationId` o `formAction`.
-- Brevo: plan gratis de unos 300 emails al día. Habría que añadir el proveedor en `src/lib/newsletter.ts`, porque hoy no está.
-- MailerLite y ConvertKit (Kit) ya están soportados. Solo hace falta su action URL o formId.
+## Buttondown
+- Plan gratuito hasta 100 suscriptores. Markdown y embed por POST, ya integrado.
+- Credenciales: no se guardan aquí. Los correos de verificación llegan a hello@ (los lee Secretaría).
 
 ## Dónde va el formulario
-1. Al final de cada tutorial (`EmailCapture variant="tutorial"`), que ya existe.
+1. Al final de cada tutorial (`EmailCapture variant="tutorial"`).
 2. En el footer global.
-3. En el banner al 42 % de scroll o a los 22 s. Si molesta, se puede subir el umbral.
+3. En el banner al 42 % de scroll o a los 22 s.
 
 ## Contenido semanal (domingo)
-Las 5–7 piezas de la semana con un truco de cada una, sacado de ops/x-posts.md, y una herramienta destacada. Sin afiliados hasta que Javier esté dado de alta.
-
-No he creado ninguna cuenta.
+Las piezas de la semana con un truco de cada una, sacado de ops/x-posts.md, y una herramienta destacada. Sin afiliados hasta que Javier esté dado de alta.
