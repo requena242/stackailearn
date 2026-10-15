@@ -32,6 +32,7 @@ export const notebooklm: Tool = {
   alternatives: ["perplexity", "chatgpt", "claude"],
   relatedTools: ["perplexity", "chatgpt", "notion-ai"],
   relatedTutorials: [
+    "notebooklm-audio-overview",
     "notebooklm-primer-briefing",
     "perplexity-investigacion-con-fuentes",
     "chatgpt-primeros-pasos",
