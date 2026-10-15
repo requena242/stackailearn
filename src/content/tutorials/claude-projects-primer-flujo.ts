@@ -12,7 +12,12 @@ export const claudeProjectsPrimerFlujo: Tutorial = {
   publishedAt: "2026-09-09",
   lastUpdated: "2026-09-09",
   toolsUsed: ["claude", "chatgpt", "notion-ai"],
-  relatedTutorials: ["claude-escritura-larga", "chatgpt-primeros-pasos"],
+  relatedTutorials: [
+    "chatgpt-projects-primer-flujo",
+    "claude-briefing-documento",
+    "claude-escritura-larga",
+    "notebooklm-primer-briefing",
+  ],
   tags: ["claude", "projects", "contexto", "instrucciones", "escritura"],
   hero: tutorialHero(slug, {
     es: {
@@ -29,9 +34,9 @@ export const claudeProjectsPrimerFlujo: Tutorial = {
   copy: {
     es: {
       title: "Claude Projects: tu primer flujo con contexto (2026)",
-      metaTitle: "Claude Projects: primer flujo útil en 2026",
+      metaTitle: "Claude Projects: cómo usarlos paso a paso (2026)",
       metaDescription:
-        "Crea un proyecto en claude.ai, escribe instrucciones, sube archivos de referencia y chatea con ese contexto fijo. Cuándo usar Projects y cuándo un chat suelto.",
+        "Crea un proyecto en Claude con instrucciones y archivos de referencia para no repetir contexto en cada chat. Cuándo usar Projects y cuándo no.",
       excerpt:
         "Define el propósito, crea el proyecto, fija instrucciones, sube conocimiento y trabaja dentro del proyecto — no en un chat que olvida todo.",
       intro:
