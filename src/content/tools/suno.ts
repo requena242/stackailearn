@@ -15,8 +15,6 @@ export const suno: Tool = {
   accent: "#A855F7",
   initials: "SU",
   image: `/media/tools/${slug}/hero.jpg`,
-  rating: 4.6,
-  ratingCount: 520,
   lastUpdated: "2026-08-31",
   difficulty: "intermediate",
   platforms: ["web", "ios", "android"],

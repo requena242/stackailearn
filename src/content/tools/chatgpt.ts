@@ -15,8 +15,6 @@ export const chatgpt: Tool = {
   accent: "#10A37F",
   initials: "CG",
   image: `/media/tools/${slug}/hero.jpg`,
-  rating: 4.7,
-  ratingCount: 1840,
   lastUpdated: "2026-08-26",
   difficulty: "beginner",
   platforms: ["web", "ios", "android", "api", "windows", "macos"],

@@ -15,8 +15,6 @@ export const midjourney: Tool = {
   accent: "#7C3AED",
   initials: "MJ",
   image: `/media/tools/${slug}/hero.jpg`,
-  rating: 4.6,
-  ratingCount: 890,
   lastUpdated: "2026-08-26",
   difficulty: "intermediate",
   platforms: ["web", "discord"],

@@ -15,8 +15,6 @@ export const ideogram: Tool = {
   accent: "#111827",
   initials: "ID",
   image: `/media/tools/${slug}/hero.jpg`,
-  rating: 4.5,
-  ratingCount: 620,
   lastUpdated: "2026-10-06",
   difficulty: "beginner",
   platforms: ["web"],

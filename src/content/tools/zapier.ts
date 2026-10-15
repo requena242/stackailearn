@@ -15,8 +15,6 @@ export const zapier: Tool = {
   accent: "#FF4A00",
   initials: "ZP",
   image: `/media/tools/${slug}/hero.jpg`,
-  rating: 4.6,
-  ratingCount: 580,
   lastUpdated: "2026-10-13",
   difficulty: "beginner",
   platforms: ["web", "ios", "android"],

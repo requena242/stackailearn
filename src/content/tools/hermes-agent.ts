@@ -15,8 +15,6 @@ export const hermesAgent: Tool = {
   accent: "#E879F9",
   initials: "HA",
   image: `/media/tools/${slug}/hero.jpg`,
-  rating: 4.3,
-  ratingCount: 160,
   lastUpdated: "2026-08-26",
   difficulty: "advanced",
   platforms: ["macos", "linux", "windows", "cli"],

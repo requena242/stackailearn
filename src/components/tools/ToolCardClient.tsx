@@ -5,7 +5,6 @@ import { Link } from "@/i18n/navigation";
 import { getCategory } from "@/data/categories";
 import { pick } from "@/lib/content";
 import { Badge } from "@/components/ui/Badge";
-import { StarRating } from "@/components/ui/StarRating";
 import { ToolMark } from "./ToolMark";
 import type { Tool } from "@/types/content";
 
@@ -32,9 +31,6 @@ export function ToolCardClient({ tool, locale }: { tool: Tool; locale: string })
       <p className="mt-3 line-clamp-3 flex-1 text-sm leading-relaxed text-muted">
         {copy.shortDescription}
       </p>
-      <div className="mt-4">
-        <StarRating value={tool.rating} />
-      </div>
     </Link>
   );
 }

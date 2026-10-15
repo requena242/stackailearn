@@ -15,8 +15,6 @@ export const gemini: Tool = {
   accent: "#4285F4",
   initials: "GM",
   image: `/media/tools/${slug}/hero.jpg`,
-  rating: 4.5,
-  ratingCount: 720,
   lastUpdated: "2026-10-03",
   difficulty: "beginner",
   platforms: ["web", "ios", "android", "api"],

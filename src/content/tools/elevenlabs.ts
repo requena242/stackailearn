@@ -15,8 +15,6 @@ export const elevenlabs: Tool = {
   accent: "#2DD4BF",
   initials: "EL",
   image: `/media/tools/${slug}/hero.jpg`,
-  rating: 4.5,
-  ratingCount: 540,
   lastUpdated: "2026-08-30",
   difficulty: "intermediate",
   platforms: ["web", "api"],

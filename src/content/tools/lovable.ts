@@ -15,8 +15,6 @@ export const lovable: Tool = {
   accent: "#FF6B6B",
   initials: "LV",
   image: `/media/tools/${slug}/hero.jpg`,
-  rating: 4.5,
-  ratingCount: 580,
   lastUpdated: "2026-10-09",
   difficulty: "beginner",
   platforms: ["web"],

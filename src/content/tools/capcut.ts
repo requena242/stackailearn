@@ -15,8 +15,6 @@ export const capcut: Tool = {
   accent: "#00C1CD",
   initials: "CC",
   image: `/media/tools/${slug}/hero.jpg`,
-  rating: 4.5,
-  ratingCount: 460,
   lastUpdated: "2026-10-12",
   difficulty: "beginner",
   platforms: ["web", "macos", "windows", "ios", "android"],

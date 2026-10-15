@@ -15,8 +15,6 @@ export const notebooklm: Tool = {
   accent: "#4285F4",
   initials: "NL",
   image: `/media/tools/${slug}/hero.jpg`,
-  rating: 4.4,
-  ratingCount: 480,
   lastUpdated: "2026-10-02",
   difficulty: "beginner",
   platforms: ["web", "ios", "android"],

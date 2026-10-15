@@ -15,8 +15,6 @@ export const cursor: Tool = {
   accent: "#A3A3A3",
   initials: "CU",
   image: `/media/tools/${slug}/hero.jpg`,
-  rating: 4.8,
-  ratingCount: 1120,
   lastUpdated: "2026-09-19",
   difficulty: "intermediate",
   platforms: ["windows", "macos", "linux"],
