@@ -15,8 +15,6 @@ export const leonardo: Tool = {
   accent: "#8B5CF6",
   initials: "LE",
   image: `/media/tools/${slug}/hero.jpg`,
-  rating: 4.4,
-  ratingCount: 540,
   lastUpdated: "2026-10-11",
   difficulty: "beginner",
   platforms: ["web", "ios", "android"],

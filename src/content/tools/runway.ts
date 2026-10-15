@@ -15,8 +15,6 @@ export const runway: Tool = {
   accent: "#FB7185",
   initials: "RW",
   image: `/media/tools/${slug}/hero.jpg`,
-  rating: 4.1,
-  ratingCount: 380,
   lastUpdated: "2026-08-29",
   difficulty: "intermediate",
   platforms: ["web"],

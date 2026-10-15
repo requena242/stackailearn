@@ -15,8 +15,6 @@ export const make: Tool = {
   accent: "#6D00CC",
   initials: "MK",
   image: `/media/tools/${slug}/hero.jpg`,
-  rating: 4.5,
-  ratingCount: 490,
   lastUpdated: "2026-10-13",
   difficulty: "intermediate",
   platforms: ["web", "ios", "android"],

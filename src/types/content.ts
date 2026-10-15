@@ -104,8 +104,6 @@ export type Tool = {
   initials: string;
   logo?: string;
   image?: string;
-  rating: number;
-  ratingCount: number;
   lastUpdated: string;
   difficulty: Difficulty;
   platforms: Platform[];

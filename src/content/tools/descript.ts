@@ -15,8 +15,6 @@ export const descript: Tool = {
   accent: "#7C3AED",
   initials: "DS",
   image: `/media/tools/${slug}/hero.jpg`,
-  rating: 4.6,
-  ratingCount: 480,
   lastUpdated: "2026-10-08",
   difficulty: "beginner",
   platforms: ["web", "macos", "windows"],

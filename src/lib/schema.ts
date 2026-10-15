@@ -15,12 +15,6 @@ export function softwareApplicationJsonLd(
     operatingSystem: tool.platforms.join(", "),
     url: tool.officialUrl,
     description: copy.fullDescription,
-    aggregateRating: {
-      "@type": "AggregateRating",
-      ratingValue: tool.rating,
-      ratingCount: tool.ratingCount,
-      bestRating: 5,
-    },
     offers: {
       "@type": "Offer",
       price: tool.pricing === "free" ? "0" : "1",

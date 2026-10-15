@@ -15,8 +15,6 @@ export const kling: Tool = {
   accent: "#F59E0B",
   initials: "KL",
   image: `/media/tools/${slug}/hero.jpg`,
-  rating: 4.3,
-  ratingCount: 410,
   lastUpdated: "2026-10-05",
   difficulty: "intermediate",
   platforms: ["web", "ios", "android"],

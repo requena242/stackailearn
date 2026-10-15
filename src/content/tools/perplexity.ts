@@ -15,8 +15,6 @@ export const perplexity: Tool = {
   accent: "#22C55E",
   initials: "PX",
   image: `/media/tools/${slug}/hero.jpg`,
-  rating: 4.5,
-  ratingCount: 720,
   lastUpdated: "2026-08-26",
   difficulty: "beginner",
   platforms: ["web", "ios", "android"],

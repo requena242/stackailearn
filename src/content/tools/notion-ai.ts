@@ -15,8 +15,6 @@ export const notionAi: Tool = {
   accent: "#FFFFFF",
   initials: "NO",
   image: `/media/tools/${slug}/hero.jpg`,
-  rating: 4.2,
-  ratingCount: 540,
   lastUpdated: "2026-08-26",
   difficulty: "beginner",
   platforms: ["web", "windows", "macos", "ios", "android"],

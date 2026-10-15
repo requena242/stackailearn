@@ -20,7 +20,6 @@ import { Breadcrumbs } from "@/components/ui/Breadcrumbs";
 import { Container } from "@/components/ui/Container";
 import { JsonLd } from "@/components/ui/JsonLd";
 import { ScreenshotSlot } from "@/components/ui/ScreenshotSlot";
-import { StarRating } from "@/components/ui/StarRating";
 import { ToolCard } from "@/components/tools/ToolCard";
 import { ToolMark } from "@/components/tools/ToolMark";
 import { TutorialCard } from "@/components/tutorials/TutorialCard";
@@ -109,7 +108,6 @@ export default async function ToolPage({ params }: Props) {
             </h1>
             <p className="mt-3 max-w-2xl text-lg text-muted">{copy.shortDescription}</p>
             <div className="mt-4 flex flex-wrap items-center gap-3">
-              <StarRating value={tool.rating} count={tool.ratingCount} />
               <span className="text-xs text-muted">
                 {t("updated")} {tool.lastUpdated}
               </span>

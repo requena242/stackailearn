@@ -18,7 +18,7 @@ Slug: minúsculas, ASCII, guiones. Ejemplo: `chatgpt-vs-perplexity`.
 - Fechas ISO (`YYYY-MM-DD`).
 - Enlaces oficiales reales. Si no hay programa de afiliado en `src/data/affiliates.ts`, no inventes URL de comisión.
 - Disclosure: no lo toques. Ya vive en layout, fichas y `/disclosure`.
-- Ratings: no inventes `ratingCount`. Si no hay cifra editorial previa, copia el estilo de fichas vecinas o deja el campo alineado con herramientas similares (4.2–4.8) y anótalo en el PR.
+- Ratings: PROHIBIDO inventar valoraciones. Las fichas no llevan `rating`/`ratingCount` ni schema `AggregateRating`. Solo se podrían reintroducir con una fuente verificable y citada (aprobada por Javier).
 - Imágenes: usa `toolImage` / `tutorialHero`. Si no hay JPG en `public/media/`, el slot muestra el brief. No subas fotos con copyright.
 
 ## Ficha (`Tool`)

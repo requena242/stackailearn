@@ -15,8 +15,6 @@ export const grok: Tool = {
   accent: "#E8E4DC",
   initials: "GR",
   image: `/media/tools/${slug}/hero.jpg`,
-  rating: 4.3,
-  ratingCount: 640,
   lastUpdated: "2026-08-26",
   difficulty: "beginner",
   platforms: ["web", "ios", "android"],

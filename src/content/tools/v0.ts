@@ -15,8 +15,6 @@ export const v0: Tool = {
   accent: "#000000",
   initials: "V0",
   image: `/media/tools/${slug}/hero.jpg`,
-  rating: 4.6,
-  ratingCount: 620,
   lastUpdated: "2026-10-09",
   difficulty: "beginner",
   platforms: ["web"],
