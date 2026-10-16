@@ -3153,6 +3153,173 @@ export const comparisons: Comparison[] = [
       },
     },
   },
+  {
+    slug: "notebooklm-vs-chatgpt-projects",
+    toolSlugs: ["notebooklm", "chatgpt"],
+    updatedAt: "2026-10-16",
+    copy: {
+      es: {
+        title: "NotebookLM vs ChatGPT Projects para estudiar documentos",
+        excerpt:
+          "Cuaderno con citas solo de tus fuentes frente a un Project con archivos, instrucciones e hilos de chat. Cuál usar para repasar material, preparar un examen o mantener un trabajo en curso.",
+        verdict:
+          "Elige NotebookLM cuando el objetivo es dominar un conjunto fijo de material que ya tienes (PDFs, Docs, vídeos, notas) y necesitas respuestas con citas al pasaje, briefing en Studio o repaso en audio sin mezclar la web abierta. Elige ChatGPT Projects cuando el estudio es parte de un trabajo continuo: mismas instrucciones de tono y formato, varios hilos en paralelo, redacción de entregables, búsqueda web o preguntas generales además de los archivos del proyecto. Combo habitual: corpus y mapa mental con citas en NotebookLM; borradores, variantes y seguimiento semanal en un Project. Primeros pasos: notebooklm-primer-briefing y notebooklm-audio-overview para el cuaderno; chatgpt-projects-primer-flujo para montar el contenedor en ChatGPT.",
+        rows: [
+          {
+            label: "Mejor para",
+            values: [
+              "Estudiar un paquete cerrado de fuentes con citas obligatorias",
+              "Proyecto largo con archivos + instrucciones + chat general",
+            ],
+          },
+          {
+            label: "Anclaje a fuentes",
+            values: [
+              "Solo lo que subes al cuaderno; citas al fragmento",
+              "Archivos del Project + contexto que pegas; sin citas automáticas al PDF",
+            ],
+          },
+          {
+            label: "Formato de estudio",
+            values: [
+              "Guías, FAQ, mapas y Audio Overview en Studio",
+              "Preguntas libres, tablas, borradores y variantes en el hilo",
+            ],
+          },
+          {
+            label: "Hilos y continuidad",
+            values: [
+              "Un cuaderno por tema; el chat gira en torno a esas fuentes",
+              "Varios chats dentro del Project heredan instrucciones y archivos",
+            ],
+          },
+          {
+            label: "Más allá del material subido",
+            values: [
+              "No sustituye búsqueda web amplia (otra herramienta)",
+              "Búsqueda, voz, imágenes y tareas generales según plan",
+            ],
+          },
+          {
+            label: "Ecosistema",
+            values: [
+              "Cuenta Google; encaja con Drive y Docs del equipo",
+              "Cuenta OpenAI; GPTs y el resto del chat fuera del Project",
+            ],
+          },
+          {
+            label: "Riesgo principal",
+            values: [
+              "Mezclar temas en un solo cuaderno y confundir citas",
+              "Asumir que «recuerda» un archivo que no está en el Project",
+            ],
+          },
+        ],
+        faq: [
+          {
+            q: "¿Puedo estudiar para un examen solo con ChatGPT Projects?",
+            a: "Sí si subes el temario y defines instrucciones claras, pero las citas al PDF no son el producto central: conviene contrastar afirmaciones abriendo el archivo. Para «solo responde con mis apuntes y dime en qué página», NotebookLM suele ser más directo.",
+          },
+          {
+            q: "¿NotebookLM sustituye a un Project de ChatGPT?",
+            a: "No del todo. NotebookLM gana en síntesis citada y repaso de fuentes fijas. Un Project gana cuando además redactas entregables, alternas varios hilos o mezclas estudio con trabajo del día a día en el mismo contenedor.",
+          },
+          {
+            q: "¿Cuántas fuentes o archivos meto?",
+            a: "En ambos conviene un alcance acotado por entregable (un examen, un informe). En NotebookLM, mezclar temas en un cuaderno diluye las respuestas; en ChatGPT, archivos irrelevantes ensucian el contexto. Sin cifras fijas: empieza poco y sube solo lo que consultas.",
+          },
+          {
+            q: "¿Y el Audio Overview de NotebookLM?",
+            a: "Sirve para repasar en audio el material ya indexado en el cuaderno, con un briefing previo en Studio. No es un sustituto de tomar apuntes en ChatGPT: son capas distintas (repaso pasivo vs redacción activa). Ver notebooklm-audio-overview.",
+          },
+          {
+            q: "¿Los dos a la vez?",
+            a: "Es habitual: NotebookLM para mapa y citas del corpus; Project de ChatGPT para practicar redacción, simular preguntas abiertas o seguir el curso con instrucciones que no cambian cada semana.",
+          },
+        ],
+      },
+      en: {
+        title: "NotebookLM vs ChatGPT Projects for studying documents",
+        excerpt:
+          "A notebook with citations only from your sources vs a Project with files, instructions and chat threads. Which to use to review material, prep for an exam or keep ongoing work on track.",
+        verdict:
+          "Pick NotebookLM when the goal is to master a fixed set of material you already have (PDFs, Docs, videos, notes) and you need answers with passage-level citations, Studio briefings or audio review without blending in the open web. Pick ChatGPT Projects when studying is part of ongoing work: same tone and format instructions, several parallel threads, drafting deliverables, web search or general questions on top of project files. Common combo: corpus and cited map in NotebookLM; drafts, variants and weekly follow-up in a Project. First steps: notebooklm-primer-briefing and notebooklm-audio-overview for the notebook; chatgpt-projects-primer-flujo to set up the ChatGPT container.",
+        rows: [
+          {
+            label: "Best for",
+            values: [
+              "Studying a closed pack of sources with mandatory citations",
+              "Long-running work with files + instructions + general chat",
+            ],
+          },
+          {
+            label: "Source anchoring",
+            values: [
+              "Only what you upload to the notebook; citations to the passage",
+              "Project files + pasted context; no automatic PDF passage cites",
+            ],
+          },
+          {
+            label: "Study outputs",
+            values: [
+              "Guides, FAQ, maps and Audio Overview in Studio",
+              "Free-form questions, tables, drafts and variants in the thread",
+            ],
+          },
+          {
+            label: "Threads and continuity",
+            values: [
+              "One notebook per topic; chat revolves around those sources",
+              "Several chats inside the Project inherit instructions and files",
+            ],
+          },
+          {
+            label: "Beyond uploaded material",
+            values: [
+              "Does not replace wide web search (use another tool)",
+              "Search, voice, images and general tasks per plan",
+            ],
+          },
+          {
+            label: "Ecosystem",
+            values: [
+              "Google account; fits team Drive and Docs",
+              "OpenAI account; GPTs and the rest of chat outside the Project",
+            ],
+          },
+          {
+            label: "Main risk",
+            values: [
+              "Mixing topics in one notebook and confusing citations",
+              "Assuming it «remembers» a file that is not in the Project",
+            ],
+          },
+        ],
+        faq: [
+          {
+            q: "Can I prep for an exam using only ChatGPT Projects?",
+            a: "Yes if you upload the syllabus and set clear instructions, but citations back to the PDF are not the core product: you should cross-check claims by opening the file. For «only answer from my notes and tell me which page», NotebookLM is usually more direct.",
+          },
+          {
+            q: "Does NotebookLM replace a ChatGPT Project?",
+            a: "Not entirely. NotebookLM wins on cited synthesis and review of fixed sources. A Project wins when you also draft deliverables, run several threads or mix study with day-to-day work in the same container.",
+          },
+          {
+            q: "How many sources or files should I add?",
+            a: "Both work better with a tight scope per deliverable (one exam, one report). On NotebookLM, mixing topics in one notebook dilutes answers; on ChatGPT, irrelevant files clutter context. No fixed numbers: start small and add only what you query.",
+          },
+          {
+            q: "What about NotebookLM Audio Overview?",
+            a: "It helps you review in audio material already indexed in the notebook, after a briefing in Studio. It is not a substitute for taking notes in ChatGPT: different layers (passive review vs active drafting). See notebooklm-audio-overview.",
+          },
+          {
+            q: "Use both?",
+            a: "Common pattern: NotebookLM for map and citations over the corpus; a ChatGPT Project to practice writing, simulate open questions or follow the course with instructions that do not change every week.",
+          },
+        ],
+      },
+    },
+  },
 ];
 
 export function getComparison(slug: string) {
