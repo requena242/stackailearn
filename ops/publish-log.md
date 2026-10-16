@@ -65,3 +65,4 @@ Una línea por página mergeada.
 | 2026-10-13 | comparativa | zapier-ai-vs-make | Zapier AI vs Make para automatizar | https://stackailearn.com/es/compare/zapier-ai-vs-make/ |
 | 2026-10-14 | tutorial | claude-artifacts-prototipo | Claude Artifacts: prototipo usable | https://stackailearn.com/es/tutorials/claude-artifacts-prototipo/ |
 | 2026-10-15 | tutorial | notebooklm-audio-overview | NotebookLM: Audio Overview (resumen en audio) | https://stackailearn.com/es/tutorials/notebooklm-audio-overview/ |
+| 2026-10-16 | comparativa | notebooklm-vs-chatgpt-projects | NotebookLM vs ChatGPT Projects para estudiar documentos | https://stackailearn.com/es/compare/notebooklm-vs-chatgpt-projects/ |
