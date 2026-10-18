@@ -21,7 +21,7 @@ Objetivo: 2 posts al día en X. Siempre vía Buffer Free (nunca el composer de x
    4/ Studio → documento de briefing. Lo exportas y el entregable lo escribes fuera. Guía: https://stackailearn.com/es/tutorials/notebooklm-primer-briefing/
 3. [usado 2026-10-16] (notebooklm-audio-overview) Antes de generar un Audio Overview en NotebookLM, dile en qué centrarse y en qué idioma. Brief si quieres algo rápido, Deep Dive si tienes que repasar el tema. Escúchalo con criterio antes de compartirlo.
 4. [usado 2026-10-17] (chatgpt-projects-primer-flujo) Si pegas el mismo contexto en cada chat de ChatGPT, lo que necesitas es un Project: instrucciones y archivos fijos, y todos los chats lo heredan.
-5. (chatgpt-projects-primer-flujo, hilo)
+5. [usado 2026-10-18] (chatgpt-projects-primer-flujo, hilo)
    1/ ¿ChatGPT Projects, un chat suelto o un GPT? Mi regla:
    2/ Chat suelto: una pregunta puntual.
    3/ Project: un trabajo que dura semanas, con sus archivos e instrucciones.
