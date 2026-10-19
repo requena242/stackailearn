@@ -27,7 +27,7 @@ Objetivo: 2 posts al día en X. Siempre vía Buffer Free (nunca el composer de x
    3/ Project: un trabajo que dura semanas, con sus archivos e instrucciones.
    4/ GPT: algo que vas a repetir o compartir igual muchas veces. Guía: https://stackailearn.com/es/tutorials/chatgpt-projects-primer-flujo/
 6. [usado 2026-10-18] (claude-projects-primer-flujo) En Claude Projects, las instrucciones del proyecto valen más que cualquier prompt largo. Escribe tono, audiencia y qué no hacer, sube 2–3 documentos de referencia y deja de repetirlo en cada chat.
-7. (claude-briefing-documento) Para un documento largo con Claude, empieza fuera: reúne el contexto, haz un outline y pon reglas de cita. Luego pide sección por sección. Si le pides el documento entero de golpe, te lo devuelve genérico.
+7. [usado 2026-10-19] (claude-briefing-documento) Para un documento largo con Claude, empieza fuera: reúne el contexto, haz un outline y pon reglas de cita. Luego pide sección por sección. Si le pides el documento entero de golpe, te lo devuelve genérico.
 8. (claude-artifacts-prototipo) ¿Quieres un prototipo con Claude Artifacts? Describe una sola pantalla con sus estados y pide cambios pequeños sobre el artifact. Si le pides «hazme la app», cada vuelta te la reescribe entera.
 9. (cursor-como-ide-con-ia, hilo)
    1/ Mi método para que el agente de Cursor no rompa el repo:
