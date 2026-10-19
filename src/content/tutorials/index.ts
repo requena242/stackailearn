@@ -7,6 +7,7 @@ import { notebooklmPrimerBriefing } from "./notebooklm-primer-briefing";
 import { notebooklmAudioOverview } from "./notebooklm-audio-overview";
 import { notionAiBasesDatos } from "./notion-ai-bases-datos";
 import { chatgptProjectsPrimerFlujo } from "./chatgpt-projects-primer-flujo";
+import { chatgptProjectsOrganizarTrabajo } from "./chatgpt-projects-organizar-trabajo";
 import { cursorCloudAgentPrimerPr } from "./cursor-cloud-agent-primer-pr";
 import { grokBotPrimeraRutina } from "./grok-bot-primera-rutina";
 import { grokBotSegundoTeammate } from "./grok-bot-segundo-teammate";
@@ -52,6 +53,7 @@ export const catalogTutorials: Tutorial[] = [
   cursorCloudAgentPrimerPr,
   grokBotPrimeraRutina,
   chatgptProjectsPrimerFlujo,
+  chatgptProjectsOrganizarTrabajo,
   grokBotSegundoTeammate,
   claudeArtifactsPrototipo,
   claudeBriefingDocumento,
