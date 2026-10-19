@@ -56,7 +56,7 @@ Una fila = un PR. El bot coge la primera `queued`. Estados: `queued` → `in-pr`
 | 50 | Claude Artifacts: prototipo usable | tutorial | `claude-artifacts-prototipo` | published | Mergeado PR #121 |
 | 51 | NotebookLM: Audio Overview (resumen en audio) | tutorial | `notebooklm-audio-overview` | published | Mergeado PR #124 |
 | 52 | NotebookLM vs ChatGPT Projects para estudiar documentos | comparativa | `notebooklm-vs-chatgpt-projects` | published | Mergeado PR #131 |
-| 53 | ChatGPT Projects: organizar un proyecto de trabajo | tutorial | `chatgpt-projects-organizar-trabajo` | queued | Enlaza chatgpt-projects-primer-flujo |
+| 53 | ChatGPT Projects: organizar un proyecto de trabajo | tutorial | `chatgpt-projects-organizar-trabajo` | published | Mergeado PR #138 |
 | 54 | Claude Projects vs ChatGPT Projects | comparativa | `claude-projects-vs-chatgpt-projects` | queued | Enlaza claude-projects-primer-flujo + chatgpt-projects-primer-flujo |
 | 55 | Cursor: depurar errores con el agente | tutorial | `cursor-depurar-errores` | queued | Enlaza cursor-reglas-proyecto + cursor-repo-existente |
 | 56 | Grok: buscar en tiempo real con fuentes | tutorial | `grok-busqueda-tiempo-real` | queued | Enlaza grok-primer-flujo + grok-vs-chatgpt |
