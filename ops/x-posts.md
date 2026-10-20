@@ -29,7 +29,7 @@ Objetivo: 2 posts al día en X. Siempre vía Buffer Free (nunca el composer de x
 6. [usado 2026-10-18] (claude-projects-primer-flujo) En Claude Projects, las instrucciones del proyecto valen más que cualquier prompt largo. Escribe tono, audiencia y qué no hacer, sube 2–3 documentos de referencia y deja de repetirlo en cada chat.
 7. [usado 2026-10-19] (claude-briefing-documento) Para un documento largo con Claude, empieza fuera: reúne el contexto, haz un outline y pon reglas de cita. Luego pide sección por sección. Si le pides el documento entero de golpe, te lo devuelve genérico.
 8. [usado 2026-10-20] (claude-artifacts-prototipo) ¿Quieres un prototipo con Claude Artifacts? Describe una sola pantalla con sus estados y pide cambios pequeños sobre el artifact. Si le pides «hazme la app», cada vuelta te la reescribe entera.
-9. (cursor-como-ide-con-ia, hilo)
+9. [usado 2026-10-20] (cursor-como-ide-con-ia, hilo)
    1/ Mi método para que el agente de Cursor no rompa el repo:
    2/ Rama nueva y alcance cerrado: «solo este archivo / esta función».
    3/ Antes de tocar nada, que te dé un plan de 5 líneas.
