@@ -34,7 +34,7 @@ Objetivo: 2 posts al día en X. Siempre vía Buffer Free (nunca el composer de x
    2/ Rama nueva y alcance cerrado: «solo este archivo / esta función».
    3/ Antes de tocar nada, que te dé un plan de 5 líneas.
    4/ Revisa el diff como si fuera un PR y pasa tu test. Guía: https://stackailearn.com/es/tutorials/cursor-como-ide-con-ia/
-10. (cursor-reglas-proyecto) Las reglas de Cursor van versionadas en `.cursor/rules` como archivos `.mdc`. alwaysApply es para lo que debe cumplir siempre, y globs para reglas por carpeta. Si aún usas `.cursorrules`, toca migrar.
+10. [usado 2026-10-21] (cursor-reglas-proyecto) Las reglas de Cursor van versionadas en `.cursor/rules` como archivos `.mdc`. alwaysApply es para lo que debe cumplir siempre, y globs para reglas por carpeta. Si aún usas `.cursorrules`, toca migrar.
 11. (grok-primer-flujo) Truco con Grok para temas de actualidad: pon la fecha en la pregunta y pídele que separe hechos de opiniones. Lo que importe, contrástalo con ChatGPT o Perplexity.
 12. (perplexity-investigacion-con-fuentes) En Perplexity, la respuesta es solo el punto de partida. Abre las 2–3 fuentes que sostienen la afirmación clave antes de citarla tú.
 13. (descript-editar-podcast) En Descript editas el audio editando el texto: borras una frase del transcript y desaparece del audio. Quita muletillas y silencios antes de ponerte con el montaje fino. Guía: https://stackailearn.com/es/tutorials/descript-editar-podcast/
