@@ -3320,6 +3320,173 @@ export const comparisons: Comparison[] = [
       },
     },
   },
+  {
+    slug: "claude-projects-vs-chatgpt-projects",
+    toolSlugs: ["claude", "chatgpt"],
+    updatedAt: "2026-10-21",
+    copy: {
+      es: {
+        title: "Claude Projects vs ChatGPT Projects",
+        excerpt:
+          "Dos contenedores con instrucciones, archivos y chats agrupados: uno en claude.ai orientado a conocimiento compartido y escritura; otro en chatgpt.com con memoria del proyecto y colaboración amplia. Cuál montar para un cliente, un informe o un trabajo de semanas.",
+        verdict:
+          "Elige Claude Projects cuando tu equipo ya trabaja en claude.ai, el entregable es texto largo o documentos con tono uniforme y quieres un panel de conocimiento claro (instrucciones + archivos que aplican a todos los chats del proyecto). En planes de pago, el modo RAG amplía el conocimiento cuando el volumen de archivos crece. Elige ChatGPT Projects cuando necesitas varios hilos que sigan apoyándose en el historial del mismo contenedor, compartir el proyecto con personas fuera de un workspace Enterprise de Anthropic (planes Free en adelante, según ajustes) o acotar memoria solo al proyecto con project-only memory — útil en equipos mixtos o trabajo sensible. No son excluyentes: muchos equipos mantienen un Project por herramienta y por caso. Primer contenedor: claude-projects-primer-flujo y chatgpt-projects-primer-flujo; si el Project de ChatGPT ya dura semanas, chatgpt-projects-organizar-trabajo.",
+        rows: [
+          {
+            label: "Mejor para",
+            values: [
+              "Briefs repetidos, informes y docs con instrucciones + archivos de referencia en claude.ai",
+              "Trabajo continuo en chatgpt.com: varios chats, archivos, búsqueda o GPTs en el mismo hábito",
+            ],
+          },
+          {
+            label: "Instrucciones y fuentes",
+            values: [
+              "Instrucciones del proyecto + base de conocimiento (subidas o Drive); aplican a cada chat nuevo dentro del proyecto",
+              "Instrucciones en Project settings + archivos o texto pegado; sustituyen custom instructions globales mientras trabajas aquí",
+            ],
+          },
+          {
+            label: "Contexto entre chats del proyecto",
+            values: [
+              "Lo subido al conocimiento del proyecto sí; el hilo de un chat no se comparte con otro salvo que viva en esa base",
+              "Memoria del proyecto: los chats pueden usar otros hilos y archivos del mismo Project (default o solo del proyecto)",
+            ],
+          },
+          {
+            label: "Memoria y límites de contexto",
+            values: [
+              "Memoria por proyecto; opción de separar de la memoria de cuenta; RAG automático en planes de pago si el conocimiento crece",
+              "Elige default memory o project-only al crear (cambiable después); proyectos compartidos quedan en solo del proyecto",
+            ],
+          },
+          {
+            label: "Compartir y equipo",
+            values: [
+              "Compartir en planes Team y Enterprise (visibilidad org o invitados con ver/editar)",
+              "Compartir en planes admitidos (incl. Free según workspace); acceso chat o edit; memoria aislada del miembro",
+            ],
+          },
+          {
+            label: "Organización a largo plazo",
+            values: [
+              "Mover chats al proyecto, archivar proyectos terminados; cuenta gratuita con tope bajo de proyectos creados",
+              "Mover chats al proyecto, rutina semanal de archivos e instrucciones; límites de archivos según plan",
+            ],
+          },
+          {
+            label: "Riesgo principal",
+            values: [
+              "Asumir que un chat «recuerda» lo dicho en otro sin haberlo volcado al conocimiento del proyecto",
+              "Mezclar memoria global con un caso sensible o olvidar qué hilos quedaron fuera del Project",
+            ],
+          },
+        ],
+        faq: [
+          {
+            q: "¿Son lo mismo que un chat suelto con memoria activada?",
+            a: "No. Ambos agrupan instrucciones y archivos para un mismo esfuerzo. Un chat suelto no hereda automáticamente el paquete de reglas y fuentes del proyecto. Los tutoriales claude-projects-primer-flujo y chatgpt-projects-primer-flujo montan el contenedor paso a paso.",
+          },
+          {
+            q: "¿Puedo tener un Project en Claude y otro en ChatGPT para el mismo cliente?",
+            a: "Sí, y a veces conviene: un equipo en claude.ai y otro en chatgpt.com. Alinea instrucciones y nombres de archivos en ambos y evita mezclar datos sensibles en cuentas que no controlas. No dupliques el mismo hilo en dos sitios sin dueño claro.",
+          },
+          {
+            q: "¿Cuál comparte mejor con compañeros?",
+            a: "ChatGPT ofrece invitaciones y enlaces en más planes de consumo y equipos pequeños. Claude concentra el compartir organizacional en Team y Enterprise. Revisa los permisos (solo ver vs editar) antes de subir contratos.",
+          },
+          {
+            q: "¿Qué pasa con la memoria entre proyectos?",
+            a: "En ChatGPT, project-only memory acota el contexto al Project; los compartidos van en ese modo. En Claude, cada proyecto tiene memoria propia y puedes limitar el uso de la memoria de cuenta dentro del proyecto. Ninguno sustituye una wiki: son contenedores de chat.",
+          },
+          {
+            q: "¿Y si el Project de ChatGPT ya tiene muchos hilos y archivos viejos?",
+            a: "No hace falta borrarlo: separa instrucciones estables de reglas operativas, limpia fuentes obsoletas y nombra chats por fase. El flujo chatgpt-projects-organizar-trabajo está pensado para eso, después de chatgpt-projects-primer-flujo.",
+          },
+        ],
+      },
+      en: {
+        title: "Claude Projects vs ChatGPT Projects",
+        excerpt:
+          "Two containers with instructions, files and grouped chats: one on claude.ai built around shared knowledge and writing; one on chatgpt.com with project memory and broad sharing. Which to set up for a client, a report or work that runs for weeks.",
+        verdict:
+          "Pick Claude Projects when your team already works on claude.ai, the deliverable is long-form text or documents with steady tone and you want a clear knowledge panel (instructions + files that apply to every chat in the project). On paid plans, RAG mode expands knowledge when file volume grows. Pick ChatGPT Projects when you need several threads that keep drawing on the same container’s history, sharing the project with people outside an Anthropic Enterprise workspace (Free plans and up, per settings) or bounding memory to the project with project-only memory — useful for mixed teams or sensitive work. They are not mutually exclusive: many teams keep one Project per tool and per case. First container: claude-projects-primer-flujo and chatgpt-projects-primer-flujo; if a ChatGPT Project already runs for weeks, chatgpt-projects-organizar-trabajo.",
+        rows: [
+          {
+            label: "Best for",
+            values: [
+              "Repeated briefs, reports and docs with instructions + reference files on claude.ai",
+              "Ongoing work on chatgpt.com: several chats, files, search or GPTs in the same habit",
+            ],
+          },
+          {
+            label: "Instructions and sources",
+            values: [
+              "Project instructions + knowledge base (uploads or Drive); apply to each new chat inside the project",
+              "Instructions in Project settings + files or pasted text; override global custom instructions while you work here",
+            ],
+          },
+          {
+            label: "Context across project chats",
+            values: [
+              "What you add to project knowledge yes; one chat thread is not shared with another unless it lives in that base",
+              "Project memory: chats can use other threads and files in the same Project (default or project-only)",
+            ],
+          },
+          {
+            label: "Memory and context limits",
+            values: [
+              "Per-project memory; option to separate from account memory; automatic RAG on paid plans as knowledge grows",
+              "Choose default or project-only memory at creation (changeable later); shared projects stay project-only",
+            ],
+          },
+          {
+            label: "Sharing and teams",
+            values: [
+              "Sharing on Team and Enterprise plans (org visibility or invitees with view/edit)",
+              "Sharing on supported plans (including Free per workspace); chat or edit access; member memory isolated",
+            ],
+          },
+          {
+            label: "Long-term organization",
+            values: [
+              "Move chats into the project, archive finished projects; free tier caps how many projects you can create",
+              "Move chats into the project, weekly file and instruction hygiene; file limits depend on plan",
+            ],
+          },
+          {
+            label: "Main risk",
+            values: [
+              "Assuming one chat «remembers» another thread without moving that into project knowledge",
+              "Blending global memory with a sensitive case or leaving key threads outside the Project",
+            ],
+          },
+        ],
+        faq: [
+          {
+            q: "Are these the same as a loose chat with memory on?",
+            a: "No. Both group instructions and files for one body of work. A loose chat does not automatically inherit the project’s rules and sources. Tutorials claude-projects-primer-flujo and chatgpt-projects-primer-flujo walk through building the container.",
+          },
+          {
+            q: "Can I run a Project in Claude and another in ChatGPT for the same client?",
+            a: "Yes, and sometimes that helps when teams split across claude.ai and chatgpt.com. Align instructions and filenames in both and avoid putting sensitive data on accounts you do not control. Do not duplicate the same thread in two places without a clear owner.",
+          },
+          {
+            q: "Which shares better with teammates?",
+            a: "ChatGPT offers invites and links on more consumer and small-team plans. Claude focuses org sharing on Team and Enterprise. Check view vs edit permissions before uploading contracts.",
+          },
+          {
+            q: "What about memory across projects?",
+            a: "On ChatGPT, project-only memory keeps context inside the Project; shared ones use that mode. On Claude, each project has its own memory and you can limit use of account memory inside the project. Neither replaces a wiki — they are chat containers.",
+          },
+          {
+            q: "What if a ChatGPT Project already has many threads and stale files?",
+            a: "You do not have to delete it: split stable instructions from operating rules, remove obsolete sources and name chats by phase. Flow chatgpt-projects-organizar-trabajo targets that, after chatgpt-projects-primer-flujo.",
+          },
+        ],
+      },
+    },
+  },
 ];
 
 export function getComparison(slug: string) {
