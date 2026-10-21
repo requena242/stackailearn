@@ -67,3 +67,4 @@ Una línea por página mergeada.
 | 2026-10-15 | tutorial | notebooklm-audio-overview | NotebookLM: Audio Overview (resumen en audio) | https://stackailearn.com/es/tutorials/notebooklm-audio-overview/ |
 | 2026-10-16 | comparativa | notebooklm-vs-chatgpt-projects | NotebookLM vs ChatGPT Projects para estudiar documentos | https://stackailearn.com/es/compare/notebooklm-vs-chatgpt-projects/ |
 | 2026-10-19 | tutorial | chatgpt-projects-organizar-trabajo | ChatGPT Projects: organizar un proyecto de trabajo | https://stackailearn.com/es/tutorials/chatgpt-projects-organizar-trabajo/ |
+| 2026-10-21 | comparativa | claude-projects-vs-chatgpt-projects | Claude Projects vs ChatGPT Projects | https://stackailearn.com/es/compare/claude-projects-vs-chatgpt-projects/ |
