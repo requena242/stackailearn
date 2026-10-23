@@ -13,6 +13,7 @@ export const cursorRepoExistente: Tutorial = {
   lastUpdated: "2026-09-07",
   toolsUsed: ["cursor"],
   relatedTutorials: [
+    "cursor-depurar-errores",
     "cursor-como-ide-con-ia",
     "hermes-agent-primer-flujo",
   ],

@@ -2,6 +2,7 @@ import type { Tutorial } from "@/types/content";
 import { capcutSubtitulosBroll } from "./capcut-subtitulos-broll";
 import { chatgptMemoriaPersonalizacion } from "./chatgpt-memoria-personalizacion";
 import { descriptEditarPodcast } from "./descript-editar-podcast";
+import { cursorDepurarErrores } from "./cursor-depurar-errores";
 import { cursorReglasProyecto } from "./cursor-reglas-proyecto";
 import { notebooklmPrimerBriefing } from "./notebooklm-primer-briefing";
 import { notebooklmAudioOverview } from "./notebooklm-audio-overview";
@@ -44,6 +45,7 @@ export const catalogTutorials: Tutorial[] = [
   leonardoPrimerFlujo,
   chatgptMemoriaPersonalizacion,
   descriptEditarPodcast,
+  cursorDepurarErrores,
   cursorReglasProyecto,
   klingPrimerClip,
   notebooklmAudioOverview,

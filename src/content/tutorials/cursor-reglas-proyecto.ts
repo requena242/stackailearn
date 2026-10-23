@@ -13,6 +13,7 @@ export const cursorReglasProyecto: Tutorial = {
   lastUpdated: "2026-10-07",
   toolsUsed: ["cursor"],
   relatedTutorials: [
+    "cursor-depurar-errores",
     "cursor-repo-existente",
     "cursor-como-ide-con-ia",
     "cursor-cloud-agent-primer-pr",
