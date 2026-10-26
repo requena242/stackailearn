@@ -69,3 +69,4 @@ Una línea por página mergeada.
 | 2026-10-19 | tutorial | chatgpt-projects-organizar-trabajo | ChatGPT Projects: organizar un proyecto de trabajo | https://stackailearn.com/es/tutorials/chatgpt-projects-organizar-trabajo/ |
 | 2026-10-21 | comparativa | claude-projects-vs-chatgpt-projects | Claude Projects vs ChatGPT Projects | https://stackailearn.com/es/compare/claude-projects-vs-chatgpt-projects/ |
 | 2026-10-23 | tutorial | cursor-depurar-errores | Cursor: depurar errores con el agente | https://stackailearn.com/es/tutorials/cursor-depurar-errores/ |
+| 2026-10-26 | tutorial | grok-busqueda-tiempo-real | Grok: buscar en tiempo real con fuentes | https://stackailearn.com/es/tutorials/grok-busqueda-tiempo-real/ |

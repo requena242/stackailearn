@@ -59,7 +59,7 @@ Una fila = un PR. El bot coge la primera `queued`. Estados: `queued` → `in-pr`
 | 53 | ChatGPT Projects: organizar un proyecto de trabajo | tutorial | `chatgpt-projects-organizar-trabajo` | published | Mergeado PR #138 |
 | 54 | Claude Projects vs ChatGPT Projects | comparativa | `claude-projects-vs-chatgpt-projects` | published | Mergeado PR #143 |
 | 55 | Cursor: depurar errores con el agente | tutorial | `cursor-depurar-errores` | published | Mergeado PR #148 |
-| 56 | Grok: buscar en tiempo real con fuentes | tutorial | `grok-busqueda-tiempo-real` | queued | Enlaza grok-primer-flujo + grok-vs-chatgpt |
+| 56 | Grok: buscar en tiempo real con fuentes | tutorial | `grok-busqueda-tiempo-real` | published | Mergeado PR #155 |
 | 57 | Grok vs Claude para el día a día | comparativa | `grok-vs-claude-diario` | queued | Enlaza grok-vs-chatgpt |
 | 58 | Claude: analizar un PDF largo | tutorial | `claude-analizar-pdf` | queued | Enlaza claude-briefing-documento |
 | 59 | NotebookLM vs Perplexity para investigar | comparativa | `notebooklm-vs-perplexity-investigacion` | queued | Enlaza perplexity-investigacion-con-fuentes |
