@@ -13,6 +13,7 @@ export const grokPrimerFlujo: Tutorial = {
   lastUpdated: "2026-09-19",
   toolsUsed: ["grok", "chatgpt", "perplexity"],
   relatedTutorials: [
+    "grok-busqueda-tiempo-real",
     "perplexity-investigacion-con-fuentes",
     "chatgpt-projects-primer-flujo",
     "chatgpt-primeros-pasos",
