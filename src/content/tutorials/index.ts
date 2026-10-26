@@ -32,6 +32,7 @@ import { perplexityInvestigacion } from "./perplexity-investigacion-con-fuentes"
 import { perplexityCollections } from "./perplexity-collections";
 import { leonardoPrimerFlujo } from "./leonardo-primer-flujo";
 import { klingPrimerClip } from "./kling-primer-clip";
+import { grokBusquedaTiempoReal } from "./grok-busqueda-tiempo-real";
 import { grokPrimerFlujo } from "./grok-primer-flujo";
 import { notionAiPrimerFlujo } from "./notion-ai-primer-flujo";
 import { elevenlabsPrimerVoiceover } from "./elevenlabs-primer-voiceover";
@@ -71,6 +72,7 @@ export const catalogTutorials: Tutorial[] = [
   elevenlabsPrimerVoiceover,
   runwayPrimerClip,
   notionAiPrimerFlujo,
+  grokBusquedaTiempoReal,
   grokPrimerFlujo,
   grokBotPrimer,
   hermesAgentPrimer,
