@@ -2,8 +2,9 @@
  * Detección de idioma en Cloudflare Pages.
  *
  * Orden: cookie NEXT_LOCALE → Accept-Language → inglés.
- * Interviene en "/" y en secciones sin locale (/tools, /pack, …).
- * El resto (incluido /es/..., /en/... y ficheros estáticos) se sirve del export.
+ * Interviene en "/" y en secciones sin locale (/tools, /pack, …) con 302.
+ * `/es` y `/en` sin barra final responden 301 a la forma con barra.
+ * El resto (páginas con barra, ficheros estáticos) se sirve del export.
  *
  * En local (`next dev`) esta Function no corre: usa LocaleRedirect
  * en las páginas unprefixed de src/app/{section}/page.tsx.
@@ -70,6 +71,19 @@ function isStaticAsset(pathname) {
   return /\.[a-zA-Z0-9]+$/.test(pathname);
 }
 
+/**
+ * Páginas de locale sin barra final (`/en/tutorials/slug`).
+ * No toca ficheros (`/og.png`, `/sitemap.xml`, `index.html`), `/api` ni `/_next`:
+ * un placeholder en `_redirects` no puede excluir extensiones y atraparía
+ * `/en/tutorials/index.html`, que Pages ya redirige a la carpeta con barra.
+ */
+function needsCanonicalSlash(pathname) {
+  if (!pathname || pathname.endsWith("/")) return false;
+  if (isStaticAsset(pathname)) return false;
+  if (pathname.startsWith("/api/") || pathname.startsWith("/_next/")) return false;
+  return /^\/(es|en)(\/|$)/.test(pathname);
+}
+
 function isUnprefixedSection(pathname) {
   const path = normalizePath(pathname);
   if (path === "/") return true;
@@ -96,6 +110,17 @@ export async function onRequest(context) {
         "x-robots-tag": "noindex, nofollow",
       },
     });
+  }
+
+  // Pages (pretty URLs / html handling) ya responde 308 de `/pagina` a `/pagina/`
+  // cuando existe `pagina/index.html`, y 200 en la forma con barra. Un `_redirects`
+  // que quite la barra haría bucle con ese 308. Además, el middleware de la raíz
+  // hace que Pages no aplique `_redirects` en estas peticiones, así que el 301
+  // vive aquí y sustituye al 308: una sola redirección, sin segundo salto.
+  if (needsCanonicalSlash(pathname)) {
+    const dest = new URL(url);
+    dest.pathname = `${pathname}/`;
+    return Response.redirect(dest, 301);
   }
 
   if (isStaticAsset(pathname) || !isUnprefixedSection(pathname)) {

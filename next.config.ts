@@ -8,7 +8,8 @@ import createNextIntlPlugin from "next-intl/plugin";
 const withNextIntl = createNextIntlPlugin("./src/i18n/request.ts");
 
 const nextConfig: NextConfig = {
-  // Cloudflare Pages sirve mejor /es/index.html que /es.html
+  // El export escribe `ruta/index.html`. En Pages esa URL canónica es `/ruta/`
+  // (pretty URLs: `/ruta` y `/ruta/index.html` responden 308 hacia `/ruta/`).
   trailingSlash: true,
   images: {
     unoptimized: true,

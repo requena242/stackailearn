@@ -8,6 +8,21 @@ type BuildMetadataInput = {
   path?: string;
 };
 
+/**
+ * Forma canónica de una página: barra final, igual que el export
+ * (`trailingSlash: true` → `.../slug/index.html`).
+ */
+function withTrailingSlash(path: string): string {
+  if (!path || path === "/") return "/";
+  const normalized = path.startsWith("/") ? path : `/${path}`;
+  return normalized.endsWith("/") ? normalized : `${normalized}/`;
+}
+
+/** URL absoluta de una página, siempre con barra final. */
+export function localizedPath(locale: string, path = "/") {
+  return `${SITE.url}/${locale}${withTrailingSlash(path)}`;
+}
+
 /** Metadata dinámica por idioma, con canonical + hreflang ES/EN. */
 export function buildMetadata({
   locale,
@@ -15,8 +30,7 @@ export function buildMetadata({
   description,
   path = "/",
 }: BuildMetadataInput): Metadata {
-  const suffix = path === "/" ? "" : path;
-  const url = `${SITE.url}/${locale}${suffix}`;
+  const url = localizedPath(locale, path);
 
   return {
     title,
@@ -24,9 +38,9 @@ export function buildMetadata({
     alternates: {
       canonical: url,
       languages: {
-        es: `${SITE.url}/es${suffix}`,
-        en: `${SITE.url}/en${suffix}`,
-        "x-default": `${SITE.url}/en${suffix}`,
+        es: localizedPath("es", path),
+        en: localizedPath("en", path),
+        "x-default": localizedPath("en", path),
       },
     },
     openGraph: {
@@ -54,9 +68,4 @@ export function buildMetadata({
       images: [`${SITE.url}/og.png`],
     },
   };
-}
-
-export function localizedPath(locale: string, path = "/") {
-  const suffix = path === "/" ? "" : path;
-  return `${SITE.url}/${locale}${suffix}`;
 }

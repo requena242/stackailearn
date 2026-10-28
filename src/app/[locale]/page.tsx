@@ -10,7 +10,7 @@ import { RecommendedTools } from "@/components/affiliate/RecommendedTools";
 import { PopularTools } from "@/components/home/PopularTools";
 import { StartHere } from "@/components/home/StartHere";
 import { SITE } from "@/lib/site";
-import { buildMetadata } from "@/lib/seo";
+import { buildMetadata, localizedPath } from "@/lib/seo";
 
 type Props = { params: Promise<{ locale: string }> };
 
@@ -36,7 +36,7 @@ export default async function HomePage({ params }: Props) {
     "@context": "https://schema.org",
     "@type": "WebSite",
     name: SITE.name,
-    url: `${SITE.url}/${locale}`,
+    url: localizedPath(locale),
     description: t("homeDescription"),
     inLanguage: locale,
   };
