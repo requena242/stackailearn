@@ -3487,6 +3487,187 @@ export const comparisons: Comparison[] = [
       },
     },
   },
+  {
+    slug: "grok-vs-claude-diario",
+    toolSlugs: ["grok", "claude"],
+    updatedAt: "2026-10-28",
+    copy: {
+      es: {
+        title: "Grok vs Claude para el día a día",
+        excerpt:
+          "Dos asistentes para el escritorio: uno para el pulso de hoy, la voz y lo que circula en X; el otro para documentos, Projects y un texto que vas a reescribir.",
+        verdict:
+          "Elige Grok cuando el día es un recap, una pregunta de lo que está pasando o un mensaje corto en tono directo: el asistente está en la web, en las apps de iOS y Android y dentro de X, y la página de producto describe búsqueda en la web y en X, voz e imagen en el mismo hilo. Elige Claude cuando el entregable es un documento, un informe o un texto que vas a pasar varias veces: Projects guardan instrucciones y archivos (hasta cinco en el plan gratis; en planes de pago la ayuda de Anthropic describe un modo RAG que amplía el conocimiento), y Artifacts, Claude Docs y la búsqueda web están en el plan gratis. Combo habitual: contraste y actualidad en Grok, la pieza que vas a enviar en Claude. Si ya comparaste Grok con ChatGPT, sigue en grok-vs-chatgpt; para escritura larga de Claude frente a ChatGPT, claude-vs-chatgpt-escritura.",
+        rows: [
+          {
+            label: "Mejor para",
+            values: [
+              "Recaps, actualidad y mensajes cortos con tono directo",
+              "Documentos, edición por capas y encargos con contexto guardado",
+            ],
+          },
+          {
+            label: "Dónde lo abres",
+            values: [
+              "Web, apps de iOS y Android, y el servicio Grok dentro de X",
+              "Web, iOS, Android y escritorio",
+            ],
+          },
+          {
+            label: "Actualidad",
+            values: [
+              "Búsqueda en la web y en X en vivo, con citas, según la página de producto",
+              "Búsqueda web en Free, Pro y Max. Research, la pasada más larga, está en Pro y Max",
+            ],
+          },
+          {
+            label: "Escritura del día",
+            values: [
+              "Chat para redactar, más un canvas de escritura con sugerencias en línea e instrucciones de estilo",
+              "Escribir, editar y crear. Artifacts y Claude Docs en todos los planes individuales; el tono fijo va en las instrucciones de un Project",
+            ],
+          },
+          {
+            label: "Contexto que se queda",
+            values: [
+              "Memoria entre chats e instrucciones personalizadas. La FAQ de la web y las apps menciona Projects en el cliente web principal, sin documentar una base de conocimiento con RAG",
+              "Memoria en todos los planes. Projects con instrucciones y archivos: hasta cinco en gratis. En Pro, Max, Team y Enterprise, RAG amplía el conocimiento cerca del límite de contexto (la ayuda dice hasta 10 veces)",
+            ],
+          },
+          {
+            label: "Archivos",
+            values: [
+              "Subida en el chat (web, iOS y Android): PDF, DOCX, hojas, imágenes, audio y más. La FAQ orienta la mayoría de archivos a 150 MB y avisa de que los muy largos se resumen o se parten",
+              "Documentos, texto o código en la base de conocimiento de un Project. Crear y editar archivos con ejecución de código está en Free, Pro y Max",
+            ],
+          },
+          {
+            label: "Voz, imagen y conectores",
+            values: [
+              "Voz en el chat; imágenes y vídeo con Imagine en el mismo hilo. Conectores para todos los usuarios: Gmail y Calendar, Drive, Outlook, Teams, OneDrive, SharePoint, Salesforce, más catálogo o MCP propio",
+              "Modo de voz y conectores en Free, Pro y Max. Para piezas que se editan fuera del hilo: Artifacts, Docs, Slides y Design en esos mismos planes",
+            ],
+          },
+          {
+            label: "Plan de entrada",
+            values: [
+              "Gratis para empezar. SuperGrok sube límites con un cupo semanal compartido (chat, Imagine, voz y otros productos de Grok). Si se agota, chat y voz siguen con los límites del gratis",
+              "Gratis con límites de uso. Pro suma más uso, Research y tareas que puedes encargar o programar. Max ofrece 5x o 20x el uso de Pro",
+            ],
+          },
+        ],
+        faq: [
+          {
+            q: "¿Puedo quedarme con uno solo para el día a día?",
+            a: "Si el día es actualidad, recaps y mensajes cortos, Grok cubre ese tramo sin montar un Project. Si el día es reescribir documentos y guardar instrucciones por encargo, Claude es el que tiene Projects, Artifacts y Docs en el flujo de escritura. Mucha gente deja el otro en el plan gratis para contrastar un párrafo. El eje con ChatGPT está en grok-vs-chatgpt y en claude-vs-chatgpt-escritura.",
+          },
+          {
+            q: "¿Cuál para emails y mensajes cortos?",
+            a: "Grok, si quieres un tono directo y ya estás en la web, la app o dentro de X. Claude, si el mensaje sale de un Project con instrucciones de voz o de un hilo de Docs. En los dos, separa asunto y cuerpo y no publiques una cifra que no hayas contrastado.",
+          },
+          {
+            q: "¿Cuál para un informe o un documento largo?",
+            a: "Claude. Sube el material al Project, fija el tono en las instrucciones y edita por bloques; en planes de pago el conocimiento puede pasar a RAG. Grok resume un PDF en el chat (la FAQ avisa de que los documentos muy largos se tratan por partes), pero el contenedor para repetir el encargo está descrito en Claude. Primer flujo: claude-briefing-documento. Si comparas el contenedor con el de ChatGPT, claude-projects-vs-chatgpt-projects.",
+          },
+          {
+            q: "¿Cuál para saber qué está pasando hoy?",
+            a: "Grok: la página de producto describe búsqueda en la web y en X en vivo. Abre las citas antes de repetir una cifra. El flujo grok-busqueda-tiempo-real recorre ese contraste. Claude con búsqueda web encaja si ya redactas en el mismo hilo y solo necesitas un dato, no como radar de lo que circula en X.",
+          },
+          {
+            q: "¿Hace falta un plan de pago?",
+            a: "No para probar. Grok es gratis para empezar; SuperGrok sube límites con un cupo semanal y, si se agota, chat y voz siguen en los límites del gratis. Claude es gratis con tope de uso y hasta cinco Projects; Pro añade más uso y Research, y Max multiplica el uso de Pro (5x o 20x). El importe cambia: míralo en la página de planes de xAI y en la de Anthropic.",
+          },
+        ],
+      },
+      en: {
+        title: "Grok vs Claude for daily work",
+        excerpt:
+          "Two assistants for the desk: one for today’s pulse, voice and what is moving on X; the other for documents, Projects and a text you will rewrite.",
+        verdict:
+          "Pick Grok when the day is a recap, a «what is happening» question or a short message in a direct tone: the assistant lives on the web, in the iOS and Android apps and inside X, and the product page describes web and X search, voice and image in the same thread. Pick Claude when the deliverable is a document, a report or a text you will pass several times: Projects store instructions and files (up to five on the free plan; on paid plans Anthropic’s help describes a RAG mode that expands knowledge), and Artifacts, Claude Docs and web search are on the free plan. Usual combo: contrast and current events in Grok, the piece you will send in Claude. If you already compared Grok with ChatGPT, continue at grok-vs-chatgpt; for Claude’s long-form writing against ChatGPT, claude-vs-chatgpt-escritura.",
+        rows: [
+          {
+            label: "Best for",
+            values: [
+              "Recaps, current events and short messages in a direct tone",
+              "Documents, layered edits and jobs with saved context",
+            ],
+          },
+          {
+            label: "Where you open it",
+            values: [
+              "Web, iOS and Android apps, and the Grok service inside X",
+              "Web, iOS, Android and desktop",
+            ],
+          },
+          {
+            label: "Current events",
+            values: [
+              "Live web and X search, with citations, as described on the product page",
+              "Web search on Free, Pro and Max. Research, the longer pass, is on Pro and Max",
+            ],
+          },
+          {
+            label: "Daily writing",
+            values: [
+              "Chat for drafting, plus a writing canvas with inline suggestions and style instructions",
+              "Write, edit and create. Artifacts and Claude Docs on every individual plan; a fixed tone lives in Project instructions",
+            ],
+          },
+          {
+            label: "Context that stays",
+            values: [
+              "Memory across chats and custom instructions. The web and apps FAQ mentions Projects on the main web client, without documenting a RAG knowledge base",
+              "Memory on every plan. Projects with instructions and files: up to five on free. On Pro, Max, Team and Enterprise, RAG expands knowledge near the context limit (help says up to 10 times)",
+            ],
+          },
+          {
+            label: "Files",
+            values: [
+              "Upload in chat (web, iOS and Android): PDF, DOCX, spreadsheets, images, audio and more. The FAQ puts most files at 150 MB and warns that very long ones are summarized or split",
+              "Documents, text or code in a Project knowledge base. Create and edit files with code execution on Free, Pro and Max",
+            ],
+          },
+          {
+            label: "Voice, image and connectors",
+            values: [
+              "Voice in chat; images and video with Imagine in the same thread. Connectors for every user: Gmail and Calendar, Drive, Outlook, Teams, OneDrive, SharePoint, Salesforce, plus a catalog or your own MCP",
+              "Voice mode and connectors on Free, Pro and Max. For pieces you edit outside the thread: Artifacts, Docs, Slides and Design on those same plans",
+            ],
+          },
+          {
+            label: "Entry plan",
+            values: [
+              "Free to start. SuperGrok raises limits with a shared weekly pool (chat, Imagine, voice and other Grok products). If it runs out, chat and voice stay on the free limits",
+              "Free with usage caps. Pro adds more usage, Research and tasks you can hand off or schedule. Max offers 5x or 20x Pro usage",
+            ],
+          },
+        ],
+        faq: [
+          {
+            q: "Can I keep just one for daily work?",
+            a: "If the day is current events, recaps and short messages, Grok covers that stretch without a Project. If the day is rewriting documents and saving instructions per job, Claude is the one with Projects, Artifacts and Docs in the writing flow. Many people leave the other on the free plan to contrast a paragraph. The ChatGPT axis is grok-vs-chatgpt and claude-vs-chatgpt-escritura.",
+          },
+          {
+            q: "Which one for email and short messages?",
+            a: "Grok, if you want a direct tone and you are already on the web, the app or inside X. Claude, if the message comes out of a Project with voice instructions or a Docs thread. In both, split subject and body and do not publish a figure you have not checked.",
+          },
+          {
+            q: "Which one for a report or a long document?",
+            a: "Claude. Upload the material to the Project, pin tone in the instructions and edit in blocks; on paid plans knowledge can switch to RAG. Grok summarizes a PDF in chat (the FAQ warns that very long documents are handled in parts), but the container for repeating the job is described on Claude. First flow: claude-briefing-documento. If you compare that container with ChatGPT’s, claude-projects-vs-chatgpt-projects.",
+          },
+          {
+            q: "Which one to see what is happening today?",
+            a: "Grok: the product page describes live web and X search. Open the citations before you repeat a figure. The flow grok-busqueda-tiempo-real walks through that check. Claude with web search fits when you are already drafting in the same thread and only need one fact, not as a radar for what is moving on X.",
+          },
+          {
+            q: "Do I need a paid plan?",
+            a: "Not to try them. Grok is free to start; SuperGrok raises limits with a weekly pool and, if it runs out, chat and voice stay on the free limits. Claude is free with a usage cap and up to five Projects; Pro adds more usage and Research, and Max multiplies Pro usage (5x or 20x). The amount changes: check it on the xAI plans page and on Anthropic’s.",
+          },
+        ],
+      },
+    },
+  },
 ];
 
 export function getComparison(slug: string) {
