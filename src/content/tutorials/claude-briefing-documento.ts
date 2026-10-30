@@ -13,6 +13,7 @@ export const claudeBriefingDocumento: Tutorial = {
   lastUpdated: "2026-09-21",
   toolsUsed: ["claude", "perplexity"],
   relatedTutorials: [
+    "claude-analizar-pdf",
     "claude-escritura-larga",
     "claude-projects-primer-flujo",
     "elegir-modelo-texto",
