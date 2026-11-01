@@ -72,3 +72,9 @@ Una línea por página mergeada.
 | 2026-10-26 | tutorial | grok-busqueda-tiempo-real | Grok: buscar en tiempo real con fuentes | https://stackailearn.com/es/tutorials/grok-busqueda-tiempo-real/ |
 | 2026-10-28 | comparativa | grok-vs-claude-diario | Grok vs Claude para el día a día | https://stackailearn.com/es/compare/grok-vs-claude-diario/ |
 | 2026-10-30 | tutorial | claude-analizar-pdf | Claude: analizar un PDF largo | https://stackailearn.com/es/tutorials/claude-analizar-pdf/ |
+
+## Propuestas pendientes de revisión
+
+| Fecha de propuesta | Tipo | Slug | Estado | URL prevista ES |
+| --- | --- | --- | --- | --- |
+| 2026-11-01 | ficha | agent-qa | in-pr; sin publicar | https://stackailearn.com/es/tools/agent-qa/ |
