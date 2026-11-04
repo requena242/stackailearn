@@ -1,5 +1,6 @@
 import type { Tutorial } from "@/types/content";
 import { capcutSubtitulosBroll } from "./capcut-subtitulos-broll";
+import { chatgptAnalizarExcel } from "./chatgpt-analizar-excel";
 import { chatgptMemoriaPersonalizacion } from "./chatgpt-memoria-personalizacion";
 import { descriptEditarPodcast } from "./descript-editar-podcast";
 import { cursorDepurarErrores } from "./cursor-depurar-errores";
@@ -43,6 +44,7 @@ import { runwayPrimerClip } from "./runway-primer-clip";
 import { grokBotPrimer } from "./supporting";
 
 export const catalogTutorials: Tutorial[] = [
+  chatgptAnalizarExcel,
   capcutSubtitulosBroll,
   leonardoPrimerFlujo,
   chatgptMemoriaPersonalizacion,
