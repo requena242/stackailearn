@@ -63,7 +63,7 @@ Una fila = un PR. El bot coge la primera `queued`. Estados: `queued` → `in-pr`
 | 57 | Grok vs Claude para el día a día | comparativa | `grok-vs-claude-diario` | published | Mergeado PR #160 |
 | 58 | Claude: analizar un PDF largo | tutorial | `claude-analizar-pdf` | published | Mergeado PR #167 |
 | 59 | NotebookLM vs Perplexity para investigar | comparativa | `notebooklm-vs-perplexity-investigacion` | published | Mergeado PR #175 |
-| 60 | ChatGPT: analizar un Excel o CSV | tutorial | `chatgpt-analizar-excel` | queued | Utilidad trabajo diario |
+| 60 | ChatGPT: analizar un Excel o CSV | tutorial | `chatgpt-analizar-excel` | in-pr | Utilidad trabajo diario |
 | 61 | Gemini: primer flujo en Google Workspace | tutorial | `gemini-workspace-primer-flujo` | queued | Ficha gemini ya existe |
 | 62 | Cursor vs v0 para prototipar una web | comparativa | `cursor-vs-v0-prototipo` | queued | Enlaza v0-vs-lovable-ui + cursor-como-ide-con-ia |
 | 63 | Perplexity: preparar una reunión con fuentes | tutorial | `perplexity-preparar-reunion` | queued | Enlaza perplexity-collections |
