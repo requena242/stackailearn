@@ -1,4 +1,5 @@
 import type { Tutorial } from "@/types/content";
+import { geminiWorkspacePrimerFlujo } from "./gemini-workspace-primer-flujo";
 import { capcutSubtitulosBroll } from "./capcut-subtitulos-broll";
 import { chatgptAnalizarExcel } from "./chatgpt-analizar-excel";
 import { chatgptMemoriaPersonalizacion } from "./chatgpt-memoria-personalizacion";
@@ -44,6 +45,7 @@ import { runwayPrimerClip } from "./runway-primer-clip";
 import { grokBotPrimer } from "./supporting";
 
 export const catalogTutorials: Tutorial[] = [
+  geminiWorkspacePrimerFlujo,
   chatgptAnalizarExcel,
   capcutSubtitulosBroll,
   leonardoPrimerFlujo,
