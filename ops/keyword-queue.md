@@ -64,7 +64,7 @@ Una fila = un PR. El bot coge la primera `queued`. Estados: `queued` → `in-pr`
 | 58 | Claude: analizar un PDF largo | tutorial | `claude-analizar-pdf` | published | Mergeado PR #167 |
 | 59 | NotebookLM vs Perplexity para investigar | comparativa | `notebooklm-vs-perplexity-investigacion` | published | Mergeado PR #175 |
 | 60 | ChatGPT: analizar un Excel o CSV | tutorial | `chatgpt-analizar-excel` | published | Mergeado PR #180 |
-| 61 | Gemini: primer flujo en Google Workspace | tutorial | `gemini-workspace-primer-flujo` | queued | Ficha gemini ya existe |
+| 61 | Gemini: primer flujo en Google Workspace | tutorial | `gemini-workspace-primer-flujo` | in-pr | Ficha gemini ya existe. PR #185 https://github.com/requena242/stackailearn/pull/185 |
 | 62 | Cursor vs v0 para prototipar una web | comparativa | `cursor-vs-v0-prototipo` | queued | Enlaza v0-vs-lovable-ui + cursor-como-ide-con-ia |
 | 63 | Perplexity: preparar una reunión con fuentes | tutorial | `perplexity-preparar-reunion` | queued | Enlaza perplexity-collections |
 | 64 | Zapier AI: primera automatización con ChatGPT | tutorial | `zapier-ai-primera-automatizacion` | queued | Enlaza zapier-ai-vs-make |
