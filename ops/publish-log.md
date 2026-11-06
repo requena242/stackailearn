@@ -75,3 +75,9 @@ Una línea por página mergeada.
 | 2026-11-02 | comparativa | notebooklm-vs-perplexity-investigacion | NotebookLM vs Perplexity para investigar | https://stackailearn.com/es/compare/notebooklm-vs-perplexity-investigacion/ |
 | 2026-11-04 | tutorial | chatgpt-analizar-excel | ChatGPT: analizar un Excel o CSV | https://stackailearn.com/es/tutorials/chatgpt-analizar-excel/ |
 | 2026-11-06 | tutorial | gemini-workspace-primer-flujo | Gemini: primer flujo en Google Workspace (2026) | https://stackailearn.com/es/tutorials/gemini-workspace-primer-flujo/ |
+
+## Propuestas pendientes de revisión
+
+| Fecha de propuesta | Tipo | Slug | Estado | URL prevista ES |
+| --- | --- | --- | --- | --- |
+| 2026-11-01 | ficha | agent-qa | in-pr; sin publicar | https://stackailearn.com/es/tools/agent-qa/ |
