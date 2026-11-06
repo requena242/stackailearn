@@ -23,6 +23,7 @@ export const gemini: Tool = {
   alternatives: ["chatgpt", "claude", "notebooklm"],
   relatedTools: ["chatgpt", "notebooklm", "notion-ai"],
   relatedTutorials: [
+    "gemini-workspace-primer-flujo",
     "chatgpt-primeros-pasos",
     "notebooklm-primer-briefing",
     "chatgpt-projects-primer-flujo",

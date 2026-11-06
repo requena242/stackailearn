@@ -72,6 +72,9 @@ Una línea por página mergeada.
 | 2026-10-26 | tutorial | grok-busqueda-tiempo-real | Grok: buscar en tiempo real con fuentes | https://stackailearn.com/es/tutorials/grok-busqueda-tiempo-real/ |
 | 2026-10-28 | comparativa | grok-vs-claude-diario | Grok vs Claude para el día a día | https://stackailearn.com/es/compare/grok-vs-claude-diario/ |
 | 2026-10-30 | tutorial | claude-analizar-pdf | Claude: analizar un PDF largo | https://stackailearn.com/es/tutorials/claude-analizar-pdf/ |
+| 2026-11-02 | comparativa | notebooklm-vs-perplexity-investigacion | NotebookLM vs Perplexity para investigar | https://stackailearn.com/es/compare/notebooklm-vs-perplexity-investigacion/ |
+| 2026-11-04 | tutorial | chatgpt-analizar-excel | ChatGPT: analizar un Excel o CSV | https://stackailearn.com/es/tutorials/chatgpt-analizar-excel/ |
+| 2026-11-06 | tutorial | gemini-workspace-primer-flujo | Gemini: primer flujo en Google Workspace (2026) | https://stackailearn.com/es/tutorials/gemini-workspace-primer-flujo/ |
 
 ## Propuestas pendientes de revisión
 

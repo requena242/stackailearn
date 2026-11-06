@@ -3668,6 +3668,173 @@ export const comparisons: Comparison[] = [
       },
     },
   },
+  {
+    slug: "notebooklm-vs-perplexity-investigacion",
+    toolSlugs: ["notebooklm", "perplexity"],
+    updatedAt: "2026-11-02",
+    copy: {
+      es: {
+        title: "NotebookLM vs Perplexity para investigar",
+        excerpt:
+          "Un cuaderno anclado a las fuentes que tú eliges frente a una búsqueda en la web con citas. No cubren el mismo tramo de una investigación.",
+        verdict:
+          "Elige Perplexity cuando aún no tienes el material: pregunta con fecha, geografía y exclusiones, mapa con citas y al menos dos fuentes primarias abiertas. El método está en perplexity-investigacion-con-fuentes; si el tema dura días, guarda los hilos en un Project con perplexity-collections. Elige NotebookLM cuando las fuentes ya están elegidas y quieres respuestas citadas al pasaje, un briefing en Studio o un repaso en audio, sin que cada pregunta salga a la web abierta. Primer cuaderno: notebooklm-primer-briefing; el audio, notebooklm-audio-overview. Combo habitual: Perplexity para encontrar y contrastar; NotebookLM para el corpus que te quedas. Si el siguiente paso es redactar con instrucciones fijas, el eje con ChatGPT Projects está en notebooklm-vs-chatgpt-projects.",
+        rows: [
+          {
+            label: "Mejor para",
+            values: [
+              "Interrogar un paquete de fuentes ya elegido, con cita al pasaje",
+              "Mapear qué se ha publicado y quién lo dice, antes de tener el corpus",
+            ],
+          },
+          {
+            label: "Origen de la respuesta",
+            values: [
+              "Las fuentes del cuaderno (lo que subes, pegas o importas), con cita al pasaje",
+              "Una búsqueda en la web al preguntar, resumida con citas a esos enlaces",
+            ],
+          },
+          {
+            label: "Citas",
+            values: [
+              "Fragmento de tu PDF, Doc, URL o vídeo; se abre en el visor del cuaderno",
+              "Número junto a la frase que apunta a un enlace. A veces es un recorte, no el estudio",
+            ],
+          },
+          {
+            label: "Tema nuevo",
+            values: [
+              "Puedes traer páginas de la web e importar las que revises; el trabajo queda en el cuaderno",
+              "Es el primer paso: pregunta acotada y fuentes que abres fuera del chat",
+            ],
+          },
+          {
+            label: "Material que ya tienes",
+            values: [
+              "PDF, Docs, URL, YouTube público, texto pegado o audio que añades al cuaderno",
+              "Archivo en la sesión o en un Project, con la web en el mismo hilo si la dejas activa",
+            ],
+          },
+          {
+            label: "Dónde se queda",
+            values: [
+              "Un cuaderno por tema: fuentes, chat y Studio (briefing, FAQ, guía, audio)",
+              "Hilos de búsqueda. Un Project agrupa hilos, instrucciones y archivos del tema",
+            ],
+          },
+          {
+            label: "Riesgo principal",
+            values: [
+              "Fuentes flojas o temas mezclados: la cita parece sólida y el pasaje no lo es",
+              "Copiar el párrafo sin abrir dos fuentes y citar a Perplexity como si fuera la fuente",
+            ],
+          },
+        ],
+        faq: [
+          {
+            q: "¿Empiezo en NotebookLM si no tengo documentos?",
+            a: "No. Sin fuentes propias o enlaces que ya confíes, el cuaderno no tiene de qué citar. Empieza en Perplexity con perplexity-investigacion-con-fuentes: pregunta acotada, citas y dos fuentes abiertas. Pasa a NotebookLM cuando sepas qué PDFs, Docs o URLs vas a interrogar.",
+          },
+          {
+            q: "¿NotebookLM sustituye la búsqueda de Perplexity?",
+            a: "No. La ayuda de Google describe el chat apoyado en las fuentes del cuaderno, con cita al pasaje. Puedes descubrir páginas en la web e importar las que elijas; eso alimenta el cuaderno, no devuelve un mapa de lo publicado en cada pregunta. Para ese mapa, Perplexity.",
+          },
+          {
+            q: "¿Y si el PDF es interno y Perplexity no lo ve en la web?",
+            a: "Súbelo a la sesión o a un Project y pregunta ahí; puedes dejar la web activa en el mismo hilo. Si el trabajo es quedarte dentro de ese archivo y de otros que elijas, con cita al pasaje y un briefing, NotebookLM encaja mejor. Cuando la evidencia está en internet, el hábito de abrir fuentes sigue siendo el de perplexity-investigacion-con-fuentes.",
+          },
+          {
+            q: "¿Puedo pegar el resumen en el informe?",
+            a: "No como fuente. En NotebookLM abre la cita y comprueba el pasaje; en Perplexity abre el enlace, anota autor y fecha, y escribe los huecos. El entregable se redacta fuera. Ni «según NotebookLM» ni «según Perplexity» valen como referencia.",
+          },
+          {
+            q: "¿Tiene sentido usar los dos, y qué es Collections?",
+            a: "Sí, en ese orden: Perplexity para encontrar y contrastar; NotebookLM para el corpus que te quedas (notebooklm-primer-briefing y, si quieres repaso en audio, notebooklm-audio-overview). Collections es el nombre antiguo: hoy son Projects (antes Spaces). Cómo agrupar hilos: perplexity-collections. Si comparas el cuaderno con un contenedor de redacción, notebooklm-vs-chatgpt-projects.",
+          },
+        ],
+      },
+      en: {
+        title: "NotebookLM vs Perplexity for research",
+        excerpt:
+          "A notebook grounded in sources you choose versus web search with citations. They do not cover the same stretch of an investigation.",
+        verdict:
+          "Pick Perplexity when you do not have the material yet: a question with a date, a geography and exclusions, a cited map and at least two primary sources opened. The method is perplexity-investigacion-con-fuentes; if the topic lasts days, keep the threads in a Project with perplexity-collections. Pick NotebookLM when the sources are already chosen and you want answers cited to the passage, a Studio briefing or an audio review, without every question going out to the open web. First notebook: notebooklm-primer-briefing; the audio, notebooklm-audio-overview. Usual combo: Perplexity to find and cross-check; NotebookLM for the corpus you keep. If the next step is drafting with fixed instructions, the axis with ChatGPT Projects is notebooklm-vs-chatgpt-projects.",
+        rows: [
+          {
+            label: "Best for",
+            values: [
+              "Querying a chosen pack of sources, with a citation to the passage",
+              "Mapping what was published and who said it, before you have a corpus",
+            ],
+          },
+          {
+            label: "Where the answer comes from",
+            values: [
+              "The notebook’s sources (what you upload, paste or import), cited to the passage",
+              "A web search at question time, summarized with citations to those links",
+            ],
+          },
+          {
+            label: "Citations",
+            values: [
+              "A fragment of your PDF, Doc, URL or video; it opens in the notebook viewer",
+              "A number next to the sentence that points to a link. Sometimes a recap, not the study",
+            ],
+          },
+          {
+            label: "A new topic",
+            values: [
+              "You can bring in web pages and import the ones you review; the work stays in the notebook",
+              "This is the first step: a narrow question and sources you open outside the chat",
+            ],
+          },
+          {
+            label: "Material you already have",
+            values: [
+              "PDF, Docs, URL, public YouTube, pasted text or audio you add to the notebook",
+              "A file in the session or in a Project, with the web in the same thread if you leave it on",
+            ],
+          },
+          {
+            label: "Where the work stays",
+            values: [
+              "One notebook per topic: sources, chat and Studio (briefing, FAQ, guide, audio)",
+              "Search threads. A Project groups threads, instructions and files for the topic",
+            ],
+          },
+          {
+            label: "Main risk",
+            values: [
+              "Thin sources or mixed topics: the citation looks solid and the passage is not",
+              "Copying the paragraph without opening two sources and citing Perplexity as the source",
+            ],
+          },
+        ],
+        faq: [
+          {
+            q: "Do I start in NotebookLM if I have no documents?",
+            a: "No. Without your own sources or links you already trust, the notebook has nothing to cite. Start in Perplexity with perplexity-investigacion-con-fuentes: a narrow question, citations and two opened sources. Move to NotebookLM once you know which PDFs, Docs or URLs you will query.",
+          },
+          {
+            q: "Does NotebookLM replace Perplexity search?",
+            a: "No. Google’s help describes chat grounded in the notebook’s sources, with a citation to the passage. You can discover web pages and import the ones you choose; that feeds the notebook, it does not return a map of what was published on every question. For that map, use Perplexity.",
+          },
+          {
+            q: "What if the PDF is internal and Perplexity cannot see it on the web?",
+            a: "Upload it to the session or to a Project and ask there; you can leave the web on in the same thread. If the job is to stay inside that file and others you choose, with a passage citation and a briefing, NotebookLM fits better. When the evidence is on the internet, the habit of opening sources is still perplexity-investigacion-con-fuentes.",
+          },
+          {
+            q: "Can I paste the summary into the report?",
+            a: "Not as a source. In NotebookLM, open the citation and check the passage; in Perplexity, open the link, note author and date, and write the gaps. The deliverable is drafted elsewhere. Neither «according to NotebookLM» nor «according to Perplexity» counts as a reference.",
+          },
+          {
+            q: "Does it make sense to use both, and what is Collections?",
+            a: "Yes, in that order: Perplexity to find and cross-check; NotebookLM for the corpus you keep (notebooklm-primer-briefing and, for an audio review, notebooklm-audio-overview). Collections is the old name: today they are Projects (formerly Spaces). How to group threads: perplexity-collections. If you compare the notebook with a drafting container, notebooklm-vs-chatgpt-projects.",
+          },
+        ],
+      },
+    },
+  },
 ];
 
 export function getComparison(slug: string) {
