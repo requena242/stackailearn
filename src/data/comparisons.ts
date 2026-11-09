@@ -3835,6 +3835,173 @@ export const comparisons: Comparison[] = [
       },
     },
   },
+  {
+    slug: "cursor-vs-v0-prototipo",
+    toolSlugs: ["cursor", "v0"],
+    updatedAt: "2026-11-09",
+    copy: {
+      es: {
+        title: "Cursor vs v0 para prototipar una web",
+        excerpt:
+          "Un agente dentro del repositorio frente a un chat que genera la web, la previsualiza y la publica en Vercel. No cubren el mismo arranque.",
+        verdict:
+          "Elige v0 cuando todavía no hay repositorio: un chat en v0.app, un prompt, una captura o un archivo de Figma (esa integración está en los planes de pago de v0), preview de la app en Vercel Sandbox y Publish a Vercel. Elige Cursor cuando la web ya es un repo, o el prototipo tiene que quedar como diff que puedes rechazar: instalas el editor, acotas el cambio y apruebas el parche. Combo habitual: la primera versión clicable en v0 y, en cuanto el código está en GitHub, el pulido en Cursor con el método de cursor-como-ide-con-ia. Si la duda es v0 o Lovable en la capa de UI, sigue en v0-vs-lovable-ui.",
+        rows: [
+          {
+            label: "Mejor para",
+            values: [
+              "Una pantalla o un flujo dentro de un repo que ya abres, con diff revisable",
+              "La primera web clicable desde un prompt, una captura o Figma, publicada en Vercel",
+            ],
+          },
+          {
+            label: "Desde cero",
+            values: [
+              "Instalas Cursor, abres una carpeta y el agente crea archivos y ejecuta comandos. La guía de inicio pide un cambio pequeño y revisar el diff. La preview visual es el navegador de Cursor sobre la app que esté corriendo. Sin repo, un Cloud Agent puede arrancar con Start from scratch; los planes Free y Plus no incluyen Cloud Agents",
+              "Chat nuevo en v0.app y un prompt. La guía de apps full-stack pide empezar por la UI y añadir datos en un prompt aparte. La preview corre la app en Vercel Sandbox, con código de servidor, rutas API y variables",
+            ],
+          },
+          {
+            label: "Ajuste visual",
+            values: [
+              "Design Mode en el navegador del Agents Window: anotas un elemento, un área o un texto de la app en marcha y el agente edita el código. En React, Vue y Svelte incluye el nombre del componente. El cambio se ve si el dev server recarga",
+              "Design Mode en la preview: seleccionas un elemento, ajustas tipografía, color, margen o texto, y Apply escribe el cambio en el código como una versión nueva del chat. Solo en el runtime de preview más reciente y en la última versión del chat; no en chats de solo lectura ni en viewport móvil",
+            ],
+          },
+          {
+            label: "Stack",
+            values: [
+              "El del repositorio. No está atado a Next.js",
+              "Next.js, React, TypeScript, Tailwind CSS y shadcn/ui. Puede usar otros frameworks; la guía full-stack dice que Next.js da los resultados más fiables. Puede conectar Supabase, Neon, Upstash o Blob",
+            ],
+          },
+          {
+            label: "Repo que ya existe",
+            values: [
+              "Es el caso de la guía de inicio: explicar el repo, un cambio pequeño y revisar el diff. Un Cloud Agent clona el repo, trabaja en otra rama y abre el PR",
+              "Importas el GitHub o un ZIP. El chat parte de la rama base y el primer cambio crea una rama de trabajo: no pushea directo a esa base. El stack donde la doc dice que responde con más fiabilidad sigue siendo Next.js",
+            ],
+          },
+          {
+            label: "Publicar",
+            values: [
+              "Cursor no hospeda la web. El diff entra por tu PR y el pipeline del repo",
+              "Publish. Sin GitHub, despliega el chat en el proyecto de Vercel. Con GitHub, crea o reutiliza el PR, lo fusiona en la rama base y espera el deploy de producción. Si el repo exige checks o reviews, el merge se queda bloqueado hasta cumplirlos. También puedes exportar el código",
+            ],
+          },
+          {
+            label: "Límite práctico",
+            values: [
+              "Sin la app corriendo, Design Mode no tiene dónde señalar. Un encargo amplio se revisa mal: la guía pide un cambio pequeño y mirar el diff",
+              "La FAQ de uso comercial avisa de que el resultado puede estar incompleto o tener bugs, y que tú decides si sirve. Figma solo en planes de pago. Los fallos del agente pueden gastar créditos. Hace falta conexión",
+            ],
+          },
+        ],
+        faq: [
+          {
+            q: "¿Quiero enseñar una landing mañana y no tengo repo?",
+            a: "v0. Abre un chat en v0.app, describe las secciones o sube la captura, mira la preview en el sandbox y usa Publish si te vale Vercel. Cursor pide instalar el editor, una carpeta y revisar el diff antes de que haya una URL.",
+          },
+          {
+            q: "¿La web ya está en un repositorio?",
+            a: "Cursor. Abre la carpeta, acota el cambio y revisa el diff como en cursor-como-ide-con-ia. v0 puede importar ese GitHub y abrir un PR sin pushear a la rama base, pero la doc dice que los resultados más fiables son en Next.js, React, TypeScript, Tailwind y shadcn/ui.",
+          },
+          {
+            q: "¿Puedo empezar en v0 y seguir en Cursor?",
+            a: "Sí. La FAQ de v0 lo describe: conecta el mismo repositorio de GitHub; cuando v0 fusiona el PR, en Cursor haces pull. El método de alcance y diff está en cursor-como-ide-con-ia.",
+          },
+          {
+            q: "¿Design Mode me evita describir la pantalla?",
+            a: "No. En los dos señalas algo que ya se ve. En Cursor hace falta el navegador del Agents Window y la app en marcha (Annotate o Cmd+Shift+D; en versiones anteriores al 3.24.18 el botón es un lápiz). En v0, Design Mode solo está en la preview reciente, en la última versión del chat, y no en el viewport móvil ni en chats de solo lectura.",
+          },
+          {
+            q: "¿El código de v0 se puede publicar tal cual, y dónde queda Lovable?",
+            a: "La FAQ de Vercel dice que el resultado puede coincidir con el de otros usuarios, estar incompleto o tener bugs, y que tú decides si vale para un uso comercial. Revísalo antes de dejar que Publish fusione en la rama de producción. Si la duda es v0 o Lovable para la UI, la comparativa es v0-vs-lovable-ui.",
+          },
+        ],
+      },
+      en: {
+        title: "Cursor vs v0 for prototyping a website",
+        excerpt:
+          "An agent inside the repository versus a chat that generates the site, previews it and publishes it on Vercel. They do not cover the same starting point.",
+        verdict:
+          "Pick v0 when there is no repository yet: a chat on v0.app, a prompt, a screenshot or a Figma file (that integration is on paid v0 plans), an app preview in Vercel Sandbox and Publish to Vercel. Pick Cursor when the site is already a repo, or the prototype has to land as a diff you can reject: install the editor, scope the change and approve the patch. Usual combo: the first clickable version in v0 and, once the code is on GitHub, the polish in Cursor with the method in cursor-como-ide-con-ia. If the question is v0 or Lovable on the UI layer, continue at v0-vs-lovable-ui.",
+        rows: [
+          {
+            label: "Best for",
+            values: [
+              "A screen or a flow inside a repo you already open, with a reviewable diff",
+              "The first clickable site from a prompt, a screenshot or Figma, published on Vercel",
+            ],
+          },
+          {
+            label: "Starting from nothing",
+            values: [
+              "Install Cursor, open a folder and the agent creates files and runs commands. The quickstart asks for a small change and a diff review. The visual preview is Cursor’s browser on whatever app is running. With no repo, a Cloud Agent can start via Start from scratch; Free and Plus plans do not include Cloud Agents",
+              "A new chat on v0.app and a prompt. The full-stack guide says to start with the UI and add data in a separate prompt. The preview runs the app in Vercel Sandbox, with server code, API routes and environment variables",
+            ],
+          },
+          {
+            label: "Visual edits",
+            values: [
+              "Design Mode in the Agents Window browser: you annotate an element, an area or text on the running app and the agent edits the code. React, Vue and Svelte include the component name. You see the change if the dev server reloads",
+              "Design Mode on the preview: select an element, adjust type, color, margin or text, and Apply writes the change into the code as a new chat version. Only on the latest preview runtime and the latest chat version; not on read-only chats or mobile viewports",
+            ],
+          },
+          {
+            label: "Stack",
+            values: [
+              "Whatever the repository uses. It is not tied to Next.js",
+              "Next.js, React, TypeScript, Tailwind CSS and shadcn/ui. Other frameworks are possible; the full-stack guide says Next.js gives the most reliable results. It can connect Supabase, Neon, Upstash or Blob",
+            ],
+          },
+          {
+            label: "A repo you already have",
+            values: [
+              "This is the quickstart case: explain the repo, make one small change and review the diff. A Cloud Agent clones the repo, works on another branch and opens the PR",
+              "Import the GitHub repo or a ZIP. The chat starts from the base branch and the first change creates a working branch: it does not push straight to that base. The stack the docs call most reliable is still Next.js",
+            ],
+          },
+          {
+            label: "Shipping",
+            values: [
+              "Cursor does not host the site. The diff lands through your PR and the repo’s pipeline",
+              "Publish. Without GitHub, it deploys the chat to the Vercel project. With GitHub, it creates or reuses the PR, merges it into the base branch and waits for the production deploy. If the repo requires checks or reviews, the merge stays blocked until they pass. You can also export the code",
+            ],
+          },
+          {
+            label: "Practical limit",
+            values: [
+              "With no app running, Design Mode has nothing to point at. A wide brief is hard to review: the quickstart asks for a small change and a look at the diff",
+              "The commercial-use FAQ warns that the result may be incomplete or contain bugs, and that you decide whether it is fit to use. Figma is paid plans only. Agent failures can spend credits. It needs a connection",
+            ],
+          },
+        ],
+        faq: [
+          {
+            q: "I need to show a landing tomorrow and I have no repo?",
+            a: "v0. Open a chat on v0.app, describe the sections or upload the screenshot, check the sandbox preview and use Publish if Vercel is fine. Cursor means installing the editor, a folder and a diff review before there is a URL.",
+          },
+          {
+            q: "The site is already in a repository?",
+            a: "Cursor. Open the folder, scope the change and review the diff as in cursor-como-ide-con-ia. v0 can import that GitHub repo and open a PR without pushing to the base branch, but the docs say the most reliable results are on Next.js, React, TypeScript, Tailwind and shadcn/ui.",
+          },
+          {
+            q: "Can I start in v0 and continue in Cursor?",
+            a: "Yes. v0’s FAQ describes it: connect the same GitHub repository; when v0 merges the PR, pull in Cursor. The scope-and-diff method is cursor-como-ide-con-ia.",
+          },
+          {
+            q: "Does Design Mode save me from describing the screen?",
+            a: "No. In both you point at something that is already on screen. Cursor needs the Agents Window browser and a running app (Annotate or Cmd+Shift+D; before 3.24.18 the button is a pen). In v0, Design Mode is only on the latest preview, on the latest chat version, and not on a mobile viewport or a read-only chat.",
+          },
+          {
+            q: "Can I publish v0’s code as-is, and where does Lovable fit?",
+            a: "Vercel’s FAQ says the result may match another user’s output, be incomplete or contain bugs, and that you decide whether it is fit for commercial use. Review it before you let Publish merge into the production branch. If the question is v0 or Lovable for UI, the comparison is v0-vs-lovable-ui.",
+          },
+        ],
+      },
+    },
+  },
 ];
 
 export function getComparison(slug: string) {
