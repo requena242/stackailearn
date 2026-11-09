@@ -75,3 +75,4 @@ Una línea por página mergeada.
 | 2026-11-02 | comparativa | notebooklm-vs-perplexity-investigacion | NotebookLM vs Perplexity para investigar | https://stackailearn.com/es/compare/notebooklm-vs-perplexity-investigacion/ |
 | 2026-11-04 | tutorial | chatgpt-analizar-excel | ChatGPT: analizar un Excel o CSV | https://stackailearn.com/es/tutorials/chatgpt-analizar-excel/ |
 | 2026-11-06 | tutorial | gemini-workspace-primer-flujo | Gemini: primer flujo en Google Workspace (2026) | https://stackailearn.com/es/tutorials/gemini-workspace-primer-flujo/ |
+| 2026-11-09 | comparativa | cursor-vs-v0-prototipo | Cursor vs v0 para prototipar una web | https://stackailearn.com/es/compare/cursor-vs-v0-prototipo/ |
