@@ -76,3 +76,4 @@ Una línea por página mergeada.
 | 2026-11-04 | tutorial | chatgpt-analizar-excel | ChatGPT: analizar un Excel o CSV | https://stackailearn.com/es/tutorials/chatgpt-analizar-excel/ |
 | 2026-11-06 | tutorial | gemini-workspace-primer-flujo | Gemini: primer flujo en Google Workspace (2026) | https://stackailearn.com/es/tutorials/gemini-workspace-primer-flujo/ |
 | 2026-11-09 | comparativa | cursor-vs-v0-prototipo | Cursor vs v0 para prototipar una web | https://stackailearn.com/es/compare/cursor-vs-v0-prototipo/ |
+| 2026-11-11 | ficha (in-pr #173) | agent-qa | agent-qa: QA con memoria persistente | Pendiente de merge; rutas previstas /es/tools/agent-qa/ y /en/tools/agent-qa/ |

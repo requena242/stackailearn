@@ -69,3 +69,4 @@ Una fila = un PR. El bot coge la primera `queued`. Estados: `queued` → `in-pr`
 | 63 | Perplexity: preparar una reunión con fuentes | tutorial | `perplexity-preparar-reunion` | queued | Enlaza perplexity-collections |
 | 64 | Zapier AI: primera automatización con ChatGPT | tutorial | `zapier-ai-primera-automatizacion` | queued | Enlaza zapier-ai-vs-make |
 | 65 | Mejores herramientas de IA para estudiar 2026 | comparativa | `mejores-herramientas-ia-estudiar` | queued | notebooklm + chatgpt + claude + perplexity |
+| 66 | agent-qa: QA con memoria persistente | ficha | `agent-qa` | in-pr | PR #173; ES + EN; software local $0, modelos y dispositivos aparte |

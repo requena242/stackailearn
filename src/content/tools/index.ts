@@ -1,4 +1,5 @@
 import type { Tool } from "@/types/content";
+import { agentQa } from "./agent-qa";
 import { capcut } from "./capcut";
 import { chatgpt } from "./chatgpt";
 import { claude } from "./claude";
@@ -24,6 +25,7 @@ import { make } from "./make";
 import { zapier } from "./zapier";
 
 export const catalogTools: Tool[] = [
+  agentQa,
   capcut,
   chatgpt,
   claude,
