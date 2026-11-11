@@ -6,6 +6,8 @@ Pega la URL solo en `src/data/affiliates.ts`. No la pongas en el copy de la fich
 
 Make (2026-11-11): vivo con la URL oficial del dashboard de partners. El enlace está solo en `src/data/affiliates.ts`.
 
+ElevenLabs (2026-11-11): vivo con la URL oficial del dashboard de partners. El enlace está solo en `src/data/affiliates.ts`.
+
 ## Programas a solicitar (prioridad)
 
 | Herramienta | Dónde pedir | Notas |

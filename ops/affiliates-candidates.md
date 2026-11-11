@@ -1,7 +1,7 @@
 # Afiliados candidatos (investigación 2026-10-15)
 
 Solo se recogen programas oficiales y públicos. Comprobé cada URL el 15/10/2026 con WebSearch y curl.
-**Make está vivo desde el 2026-11-11** con la URL oficial del dashboard; el enlace vive solo en `src/data/affiliates.ts`. El resto sigue sin enlace de tracking: cuando Javier reciba uno, se pega ahí, tal como explica ops/affiliates.md.
+**Make está vivo desde el 2026-11-11** con la URL oficial del dashboard; el enlace vive solo en `src/data/affiliates.ts`. **ElevenLabs está vivo desde el 2026-11-11** con la URL oficial del dashboard; el enlace vive solo en `src/data/affiliates.ts`. El resto sigue sin enlace de tracking: cuando Javier reciba uno, se pega ahí, tal como explica ops/affiliates.md.
 
 ## Abiertos (encajan con fichas del directorio)
 | Herramienta | Programa oficial | Condiciones (según la página oficial) |
