@@ -15,7 +15,7 @@ export const make: Tool = {
   accent: "#6D00CC",
   initials: "MK",
   image: `/media/tools/${slug}/hero.jpg`,
-  lastUpdated: "2026-10-13",
+  lastUpdated: "2026-11-11",
   difficulty: "intermediate",
   platforms: ["web", "ios", "android"],
   useTypes: ["automate", "learn"],
@@ -57,10 +57,10 @@ export const make: Tool = {
       shortDescription:
         "Automatización visual (antes Integromat). Escenarios con routers, parsers y miles de módulos; IA en pasos y AI Agents según el producto actual.",
       fullDescription:
-        "Make (make.com, marca que absorbió Integromat) es un constructor de escenarios en un canvas: módulos, routers, iteradores, agregadores y transformaciones JSON sin salir del editor. Es la opción habitual cuando un flujo «no es una línea recta» y necesitas ver ramas y datos en cada nodo.\n\nEl vendor publica módulos de IA (OpenAI, clasificación, extracción) y capacidades de AI Agents en documentación que evoluciona; conviene leer make.com antes de diseñar un proceso crítico. La facturación suele girar en torno a operaciones y créditos según plan, distinto del contador de tareas de Zapier.\n\nÚtil para equipos de ops, integradores freelance y startups que quieren lógica condicional rica sin montar un backend. Para «conecta Gmail con Slack en diez minutos» sin tocar un diagrama, Zapier sigue siendo el camino más corto — comparativa zapier-ai-vs-make. No hay programa de afiliado en StackAI Learn.",
+        "Make (make.com, marca que absorbió Integromat) es un constructor de escenarios en un canvas: módulos, routers, iteradores, agregadores y transformaciones JSON sin salir del editor. Es la opción habitual cuando un flujo «no es una línea recta» y necesitas ver ramas y datos en cada nodo.\n\nEl vendor publica módulos de IA (OpenAI, clasificación, extracción) y capacidades de AI Agents en documentación que evoluciona; conviene leer make.com antes de diseñar un proceso crítico. La facturación suele girar en torno a operaciones y créditos según plan, distinto del contador de tareas de Zapier.\n\nÚtil para equipos de ops, integradores freelance y startups que quieren lógica condicional rica sin montar un backend. Para «conecta Gmail con Slack en diez minutos» sin tocar un diagrama, Zapier sigue siendo el camino más corto — comparativa zapier-ai-vs-make.",
       subcategory: "Automatización visual (escenarios)",
       pricingDetails:
-        "Plan gratuito con cupo de operaciones mensuales según make.com/pricing; planes de pago amplían operaciones, frecuencia y funciones de equipo. Los nombres (Core, Pro, Teams, etc.) y los créditos de IA cambian: confirma en la web oficial. No hay programa de afiliado en StackAI Learn.",
+        "Plan gratuito con cupo de operaciones mensuales según make.com/pricing; planes de pago amplían operaciones, frecuencia y funciones de equipo. Los nombres (Core, Pro, Teams, etc.) y los créditos de IA cambian: confirma en la web oficial.",
       bestFor: [
         "Escenarios con routers, filtros múltiples y ramas en paralelo",
         "Transformar JSON, listas y arrays entre APIs dispares",
@@ -132,10 +132,10 @@ export const make: Tool = {
       shortDescription:
         "Visual automation (formerly Integromat). Scenarios with routers, parsers and thousands of modules; AI in steps and AI Agents per current product.",
       fullDescription:
-        "Make (make.com, the brand that absorbed Integromat) is a scenario builder on a canvas: modules, routers, iterators, aggregators and JSON transforms without leaving the editor. It is the usual pick when a flow «is not a straight line» and you need to see branches and data at each node.\n\nThe vendor ships AI modules (OpenAI, classification, extraction) and AI Agents capabilities in docs that keep evolving; read make.com before you design a critical process. Billing usually revolves around operations and credits per plan, different from Zapier’s task counter.\n\nUseful for ops teams, integration freelancers and startups that want rich conditional logic without a custom backend. For «connect Gmail to Slack in ten minutes» without touching a diagram, Zapier remains the shorter path — zapier-ai-vs-make comparison. There is no affiliate program on StackAI Learn.",
+        "Make (make.com, the brand that absorbed Integromat) is a scenario builder on a canvas: modules, routers, iterators, aggregators and JSON transforms without leaving the editor. It is the usual pick when a flow «is not a straight line» and you need to see branches and data at each node.\n\nThe vendor ships AI modules (OpenAI, classification, extraction) and AI Agents capabilities in docs that keep evolving; read make.com before you design a critical process. Billing usually revolves around operations and credits per plan, different from Zapier’s task counter.\n\nUseful for ops teams, integration freelancers and startups that want rich conditional logic without a custom backend. For «connect Gmail to Slack in ten minutes» without touching a diagram, Zapier remains the shorter path — zapier-ai-vs-make comparison.",
       subcategory: "Visual automation (scenarios)",
       pricingDetails:
-        "Free plan with a monthly operations allowance per make.com/pricing; paid plans expand operations, frequency and team features. Names (Core, Pro, Teams, etc.) and AI credits change — confirm on the official site. There is no affiliate program on StackAI Learn.",
+        "Free plan with a monthly operations allowance per make.com/pricing; paid plans expand operations, frequency and team features. Names (Core, Pro, Teams, etc.) and AI credits change — confirm on the official site.",
       bestFor: [
         "Scenarios with routers, multiple filters and parallel branches",
         "Transforming JSON, lists and arrays between mismatched APIs",

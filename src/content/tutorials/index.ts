@@ -33,6 +33,7 @@ import { hermesAgentSegundoFlujo } from "./hermes-agent-segundo-flujo";
 import { midjourneyPrompts } from "./midjourney-prompts-que-funcionan";
 import { perplexityInvestigacion } from "./perplexity-investigacion-con-fuentes";
 import { perplexityCollections } from "./perplexity-collections";
+import { perplexityPrepararReunion } from "./perplexity-preparar-reunion";
 import { leonardoPrimerFlujo } from "./leonardo-primer-flujo";
 import { klingPrimerClip } from "./kling-primer-clip";
 import { grokBusquedaTiempoReal } from "./grok-busqueda-tiempo-real";
@@ -45,6 +46,7 @@ import { runwayPrimerClip } from "./runway-primer-clip";
 import { grokBotPrimer } from "./supporting";
 
 export const catalogTutorials: Tutorial[] = [
+  perplexityPrepararReunion,
   geminiWorkspacePrimerFlujo,
   chatgptAnalizarExcel,
   capcutSubtitulosBroll,

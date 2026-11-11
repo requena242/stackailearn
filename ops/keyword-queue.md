@@ -66,7 +66,22 @@ Una fila = un PR. El bot coge la primera `queued`. Estados: `queued` → `in-pr`
 | 60 | ChatGPT: analizar un Excel o CSV | tutorial | `chatgpt-analizar-excel` | published | Mergeado PR #180 |
 | 61 | Gemini: primer flujo en Google Workspace | tutorial | `gemini-workspace-primer-flujo` | published | Mergeado PR #185 |
 | 62 | Cursor vs v0 para prototipar una web | comparativa | `cursor-vs-v0-prototipo` | published | Mergeado PR #192. Enlaza v0-vs-lovable-ui + cursor-como-ide-con-ia |
-| 63 | Perplexity: preparar una reunión con fuentes | tutorial | `perplexity-preparar-reunion` | queued | Enlaza perplexity-collections |
+| 63 | Perplexity: preparar una reunión con fuentes | tutorial | `perplexity-preparar-reunion` | published | Mergeado PR #197. Enlaza perplexity-collections |
 | 64 | Zapier AI: primera automatización con ChatGPT | tutorial | `zapier-ai-primera-automatizacion` | queued | Enlaza zapier-ai-vs-make |
 | 65 | Mejores herramientas de IA para estudiar 2026 | comparativa | `mejores-herramientas-ia-estudiar` | queued | notebooklm + chatgpt + claude + perplexity |
-| 66 | agent-qa: QA con memoria persistente | ficha | `agent-qa` | in-pr | PR #173; ES + EN; software local $0, modelos y dispositivos aparte |
+| 66 | Make: primera automatización | tutorial | `make-primera-automatizacion` | queued | Enlaza zapier-ai-vs-make. Ficha make ya existe |
+| 67 | Mejores herramientas de IA para automatizar 2026 | comparativa | `mejores-herramientas-ia-automatizar` | queued | zapier + make. Tras #64 y #66 |
+| 68 | Ideogram: primer flujo de imagen con texto | tutorial | `ideogram-primer-flujo` | queued | Enlaza ideogram-vs-midjourney-tipografia. Ficha ya existe |
+| 69 | Midjourney vs Leonardo para imágenes | comparativa | `midjourney-vs-leonardo` | queued | Enlaza leonardo-primer-flujo + midjourney-prompts-que-funcionan |
+| 70 | Lovable: primera app a partir de un prompt | tutorial | `lovable-primera-app` | queued | Enlaza v0-vs-lovable-ui. Ficha ya existe |
+| 71 | v0: primer prototipo de UI | tutorial | `v0-primer-prototipo` | queued | Enlaza cursor-vs-v0-prototipo + v0-vs-lovable-ui |
+| 72 | Kling vs Runway para un clip | comparativa | `kling-vs-runway-clip` | queued | Enlaza kling-primer-clip + runway-primer-clip |
+| 73 | Grok Bot: primer teammate | tutorial | `grok-bot-primer-teammate` | queued | Enlaza grok-bot-segundo-teammate. No mezclar con el chat web de Grok |
+| 74 | Gemini vs Claude para el día a día | comparativa | `gemini-vs-claude-diario` | queued | Enlaza gemini-vs-chatgpt-diario + grok-vs-claude-diario |
+| 75 | Cursor: revisar un PR con el agente | tutorial | `cursor-revisar-pr` | queued | Enlaza cursor-cloud-agent-primer-pr + cursor-depurar-errores |
+| 76 | Perplexity vs Gemini para buscar | comparativa | `perplexity-vs-gemini-busqueda` | queued | Enlaza perplexity-vs-chatgpt-busqueda |
+| 77 | Notion AI: notas de una reunión | tutorial | `notion-ai-notas-reunion` | queued | Enlaza notion-ai-primer-flujo |
+| 78 | CapCut vs Descript para un vídeo corto | comparativa | `capcut-vs-descript-video` | queued | Enlaza capcut-subtitulos-broll + descript-editar-podcast |
+| 79 | NotebookLM: estudiar un temario con fuentes | tutorial | `notebooklm-estudiar-temario` | queued | Enlaza notebooklm-primer-briefing. Tras #65 |
+| 80 | ElevenLabs vs Descript para una locución | comparativa | `elevenlabs-vs-descript-locucion` | queued | Enlaza elevenlabs-primer-voiceover + descript-editar-podcast |
+| 81 | agent-qa: QA con memoria persistente | ficha | `agent-qa` | in-pr | PR #173; ES + EN; software local $0, modelos y dispositivos aparte |
