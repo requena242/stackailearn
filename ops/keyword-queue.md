@@ -84,3 +84,4 @@ Una fila = un PR. El bot coge la primera `queued`. Estados: `queued` → `in-pr`
 | 78 | CapCut vs Descript para un vídeo corto | comparativa | `capcut-vs-descript-video` | queued | Enlaza capcut-subtitulos-broll + descript-editar-podcast |
 | 79 | NotebookLM: estudiar un temario con fuentes | tutorial | `notebooklm-estudiar-temario` | queued | Enlaza notebooklm-primer-briefing. Tras #65 |
 | 80 | ElevenLabs vs Descript para una locución | comparativa | `elevenlabs-vs-descript-locucion` | queued | Enlaza elevenlabs-primer-voiceover + descript-editar-podcast |
+| 81 | agent-qa: QA con memoria persistente | ficha | `agent-qa` | in-pr | PR #173; ES + EN; software local $0, modelos y dispositivos aparte |
