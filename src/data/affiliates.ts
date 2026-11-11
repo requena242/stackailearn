@@ -27,6 +27,7 @@ export const affiliates: Record<string, AffiliateEntry> = {
   // claude: { url: "https://…" },
   // perplexity: { url: "https://…" },
   // midjourney: { url: "https://…" },
+  make: { url: "https://www.make.com/en/register?pc=stackailearn", cta: "try" },
 };
 
 /** Orden manual. El primero es el más visible. */
