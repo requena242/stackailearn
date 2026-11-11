@@ -66,6 +66,6 @@ Una fila = un PR. El bot coge la primera `queued`. Estados: `queued` → `in-pr`
 | 60 | ChatGPT: analizar un Excel o CSV | tutorial | `chatgpt-analizar-excel` | published | Mergeado PR #180 |
 | 61 | Gemini: primer flujo en Google Workspace | tutorial | `gemini-workspace-primer-flujo` | published | Mergeado PR #185 |
 | 62 | Cursor vs v0 para prototipar una web | comparativa | `cursor-vs-v0-prototipo` | published | Mergeado PR #192. Enlaza v0-vs-lovable-ui + cursor-como-ide-con-ia |
-| 63 | Perplexity: preparar una reunión con fuentes | tutorial | `perplexity-preparar-reunion` | in-pr | Enlaza perplexity-collections |
+| 63 | Perplexity: preparar una reunión con fuentes | tutorial | `perplexity-preparar-reunion` | published | Mergeado PR #197. Enlaza perplexity-collections |
 | 64 | Zapier AI: primera automatización con ChatGPT | tutorial | `zapier-ai-primera-automatizacion` | queued | Enlaza zapier-ai-vs-make |
 | 65 | Mejores herramientas de IA para estudiar 2026 | comparativa | `mejores-herramientas-ia-estudiar` | queued | notebooklm + chatgpt + claude + perplexity |
