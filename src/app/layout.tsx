@@ -65,6 +65,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="dark" suppressHydrationWarning>
+      {/* Raw tag: Impact requires the attribute name `value`. */}
+      <head
+        dangerouslySetInnerHTML={{
+          __html:
+            "<meta name='impact-site-verification' value='91a121c7-d525-4e80-bdd0-caf55276c8db'>",
+        }}
+      />
       <body
         className={`${geistSans.variable} ${geistMono.variable} min-h-screen bg-canvas font-sans text-ink antialiased`}
       >
