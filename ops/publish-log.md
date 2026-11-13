@@ -77,3 +77,4 @@ Una línea por página mergeada.
 | 2026-11-06 | tutorial | gemini-workspace-primer-flujo | Gemini: primer flujo en Google Workspace (2026) | https://stackailearn.com/es/tutorials/gemini-workspace-primer-flujo/ |
 | 2026-11-09 | comparativa | cursor-vs-v0-prototipo | Cursor vs v0 para prototipar una web | https://stackailearn.com/es/compare/cursor-vs-v0-prototipo/ |
 | 2026-11-11 | tutorial | perplexity-preparar-reunion | Perplexity: preparar una reunión con fuentes | https://stackailearn.com/es/tutorials/perplexity-preparar-reunion/ |
+| 2026-11-13 | tutorial | zapier-ai-primera-automatizacion | Zapier AI: primera automatización con ChatGPT | https://stackailearn.com/es/tutorials/zapier-ai-primera-automatizacion/ |
