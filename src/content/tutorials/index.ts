@@ -1,4 +1,5 @@
 import type { Tutorial } from "@/types/content";
+import { zapierAiPrimeraAutomatizacion } from "./zapier-ai-primera-automatizacion";
 import { geminiWorkspacePrimerFlujo } from "./gemini-workspace-primer-flujo";
 import { capcutSubtitulosBroll } from "./capcut-subtitulos-broll";
 import { chatgptAnalizarExcel } from "./chatgpt-analizar-excel";
@@ -46,6 +47,7 @@ import { runwayPrimerClip } from "./runway-primer-clip";
 import { grokBotPrimer } from "./supporting";
 
 export const catalogTutorials: Tutorial[] = [
+  zapierAiPrimeraAutomatizacion,
   perplexityPrepararReunion,
   geminiWorkspacePrimerFlujo,
   chatgptAnalizarExcel,
