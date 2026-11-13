@@ -2,8 +2,8 @@
 
 Una línea por página mergeada.
 
-| Fecha | Tipo | Slug | Keyword | URL ES |
-| --- | --- | --- | --- | --- |
+| Fecha | Tipo | Slug | Keyword | URL ES | URL EN |
+| --- | --- | --- | --- | --- | --- |
 | 2026-08-26 | comparativa | chatgpt-vs-perplexity | ChatGPT vs Perplexity | https://stackailearn.com/es/compare/chatgpt-vs-perplexity/ |
 | 2026-08-27 | tutorial | grok-primer-flujo | Grok: primer flujo útil | https://stackailearn.com/es/tutorials/grok-primer-flujo/ |
 | 2026-08-27 | comparativa | midjourney-vs-runway | Midjourney vs Runway | https://stackailearn.com/es/compare/midjourney-vs-runway/ |
@@ -77,3 +77,4 @@ Una línea por página mergeada.
 | 2026-11-06 | tutorial | gemini-workspace-primer-flujo | Gemini: primer flujo en Google Workspace (2026) | https://stackailearn.com/es/tutorials/gemini-workspace-primer-flujo/ |
 | 2026-11-09 | comparativa | cursor-vs-v0-prototipo | Cursor vs v0 para prototipar una web | https://stackailearn.com/es/compare/cursor-vs-v0-prototipo/ |
 | 2026-11-11 | tutorial | perplexity-preparar-reunion | Perplexity: preparar una reunión con fuentes | https://stackailearn.com/es/tutorials/perplexity-preparar-reunion/ |
+| 2026-11-13 | tutorial | zapier-ai-primera-automatizacion | Zapier AI: primera automatización con ChatGPT | https://stackailearn.com/es/tutorials/zapier-ai-primera-automatizacion/ | https://stackailearn.com/en/tutorials/zapier-ai-primera-automatizacion/ |
