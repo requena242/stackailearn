@@ -1,5 +1,6 @@
 import type { Tool } from "@/types/content";
 import { capcut } from "./capcut";
+import { chatbase } from "./chatbase";
 import { chatgpt } from "./chatgpt";
 import { claude } from "./claude";
 import { cursor } from "./cursor";
@@ -25,6 +26,7 @@ import { zapier } from "./zapier";
 
 export const catalogTools: Tool[] = [
   capcut,
+  chatbase,
   chatgpt,
   claude,
   gemini,
