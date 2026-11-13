@@ -8,6 +8,8 @@ Make (2026-11-11): vivo con la URL oficial del dashboard de partners. El enlace 
 
 ElevenLabs (2026-11-11): vivo con la URL oficial del dashboard de partners. El enlace está solo en `src/data/affiliates.ts`.
 
+Chatbase (2026-11-13): vivo. Programa en Dub Partners (partners.dub.co), cuenta javierrequenaparedes@gmail.com. Enlace https://link.chatbase.co/javier solo en `src/data/affiliates.ts`. Términos: «Up to 30% per sale for 1 year». Pago mínimo 100 USD, retención de 30 días. Método de pago pendiente (Javier). CTA `visit`: chatbase.co/pricing no publica plan gratuito (Basic y Business abren con prueba de 7 días).
+
 ## Programas a solicitar (prioridad)
 
 | Herramienta | Dónde pedir | Notas |

@@ -28,7 +28,7 @@ export const zapier: Tool = {
     "agents",
   ],
   alternatives: ["make", "notion-ai"],
-  relatedTools: ["make", "notion-ai", "chatgpt"],
+  relatedTools: ["make", "chatbase", "notion-ai"],
   relatedTutorials: [
     "notion-ai-primer-flujo",
     "grok-bot-primera-rutina",
@@ -114,7 +114,7 @@ export const zapier: Tool = {
         },
         {
           q: "¿Sustituye a Notion AI o a un agente en terminal?",
-          a: "No. Zapier mueve datos entre apps. Notion AI escribe en páginas; Hermes o Grok Bot automatizan en tu máquina o cloud de otro tipo.",
+          a: "No. Zapier mueve datos entre apps. Notion AI escribe en páginas; Hermes o Grok Bot automatizan en tu máquina o cloud de otro tipo. Si el encargo es un agente de soporte en la web, WhatsApp o el helpdesk, la ficha es Chatbase (/tools/chatbase).",
         },
       ],
       quickTutorial: {
@@ -189,7 +189,7 @@ export const zapier: Tool = {
         },
         {
           q: "Does it replace Notion AI or a terminal agent?",
-          a: "No. Zapier moves data between apps. Notion AI writes on pages; Hermes or Grok Bot automate on your machine or another cloud layer.",
+          a: "No. Zapier moves data between apps. Notion AI writes on pages; Hermes or Grok Bot automate on your machine or another cloud layer. If the job is a support agent on the site, WhatsApp or the helpdesk, the profile is Chatbase (/tools/chatbase).",
         },
       ],
       quickTutorial: {

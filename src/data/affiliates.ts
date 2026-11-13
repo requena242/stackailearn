@@ -29,6 +29,7 @@ export const affiliates: Record<string, AffiliateEntry> = {
   // midjourney: { url: "https://…" },
   make: { url: "https://www.make.com/en/register?pc=stackailearn", cta: "try" },
   elevenlabs: { url: "https://try.elevenlabs.io/gmnn5f8ozl5r", cta: "try" },
+  chatbase: { url: "https://link.chatbase.co/javier", cta: "visit" },
 };
 
 /** Orden manual. El primero es el más visible. */
