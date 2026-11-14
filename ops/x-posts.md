@@ -101,7 +101,7 @@ Desde el #60. El siguiente sin usar es el primer número que no lleva `[usado �
 58. [retirado 2026-11-14: estilo antiguo] (elevenlabs-vs-suno) ElevenLabs: voz hablada, guion de 30–90 s ya cerrado. Suno: música, con género, tempo y tema; no pegues un guion de locución. Mismo clip: Runway el vídeo, ElevenLabs la voz, Suno el fondo. El montaje, en un editor. Guía: https://stackailearn.com/es/compare/elevenlabs-vs-suno/
 59. [retirado 2026-11-14: estilo antiguo] (chatgpt-vs-perplexity) Perplexity para acotar hechos: abre al menos dos fuentes y mira fecha y autor. Pasa a ChatGPT cuando ya tienes 3 hechos verificados y toca redactar o variar el tono. Si pegas el párrafo de Perplexity en el informe, publicas al intermediario, no la fuente.
 
-60. (descript-editar-podcast, hilo de 3)
+60. [usado 2026-11-14] (descript-editar-podcast, hilo de 3)
    1/ De 15 minutos de entrevista a un episodio de 12. Sin tocar la waveform.
    2/ En Descript borras la intro repetida y dos tangentes en el transcript. El audio se recorta detrás. Remove filler words, una sola vez. Luego lo escuchas: el oído manda.
    3/ Studio Sound al máximo deja la voz metálica. Úsalo con moderación. MP3 al host el mismo día.
