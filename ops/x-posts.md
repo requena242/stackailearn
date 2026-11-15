@@ -108,7 +108,7 @@ Desde el #60. El siguiente sin usar es el primer número que no lleva `[usado �
 
    Guía: https://stackailearn.com/es/tutorials/descript-editar-podcast/
    <!-- fuente: tutorial descript-editar-podcast, caso «Entrevista de 15 minutos a episodio de 12»: intro repetida y dos tangentes, el audio se recorta al borrar texto, Remove filler words una vez y escuchar, Studio Sound metálico si va al máximo, MP3 al host el mismo día. -->
-61. (zapier-ai-primera-automatizacion, hilo de 3)
+61. [usado 2026-11-15] (zapier-ai-primera-automatizacion, hilo de 3)
    1/ Publish en Zapier no es un simulacro. Si el destino es Gmail, el correo sale de verdad.
    2/ Un prompt de «automatiza mi trabajo con ChatGPT» deja que Copilot te elija la app, el evento y los campos. Publicar ese borrador manda texto de tu hoja a la API de OpenAI.
    3/ Antes de pulsar Publish: una frase clara, una fila real, el campo bien mapeado y el Data out leído.
