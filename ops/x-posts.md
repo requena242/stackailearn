@@ -115,7 +115,7 @@ Desde el #60. El siguiente sin usar es el primer número que no lleva `[usado �
 
    Guía: https://stackailearn.com/es/tutorials/zapier-ai-primera-automatizacion/
    <!-- fuente: tutorial zapier-ai-primera-automatizacion. La prueba de la acción de Gmail se ejecuta de verdad. Un prompt «automatiza mi trabajo con ChatGPT» deja a Copilot la app, el evento y los campos; publicar envía el texto de la hoja a la API de OpenAI. Antes de Publish: una frase, una fila real, el campo mapeado y Data out leído. -->
-62. (midjourney-variaciones-upscale, suelto)
+62. [usado 2026-11-15] (midjourney-variaciones-upscale, suelto)
    Acabas de hacer upscale en Midjourney a ~2048 px. Si ahora pulsas Pan, Zoom Out o Edit/Vary Region, te lo devuelve a SD. Y vuelves a gastar el upscale.
 
    Lo documenta V8.2. Si tocas la imagen HD con esas herramientas, otra vez Upscale Subtle.
