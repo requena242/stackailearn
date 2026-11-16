@@ -4002,6 +4002,193 @@ export const comparisons: Comparison[] = [
       },
     },
   },
+  {
+    slug: "mejores-herramientas-ia-estudiar",
+    toolSlugs: ["notebooklm", "chatgpt", "claude", "perplexity"],
+    updatedAt: "2026-11-16",
+    copy: {
+      es: {
+        title: "Mejores herramientas de IA para estudiar (2026)",
+        excerpt:
+          "NotebookLM, ChatGPT, Claude y Perplexity cubren cuatro momentos distintos de estudiar: el temario que ya tienes, la práctica, el documento largo y la búsqueda con citas. Cuál encaja según qué te falta.",
+        verdict:
+          "Para un temario que ya tienes — PDFs, apuntes, Docs o vídeos — con respuestas citadas al pasaje, guía y audio, NotebookLM. Para practicar (preguntas, explicar con tus palabras, un Project que dura el curso), ChatGPT. Para un PDF o un capítulo largo y unos apuntes reescritos sin relleno, Claude. Para saber qué se ha publicado cuando aún no tienes las fuentes, Perplexity. Cadena habitual: mapa y dos fuentes abiertas en Perplexity (perplexity-investigacion-con-fuentes); lo que te quedas, al cuaderno (notebooklm-primer-briefing; el audio, notebooklm-audio-overview); la práctica, en un Project de ChatGPT (chatgpt-projects-primer-flujo); el capítulo duro, en Claude (claude-analizar-pdf). Cara a cara: notebooklm-vs-chatgpt-projects y notebooklm-vs-perplexity-investigacion.",
+        rows: [
+          {
+            label: "Mejor para",
+            values: [
+              "Temario que ya tienes, con cita al pasaje",
+              "Practicar, explicar y seguir el curso",
+              "Un capítulo o PDF largo y apuntes reescritos",
+              "Encontrar qué se ha publicado, antes del corpus",
+            ],
+          },
+          {
+            label: "De dónde sale la respuesta",
+            values: [
+              "Solo las fuentes del cuaderno",
+              "Archivos del hilo o del Project, más lo que el modelo añade",
+              "El archivo adjunto y las instrucciones del Project",
+              "Una búsqueda en la web, con enlaces",
+            ],
+          },
+          {
+            label: "Formato de estudio",
+            values: [
+              "Briefing, guía, FAQ, mapa y Audio Overview",
+              "Preguntas, tablas, simulacros y variantes",
+              "Mapa del documento, preguntas con página y reescritura",
+              "Resumen con referencias que hay que abrir",
+            ],
+          },
+          {
+            label: "Dónde se queda",
+            values: [
+              "Un cuaderno por tema",
+              "Un Project: instrucciones y varios chats",
+              "Un Project en claude.ai, con el archivo",
+              "Hilos; un Project si el tema dura días",
+            ],
+          },
+          {
+            label: "Material de partida",
+            values: [
+              "PDF, Docs, URL, YouTube público, texto o audio",
+              "Apuntes pegados o archivos del Project",
+              "Un PDF o un doc largo",
+              "Una pregunta con fecha y exclusiones",
+            ],
+          },
+          {
+            label: "Riesgo",
+            values: [
+              "Temas mezclados: la cita parece sólida y el pasaje no",
+              "Una explicación fluida que no está en tus apuntes",
+              "Un resumen que rellena si no pides la página",
+              "Copiar el párrafo y citar a Perplexity",
+            ],
+          },
+          {
+            label: "Plan de entrada",
+            values: [
+              "Cuenta de Google; gratuito con límites que pueden cambiar",
+              "Gratis + Plus / Team",
+              "Gratis + Pro / Team",
+              "Gratis con búsquedas Pro limitadas + Pro / equipo",
+            ],
+          },
+        ],
+        faq: [
+          {
+            q: "¿Puedo preparar un examen solo con ChatGPT?",
+            a: "Sí, si subes el temario y contrastas cada afirmación con el archivo. Para «solo mis apuntes, y el pasaje», NotebookLM es más directo: notebooklm-vs-chatgpt-projects. El primer contenedor del curso es chatgpt-projects-primer-flujo; si el Project ya dura semanas, chatgpt-projects-organizar-trabajo.",
+          },
+          {
+            q: "¿Claude o NotebookLM para un PDF largo?",
+            a: "Claude cuando el trabajo es un documento: mapa por secciones, preguntas con página y reescritura (claude-analizar-pdf, claude-briefing-documento). NotebookLM cuando el examen es un paquete de fuentes y quieres citas, guía o audio (notebooklm-primer-briefing, notebooklm-audio-overview). Si el documento se queda en claude.ai, el contenedor es claude-projects-primer-flujo. Si el curso vive en los dos Projects, el reparto está en claude-projects-vs-chatgpt-projects.",
+          },
+          {
+            q: "¿Perplexity sirve para estudiar o solo para buscar?",
+            a: "Sirve para el paso anterior: qué se ha publicado, con citas que abres. No es el cuaderno del temario. El método está en perplexity-investigacion-con-fuentes. Si el tema dura días, agrupa los hilos con perplexity-collections. El reparto con NotebookLM está en notebooklm-vs-perplexity-investigacion. Si dudas entre buscar en Perplexity o dentro del chat de ChatGPT, perplexity-vs-chatgpt-busqueda.",
+          },
+          {
+            q: "¿En qué orden las encadeno?",
+            a: "Si faltan fuentes: Perplexity, abres dos enlaces y pasas lo elegido a NotebookLM. Si el temario ya está: cuaderno para el mapa y el audio, ChatGPT para practicar, Claude cuando un capítulo no cabe en una pregunta suelta. Las cuatro tienen entrada gratuita con límites (cuenta de Google en NotebookLM; Plus o Team en ChatGPT; Pro o Team en Claude; Pro o equipo en Perplexity). El plan cambia el cupo, no el reparto. Ninguna hace el examen por ti.",
+          },
+        ],
+      },
+      en: {
+        title: "Best AI tools for studying (2026)",
+        excerpt:
+          "NotebookLM, ChatGPT, Claude and Perplexity cover four different moments of studying: the material you already have, practice, a long document and cited search. Which one fits depends on what you are missing.",
+        verdict:
+          "For a syllabus you already have — PDFs, notes, Docs or videos — with answers cited to the passage, a study guide and audio, NotebookLM. For practice (questions, explaining in your own words, a Project that lasts the course), ChatGPT. For a long PDF or a hard chapter and notes rewritten without filler, Claude. For what has been published when you do not have the sources yet, Perplexity. Usual chain: map and two opened sources in Perplexity (perplexity-investigacion-con-fuentes); what you keep goes into the notebook (notebooklm-primer-briefing; the audio, notebooklm-audio-overview); practice in a ChatGPT Project (chatgpt-projects-primer-flujo); the hard chapter in Claude (claude-analizar-pdf). Head to head: notebooklm-vs-chatgpt-projects and notebooklm-vs-perplexity-investigacion.",
+        rows: [
+          {
+            label: "Best for",
+            values: [
+              "A syllabus you already have, cited to the passage",
+              "Practice, explanations and following the course",
+              "A long chapter or PDF and rewritten notes",
+              "Finding what was published, before you have a corpus",
+            ],
+          },
+          {
+            label: "Where the answer comes from",
+            values: [
+              "Only the notebook’s sources",
+              "Files in the thread or Project, plus what the model adds",
+              "The attached file and the Project instructions",
+              "A web search, with links",
+            ],
+          },
+          {
+            label: "Study output",
+            values: [
+              "Briefing, guide, FAQ, map and Audio Overview",
+              "Questions, tables, drills and variants",
+              "Document map, questions with a page and a rewrite",
+              "A summary with references you have to open",
+            ],
+          },
+          {
+            label: "Where the work stays",
+            values: [
+              "One notebook per topic",
+              "A Project: instructions and several chats",
+              "A Project on claude.ai, with the file",
+              "Threads; a Project if the topic lasts days",
+            ],
+          },
+          {
+            label: "Starting material",
+            values: [
+              "PDF, Docs, URL, public YouTube, text or audio",
+              "Pasted notes or Project files",
+              "A long PDF or doc",
+              "A question with a date and exclusions",
+            ],
+          },
+          {
+            label: "Risk",
+            values: [
+              "Mixed topics: the citation looks solid and the passage is not",
+              "A fluent explanation that is not in your notes",
+              "A summary that fills the gap if you do not ask for the page",
+              "Copying the paragraph and citing Perplexity",
+            ],
+          },
+          {
+            label: "Entry plan",
+            values: [
+              "Google account; free with limits that may change",
+              "Free + Plus / Team",
+              "Free + Pro / Team",
+              "Free with limited Pro searches + Pro / team",
+            ],
+          },
+        ],
+        faq: [
+          {
+            q: "Can I prep for an exam with only ChatGPT?",
+            a: "Yes, if you upload the syllabus and cross-check each claim against the file. For «only my notes, and the passage», NotebookLM is more direct: notebooklm-vs-chatgpt-projects. The first container for the course is chatgpt-projects-primer-flujo; if the Project already lasts weeks, chatgpt-projects-organizar-trabajo.",
+          },
+          {
+            q: "Claude or NotebookLM for a long PDF?",
+            a: "Claude when the job is one document: a section map, questions with a page and a rewrite (claude-analizar-pdf, claude-briefing-documento). NotebookLM when the exam is a pack of sources and you want citations, a guide or audio (notebooklm-primer-briefing, notebooklm-audio-overview). If the document stays on claude.ai, the container is claude-projects-primer-flujo. If the course lives in both Projects, the split is claude-projects-vs-chatgpt-projects.",
+          },
+          {
+            q: "Is Perplexity for studying or only for search?",
+            a: "It is the step before: what was published, with citations you open. It is not the syllabus notebook. The method is perplexity-investigacion-con-fuentes. If the topic lasts days, group the threads with perplexity-collections. The split with NotebookLM is notebooklm-vs-perplexity-investigacion. If you are choosing between searching in Perplexity or inside a ChatGPT thread, perplexity-vs-chatgpt-busqueda.",
+          },
+          {
+            q: "In what order do I chain them?",
+            a: "If you are missing sources: Perplexity, open two links and move what you keep into NotebookLM. If the syllabus is already there: the notebook for the map and the audio, ChatGPT to practice, Claude when a chapter does not fit in a single question. All four have a free entry with limits (a Google account on NotebookLM; Plus or Team on ChatGPT; Pro or Team on Claude; Pro or team on Perplexity). The plan changes the quota, not the job split. None of them sits the exam for you.",
+          },
+        ],
+      },
+    },
+  },
 ];
 
 export function getComparison(slug: string) {
