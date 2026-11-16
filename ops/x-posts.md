@@ -122,7 +122,7 @@ Desde el #60. El siguiente sin usar es el primer n√∫mero que no lleva `[usado ‚Ä
 
    https://stackailearn.com/es/tutorials/midjourney-variaciones-upscale/
    <!-- fuente: tutorial midjourney-variaciones-upscale. En V8.2 el upscale pasa a ~2048 px en el lado largo. Pan, Zoom Out o Edit/Vary Region sobre HD lo devuelven a SD; hay que volver a Upscale Subtle. -->
-63. (chatgpt-vs-perplexity, suelto)
+63. [usado 2026-11-16] (chatgpt-vs-perplexity, suelto)
    Dejad de usar ChatGPT para investigar. No es un buscador.
 
    Para acotar hechos, Perplexity: abre al menos dos fuentes y mira fecha y autor. ChatGPT entra cuando ya tienes esos datos y toca redactar o cambiar el tono.
