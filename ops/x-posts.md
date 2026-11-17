@@ -129,7 +129,7 @@ Desde el #60. El siguiente sin usar es el primer número que no lleva `[usado �
 
    https://stackailearn.com/es/compare/chatgpt-vs-perplexity/
    <!-- fuente: comparativa chatgpt-vs-perplexity. Perplexity para acotar hechos y abrir fuentes; ChatGPT para redactar o variar el tono. La FAQ lo trata como respuesta con citas frente al hábito de redactar. Abrir al menos dos fuentes y mirar fecha y autor: comparativa y tutorial perplexity-preparar-reunion. -->
-64. (tools, hilo de 4)
+64. [usado 2026-11-17] (tools, hilo de 4)
    1/ Midjourney no tiene un plan gratuito útil a largo plazo. Estas 5 sí lo tienen. Cubren imagen, voz, música, subtítulos y documentos.
    2/ Ideogram: carteles con texto, con tier gratuito. CapCut: subtítulos, también con tier gratis. Revisa los límites actuales en cada sitio.
    3/ ElevenLabs: voz, plan gratis con créditos mensuales limitados. Suno: unos 50 créditos al día (~10 canciones), con marca de agua y sin derechos comerciales.
