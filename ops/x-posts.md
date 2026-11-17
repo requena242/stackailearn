@@ -137,7 +137,7 @@ Desde el #60. El siguiente sin usar es el primer número que no lleva `[usado �
 
    Directorio: https://stackailearn.com/es/tools/
    <!-- fuente: ficha midjourney: no hay plan gratuito útil a largo plazo. Ficha ideogram: tier gratuito. Ficha capcut: tier gratuito con captions. Ficha elevenlabs: plan gratuito con créditos mensuales limitados. Ficha suno: unas 50 créditos diarios (~10 canciones), marca de agua, sin derechos comerciales. Ficha notebooklm: gratis con cuenta de Google, límites que pueden cambiar, solo con las fuentes que subes. -->
-65. (ideogram-vs-midjourney-tipografia, suelto)
+65. [usado 2026-11-17] (ideogram-vs-midjourney-tipografia, suelto)
    Para un cartel con titular, Midjourney pierde. Gana Ideogram, y no por poco.
 
    En Midjourney las letras suelen fallar o distorsionarse. En Ideogram escribes el copy entre comillas y descartas las variantes con errores.
