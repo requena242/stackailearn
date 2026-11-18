@@ -69,7 +69,7 @@ Una fila = un PR. El bot coge la primera `queued`. Estados: `queued` → `in-pr`
 | 63 | Perplexity: preparar una reunión con fuentes | tutorial | `perplexity-preparar-reunion` | published | Mergeado PR #197. Enlaza perplexity-collections |
 | 64 | Zapier AI: primera automatización con ChatGPT | tutorial | `zapier-ai-primera-automatizacion` | published | Mergeado PR #206. Enlaza zapier-ai-vs-make |
 | 65 | Mejores herramientas de IA para estudiar 2026 | comparativa | `mejores-herramientas-ia-estudiar` | published | Mergeado PR #217. notebooklm + chatgpt + claude + perplexity |
-| 66 | Make: primera automatización | tutorial | `make-primera-automatizacion` | queued | Enlaza zapier-ai-vs-make. Ficha make ya existe |
+| 66 | Make: primera automatización | tutorial | `make-primera-automatizacion` | in-pr | Enlaza zapier-ai-vs-make. Ficha make ya existe |
 | 67 | Mejores herramientas de IA para automatizar 2026 | comparativa | `mejores-herramientas-ia-automatizar` | queued | zapier + make. Tras #64 y #66 |
 | 68 | Ideogram: primer flujo de imagen con texto | tutorial | `ideogram-primer-flujo` | queued | Enlaza ideogram-vs-midjourney-tipografia. Ficha ya existe |
 | 69 | Midjourney vs Leonardo para imágenes | comparativa | `midjourney-vs-leonardo` | queued | Enlaza leonardo-primer-flujo + midjourney-prompts-que-funcionan |
