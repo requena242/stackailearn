@@ -144,7 +144,7 @@ Desde el #60. El siguiente sin usar es el primer número que no lleva `[usado �
 
    https://stackailearn.com/es/compare/ideogram-vs-midjourney-tipografia/
    <!-- fuente: comparativa ideogram-vs-midjourney-tipografia. En Midjourney letras y logos suelen fallar o distorsionarse. FAQ del cartel: Ideogram, copy entre comillas y descartar variantes con errores. -->
-66. (cursor-depurar-errores, suelto)
+66. [usado 2026-11-18] (cursor-depurar-errores, suelto)
    De «arréglalo» a un diff de 2–3 archivos. En Cursor el agente no edita hasta que hay hipótesis.
 
    Pega el stack trace entero. Pide 3–5 causas, de más a menos probable, sin código. El fix va en una rama. El test lo corres tú.
