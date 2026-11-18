@@ -79,3 +79,4 @@ Una línea por página mergeada.
 | 2026-11-11 | tutorial | perplexity-preparar-reunion | Perplexity: preparar una reunión con fuentes | https://stackailearn.com/es/tutorials/perplexity-preparar-reunion/ |
 | 2026-11-13 | tutorial | zapier-ai-primera-automatizacion | Zapier AI: primera automatización con ChatGPT | https://stackailearn.com/es/tutorials/zapier-ai-primera-automatizacion/ | https://stackailearn.com/en/tutorials/zapier-ai-primera-automatizacion/ |
 | 2026-11-16 | comparativa | mejores-herramientas-ia-estudiar | Mejores herramientas de IA para estudiar 2026 | https://stackailearn.com/es/compare/mejores-herramientas-ia-estudiar/ | https://stackailearn.com/en/compare/mejores-herramientas-ia-estudiar/ |
+| 2026-11-18 | tutorial | make-primera-automatizacion | Make: primera automatización | https://stackailearn.com/es/tutorials/make-primera-automatizacion/ | https://stackailearn.com/en/tutorials/make-primera-automatizacion/ |
