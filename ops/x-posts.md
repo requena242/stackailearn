@@ -151,7 +151,7 @@ Desde el #60. El siguiente sin usar es el primer número que no lleva `[usado �
 
    https://stackailearn.com/es/tutorials/cursor-depurar-errores/
    <!-- fuente: tutorial cursor-depurar-errores. «Arregla el error» sin log. Hipótesis: 3–5 causas, de más a menos probable, sin código. Alcance: 2–3 archivos en una rama. El test lo corres tú en la terminal. -->
-67. (claude-analizar-pdf, hilo de 3)
+67. [usado 2026-11-19] (claude-analizar-pdf, hilo de 3)
    1/ «Resúmeme este PDF» es el error caro. Claude te devuelve un texto fluido y no sabes qué página lo sostiene.
    2/ Sube el PDF y pide un mapa en tabla: sección, páginas, idea principal. Compáralo con el índice. Si falta una sección, dilo antes de preguntar.
    3/ Cada respuesta cita la página. Si no está en el documento, que escriba [NO ESTÁ EN EL DOCUMENTO]. Las cifras las compruebas tú en el PDF.
