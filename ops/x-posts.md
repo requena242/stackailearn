@@ -158,7 +158,7 @@ Desde el #60. El siguiente sin usar es el primer número que no lleva `[usado �
 
    Guía: https://stackailearn.com/es/tutorials/claude-analizar-pdf/
    <!-- fuente: tutorial claude-analizar-pdf. «Resúmeme este PDF» da un texto fluido sin página. El mapa es una tabla (sección, páginas, idea principal) que se compara con el índice. Cada respuesta cita la página; si no está, [NO ESTÁ EN EL DOCUMENTO]. Las cifras se comprueban en el PDF. -->
-68. (suno-variaciones-stems, suelto)
+68. [usado 2026-11-19] (suno-variaciones-stems, suelto)
    No pidas Get Stems en el plan gratis de Suno. No es la versión B del Create.
 
    Remix y Extend están en la ficha de la keeper, en Library. Los stems piden Pro o Premier y gastan créditos aparte. En Free no hay stems ni derechos comerciales.
