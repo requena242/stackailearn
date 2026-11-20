@@ -165,7 +165,7 @@ Desde el #60. El siguiente sin usar es el primer número que no lleva `[usado �
 
    https://stackailearn.com/es/tutorials/suno-variaciones-stems/
    <!-- fuente: tutorial suno-variaciones-stems. Get Stems no está en Free y no es la versión B de Create. Remix y Extend salen de la ficha en Library. Stems piden Pro o Premier y consumen créditos aparte. Free: sin stems ni derechos comerciales. -->
-69. (notion-ai-bases-datos, suelto)
+69. [usado 2026-11-20] (notion-ai-bases-datos, suelto)
    Deja de rellenar Notion a mano, fila a fila. Pegar el CSV en otro chat tampoco sirve.
 
    Una columna de IA, una tarea: resumen, etiqueta o extracción. Prueba el autofill en una vista filtrada. Si inventa un paso que no está en las columnas, paras.
