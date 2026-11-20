@@ -4189,6 +4189,165 @@ export const comparisons: Comparison[] = [
       },
     },
   },
+  {
+    slug: "mejores-herramientas-ia-automatizar",
+    toolSlugs: ["zapier", "make"],
+    updatedAt: "2026-11-20",
+    copy: {
+      es: {
+        title: "Mejores herramientas de IA para automatizar (2026)",
+        excerpt:
+          "Zapier y Make cubren dos sitios distintos de la automatización entre apps: un Zap en línea con un paso de modelo, y un escenario en el lienzo. Cuál encaja según si el flujo es recto o se ramifica.",
+        verdict:
+          "Para un flujo recto con IA dentro del propio Zap — una fila de Google Sheets, Analyze Text de ChatGPT (OpenAI) y un correo, con Copilot proponiendo el borrador y Publish solo después de leer Data out — Zapier. Para un escenario visual — la hoja Prospects, Watch New Rows y un mensaje en el canal sales-team de Slack, con Run once leído y entonces Activate scenario — Make. Cuando el mismo disparo se ramifica, hay que transformar JSON o el aviso va a dos sitios según un campo, el criterio está en zapier-ai-vs-make: la línea corta se queda en Zapier; el router, los iteradores y la inspección de bundles, en Make. Primeros pasos: zapier-ai-primera-automatizacion y make-primera-automatizacion.",
+        rows: [
+          {
+            label: "Mejor para",
+            values: [
+              "Dos o tres apps en línea (hoja, correo, Slack, CRM) y un paso de modelo en el Zap",
+              "Ver el dato en cada módulo y, cuando deje de ser una línea, routers, JSON y listas",
+            ],
+          },
+          {
+            label: "Dónde se diseña",
+            values: [
+              "Editor de Zap: disparador y acciones en lista. Copilot propone; Ask as you build espera tu confirmación en cada paso",
+              "Scenario Builder: módulos en el lienzo. Un módulo disparador solo puede ir al principio del escenario",
+            ],
+          },
+          {
+            label: "IA en el flujo",
+            values: [
+              "App ChatGPT (OpenAI) con API key, no la sesión del chat. Analyze Text resume, clasifica y analiza, y no puede ser el primer paso. Copilot está en beta abierta en Free, Professional, Team y Enterprise (ayuda de Zapier del 29 de mayo de 2026; puede cambiar)",
+              "Módulos de IA y AI Agents según el catálogo actual de make.com. La guía del primer escenario no lleva modelo: Watch New Rows y Slack",
+            ],
+          },
+          {
+            label: "Primer flujo",
+            values: [
+              "zapier-ai-primera-automatizacion (25 min): fila, Analyze Text y Gmail. Publish solo tras leer Data out",
+              "make-primera-automatizacion (30 min): Prospects, Watch New Rows y Slack. Activate scenario solo tras leer las burbujas",
+            ],
+          },
+          {
+            label: "Cómo se cuenta el uso",
+            values: [
+              "Tareas por acción exitosa. Un Zap de varios pasos puede consumir varias tareas por disparo. Cifras en zapier.com/pricing",
+              "Operaciones por módulo. La ayuda cuenta la comprobación de Watch New Rows como 1 operación por chequeo, salgan las filas que salgan. Cifras en make.com/pricing",
+            ],
+          },
+          {
+            label: "Riesgo",
+            values: [
+              "Publicar el borrador de Copilot sin una fila real: el campo mapeado puede llegar vacío a OpenAI. El coste sube con las tareas",
+              "Activar el horario de la guía (Every 15 minutes) sin haber leído la burbuja: el disparador sigue comprobando la hoja aunque no haya filas nuevas",
+            ],
+          },
+          {
+            label: "Plan de entrada",
+            values: [
+              "Plan gratuito con límites de tareas y Zaps. La acción ChatGPT (OpenAI) pide API key de OpenAI con facturación prepago; un plan de pago de ChatGPT no la sustituye",
+              "La guía dice que la cuenta de Make, la de Slack y la de Google se pueden crear gratis. Plan gratuito con cupo de operaciones; nombres de plan y créditos de IA, en make.com/pricing",
+            ],
+          },
+        ],
+        faq: [
+          {
+            q: "¿Por cuál empiezo?",
+            a: "Si el encargo cabe en una frase — hoja, columna y un solo destino con Analyze Text — zapier-ai-primera-automatizacion. Si es la hoja Prospects avisando al canal sales-team, make-primera-automatizacion. Si la frase ya dice «si el campo vale X haz A y si no haz B», abre zapier-ai-vs-make antes de construir.",
+          },
+          {
+            q: "¿La IA monta el flujo sola?",
+            a: "No. En Zapier, Copilot rellena lo que puede y anota en la barra lateral lo que no puede hacer; publicas después de un Test trigger con una fila real y de leer Data out. En Make el escenario nace inactivo: Run once y las burbujas van antes de Activate scenario. La ficha de Make lo dice claro: la IA no diseña sola un escenario listo para producción.",
+          },
+          {
+            q: "¿Cuál es más barato?",
+            a: "Las fichas no fijan una cifra. Zapier mide tareas por acción exitosa; Make mide operaciones por módulo ejecutado, y un router puede multiplicarlas en un solo disparo. Dibuja el flujo y lee zapier.com/pricing y make.com/pricing. La acción ChatGPT (OpenAI) suma el coste de la API de OpenAI: la ayuda de Zapier (1 de octubre de 2026) dice que no hace falta un plan de pago de ChatGPT, y que GPT-4, incluido GPT-4o, pide un pago de 5 USD o más en esa cuenta de OpenAI.",
+          },
+          {
+            q: "¿Sustituyen a un chat o a un agente?",
+            a: "No. Los dos tutoriales son flujos paralelos: un Zap corto con Analyze Text (zapier-ai-primera-automatizacion) o el escenario Prospects en el lienzo (make-primera-automatizacion). Zapier mueve datos entre apps; no sustituye a Notion AI ni a Hermes o Grok Bot. Make es esa misma capa entre apps, en un lienzo, no un chat. Si el encargo es un agente de soporte en la web, la ficha de Zapier apunta a Chatbase. Migrar desde Make no tiene botón mágico: se rehacen los disparadores equivalentes y se prueba con datos de staging.",
+          },
+        ],
+      },
+      en: {
+        title: "Best AI tools for automation (2026)",
+        excerpt:
+          "Zapier and Make cover two different spots in app-to-app automation: a straight Zap with a model step, and a scenario on a canvas. Which one fits depends on whether the flow is a straight line or it branches.",
+        verdict:
+          "For a straight flow with AI inside the Zap itself — a Google Sheets row, ChatGPT (OpenAI) Analyze Text and an email, with Copilot drafting and Publish only after you read Data out — Zapier. For a visual scenario — the Prospects sheet, Watch New Rows and a message in the Slack sales-team channel, with Run once read and only then Activate scenario — Make. When the same trigger branches, you have to transform JSON or the notice lands in two places depending on a field, the criterion is zapier-ai-vs-make: the short line stays on Zapier; routers, iterators and bundle inspection stay on Make. First steps: zapier-ai-primera-automatizacion and make-primera-automatizacion.",
+        rows: [
+          {
+            label: "Best for",
+            values: [
+              "Two or three apps in a line (sheet, email, Slack, CRM) and a model step on the Zap",
+              "See the payload at each module and, once it stops being a line, routers, JSON and lists",
+            ],
+          },
+          {
+            label: "Where you design it",
+            values: [
+              "Zap editor: trigger and actions in a list. Copilot drafts; Ask as you build waits for your confirmation on each step",
+              "Scenario Builder: modules on the canvas. A trigger module can only sit at the beginning of the scenario",
+            ],
+          },
+          {
+            label: "AI in the flow",
+            values: [
+              "ChatGPT (OpenAI) app with an API key, not the chat session. Analyze Text summarizes, classifies and analyzes, and cannot be the first step. Copilot is an open beta on Free, Professional, Team and Enterprise (Zapier help, 29 May 2026; it may change)",
+              "AI modules and AI Agents per the current make.com catalog. The first-scenario guide has no model step: Watch New Rows and Slack",
+            ],
+          },
+          {
+            label: "First flow",
+            values: [
+              "zapier-ai-primera-automatizacion (25 min): a row, Analyze Text and Gmail. Publish only after you read Data out",
+              "make-primera-automatizacion (30 min): Prospects, Watch New Rows and Slack. Activate scenario only after you read the bubbles",
+            ],
+          },
+          {
+            label: "How usage is counted",
+            values: [
+              "Tasks per successful action. A multi-step Zap can consume several tasks per trigger. Figures on zapier.com/pricing",
+              "Operations per module. The help counts a Watch New Rows check as 1 operation per check, however many rows come back. Figures on make.com/pricing",
+            ],
+          },
+          {
+            label: "Risk",
+            values: [
+              "Publishing Copilot’s draft without a real row: the mapped field can arrive empty at OpenAI. Cost rises with tasks",
+              "Turning on the guide’s schedule (Every 15 minutes) before you have read the bubble: the trigger keeps checking the sheet even when there are no new rows",
+            ],
+          },
+          {
+            label: "Entry plan",
+            values: [
+              "Free plan with limits on tasks and Zaps. The ChatGPT (OpenAI) action needs an OpenAI API key with prepaid billing; a paid ChatGPT plan does not replace it",
+              "The guide says the Make, Slack and Google accounts are free to create. Free plan with an operations allowance; plan names and AI credits on make.com/pricing",
+            ],
+          },
+        ],
+        faq: [
+          {
+            q: "Which one do I start with?",
+            a: "If the job fits in one sentence — sheet, column and a single destination with Analyze Text — zapier-ai-primera-automatizacion. If it is the Prospects sheet notifying the sales-team channel, make-primera-automatizacion. If the sentence already says «if the field is X do A, otherwise do B», open zapier-ai-vs-make before you build.",
+          },
+          {
+            q: "Does the AI build the flow on its own?",
+            a: "No. On Zapier, Copilot fills in what it can and notes in the sidebar what it cannot do; you publish after a Test trigger on a real row and after reading Data out. On Make a new scenario starts inactive: Run once and the bubbles come before Activate scenario. The Make profile says it plainly: AI does not design a production-ready scenario on its own.",
+          },
+          {
+            q: "Which one is cheaper?",
+            a: "The profiles do not fix a number. Zapier counts tasks per successful action; Make counts operations per module run, and a router can multiply them on a single trigger. Sketch the flow and read zapier.com/pricing and make.com/pricing. The ChatGPT (OpenAI) action adds OpenAI API cost: Zapier’s help (1 October 2026) says a paid ChatGPT plan is not required, and that GPT-4 models, including GPT-4o, require a payment of 5 USD or more on that OpenAI account.",
+          },
+          {
+            q: "Do they replace a chat or an agent?",
+            a: "No. The two tutorials are parallel flows: a short Zap with Analyze Text (zapier-ai-primera-automatizacion) or the Prospects scenario on the canvas (make-primera-automatizacion). Zapier moves data between apps; it does not replace Notion AI, or Hermes or Grok Bot. Make is that same app-to-app layer, on a canvas, not a chat. If the job is a support agent on the site, the Zapier profile points to Chatbase. Migrating from Make has no magic button: rewrite the equivalent triggers and test with staging data.",
+          },
+        ],
+      },
+    },
+  },
 ];
 
 export function getComparison(slug: string) {
