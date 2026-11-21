@@ -172,7 +172,7 @@ Desde el #60. El siguiente sin usar es el primer número que no lleva `[usado �
 
    https://stackailearn.com/es/tutorials/notion-ai-bases-datos/
    <!-- fuente: tutorial notion-ai-bases-datos. Rellenar a mano o pegar el CSV en otro chat se desactualiza. Una tarea por columna de IA: resumen, etiqueta o extracción. Autofill primero en una vista filtrada. Si inventa un paso que no está en las columnas, no pases a lote. -->
-70. (runway-primer-clip, hilo de 4)
+70. [usado 2026-11-21] (runway-primer-clip, hilo de 4)
    1/ Cuatro reglas y sales con un clip de 5 s en Runway. Sin texto-a-vídeo a la primera.
    2/ El still ya manda. Imagen-a-vídeo, no texto-a-vídeo. Modelo de prueba: Gen-4 Turbo.
    3/ Prompt de motion: una acción y una cámara. Duración de 5 s. Dos o tres tomas.
