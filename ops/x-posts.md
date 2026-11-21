@@ -180,7 +180,7 @@ Desde el #60. El siguiente sin usar es el primer número que no lleva `[usado �
 
    Guía: https://stackailearn.com/es/tutorials/runway-primer-clip/
    <!-- fuente: tutorial runway-primer-clip. Still en imagen-a-vídeo, no texto-a-vídeo. Pruebas en Gen-4 Turbo, 5 s. Prompt: una acción y una cámara, 2–3 tomas. Si las tres fallan igual, cambia el verbo antes de subir de modelo. -->
-71. (grok-vs-claude-diario, suelto)
+71. [usado 2026-11-21] (grok-vs-claude-diario, suelto)
    Para el recap del día, Claude pierde. Gana Grok.
 
    Grok si hoy es actualidad o un mensaje corto. Claude si el entregable es un documento que vas a reescribir. El contraste, en Grok. La pieza que envías, en Claude.
