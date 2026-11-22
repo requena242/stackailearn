@@ -194,7 +194,7 @@ Desde el #60. El siguiente sin usar es el primer número que no lleva `[usado �
 
    https://stackailearn.com/es/tutorials/notebooklm-primer-briefing/
    <!-- fuente: tutorial notebooklm-primer-briefing. El fallo es subir diez PDFs al azar. No busca en la web. 3–5 fuentes del mismo tema. Pregunta con audiencia y fecha. Abre cada cita y quita lo que no está en el pasaje. El briefing se genera en Studio. -->
-73. (leonardo-primer-flujo, hilo de 3)
+73. [usado 2026-11-22] (leonardo-primer-flujo, hilo de 3)
    1/ En Leonardo, el formato mal puesto es el error caro. No lo arreglas con un upscale: regeneras.
    2/ Antes de Generate, fija la relación de aspecto (4:5, 9:16 o 16:9) y un lote de 4. Sujeto, luz y fondo. Una exclusión: «no text on bottle». Nada de «cinematic 8K».
    3/ Iteras un solo eje: luz o fondo. Upscale solo del keeper. Cuatro upscales del mismo fallo multiplican tokens y no te dejan entregable.
