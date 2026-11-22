@@ -187,7 +187,7 @@ Desde el #60. El siguiente sin usar es el primer número que no lleva `[usado �
 
    https://stackailearn.com/es/compare/grok-vs-claude-diario/
    <!-- fuente: comparativa grok-vs-claude-diario. Grok si el día es un recap, actualidad o un mensaje corto. Claude si el entregable es un documento que vas a reescribir. Combo: contraste en Grok, la pieza que envías en Claude. -->
-72. (notebooklm-primer-briefing, suelto)
+72. [usado 2026-11-22] (notebooklm-primer-briefing, suelto)
    De diez PDFs sueltos a un briefing que puedes auditar. NotebookLM no busca en la web.
 
    Un cuaderno, 3–5 fuentes del mismo tema. Pregunta con audiencia y fecha. Abre cada cita. Lo que no está en el pasaje, fuera. El briefing sale de Studio.
