@@ -30,6 +30,7 @@ export const ideogram: Tool = {
   alternatives: ["midjourney", "runway"],
   relatedTools: ["midjourney", "runway"],
   relatedTutorials: [
+    "ideogram-primer-flujo",
     "alternativas-midjourney",
     "midjourney-sref-estilo",
     "midjourney-prompts-que-funcionan",

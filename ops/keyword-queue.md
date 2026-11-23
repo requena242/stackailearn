@@ -71,7 +71,7 @@ Una fila = un PR. El bot coge la primera `queued`. Estados: `queued` → `in-pr`
 | 65 | Mejores herramientas de IA para estudiar 2026 | comparativa | `mejores-herramientas-ia-estudiar` | published | Mergeado PR #217. notebooklm + chatgpt + claude + perplexity |
 | 66 | Make: primera automatización | tutorial | `make-primera-automatizacion` | published | Enlaza zapier-ai-vs-make. Ficha make ya existe |
 | 67 | Mejores herramientas de IA para automatizar 2026 | comparativa | `mejores-herramientas-ia-automatizar` | published | zapier + make. Tras #64 y #66 |
-| 68 | Ideogram: primer flujo de imagen con texto | tutorial | `ideogram-primer-flujo` | queued | Enlaza ideogram-vs-midjourney-tipografia. Ficha ya existe |
+| 68 | Ideogram: primer flujo de imagen con texto | tutorial | `ideogram-primer-flujo` | in-pr | Enlaza ideogram-vs-midjourney-tipografia. Ficha ya existe |
 | 69 | Midjourney vs Leonardo para imágenes | comparativa | `midjourney-vs-leonardo` | queued | Enlaza leonardo-primer-flujo + midjourney-prompts-que-funcionan |
 | 70 | Lovable: primera app a partir de un prompt | tutorial | `lovable-primera-app` | queued | Enlaza v0-vs-lovable-ui. Ficha ya existe |
 | 71 | v0: primer prototipo de UI | tutorial | `v0-primer-prototipo` | queued | Enlaza cursor-vs-v0-prototipo + v0-vs-lovable-ui |
