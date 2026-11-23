@@ -201,7 +201,7 @@ Desde el #60. El siguiente sin usar es el primer número que no lleva `[usado �
 
    Guía: https://stackailearn.com/es/tutorials/leonardo-primer-flujo/
    <!-- fuente: tutorial leonardo-primer-flujo. El formato incorrecto es el error más caro: se fija antes de Generate. Relación de aspecto, lote de 4, sujeto luz y fondo, exclusión «no text on bottle», sin «cinematic 8K». Un solo eje. Upscale solo del keeper: cuatro upscales del mismo error multiplican tokens. -->
-74. (elevenlabs-primer-voiceover, suelto)
+74. [usado 2026-11-23] (elevenlabs-primer-voiceover, suelto)
    En ElevenLabs no hay preview gratis de tu texto. Cada Generate gasta un crédito por carácter.
 
    Prueba la voz con una frase. Si no convence, reescribe esa frase antes de regenerar. Guion de 4–6 frases. Voz de biblioteca, no una clonación.
