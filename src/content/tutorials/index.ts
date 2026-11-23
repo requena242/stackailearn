@@ -1,4 +1,5 @@
 import type { Tutorial } from "@/types/content";
+import { ideogramPrimerFlujo } from "./ideogram-primer-flujo";
 import { makePrimeraAutomatizacion } from "./make-primera-automatizacion";
 import { zapierAiPrimeraAutomatizacion } from "./zapier-ai-primera-automatizacion";
 import { geminiWorkspacePrimerFlujo } from "./gemini-workspace-primer-flujo";
@@ -48,6 +49,7 @@ import { runwayPrimerClip } from "./runway-primer-clip";
 import { grokBotPrimer } from "./supporting";
 
 export const catalogTutorials: Tutorial[] = [
+  ideogramPrimerFlujo,
   makePrimeraAutomatizacion,
   zapierAiPrimeraAutomatizacion,
   perplexityPrepararReunion,
