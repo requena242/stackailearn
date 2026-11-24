@@ -215,7 +215,7 @@ Desde el #60. El siguiente sin usar es el primer número que no lleva `[usado �
 
    https://stackailearn.com/es/tutorials/perplexity-preparar-reunion/
    <!-- fuente: tutorial perplexity-preparar-reunion. Copiar la respuesta al orden del día deja la cifra sin origen. Antes: decisión, audiencia y lo que no se cierra. Abre dos fuentes y anota título, autor o institución, y fecha. La hoja se escribe fuera del chat. -->
-76. (capcut-subtitulos-broll, hilo de 3)
+76. [usado 2026-11-24] (capcut-subtitulos-broll, hilo de 3)
    1/ Tres pasos y publicas el short. En CapCut, exportar sin leer los subtítulos te deja los nombres mal.
    2/ Proyecto 9:16. Auto captions en el idioma que hablas. Reproduce el clip entero y corrige nombres, cifras y jerga.
    3/ Un solo estilo, grande y con contraste. El B-roll va donde el guion lo pide, no de relleno. Luego exportas el MP4.
@@ -243,3 +243,20 @@ Desde el #60. El siguiente sin usar es el primer número que no lleva `[usado �
 
    https://stackailearn.com/es/compare/zapier-ai-vs-make/
    <!-- fuente: comparativa zapier-ai-vs-make. Muchos pasos por disparo penalizan tareas en Zapier. Zapier: flujo corto, disparador y pocas acciones, sin canvas. Make: el disparo se ramifica, transformas JSON o iteras listas. La IA no sustituye definir disparador, permisos y qué pasa si falla un paso. -->
+80. (ideogram-primer-flujo, suelto)
+   Magic Prompt reescribe tu póster antes de que lo veas. En Ideogram viene encendido y puede traducir tu prompt al inglés.
+
+   Apágalo antes de Generate. Elige Ideogram 4.5 o 4.0: en Auto no hay interruptor. El titular, entre comillas y cerca del inicio.
+
+   https://stackailearn.com/es/tutorials/ideogram-primer-flujo/
+   <!-- fuente: tutorial ideogram-primer-flujo. Magic Prompt empieza encendido y puede traducir el prompt al inglés. Auto no tiene el interruptor; 4.5 y 4.0 sí. Texto entre comillas y cerca del inicio del prompt. -->
+81. (make-primera-automatizacion, suelto)
+   No actives el escenario de Make a ciegas. El horario cambia cuántas veces se comprueba la hoja, y cada chequeo de Watch New Rows es 1 operación.
+
+   Antes: una fila de muestra, Run once y leer las burbujas. Activate scenario va el último.
+   <!-- fuente: tutorial make-primera-automatizacion. El intervalo cambia el consumo del disparador; Watch New Rows cuenta 1 operación por chequeo. Fila de muestra, Run once y leer burbujas; Activate scenario solo después. -->
+82. (ideogram-primer-flujo, suelto)
+   Una letra mal en el póster de Ideogram no obliga a repetirlo todo. Si la escena te vale, abre Studio y usa Layerize text: el texto pasa a capas editables.
+
+   Es beta y falla con letra decorativa: verás «No text layers were created». Revisa el fondo reconstruido.
+   <!-- fuente: tutorial ideogram-primer-flujo. Studio > Layerize text da capas editables; está en beta; con letra estilizada puede salir No text layers were created; revisar palabras y fondo reconstruido. -->
