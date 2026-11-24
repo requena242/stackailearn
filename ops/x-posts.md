@@ -208,7 +208,7 @@ Desde el #60. El siguiente sin usar es el primer número que no lleva `[usado �
 
    https://stackailearn.com/es/tutorials/elevenlabs-primer-voiceover/
    <!-- fuente: tutorial elevenlabs-primer-voiceover. No hay preview gratis del texto: Generate gasta 1 crédito por carácter. Prueba con una frase y reescribe antes de regenerar. Guion de 4–6 frases. Voz de biblioteca, no clonación. -->
-75. (perplexity-preparar-reunion, suelto)
+75. [usado 2026-11-24] (perplexity-preparar-reunion, suelto)
    Deja de copiar la respuesta de Perplexity al orden del día. Ese párrafo no sostiene una cifra.
 
    Escribe antes la decisión, la audiencia y lo que hoy no cierras. Abre dos fuentes y anota título, autor o institución, y fecha. La hoja se escribe fuera.
