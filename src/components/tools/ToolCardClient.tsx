@@ -15,7 +15,7 @@ export function ToolCardClient({ tool, locale }: { tool: Tool; locale: string })
 
   return (
     <Link
-      href={`/tools/${tool.slug}`}
+      href={`/tools/${tool.slug}/`}
       className="group flex h-full flex-col rounded-2xl border border-line bg-surface p-5 transition hover:-translate-y-0.5 hover:border-line-strong hover:bg-elevated"
     >
       <div className="flex items-start justify-between gap-3">

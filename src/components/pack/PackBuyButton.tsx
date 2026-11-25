@@ -27,7 +27,7 @@ export function PackBuyButton({ label, className }: Props) {
   }
 
   return (
-    <Link href="/pack/thanks" className={cn(buttonClass, className)}>
+    <Link href="/pack/thanks/" className={cn(buttonClass, className)}>
       {label}
       <ArrowRight className="h-4 w-4" />
     </Link>

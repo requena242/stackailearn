@@ -64,7 +64,7 @@ export function searchIndex(locale: "es" | "en") {
   const tools = getAllTools().map((tool) => ({
     kind: "tool" as const,
     slug: tool.slug,
-    href: `/tools/${tool.slug}`,
+    href: `/tools/${tool.slug}/`,
     title: tool.name,
     excerpt: tool.copy[locale].shortDescription,
     haystack: [
@@ -84,7 +84,7 @@ export function searchIndex(locale: "es" | "en") {
   const tutorials = getAllTutorials().map((tutorial) => ({
     kind: "tutorial" as const,
     slug: tutorial.slug,
-    href: `/tutorials/${tutorial.slug}`,
+    href: `/tutorials/${tutorial.slug}/`,
     title: tutorial.copy[locale].title,
     excerpt: tutorial.copy[locale].excerpt,
     haystack: [

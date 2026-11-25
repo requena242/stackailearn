@@ -19,7 +19,7 @@ export async function PopularTools({ locale }: { locale: string }) {
             subtitle={t("popularSubtitle")}
           />
           <Link
-            href="/tools"
+            href="/tools/"
             className="inline-flex items-center gap-1.5 text-sm font-medium text-accent hover:text-accent-dim"
           >
             {t("viewAllTools")}

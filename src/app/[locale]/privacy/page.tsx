@@ -14,7 +14,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     locale,
     title: t("privacyTitle"),
     description: t("privacyDescription"),
-    path: "/privacy",
+    path: "/privacy/",
   });
 }
 

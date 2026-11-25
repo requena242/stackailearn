@@ -5,7 +5,7 @@ import { Link, usePathname } from "@/i18n/navigation";
 import { Logo } from "@/components/brand/Logo";
 import { SearchBox } from "@/components/search/SearchBox";
 import { Container } from "@/components/ui/Container";
-import { headerNavItems } from "@/data/nav";
+import { headerNavItems, isActivePath } from "@/data/nav";
 import { MobileNav } from "./MobileNav";
 import { cn } from "@/lib/cn";
 
@@ -20,8 +20,7 @@ export function Header() {
 
         <nav className="hidden items-center gap-1 md:flex">
           {headerNavItems.map((item) => {
-            const active =
-              pathname === item.href || pathname.startsWith(`${item.href}/`);
+            const active = isActivePath(pathname, item.href);
 
             return (
               <Link

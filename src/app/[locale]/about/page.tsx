@@ -13,7 +13,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     locale,
     title: t("aboutTitle"),
     description: t("aboutDescription"),
-    path: "/about",
+    path: "/about/",
   });
 }
 
@@ -59,7 +59,7 @@ export default async function AboutPage({ params }: Props) {
         <h2 className="mt-14 text-2xl font-semibold text-ink">{t("affiliateTitle")}</h2>
         <p className="mt-6 text-base leading-relaxed text-ink/90">
           {t("affiliateP1")}{" "}
-          <Link href="/disclosure" className="text-accent hover:underline">
+          <Link href="/disclosure/" className="text-accent hover:underline">
             {t("affiliateLink")}
           </Link>
           .

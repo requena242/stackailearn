@@ -15,7 +15,7 @@ export async function AffiliateDisclosure({
     return (
       <p className="max-w-xl text-xs leading-relaxed text-muted">
         {t("footer")}{" "}
-        <Link href="/disclosure" className="text-ink/80 underline-offset-2 hover:text-accent hover:underline">
+        <Link href="/disclosure/" className="text-ink/80 underline-offset-2 hover:text-accent hover:underline">
           {t("readMore")}
         </Link>
       </p>
@@ -29,7 +29,7 @@ export async function AffiliateDisclosure({
       )}
     >
       {t("banner")}{" "}
-      <Link href="/disclosure" className="font-medium text-ink/80 underline-offset-2 hover:text-accent hover:underline">
+      <Link href="/disclosure/" className="font-medium text-ink/80 underline-offset-2 hover:text-accent hover:underline">
         {t("readMore")}
       </Link>
     </p>

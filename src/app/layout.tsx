@@ -4,6 +4,7 @@ import { AdScript } from "@/components/ads/AdScript";
 import { SiteAnalytics } from "@/components/analytics/SiteAnalytics";
 import { ads } from "@/data/ads";
 import { isAdsLive } from "@/lib/ads";
+import { siteRootUrl } from "@/lib/seo";
 import { SITE } from "@/lib/site";
 import "./globals.css";
 
@@ -26,7 +27,7 @@ export const metadata: Metadata = {
   description:
     "AI tools directory and step-by-step tutorials.",
   applicationName: SITE.name,
-  authors: [{ name: SITE.name, url: SITE.url }],
+  authors: [{ name: SITE.name, url: siteRootUrl() }],
   icons: { icon: "/favicon.svg" },
   openGraph: {
     images: [

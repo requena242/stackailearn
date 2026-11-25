@@ -39,6 +39,26 @@ for (let i = 0; i < args.length; i++) {
   }
 }
 
+function isAssetPath(pathname) {
+  return /\.[a-zA-Z0-9]+$/.test(pathname);
+}
+
+/** Páginas /es y /en con barra final. No toca og.png ni la clave .txt. */
+function normalizePageUrl(raw) {
+  let url;
+  try {
+    url = new URL(raw);
+  } catch {
+    return raw;
+  }
+  if (url.hostname !== HOST) return raw;
+  if (isAssetPath(url.pathname)) return raw;
+  if (!/^\/(es|en)(\/|$)/.test(url.pathname)) return raw;
+  if (!url.pathname.endsWith("/")) url.pathname += "/";
+  return url.toString();
+}
+
+urls = urls.map(normalizePageUrl);
 urls = [...new Set(urls)];
 const bad = urls.filter((u) => {
   try {

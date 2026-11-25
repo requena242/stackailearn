@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { locales } from "@/i18n/config";
 import { SITE } from "./site";
 
 type BuildMetadataInput = {
@@ -12,15 +13,44 @@ type BuildMetadataInput = {
  * Forma canónica de una página: barra final, igual que el export
  * (`trailingSlash: true` → `.../slug/index.html`).
  */
-function withTrailingSlash(path: string): string {
+export function withTrailingSlash(path: string): string {
   if (!path || path === "/") return "/";
   const normalized = path.startsWith("/") ? path : `/${path}`;
   return normalized.endsWith("/") ? normalized : `${normalized}/`;
 }
 
+/** Origen como página (`https://stackailearn.com/`), no el host pelado. */
+export function siteRootUrl() {
+  return `${SITE.url}/`;
+}
+
 /** URL absoluta de una página, siempre con barra final. */
 export function localizedPath(locale: string, path = "/") {
   return `${SITE.url}/${locale}${withTrailingSlash(path)}`;
+}
+
+/**
+ * Href interno listo para `<a>`: prefijo de locale y barra final.
+ * No toca anclas, externos ni ficheros (`/og.png`).
+ */
+export function localizedHref(locale: string, href: string) {
+  if (!href.startsWith("/") || href.startsWith("//")) return href;
+
+  const hashAt = href.indexOf("#");
+  const hash = hashAt >= 0 ? href.slice(hashAt) : "";
+  const beforeHash = hashAt >= 0 ? href.slice(0, hashAt) : href;
+  const queryAt = beforeHash.indexOf("?");
+  const query = queryAt >= 0 ? beforeHash.slice(queryAt) : "";
+  const path = queryAt >= 0 ? beforeHash.slice(0, queryAt) : beforeHash;
+
+  if (/\.[a-zA-Z0-9]+$/.test(path)) return href;
+
+  const already = locales.some(
+    (item) => path === `/${item}` || path.startsWith(`/${item}/`),
+  );
+  const slashed = withTrailingSlash(path);
+  const localized = already ? slashed : `/${locale}${slashed}`;
+  return `${localized}${query}${hash}`;
 }
 
 /** Metadata dinámica por idioma, con canonical + hreflang ES/EN. */

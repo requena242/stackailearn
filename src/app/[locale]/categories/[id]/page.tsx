@@ -31,7 +31,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     locale,
     title: t("categoryTitle", { name: copy.name }),
     description: copy.intro,
-    path: `/categories/${category.id}`,
+    path: `/categories/${category.id}/`,
   });
 }
 
@@ -53,7 +53,7 @@ export default async function CategoryPage({ params }: Props) {
       <Breadcrumbs
         items={[
           { href: "/", label: "StackAI" },
-          { href: "/tools", label: t("directory") },
+          { href: "/tools/", label: t("directory") },
           { label: copy.name },
         ]}
       />

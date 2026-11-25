@@ -46,7 +46,7 @@ export async function PackCta({
         {t(compact ? "ctaTextCompact" : "ctaText")}
       </p>
       <Link
-        href="/pack"
+        href="/pack/"
         className="mt-4 inline-flex items-center gap-1.5 text-sm font-semibold text-accent hover:text-accent-dim"
       >
         {t("ctaButton")}

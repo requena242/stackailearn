@@ -9,17 +9,17 @@ import { localizedPath } from "@/lib/seo";
 
 const staticPaths = [
   "/",
-  "/tools",
-  "/recommended",
-  "/tutorials",
-  "/compare",
-  "/about",
-  "/paths",
-  "/search",
-  "/disclosure",
-  "/privacy",
-  "/terms",
-  "/pack",
+  "/tools/",
+  "/recommended/",
+  "/tutorials/",
+  "/compare/",
+  "/about/",
+  "/paths/",
+  "/search/",
+  "/disclosure/",
+  "/privacy/",
+  "/terms/",
+  "/pack/",
 ];
 
 export const dynamic = "force-static";
@@ -39,7 +39,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
     for (const tool of tools) {
       entries.push({
-        url: localizedPath(locale, `/tools/${tool.slug}`),
+        url: localizedPath(locale, `/tools/${tool.slug}/`),
         lastModified: new Date(),
         changeFrequency: "monthly",
         priority: 0.6,
@@ -48,7 +48,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
     for (const tutorial of tutorials) {
       entries.push({
-        url: localizedPath(locale, `/tutorials/${tutorial.slug}`),
+        url: localizedPath(locale, `/tutorials/${tutorial.slug}/`),
         lastModified: new Date(),
         changeFrequency: "monthly",
         priority: 0.6,
@@ -57,7 +57,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
     for (const category of categories) {
       entries.push({
-        url: localizedPath(locale, `/categories/${category.id}`),
+        url: localizedPath(locale, `/categories/${category.id}/`),
         lastModified: new Date(),
         changeFrequency: "monthly",
         priority: 0.65,
@@ -66,7 +66,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
     for (const path of learningPaths) {
       entries.push({
-        url: localizedPath(locale, `/paths/${path.slug}`),
+        url: localizedPath(locale, `/paths/${path.slug}/`),
         lastModified: new Date(),
         changeFrequency: "monthly",
         priority: 0.65,
@@ -75,7 +75,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
     for (const comparison of comparisons) {
       entries.push({
-        url: localizedPath(locale, `/compare/${comparison.slug}`),
+        url: localizedPath(locale, `/compare/${comparison.slug}/`),
         lastModified: new Date(),
         changeFrequency: "monthly",
         priority: 0.55,

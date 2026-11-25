@@ -19,7 +19,7 @@ export async function LatestTutorials({ locale }: { locale: string }) {
             subtitle={t("tutorialsSubtitle")}
           />
           <Link
-            href="/tutorials"
+            href="/tutorials/"
             className="inline-flex items-center gap-1.5 text-sm font-medium text-accent hover:text-accent-dim"
           >
             {t("viewAllTutorials")}

@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "node scripts/sync-pack-campus.mjs && node scripts/export-build.mjs",
+    "check:trailing-slash": "node scripts/check-trailing-slash.mjs",
     "start": "next start",
     "preview": "npx --yes serve out",
     "lint": "eslint"

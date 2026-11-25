@@ -32,7 +32,7 @@ export async function CompareTable({
                 tool ? (
                   <th key={tool.slug} className="px-4 py-4 font-semibold text-ink">
                     <Link
-                      href={`/tools/${tool.slug}`}
+                      href={`/tools/${tool.slug}/`}
                       className="inline-flex items-center gap-2 hover:text-accent"
                     >
                       <ToolMark

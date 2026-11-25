@@ -19,7 +19,7 @@ export async function StartHere({ locale }: { locale: string }) {
             return (
               <Link
                 key={path.slug}
-                href={`/paths/${path.slug}`}
+                href={`/paths/${path.slug}/`}
                 className="group rounded-2xl border border-line bg-surface p-6 transition hover:border-line-strong hover:bg-elevated"
               >
                 <p className="text-xs uppercase tracking-[0.14em] text-accent">

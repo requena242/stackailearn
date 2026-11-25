@@ -12,7 +12,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     locale,
     title: t("pathsTitle"),
     description: t("pathsDescription"),
-    path: "/paths",
+    path: "/paths/",
   });
 }
 

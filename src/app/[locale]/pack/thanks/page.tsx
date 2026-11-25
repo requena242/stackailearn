@@ -15,7 +15,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       locale,
       title: t("packThanksTitle"),
       description: t("packThanksDescription"),
-      path: "/pack/thanks",
+      path: "/pack/thanks/",
     }),
     robots: { index: false, follow: false, nocache: true },
   };
@@ -38,7 +38,7 @@ export default async function PackThanksPage({ params }: Props) {
         <p className="mt-5 text-lg leading-relaxed text-muted">{t("thanksLead")}</p>
         <PackAccess locale={locale} />
         <p className="mt-12">
-          <Link href="/pack" className="text-sm text-accent hover:text-accent-dim">
+          <Link href="/pack/" className="text-sm text-accent hover:text-accent-dim">
             ← {t("backToPack")}
           </Link>
         </p>

@@ -27,14 +27,14 @@ export async function Hero() {
 
           <div className="mt-8 flex flex-col items-center justify-center gap-3 sm:flex-row">
             <Link
-              href="/tools"
+              href="/tools/"
               className="inline-flex h-11 items-center gap-2 rounded-full bg-accent px-5 text-sm font-semibold text-canvas transition hover:bg-accent-dim"
             >
               {t("primaryCta")}
               <ArrowRight className="h-4 w-4" />
             </Link>
             <Link
-              href="/tutorials"
+              href="/tutorials/"
               className="inline-flex h-11 items-center rounded-full border border-line bg-elevated px-5 text-sm font-semibold text-ink transition hover:border-line-strong"
             >
               {t("secondaryCta")}

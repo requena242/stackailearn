@@ -20,7 +20,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     locale,
     title: t("packTitle"),
     description: t("packDescription"),
-    path: "/pack",
+    path: "/pack/",
   });
 }
 

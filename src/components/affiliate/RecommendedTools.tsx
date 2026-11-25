@@ -42,7 +42,7 @@ export async function RecommendedTools({
                   {t("pick", { n: index + 1 })}
                 </p>
                 <Link
-                  href={`/tools/${tool.slug}`}
+                  href={`/tools/${tool.slug}/`}
                   className="mt-1 block text-lg font-semibold text-ink hover:text-accent"
                 >
                   {tool.name}
@@ -56,7 +56,7 @@ export async function RecommendedTools({
               {note ? pick(note, locale) : pick(tool.copy, locale).shortDescription}
             </p>
             <Link
-              href={`/tools/${tool.slug}`}
+              href={`/tools/${tool.slug}/`}
               className="mt-3 inline-block text-sm font-medium text-accent hover:text-accent-dim"
             >
               {t("readReview")}
@@ -78,7 +78,7 @@ export async function RecommendedTools({
         <div className="flex flex-col gap-6 sm:flex-row sm:items-end sm:justify-between">
           <SectionHeading title={t("recommendedTitle")} subtitle={t("recommendedSubtitle")} />
           <Link
-            href="/recommended"
+            href="/recommended/"
             className="inline-flex items-center gap-1.5 text-sm font-medium text-accent hover:text-accent-dim"
           >
             {t("viewAll")}

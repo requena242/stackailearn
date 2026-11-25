@@ -1,3 +1,4 @@
+import { siteRootUrl } from "./seo";
 import { SITE } from "./site";
 import type { Comparison, Tool, Tutorial } from "@/types/content";
 
@@ -57,7 +58,7 @@ export function articleJsonLd(tutorial: Tutorial, locale: string, url: string) {
     dateModified: tutorial.lastUpdated,
     inLanguage: locale,
     author: { "@type": "Organization", name: SITE.name },
-    publisher: { "@type": "Organization", name: SITE.name, url: SITE.url },
+    publisher: { "@type": "Organization", name: SITE.name, url: siteRootUrl() },
     mainEntityOfPage: url,
   };
 }

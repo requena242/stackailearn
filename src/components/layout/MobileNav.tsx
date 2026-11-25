@@ -3,7 +3,7 @@
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
 import { useTranslations } from "next-intl";
-import { mobileNavItems } from "@/data/nav";
+import { isActivePath, mobileNavItems } from "@/data/nav";
 import { Link, usePathname } from "@/i18n/navigation";
 import { cn } from "@/lib/cn";
 
@@ -34,7 +34,7 @@ export function MobileNav() {
                 onClick={() => setOpen(false)}
                 className={cn(
                   "rounded-xl px-3 py-2.5 text-sm font-medium",
-                  pathname.startsWith(item.href)
+                  isActivePath(pathname, item.href)
                     ? "bg-elevated text-ink"
                     : "text-muted hover:text-ink",
                 )}

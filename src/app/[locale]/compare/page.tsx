@@ -19,7 +19,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     locale,
     title: t("compareTitle"),
     description: t("compareDescription"),
-    path: "/compare",
+    path: "/compare/",
   });
 }
 
@@ -42,7 +42,7 @@ export default async function ComparePage({ params }: Props) {
           return (
             <Link
               key={comparison.slug}
-              href={`/compare/${comparison.slug}`}
+              href={`/compare/${comparison.slug}/`}
               className="group flex h-full flex-col rounded-2xl border border-line bg-surface p-6 transition hover:border-line-strong hover:bg-elevated"
             >
               <p className="text-xs uppercase tracking-[0.14em] text-muted">{names}</p>
