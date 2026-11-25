@@ -4348,6 +4348,165 @@ export const comparisons: Comparison[] = [
       },
     },
   },
+  {
+    slug: "midjourney-vs-leonardo",
+    toolSlugs: ["midjourney", "leonardo"],
+    updatedAt: "2026-11-25",
+    copy: {
+      es: {
+        title: "Midjourney vs Leonardo para imágenes (2026)",
+        excerpt:
+          "Midjourney y Leonardo cubren dos sitios distintos del still: un grid dirigido con parámetros y Style Reference, y una sesión web con menú de modelos, tokens y upscale. Cuál encaja según si ya pagas una suscripción o empiezas por un still exportable.",
+        verdict:
+          "Para un still dirigido en serie — prompt de plano, --ar, stylize y una Style Reference, con un grid de cuatro y una sola variable por ronda — Midjourney. Hace falta suscripción: midjourney.com/pricing no lista un plan gratuito. El método está en midjourney-prompts-que-funcionan. Para el primer still en la web, o para probar el menú de modelos de Leonardo y upscalear solo el keeper, Leonardo. En el plan Free la guía How to Generate Images limita la generación a Auto Image o Auto Video, con 150 tokens al día que no se acumulan, y el modo privado es de pago. El flujo está en leonardo-primer-flujo. Si el boceto sale en Leonardo y el look final pide una referencia de estilo repetible, el tutorial de Leonardo ya deja ese paso: el keeper pasa a Midjourney. Si el JPG tiene que llevar el titular legible, esta página no lo decide: ideogram-vs-midjourney-tipografia.",
+        rows: [
+          {
+            label: "Mejor para",
+            values: [
+              "Una serie de stills con el mismo look (moodboard, concept, producto) cuando ya describes plano, luz y formato",
+              "Un still exportable en una sesión web: modelo, formato y upscale del keeper en la misma cuenta",
+            ],
+          },
+          {
+            label: "Dónde se genera",
+            values: [
+              "Web (midjourney.com) y Discord, con la misma suscripción. La guía Web vs Discord: en la web el Editor junta recorte, pan, relación de aspecto y Vary Region; en Discord los parámetros van al final del prompt",
+              "Web en leonardo.ai. La guía How to Generate Images: prompt en la home, o Image bajo la barra o en la barra lateral. El resultado queda en el feed y en Library",
+            ],
+          },
+          {
+            label: "Cómo se dirige el still",
+            values: [
+              "--ar (por defecto 1:1; guía Aspect Ratio), --stylize o --s de 0 a 1000 (por defecto 100; guía Stylize) y Style Reference en la barra Imagine o --sref en Discord (guía Style Reference, versiones 6 en adelante). La guía Prompt Basics pide frases cortas: sujeto, medio, entorno, luz y encuadre",
+              "Menú de modelos, modo Fast o Ultra, relación de aspecto y tamaño, y número de imágenes (guía How to Generate Images). En el plan Free, solo Auto Image o Auto Video. El coste en tokens sale en el botón Generate antes de lanzar. La home también deja subir imágenes de referencia",
+            ],
+          },
+          {
+            label: "Primer flujo",
+            values: [
+              "midjourney-prompts-que-funcionan (22 min): frase de plano, --ar, un grid y una sola variable (luz o cámara)",
+              "leonardo-primer-flujo (16 min): formato, modelo, prompt de plano, lote, un eje, upscale del keeper y descarga desde Library",
+            ],
+          },
+          {
+            label: "Cómo se cuenta el uso",
+            values: [
+              "Horas Fast de GPU al mes: 3,3 en Basic, 15 en Standard, 30 en Pro y 60 en Mega (midjourney.com/pricing y la guía Comparing Midjourney Plans). No pasan al mes siguiente. Un job de imagen suele producir cuatro imágenes; la FAQ de precios dice que un job típico gasta unos 45 segundos de tiempo Fast, y que upscales, vídeo y otros ajustes gastan más. Esas cuentas están basadas en V8.2 y pueden cambiar. Relax (imágenes sin gastar Fast, con cola) entra en Standard, Pro y Mega, no en Basic",
+              "Tokens. El plan Free da 150 al día y no se acumulan (leonardo.ai/pricing y la guía How to Generate Images). En pago el cupo es mensual. Premium y Ultimate añaden generación relajada de imagen, sin tokens extra, solo en modelos de una lista (incluye Lucid Origin y Lucid Realism) y solo cuando el saldo llega a cero. La lista completa, y los modelos de terceros que quedan fuera, está en leonardo.ai/pricing. Cifras de planes, en esa misma página",
+            ],
+          },
+          {
+            label: "Riesgo",
+            values: [
+              "En Basic, sin Relax, las horas Fast se acaban y hay que recargar, subir de plan o esperar al mes. Las creaciones son públicas por defecto; Stealth está en Pro y Mega (FAQ de precios). Un prompt corto deja que el estilo por defecto rellene huecos: la guía Prompt Basics lo dice (menos detalle, más variedad, menos control)",
+              "En Free el resultado puede ir al feed público (el modo privado es de pago) y los derechos no son los del plan de pago (FAQ de leonardo.ai/pricing). Pro Upscaler es de planes de pago (guía del 25 de agosto de 2026) y el coste en tokens depende del tipo, el multiplicador y Fix AI Image Artifacts: esa guía da un rango de 73 a 1.211 tokens. Upscalear el grid entero antes de elegir dirección quema ese cupo; leonardo-primer-flujo upscalea solo el keeper",
+            ],
+          },
+          {
+            label: "Plan de entrada",
+            values: [
+              "Suscripción. Basic es el de entrada en la guía Comparing Midjourney Plans. midjourney.com/pricing no lista un plan gratuito. Esa guía marca General Commercial Terms en los cuatro planes y dice que una empresa con más de 1.000.000 USD de ingresos brutos al año tiene que estar en Pro o Mega. El detalle está en los Terms of Service",
+              "Plan Free a 0 USD en leonardo.ai/pricing, con 150 tokens al día. Essential, Premium y Ultimate cambian el cupo mensual, el modo privado y el acceso a Pro Upscaler; las cifras están en esa página. En la FAQ, quien paga conserva la propiedad; en Free, Leonardo se reserva derechos de uso y concede una licencia no exclusiva y libre de regalías para uso comercial. Lee los términos antes de un cliente",
+            ],
+          },
+        ],
+        faq: [
+          {
+            q: "¿Por cuál empiezo?",
+            a: "Si ya pagas Midjourney y el encargo es una serie dirigida, midjourney-prompts-que-funcionan. Si aún no tienes suscripción, o quieres un still en leonardo.ai eligiendo modelo y upscale en la misma sesión, leonardo-primer-flujo. Si la frase es «el mismo look en ocho stills con una imagen de referencia», la herramienta documentada es Style Reference de Midjourney. Si es «un still exportable esta tarde, desde cero», la entrada documentada es el cupo diario de Leonardo.",
+          },
+          {
+            q: "¿Cuál es más barato?",
+            a: "Esta página no fija un ganador. Midjourney cobra tiempo Fast de GPU en una suscripción; Leonardo cobra tokens y tiene un cupo diario gratis. Un still en el plan Free de Leonardo no trae el mismo menú de modelos, ni el modo privado, ni Pro Upscaler, ni los mismos derechos que un plan de pago. Dibuja el encargo (cuántos grids, si hay upscale, si hace falta que no salga en el feed) y lee midjourney.com/pricing y leonardo.ai/pricing.",
+          },
+          {
+            q: "¿Puedo usarlas en un anuncio de cliente?",
+            a: "Depende del plan, y esta página no sustituye los términos. En Midjourney, la guía Comparing Midjourney Plans asigna General Commercial Terms a Basic, Standard, Pro y Mega, y exige Pro o Mega si la empresa supera 1.000.000 USD de ingresos brutos al año; la FAQ de precios dice que eres dueño de las imágenes, con excepciones en los Terms of Service. En Leonardo, la FAQ de leonardo.ai/pricing distingue: en pago conservas la propiedad y el copyright; en Free, Leonardo se reserva derechos de uso, reproducción, modificación y distribución, y te da una licencia no exclusiva y libre de regalías para uso comercial. En Midjourney lo generado es público salvo Stealth (Pro y Mega); en Leonardo el modo privado es de pago.",
+          },
+          {
+            q: "¿Uno sustituye al otro?",
+            a: "No para el mismo paso. midjourney-prompts-que-funcionan es el grid con --ar, stylize y una variable. leonardo-primer-flujo es formato, modelo, lote y upscale del keeper. Si el look final pide una Style Reference, el tutorial de Leonardo deja pasar el keeper a Midjourney. Si el titular tiene que leerse dentro del JPG, esta comparativa no elige: ideogram-vs-midjourney-tipografia.",
+          },
+        ],
+      },
+      en: {
+        title: "Midjourney vs Leonardo for images (2026)",
+        excerpt:
+          "Midjourney and Leonardo cover two different spots for a still: a directed grid with parameters and a Style Reference, and a web session with a model menu, tokens and upscale. Which one fits depends on whether you already pay for a subscription or you are starting from an exportable still.",
+        verdict:
+          "For a directed still in a series — a shot prompt, --ar, stylize and a Style Reference, with a four-image grid and one variable per round — Midjourney. A subscription is required: midjourney.com/pricing does not list a free plan. The method is midjourney-prompts-que-funcionan. For a first still on the web, or to try Leonardo’s model menu and upscale only the keeper, Leonardo. On the Free plan the How to Generate Images guide limits generation to Auto Image or Auto Video, with 150 tokens a day that do not roll over, and private mode is paid. The flow is leonardo-primer-flujo. If the sketch comes out of Leonardo and the final look needs a repeatable style reference, the Leonardo tutorial already leaves that step: the keeper moves to Midjourney. If the JPG has to carry a readable headline, this page does not decide it: ideogram-vs-midjourney-tipografia.",
+        rows: [
+          {
+            label: "Best for",
+            values: [
+              "A series of stills with the same look (moodboard, concept, product) when you already describe shot, light and format",
+              "An exportable still in one web session: model, format and an upscale of the keeper in the same account",
+            ],
+          },
+          {
+            label: "Where you generate",
+            values: [
+              "Web (midjourney.com) and Discord, on the same subscription. The Web vs Discord guide: on the web the Editor combines crop, pan, aspect ratio and Vary Region; on Discord the parameters go at the end of the prompt",
+              "Web at leonardo.ai. The How to Generate Images guide: a prompt on the home page, or Image under the bar or in the sidebar. The result lands in the feed and in Library",
+            ],
+          },
+          {
+            label: "How you steer the still",
+            values: [
+              "--ar (default 1:1; Aspect Ratio guide), --stylize or --s from 0 to 1000 (default 100; Stylize guide) and a Style Reference in the Imagine bar or --sref on Discord (Style Reference guide, version 6 and later). The Prompt Basics guide asks for short phrases: subject, medium, environment, light and framing",
+              "Model menu, Fast or Ultra mode, aspect ratio and size, and number of images (How to Generate Images guide). On the Free plan, Auto Image or Auto Video only. The token cost is shown on the Generate button before you run. The home page also lets you upload reference images",
+            ],
+          },
+          {
+            label: "First flow",
+            values: [
+              "midjourney-prompts-que-funcionan (22 min): a shot sentence, --ar, one grid and a single variable (light or camera)",
+              "leonardo-primer-flujo (16 min): format, model, shot prompt, batch, one axis, upscale the keeper and download from Library",
+            ],
+          },
+          {
+            label: "How usage is counted",
+            values: [
+              "Fast GPU hours per month: 3.3 on Basic, 15 on Standard, 30 on Pro and 60 on Mega (midjourney.com/pricing and the Comparing Midjourney Plans guide). They do not roll over. An image job usually produces four images; the pricing FAQ says a typical job uses about 45 seconds of Fast time, and that upscales, video and other settings use more. Those counts are based on V8.2 and may change. Relax (images without spending Fast time, with a queue) is on Standard, Pro and Mega, not on Basic",
+              "Tokens. The Free plan gives 150 a day and they do not roll over (leonardo.ai/pricing and the How to Generate Images guide). On a paid plan the allowance is monthly. Premium and Ultimate add relaxed image generation, with no extra tokens, only on models from a list (including Lucid Origin and Lucid Realism) and only after the balance hits zero. The full list, and the third-party models left out, is on leonardo.ai/pricing. Plan figures are on that same page",
+            ],
+          },
+          {
+            label: "Risk",
+            values: [
+              "On Basic, with no Relax, Fast hours run out and you top up, upgrade or wait for the month. Creations are public by default; Stealth is on Pro and Mega (pricing FAQ). A short prompt lets the default style fill the gaps: the Prompt Basics guide says so (less detail, more variety, less control)",
+              "On Free the result can land on the public feed (private mode is paid) and the rights are not the paid plan’s (leonardo.ai/pricing FAQ). Pro Upscaler is on paid plans (guide of 25 August 2026) and the token cost depends on type, multiplier and Fix AI Image Artifacts: that guide gives a range of 73 to 1,211 tokens. Upscaling the whole grid before you pick a direction burns that allowance; leonardo-primer-flujo upscales only the keeper",
+            ],
+          },
+          {
+            label: "Entry plan",
+            values: [
+              "A subscription. Basic is the entry tier in the Comparing Midjourney Plans guide. midjourney.com/pricing does not list a free plan. That guide marks General Commercial Terms on all four plans and says a company making more than 1,000,000 USD in gross revenue per year must be on Pro or Mega. The detail is in the Terms of Service",
+              "A Free plan at 0 USD on leonardo.ai/pricing, with 150 tokens a day. Essential, Premium and Ultimate change the monthly allowance, private mode and access to Pro Upscaler; the figures are on that page. In the FAQ, a paying subscriber keeps ownership; on Free, Leonardo reserves usage rights and grants a non-exclusive, royalty-free licence for commercial use. Read the terms before a client job",
+            ],
+          },
+        ],
+        faq: [
+          {
+            q: "Which one do I start with?",
+            a: "If you already pay for Midjourney and the job is a directed series, midjourney-prompts-que-funcionan. If you do not have a subscription yet, or you want a still on leonardo.ai with a model choice and an upscale in the same session, leonardo-primer-flujo. If the sentence is «the same look across eight stills with a reference image», the documented tool is Midjourney’s Style Reference. If it is «an exportable still this afternoon, from zero», the documented entry is Leonardo’s daily allowance.",
+          },
+          {
+            q: "Which one is cheaper?",
+            a: "This page does not pick a winner. Midjourney charges Fast GPU time on a subscription; Leonardo charges tokens and has a free daily allowance. A still on Leonardo’s Free plan does not bring the same model menu, private mode, Pro Upscaler or the same rights as a paid plan. Sketch the job (how many grids, whether you upscale, whether it must stay off the public feed) and read midjourney.com/pricing and leonardo.ai/pricing.",
+          },
+          {
+            q: "Can I use them in a client ad?",
+            a: "It depends on the plan, and this page does not replace the terms. On Midjourney, the Comparing Midjourney Plans guide assigns General Commercial Terms to Basic, Standard, Pro and Mega, and requires Pro or Mega if the company is over 1,000,000 USD in gross revenue per year; the pricing FAQ says you own the images, with exceptions in the Terms of Service. On Leonardo, the leonardo.ai/pricing FAQ draws the line: on a paid plan you keep ownership and copyright; on Free, Leonardo reserves rights to use, reproduce, modify and distribute, and grants you a non-exclusive, royalty-free licence for commercial use. On Midjourney, generations are public unless Stealth is on (Pro and Mega); on Leonardo, private mode is paid.",
+          },
+          {
+            q: "Does one replace the other?",
+            a: "Not for the same step. midjourney-prompts-que-funcionan is the grid with --ar, stylize and one variable. leonardo-primer-flujo is format, model, batch and an upscale of the keeper. If the final look needs a Style Reference, the Leonardo tutorial leaves the keeper to move to Midjourney. If the headline has to be readable inside the JPG, this comparison does not choose: ideogram-vs-midjourney-tipografia.",
+          },
+        ],
+      },
+    },
+  },
 ];
 
 export function getComparison(slug: string) {
