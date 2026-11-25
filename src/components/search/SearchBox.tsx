@@ -31,7 +31,7 @@ export function SearchBox({ compact = false }: { compact?: boolean }) {
           {results.map((item) => (
             <Link
               key={`${item.kind}-${item.slug}`}
-              href={item.href as "/tools"}
+              href={item.href as "/tools/"}
               onClick={() => setQuery("")}
               className="block border-b border-line px-4 py-3 last:border-0 hover:bg-elevated"
             >

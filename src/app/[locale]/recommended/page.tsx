@@ -16,7 +16,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     locale,
     title: t("recommendedTitle"),
     description: t("recommendedDescription"),
-    path: "/recommended",
+    path: "/recommended/",
   });
 }
 

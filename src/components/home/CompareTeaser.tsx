@@ -29,7 +29,7 @@ export async function CompareTeaser({ locale }: { locale: string }) {
               return (
                 <Link
                   key={comparison.slug}
-                  href={`/compare/${comparison.slug}`}
+                  href={`/compare/${comparison.slug}/`}
                   className="rounded-2xl border border-line bg-canvas/40 p-5 transition hover:border-accent/30"
                 >
                   <p className="text-xs uppercase tracking-[0.14em] text-muted">
@@ -45,7 +45,7 @@ export async function CompareTeaser({ locale }: { locale: string }) {
           </div>
 
           <Link
-            href="/compare"
+            href="/compare/"
             className="mt-8 inline-flex items-center gap-1.5 text-sm font-medium text-accent hover:text-accent-dim"
           >
             {t("viewCompare")}

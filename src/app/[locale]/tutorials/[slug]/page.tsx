@@ -46,7 +46,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     locale,
     title: copy.metaTitle,
     description: copy.metaDescription,
-    path: `/tutorials/${tutorial.slug}`,
+    path: `/tutorials/${tutorial.slug}/`,
   });
 }
 
@@ -70,7 +70,7 @@ export default async function TutorialPage({ params }: Props) {
     (item) => !next.some((known) => known.slug === item.slug),
   );
   const paths = getPathsForTutorial(tutorial.slug);
-  const url = localizedPath(locale, `/tutorials/${tutorial.slug}`);
+  const url = localizedPath(locale, `/tutorials/${tutorial.slug}/`);
 
   return (
     <Container className="py-10 sm:py-16">
@@ -80,7 +80,7 @@ export default async function TutorialPage({ params }: Props) {
       <Breadcrumbs
         items={[
           { href: "/", label: "StackAI" },
-          { href: "/tutorials", label: t("title") },
+          { href: "/tutorials/", label: t("title") },
           { label: copy.title },
         ]}
       />
@@ -102,7 +102,7 @@ export default async function TutorialPage({ params }: Props) {
           </span>
           {tool ? (
             <Link
-              href={`/tools/${tool.slug}`}
+              href={`/tools/${tool.slug}/`}
               className="text-xs font-medium uppercase tracking-[0.14em] text-accent"
             >
               {tool.name}
@@ -110,7 +110,7 @@ export default async function TutorialPage({ params }: Props) {
           ) : null}
           {category ? (
             <Link
-              href={`/categories/${category.id}`}
+              href={`/categories/${category.id}/`}
               className="text-xs text-muted hover:text-ink"
             >
               {pick(category.copy, locale).name}
@@ -284,7 +284,7 @@ export default async function TutorialPage({ params }: Props) {
               <span key={path.slug}>
                 {index > 0 ? " · " : null}
                 <Link
-                  href={`/paths/${path.slug}`}
+                  href={`/paths/${path.slug}/`}
                   className="font-medium text-accent hover:text-accent-dim"
                 >
                   {pick(path.copy, locale).title}

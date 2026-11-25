@@ -31,17 +31,17 @@ export async function Footer() {
           </p>
           <ul className="mt-4 space-y-2 text-sm">
             <li>
-              <Link href="/tools" className="text-ink/80 hover:text-accent">
+              <Link href="/tools/" className="text-ink/80 hover:text-accent">
                 {nav("tools")}
               </Link>
             </li>
             <li>
-              <Link href="/recommended" className="text-ink/80 hover:text-accent">
+              <Link href="/recommended/" className="text-ink/80 hover:text-accent">
                 {nav("recommended")}
               </Link>
             </li>
             <li>
-              <Link href="/compare" className="text-ink/80 hover:text-accent">
+              <Link href="/compare/" className="text-ink/80 hover:text-accent">
                 {nav("compare")}
               </Link>
             </li>
@@ -54,37 +54,37 @@ export async function Footer() {
           </p>
           <ul className="mt-4 space-y-2 text-sm">
             <li>
-              <Link href="/tutorials" className="text-ink/80 hover:text-accent">
+              <Link href="/tutorials/" className="text-ink/80 hover:text-accent">
                 {nav("tutorials")}
               </Link>
             </li>
             <li>
-              <Link href="/paths" className="text-ink/80 hover:text-accent">
+              <Link href="/paths/" className="text-ink/80 hover:text-accent">
                 {nav("paths")}
               </Link>
             </li>
             <li>
-              <Link href="/pack" className="text-ink/80 hover:text-accent">
+              <Link href="/pack/" className="text-ink/80 hover:text-accent">
                 {nav("pack")}
               </Link>
             </li>
             <li>
-              <Link href="/about" className="text-ink/80 hover:text-accent">
+              <Link href="/about/" className="text-ink/80 hover:text-accent">
                 {nav("about")}
               </Link>
             </li>
             <li>
-              <Link href="/disclosure" className="text-ink/80 hover:text-accent">
+              <Link href="/disclosure/" className="text-ink/80 hover:text-accent">
                 {t("disclosure")}
               </Link>
             </li>
             <li>
-              <Link href="/privacy" className="text-ink/80 hover:text-accent">
+              <Link href="/privacy/" className="text-ink/80 hover:text-accent">
                 {t("privacy")}
               </Link>
             </li>
             <li>
-              <Link href="/terms" className="text-ink/80 hover:text-accent">
+              <Link href="/terms/" className="text-ink/80 hover:text-accent">
                 {t("terms")}
               </Link>
             </li>

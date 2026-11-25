@@ -30,7 +30,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     locale,
     title: t("comparisonTitle", { title: copy.title }),
     description: t("comparisonDescription", { excerpt: copy.excerpt }),
-    path: `/compare/${comparison.slug}`,
+    path: `/compare/${comparison.slug}/`,
   });
 }
 
@@ -43,7 +43,7 @@ export default async function ComparisonPage({ params }: Props) {
 
   const t = await getTranslations("compare");
   const copy = pick(comparison.copy, locale);
-  const url = localizedPath(locale, `/compare/${comparison.slug}`);
+  const url = localizedPath(locale, `/compare/${comparison.slug}/`);
 
   return (
     <Container className="py-10 sm:py-16">
@@ -52,7 +52,7 @@ export default async function ComparisonPage({ params }: Props) {
       <Breadcrumbs
         items={[
           { href: "/", label: "StackAI" },
-          { href: "/compare", label: t("title") },
+          { href: "/compare/", label: t("title") },
           { label: copy.title },
         ]}
       />
@@ -61,7 +61,7 @@ export default async function ComparisonPage({ params }: Props) {
         <PackCta compact contained={false} />
       </div>
       <p className="mt-10">
-        <Link href="/compare" className="text-sm text-accent hover:text-accent-dim">
+        <Link href="/compare/" className="text-sm text-accent hover:text-accent-dim">
           ← {t("title")}
         </Link>
       </p>

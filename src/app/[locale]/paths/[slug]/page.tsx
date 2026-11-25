@@ -26,7 +26,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     locale,
     title: copy.title,
     description: copy.excerpt,
-    path: `/paths/${path.slug}`,
+    path: `/paths/${path.slug}/`,
   });
 }
 
@@ -47,7 +47,7 @@ export default async function PathPage({ params }: Props) {
       <Breadcrumbs
         items={[
           { href: "/", label: "StackAI" },
-          { href: "/paths", label: t("title") },
+          { href: "/paths/", label: t("title") },
           { label: copy.title },
         ]}
       />

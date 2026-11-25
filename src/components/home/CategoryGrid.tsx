@@ -45,7 +45,7 @@ export async function CategoryGrid({ locale }: { locale: string }) {
             return (
               <Link
                 key={category.id}
-                href={`/categories/${category.id}`}
+                href={`/categories/${category.id}/`}
                 className="group rounded-2xl border border-line bg-surface p-5 transition hover:border-line-strong hover:bg-elevated"
               >
                 <span

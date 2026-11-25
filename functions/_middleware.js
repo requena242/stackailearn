@@ -133,5 +133,7 @@ export async function onRequest(context) {
   const dest = new URL(destPath, url);
   dest.search = url.search;
 
+  // 302 a propósito. El destino depende de la cookie y de Accept-Language
+  // (por defecto en). Un 301 lo cachea el navegador y fijaría ese idioma.
   return Response.redirect(dest, 302);
 }

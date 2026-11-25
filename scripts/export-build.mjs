@@ -28,6 +28,10 @@ try {
     stdio: "inherit",
     env: { ...process.env, NEXT_OUTPUT: "export" },
   });
+  execSync("node scripts/check-trailing-slash.mjs", {
+    cwd: root,
+    stdio: "inherit",
+  });
 } finally {
   if (moved) {
     await rm(api, { recursive: true, force: true });

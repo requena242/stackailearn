@@ -42,7 +42,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     locale,
     title: t("toolTitle", { name: tool.name }),
     description: t("toolDescription", { tagline: copy.shortDescription }),
-    path: `/tools/${tool.slug}`,
+    path: `/tools/${tool.slug}/`,
   });
 }
 
@@ -65,7 +65,7 @@ export default async function ToolPage({ params }: Props) {
   const also = alsoSeeForTool(tool, 3).filter(
     (item) => !related.some((known) => known.slug === item.slug),
   );
-  const url = localizedPath(locale, `/tools/${tool.slug}`);
+  const url = localizedPath(locale, `/tools/${tool.slug}/`);
   const hero = tool.screenshots.find((item) => item.placement === "hero");
   const gallery = tool.screenshots.filter((item) => item.placement !== "hero");
 
@@ -77,7 +77,7 @@ export default async function ToolPage({ params }: Props) {
       <Breadcrumbs
         items={[
           { href: "/", label: "StackAI" },
-          { href: "/tools", label: t("title") },
+          { href: "/tools/", label: t("title") },
           { label: tool.name },
         ]}
       />
@@ -116,7 +116,7 @@ export default async function ToolPage({ params }: Props) {
               <Badge>{pricing(tool.pricing)}</Badge>
               <Badge>{levels(tool.difficulty)}</Badge>
               {category ? (
-                <Link href={`/categories/${category.id}`}>
+                <Link href={`/categories/${category.id}/`}>
                   <Badge>{pick(category.copy, locale).name}</Badge>
                 </Link>
               ) : null}
