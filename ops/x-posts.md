@@ -222,7 +222,7 @@ Desde el #60. El siguiente sin usar es el primer número que no lleva `[usado �
 
    Guía: https://stackailearn.com/es/tutorials/capcut-subtitulos-broll/
    <!-- fuente: tutorial capcut-subtitulos-broll. Proyecto 9:16, Auto captions en el idioma hablado, reproducir entero y corregir nombres, cifras y jerga. Un estilo grande y con contraste. B-roll solo donde el guion lo pide. Export MP4 después. -->
-77. (v0-vs-lovable-ui, suelto)
+77. [usado 2026-11-25] (v0-vs-lovable-ui, suelto)
    Para una landing de campaña, Lovable sobra. Gana v0.
 
    Pides secciones y modo claro/oscuro, y copias el código a tu Next en Vercel. CRUD y login para una demo: Lovable, con Supabase. Revisa permisos antes de meter datos sensibles.
