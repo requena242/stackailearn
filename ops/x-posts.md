@@ -229,7 +229,7 @@ Desde el #60. El siguiente sin usar es el primer número que no lleva `[usado �
 
    https://stackailearn.com/es/compare/v0-vs-lovable-ui/
    <!-- fuente: comparativa v0-vs-lovable-ui. Landing de campaña: v0, secciones, modo claro/oscuro y el código a un Next en Vercel. CRUD y login: Lovable con Supabase, revisando permisos antes de datos sensibles. -->
-78. (gemini-workspace-primer-flujo, suelto)
+78. [usado 2026-11-26] (gemini-workspace-primer-flujo, suelto)
    De «contesta este correo» a un borrador que puedes señalar. En Gmail, Gemini no empieza en el chat suelto.
 
    Abre Pregunta a Gemini sobre ese hilo. Pide el resumen: decisiones, fechas, nombres. Si no hay dato, «no consta». Contrástalo con los mensajes.
