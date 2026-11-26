@@ -236,7 +236,7 @@ Desde el #60. El siguiente sin usar es el primer número que no lleva `[usado �
 
    https://stackailearn.com/es/tutorials/gemini-workspace-primer-flujo/
    <!-- fuente: tutorial gemini-workspace-primer-flujo. No empieces con «contesta este correo» ni en gemini.google.com. Pregunta a Gemini sobre el hilo: resumen de decisiones, fechas y nombres, con «no consta» donde no haya dato. Contrasta con los mensajes antes del borrador. -->
-79. (zapier-ai-vs-make, suelto)
+79. [usado 2026-11-26] (zapier-ai-vs-make, suelto)
    Un Zap con muchos pasos por disparo te penaliza en tareas. Si se ramifica, el sitio es Make.
 
    Zapier si es corto: un disparador y pocas acciones, sin canvas. Make si transformas JSON o iteras listas. El disparador y el fallo los defines tú.
@@ -260,3 +260,31 @@ Desde el #60. El siguiente sin usar es el primer número que no lleva `[usado �
 
    Es beta y falla con letra decorativa: verás «No text layers were created». Revisa el fondo reconstruido.
    <!-- fuente: tutorial ideogram-primer-flujo. Studio > Layerize text da capas editables; está en beta; con letra estilizada puede salir No text layers were created; revisar palabras y fondo reconstruido. -->
+83. (claude-escritura-larga, suelto)
+   «Reescribe esto» le quita la voz a tu texto. Claude lo deja en tono de comunicado y a veces cambia cifras.
+
+   Pide primero el mapa: tesis, secciones, repeticiones. Pega un párrafo tuyo como ejemplo de voz. Reescribe una sección por mensaje.
+
+   https://stackailearn.com/es/tutorials/claude-escritura-larga/
+   <!-- fuente: tutorial claude-escritura-larga. Un rewrite global alisa repeticiones útiles, cambia cifras y deja un registro único. Primero el mapa (tesis, secciones, repeticiones y frases flojas) sin reescribir. Voz fijada con un párrafo de ejemplo, no con adjetivos. Una sección por mensaje. -->
+84. (chatgpt-analizar-excel, suelto)
+   «Analízame este Excel» da un resumen que suena cerrado y no cuadra. ChatGPT lee .xls, .xlsx y .csv, pero no firma el número.
+
+   Una sola tabla, cabeceras en la fila 1, sin preámbulo. Pide el mapa de columnas y contrasta tres cifras en el original.
+
+   https://stackailearn.com/es/tutorials/chatgpt-analizar-excel/
+   <!-- fuente: tutorial chatgpt-analizar-excel. Acepta .xls, .xlsx y .csv. El primer resumen mezcla totales que no cuadran. Una sola tabla con cabeceras en la fila 1; borrar el preámbulo del CSV exportado. Pedir mapa de hojas y columnas y contrastar tres cifras en el archivo. -->
+85. (cursor-cloud-agent-primer-pr, hilo de 3)
+   1/ Delegar un cambio a Cursor Cloud Agent sin que te devuelva un PR enorme. Tres pasos.
+   2/ Encarga un objetivo acotado: un fix de test, un typo en docs o un bug con síntoma reproducible. Con criterios de éxito, no una receta de líneas.
+   3/ El agente trabaja en una rama en la nube y abre el PR. Tú revisas el diff, los checks y el alcance en GitHub antes de mergear, no el párrafo del chat.
+
+   https://stackailearn.com/es/tutorials/cursor-cloud-agent-primer-pr/
+   <!-- fuente: tutorial cursor-cloud-agent-primer-pr. Cloud Agent corre en una máquina aislada de Cursor, clona el repo de GitHub y entrega rama y PR. Sin criterios claros hace un PR enorme. Primer encargo acotado: fix de test, typo en docs, bug con síntoma reproducible. Revisar diff, checks y alcance en GitHub antes de mergear. -->
+86. (hermes-agent-primer-flujo, suelto)
+   Si tu bot de Telegram no responde, casi nunca es Telegram. Es un modelo con poco contexto o un setup a medias.
+
+   En Hermes Agent: instala, elige un modelo de 64K o más, comprueba un chat con tools y pasa hermes doctor. El gateway, el segundo día.
+
+   https://stackailearn.com/es/tutorials/hermes-agent-primer-flujo/
+   <!-- fuente: tutorial hermes-agent-primer-flujo. Un bot mudo en Telegram casi nunca es Telegram: modelo corto de contexto, setup a medias o gateway sobre un CLI roto. Flujo: install, modelo con ≥64K, chat con tools, doctor; gateway y cron al segundo día. -->
