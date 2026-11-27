@@ -243,51 +243,6 @@ Desde el #60. El siguiente sin usar es el primer número que no lleva `[usado �
 
    https://stackailearn.com/es/compare/zapier-ai-vs-make/
    <!-- fuente: comparativa zapier-ai-vs-make. Muchos pasos por disparo penalizan tareas en Zapier. Zapier: flujo corto, disparador y pocas acciones, sin canvas. Make: el disparo se ramifica, transformas JSON o iteras listas. La IA no sustituye definir disparador, permisos y qué pasa si falla un paso. -->
-80. (ideogram-primer-flujo, suelto)
-   Magic Prompt reescribe tu póster antes de que lo veas. En Ideogram viene encendido y puede traducir tu prompt al inglés.
-
-   Apágalo antes de Generate. Elige Ideogram 4.5 o 4.0: en Auto no hay interruptor. El titular, entre comillas y cerca del inicio.
-
-   https://stackailearn.com/es/tutorials/ideogram-primer-flujo/
-   <!-- fuente: tutorial ideogram-primer-flujo. Magic Prompt empieza encendido y puede traducir el prompt al inglés. Auto no tiene el interruptor; 4.5 y 4.0 sí. Texto entre comillas y cerca del inicio del prompt. -->
-81. (make-primera-automatizacion, suelto)
-   No actives el escenario de Make a ciegas. El horario cambia cuántas veces se comprueba la hoja, y cada chequeo de Watch New Rows es 1 operación.
-
-   Antes: una fila de muestra, Run once y leer las burbujas. Activate scenario va el último.
-   <!-- fuente: tutorial make-primera-automatizacion. El intervalo cambia el consumo del disparador; Watch New Rows cuenta 1 operación por chequeo. Fila de muestra, Run once y leer burbujas; Activate scenario solo después. -->
-82. (ideogram-primer-flujo, suelto)
-   Una letra mal en el póster de Ideogram no obliga a repetirlo todo. Si la escena te vale, abre Studio y usa Layerize text: el texto pasa a capas editables.
-
-   Es beta y falla con letra decorativa: verás «No text layers were created». Revisa el fondo reconstruido.
-   <!-- fuente: tutorial ideogram-primer-flujo. Studio > Layerize text da capas editables; está en beta; con letra estilizada puede salir No text layers were created; revisar palabras y fondo reconstruido. -->
-83. (claude-escritura-larga, suelto)
-   «Reescribe esto» le quita la voz a tu texto. Claude lo deja en tono de comunicado y a veces cambia cifras.
-
-   Pide primero el mapa: tesis, secciones, repeticiones. Pega un párrafo tuyo como ejemplo de voz. Reescribe una sección por mensaje.
-
-   https://stackailearn.com/es/tutorials/claude-escritura-larga/
-   <!-- fuente: tutorial claude-escritura-larga. Un rewrite global alisa repeticiones útiles, cambia cifras y deja un registro único. Primero el mapa (tesis, secciones, repeticiones y frases flojas) sin reescribir. Voz fijada con un párrafo de ejemplo, no con adjetivos. Una sección por mensaje. -->
-84. (chatgpt-analizar-excel, suelto)
-   «Analízame este Excel» da un resumen que suena cerrado y no cuadra. ChatGPT lee .xls, .xlsx y .csv, pero no firma el número.
-
-   Una sola tabla, cabeceras en la fila 1, sin preámbulo. Pide el mapa de columnas y contrasta tres cifras en el original.
-
-   https://stackailearn.com/es/tutorials/chatgpt-analizar-excel/
-   <!-- fuente: tutorial chatgpt-analizar-excel. Acepta .xls, .xlsx y .csv. El primer resumen mezcla totales que no cuadran. Una sola tabla con cabeceras en la fila 1; borrar el preámbulo del CSV exportado. Pedir mapa de hojas y columnas y contrastar tres cifras en el archivo. -->
-85. (cursor-cloud-agent-primer-pr, hilo de 3)
-   1/ Delegar un cambio a Cursor Cloud Agent sin que te devuelva un PR enorme. Tres pasos.
-   2/ Encarga un objetivo acotado: un fix de test, un typo en docs o un bug con síntoma reproducible. Con criterios de éxito, no una receta de líneas.
-   3/ El agente trabaja en una rama en la nube y abre el PR. Tú revisas el diff, los checks y el alcance en GitHub antes de mergear, no el párrafo del chat.
-
-   https://stackailearn.com/es/tutorials/cursor-cloud-agent-primer-pr/
-   <!-- fuente: tutorial cursor-cloud-agent-primer-pr. Cloud Agent corre en una máquina aislada de Cursor, clona el repo de GitHub y entrega rama y PR. Sin criterios claros hace un PR enorme. Primer encargo acotado: fix de test, typo en docs, bug con síntoma reproducible. Revisar diff, checks y alcance en GitHub antes de mergear. -->
-86. (hermes-agent-primer-flujo, suelto)
-   Si tu bot de Telegram no responde, casi nunca es Telegram. Es un modelo con poco contexto o un setup a medias.
-
-   En Hermes Agent: instala, elige un modelo de 64K o más, comprueba un chat con tools y pasa hermes doctor. El gateway, el segundo día.
-
-   https://stackailearn.com/es/tutorials/hermes-agent-primer-flujo/
-   <!-- fuente: tutorial hermes-agent-primer-flujo. Un bot mudo en Telegram casi nunca es Telegram: modelo corto de contexto, setup a medias o gateway sobre un CLI roto. Flujo: install, modelo con ≥64K, chat con tools, doctor; gateway y cron al segundo día. -->
 87. (claude-auditar-contrato, hilo de 3)
    1/ «Resúmeme este contrato» es el error caro. Claude te devuelve un texto fluido y no señala la cláusula.
    2/ Prompt listo para copiar:
@@ -342,3 +297,48 @@ Desde el #60. El siguiente sin usar es el primer número que no lleva `[usado �
 
    Resultado: un briefing citado. Lo que no subiste, no entra.
    <!-- fuente: prompt notebooklm-briefing-de-fuentes. NotebookLM responde solo con las fuentes del cuaderno, cita cada afirmación y marca [NO ESTÁ EN LAS FUENTES]. No busca en la web. -->
+80. (ideogram-primer-flujo, suelto)
+   Magic Prompt reescribe tu póster antes de que lo veas. En Ideogram viene encendido y puede traducir tu prompt al inglés.
+
+   Apágalo antes de Generate. Elige Ideogram 4.5 o 4.0: en Auto no hay interruptor. El titular, entre comillas y cerca del inicio.
+
+   https://stackailearn.com/es/tutorials/ideogram-primer-flujo/
+   <!-- fuente: tutorial ideogram-primer-flujo. Magic Prompt empieza encendido y puede traducir el prompt al inglés. Auto no tiene el interruptor; 4.5 y 4.0 sí. Texto entre comillas y cerca del inicio del prompt. -->
+81. (make-primera-automatizacion, suelto)
+   No actives el escenario de Make a ciegas. El horario cambia cuántas veces se comprueba la hoja, y cada chequeo de Watch New Rows es 1 operación.
+
+   Antes: una fila de muestra, Run once y leer las burbujas. Activate scenario va el último.
+   <!-- fuente: tutorial make-primera-automatizacion. El intervalo cambia el consumo del disparador; Watch New Rows cuenta 1 operación por chequeo. Fila de muestra, Run once y leer burbujas; Activate scenario solo después. -->
+82. (ideogram-primer-flujo, suelto)
+   Una letra mal en el póster de Ideogram no obliga a repetirlo todo. Si la escena te vale, abre Studio y usa Layerize text: el texto pasa a capas editables.
+
+   Es beta y falla con letra decorativa: verás «No text layers were created». Revisa el fondo reconstruido.
+   <!-- fuente: tutorial ideogram-primer-flujo. Studio > Layerize text da capas editables; está en beta; con letra estilizada puede salir No text layers were created; revisar palabras y fondo reconstruido. -->
+83. (claude-escritura-larga, suelto)
+   «Reescribe esto» le quita la voz a tu texto. Claude lo deja en tono de comunicado y a veces cambia cifras.
+
+   Pide primero el mapa: tesis, secciones, repeticiones. Pega un párrafo tuyo como ejemplo de voz. Reescribe una sección por mensaje.
+
+   https://stackailearn.com/es/tutorials/claude-escritura-larga/
+   <!-- fuente: tutorial claude-escritura-larga. Un rewrite global alisa repeticiones útiles, cambia cifras y deja un registro único. Primero el mapa (tesis, secciones, repeticiones y frases flojas) sin reescribir. Voz fijada con un párrafo de ejemplo, no con adjetivos. Una sección por mensaje. -->
+84. (chatgpt-analizar-excel, suelto)
+   «Analízame este Excel» da un resumen que suena cerrado y no cuadra. ChatGPT lee .xls, .xlsx y .csv, pero no firma el número.
+
+   Una sola tabla, cabeceras en la fila 1, sin preámbulo. Pide el mapa de columnas y contrasta tres cifras en el original.
+
+   https://stackailearn.com/es/tutorials/chatgpt-analizar-excel/
+   <!-- fuente: tutorial chatgpt-analizar-excel. Acepta .xls, .xlsx y .csv. El primer resumen mezcla totales que no cuadran. Una sola tabla con cabeceras en la fila 1; borrar el preámbulo del CSV exportado. Pedir mapa de hojas y columnas y contrastar tres cifras en el archivo. -->
+85. (cursor-cloud-agent-primer-pr, hilo de 3)
+   1/ Delegar un cambio a Cursor Cloud Agent sin que te devuelva un PR enorme. Tres pasos.
+   2/ Encarga un objetivo acotado: un fix de test, un typo en docs o un bug con síntoma reproducible. Con criterios de éxito, no una receta de líneas.
+   3/ El agente trabaja en una rama en la nube y abre el PR. Tú revisas el diff, los checks y el alcance en GitHub antes de mergear, no el párrafo del chat.
+
+   https://stackailearn.com/es/tutorials/cursor-cloud-agent-primer-pr/
+   <!-- fuente: tutorial cursor-cloud-agent-primer-pr. Cloud Agent corre en una máquina aislada de Cursor, clona el repo de GitHub y entrega rama y PR. Sin criterios claros hace un PR enorme. Primer encargo acotado: fix de test, typo en docs, bug con síntoma reproducible. Revisar diff, checks y alcance en GitHub antes de mergear. -->
+86. (hermes-agent-primer-flujo, suelto)
+   Si tu bot de Telegram no responde, casi nunca es Telegram. Es un modelo con poco contexto o un setup a medias.
+
+   En Hermes Agent: instala, elige un modelo de 64K o más, comprueba un chat con tools y pasa hermes doctor. El gateway, el segundo día.
+
+   https://stackailearn.com/es/tutorials/hermes-agent-primer-flujo/
+   <!-- fuente: tutorial hermes-agent-primer-flujo. Un bot mudo en Telegram casi nunca es Telegram: modelo corto de contexto, setup a medias o gateway sobre un CLI roto. Flujo: install, modelo con ≥64K, chat con tools, doctor; gateway y cron al segundo día. -->
