@@ -5,8 +5,8 @@ URL: https://stackailearn.com/es/tutorials/lovable-primera-app/
 
 ## Standalone (ES)
 
-La preview no es el sitio en vivo.
+El error en tu primera app de Lovable: enviar con Chat o Plan. Chat no crea el proyecto. Plan solo escribe un plan.
 
-Deja el selector en Build. Pega el prompt de Little Fern, sin login ni base de datos. Pide un solo cambio, retoca con la preview toolbar y pulsa Publish. La URL queda en lovable.app.
+Deja Build. Cierra el prompt con «No login or database yet». La preview no es el sitio en vivo: pulsa Publish.
 
 https://stackailearn.com/es/tutorials/lovable-primera-app/
