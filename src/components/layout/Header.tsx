@@ -18,7 +18,7 @@ export function Header() {
       <Container className="relative flex h-16 items-center justify-between gap-4">
         <Logo />
 
-        <nav className="hidden items-center gap-1 md:flex">
+        <nav className="hidden items-center gap-0.5 md:flex lg:gap-1">
           {headerNavItems.map((item) => {
             const active = isActivePath(pathname, item.href);
 
@@ -27,7 +27,7 @@ export function Header() {
                 key={item.href}
                 href={item.href}
                 className={cn(
-                  "rounded-full px-2.5 py-1.5 text-sm font-medium transition lg:px-3.5",
+                  "rounded-full px-1.5 py-1.5 text-sm font-medium transition lg:px-3.5",
                   active ? "bg-elevated text-ink" : "text-muted hover:text-ink",
                 )}
               >

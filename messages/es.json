@@ -8,6 +8,8 @@
     "toolDescription": "{tagline}",
     "tutorialsTitle": "Tutoriales de IA paso a paso",
     "tutorialsDescription": "Guías prácticas para usar ChatGPT, Claude, Midjourney, Cursor, Perplexity y más. Sin relleno, con un método claro.",
+    "promptsTitle": "Prompts listos para copiar",
+    "promptsDescription": "Prompts concretos para Claude, ChatGPT, Perplexity, Cursor, Lovable y NotebookLM, con un ejemplo de entrada y de resultado.",
     "tutorialTitle": "{title}",
     "tutorialDescription": "{excerpt}",
     "compareTitle": "Comparativas de herramientas de IA",
@@ -24,7 +26,7 @@
     "pathsTitle": "Rutas de aprendizaje",
     "pathsDescription": "Secuencias de tutoriales en orden lógico, por nivel.",
     "searchTitle": "Buscar",
-    "searchDescription": "Encuentra herramientas y tutoriales por nombre o problema.",
+    "searchDescription": "Encuentra herramientas, tutoriales y prompts por nombre o problema.",
     "privacyTitle": "Privacidad",
     "privacyDescription": "Qué datos trata StackAI Learn, para qué y cómo contactarnos.",
     "termsTitle": "Términos de uso",
@@ -37,6 +39,7 @@
   "nav": {
     "tools": "Herramientas",
     "tutorials": "Tutoriales",
+    "prompts": "Prompts",
     "compare": "Comparativas",
     "about": "About",
     "recommended": "Recomendados",
@@ -69,6 +72,9 @@
     "tutorialsTitle": "Últimos tutoriales",
     "tutorialsSubtitle": "Métodos cortos que puedes repetir. No capturas de pantalla eternas.",
     "viewAllTutorials": "Todos los tutoriales",
+    "promptsTitle": "Prompts para copiar",
+    "promptsSubtitle": "Un prompt cerrado, la herramienta donde encaja y un ejemplo de lo que devuelve.",
+    "viewAllPrompts": "Todos los prompts",
     "compareTitle": "Elige con criterio",
     "compareSubtitle": "Comparativas por tarea: quién escribe mejor, quién investiga, quién toca el repo.",
     "viewCompare": "Ver comparativas"
@@ -86,6 +92,7 @@
     "cons": "Contras",
     "quickTutorial": "Tutorial rápido",
     "relatedTutorials": "Tutoriales relacionados",
+    "relatedPrompts": "Prompts de esta herramienta",
     "pricing": "Precio",
     "pricingDetails": "Cómo se paga",
     "category": "Categoría",
@@ -149,6 +156,28 @@
     "alsoSee": "También te puede interesar",
     "usedTools": "Herramientas de esta guía"
   },
+  "prompts": {
+    "title": "Prompts",
+    "subtitle": "Listos para copiar. Cada uno dice para qué sirve, en qué herramienta encaja y cómo se ve el resultado.",
+    "filterTool": "Herramienta",
+    "all": "Todas",
+    "empty": "No hay prompts con ese filtro.",
+    "purpose": "Para qué sirve",
+    "bestWith": "Dónde funciona mejor",
+    "prompt": "Prompt",
+    "copy": "Copiar prompt",
+    "copied": "Copiado",
+    "example": "Ejemplo de entrada y resultado",
+    "exampleNote": "Un caso concreto: lo que le pasas y la forma de la respuesta. No es una prueba medida ni una puntuación.",
+    "exampleInput": "Entrada",
+    "exampleOutput": "Resultado",
+    "tweaks": "Ajustes rápidos",
+    "tool": "Ficha de la herramienta",
+    "relatedTutorials": "Tutoriales relacionados",
+    "relatedComparisons": "Comparativas relacionadas",
+    "more": "Más prompts de esta herramienta",
+    "updated": "Actualizado"
+  },
   "callout": {
     "tip": "Consejo",
     "warning": "Cuidado",
@@ -174,10 +203,11 @@
   },
   "search": {
     "title": "Buscar",
-    "subtitle": "Herramientas y tutoriales. Escribe el problema o el nombre.",
+    "subtitle": "Herramientas, tutoriales y prompts. Escribe el problema o el nombre.",
     "placeholder": "Buscar…",
     "tool": "Herramienta",
-    "tutorial": "Tutorial"
+    "tutorial": "Tutorial",
+    "prompt": "Prompt"
   },
   "categories": {
     "directory": "Directorio",

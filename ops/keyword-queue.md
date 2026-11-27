@@ -84,3 +84,9 @@ Una fila = un PR. El bot coge la primera `queued`. Estados: `queued` → `in-pr`
 | 78 | CapCut vs Descript para un vídeo corto | comparativa | `capcut-vs-descript-video` | queued | Enlaza capcut-subtitulos-broll + descript-editar-podcast |
 | 79 | NotebookLM: estudiar un temario con fuentes | tutorial | `notebooklm-estudiar-temario` | queued | Enlaza notebooklm-primer-briefing. Tras #65 |
 | 80 | ElevenLabs vs Descript para una locución | comparativa | `elevenlabs-vs-descript-locucion` | queued | Enlaza elevenlabs-primer-voiceover + descript-editar-podcast |
+| 81 | Gemini: resumir un hilo de Gmail en decisiones | prompt | `gemini-resumir-hilo-gmail` | queued | Ejemplo de hilo y resultado con decisiones, fechas y «no consta». Enlaza gemini-workspace-primer-flujo |
+| 82 | Midjourney: still de producto para una ficha | prompt | `midjourney-still-producto` | queued | Prompt listo y ejemplo de plano (sujeto, luz, fondo, exclusión). Enlaza midjourney-prompts-que-funcionan |
+| 83 | Claude: reescribir una sección sin perder la voz | prompt | `claude-reescribir-seccion` | queued | Ejemplo: un párrafo propio y la sección reescrita. Enlaza claude-escritura-larga |
+| 84 | ChatGPT: mapa de un Excel antes de calcular | prompt | `chatgpt-mapa-excel` | queued | Ejemplo de tabla y mapa de columnas, sin totales inventados. Enlaza chatgpt-analizar-excel |
+| 85 | Cursor: plan de cinco líneas antes de editar | prompt | `cursor-plan-antes-de-editar` | queued | Ejemplo de encargo y plan, sin diff todavía. Enlaza cursor-como-ide-con-ia |
+| 86 | Perplexity: tres preguntas para una reunión | prompt | `perplexity-preguntas-reunion` | queued | Ejemplo de decisión y preguntas con cita. Enlaza perplexity-preparar-reunion |

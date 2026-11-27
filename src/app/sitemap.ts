@@ -2,6 +2,7 @@ import type { MetadataRoute } from "next";
 import { categories } from "@/data/categories";
 import { comparisons } from "@/data/comparisons";
 import { learningPaths } from "@/data/paths";
+import { prompts } from "@/data/prompts";
 import { tools } from "@/data/tools";
 import { tutorials } from "@/data/tutorials";
 import { locales } from "@/i18n/config";
@@ -12,6 +13,7 @@ const staticPaths = [
   "/tools/",
   "/recommended/",
   "/tutorials/",
+  "/prompts/",
   "/compare/",
   "/about/",
   "/paths/",
@@ -49,6 +51,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
     for (const tutorial of tutorials) {
       entries.push({
         url: localizedPath(locale, `/tutorials/${tutorial.slug}/`),
+        lastModified: new Date(),
+        changeFrequency: "monthly",
+        priority: 0.6,
+      });
+    }
+
+    for (const prompt of prompts) {
+      entries.push({
+        url: localizedPath(locale, `/prompts/${prompt.slug}/`),
         lastModified: new Date(),
         changeFrequency: "monthly",
         priority: 0.6,

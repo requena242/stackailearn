@@ -288,3 +288,57 @@ Desde el #60. El siguiente sin usar es el primer número que no lleva `[usado �
 
    https://stackailearn.com/es/tutorials/hermes-agent-primer-flujo/
    <!-- fuente: tutorial hermes-agent-primer-flujo. Un bot mudo en Telegram casi nunca es Telegram: modelo corto de contexto, setup a medias o gateway sobre un CLI roto. Flujo: install, modelo con ≥64K, chat con tools, doctor; gateway y cron al segundo día. -->
+87. (claude-auditar-contrato, hilo de 3)
+   1/ «Resúmeme este contrato» es el error caro. Claude te devuelve un texto fluido y no señala la cláusula.
+   2/ Prompt listo para copiar:
+
+   Audita este contrato para quien lo firma. Devuelve obligaciones de cada parte, plazos y penalizaciones, cláusulas desequilibradas y qué falta. Si un dato no está, escribe [NO ESTÁ]. No des consejo legal.
+   3/ Entrada: el PDF. Resultado: una lista por cláusula, no un resumen. Lo que no está queda marcado.
+
+   https://stackailearn.com/es/prompts/claude-auditar-contrato/
+   <!-- fuente: prompt claude-auditar-contrato. El prompt de la ficha pide obligaciones, plazos, cláusulas desequilibradas y huecos, con [NO ESTÁ EN EL DOCUMENTO] y sin consejo legal. El ejemplo de resultado es una lista por cláusula del anexo, no un resumen. -->
+88. (chatgpt-notas-a-correo, suelto)
+   De notas de reunión a un correo que puedes enviar.
+
+   Prompt para ChatGPT:
+
+   Convierte estas notas en un correo: asunto, qué se decidió y qué pides. Si falta un dato, escribe [FALTA]. No inventes dueños ni fechas.
+
+   Resultado: un correo corto, con [FALTA] donde la nota calla.
+   <!-- fuente: prompt chatgpt-notas-a-correo. El prompt convierte notas en correo y plan, marca [FALTA] y no inventa dueños ni fechas. El ejemplo deja los precios como [FALTA] y no convierte en tarea la idea del filtro. -->
+89. (perplexity-investigar-competidor, hilo de 3)
+   1/ Lo que casi nadie hace en Perplexity: pedir el mapa y prohibir el informe.
+   2/ Prompt listo para copiar:
+
+   Investiga a [competidor] para [audiencia], con fecha de hoy. Separa Hecho, Estimación y Opinión. Cada hecho lleva fuente, fecha y URL. Sin listados top 10. No redactes el informe.
+   3/ Entrada: el nombre y la decisión. Resultado: un mapa con citas. La hoja la escribes tú, fuera del chat.
+
+   https://stackailearn.com/es/prompts/perplexity-investigar-competidor/
+   <!-- fuente: prompt perplexity-investigar-competidor. Pide mapa con Hecho, Estimación u Opinión, fuente con fecha y URL, sin top 10 ni informe final. El ejemplo no copia una cifra de precio: hay que abrir la página. -->
+90. (cursor-depurar-con-contexto, suelto)
+   Deja de decirle «arréglalo» a Cursor.
+
+   Prompt:
+
+   No edites. Te pego el error, lo que esperaba y 2 archivos. Dame 3 hipótesis, de más a menos probable, sin código, y el comando para comprobarlas.
+
+   Resultado: hipótesis primero. El diff, cuando tú lo pidas.
+   <!-- fuente: prompt cursor-depurar-con-contexto. El primer mensaje no edita: hipótesis de más a menos probable, archivos permitidos y el comando lo lanza quien escribe. El diff llega al decir «aplica la hipótesis N». -->
+91. (lovable-primer-prompt-sin-alcance, hilo de 3)
+   1/ Login, pagos y admin. Tres cosas que el primer prompt de Lovable no debe pedir.
+   2/ Prompt listo para copiar:
+
+   Primera versión de [nombre]: [una frase], para [quién], solo estas pantallas: [1 o 2]. Fuera: login, base de datos, pagos y admin. Datos de ejemplo en el prompt. Al acabar, dime qué has dejado fuera.
+   3/ Resultado: una preview de esas pantallas, no una app entera. Publicar es otro paso.
+
+   https://stackailearn.com/es/prompts/lovable-primer-prompt-sin-alcance/
+   <!-- fuente: prompt lovable-primer-prompt-sin-alcance. El primer mensaje nombra 1 o 2 pantallas y deja fuera login, base de datos, pagos y admin. El ejemplo acaba en preview, sin publicar. -->
+92. (notebooklm-briefing-de-fuentes, suelto)
+   Para un briefing con cita, ChatGPT pierde. Gana NotebookLM.
+
+   Prompt:
+
+   Responde solo con las fuentes de este cuaderno. Audiencia, fecha y pregunta. Cada frase con su fuente. Si no está, escribe [NO ESTÁ EN LAS FUENTES].
+
+   Resultado: un briefing citado. Lo que no subiste, no entra.
+   <!-- fuente: prompt notebooklm-briefing-de-fuentes. NotebookLM responde solo con las fuentes del cuaderno, cita cada afirmación y marca [NO ESTÁ EN LAS FUENTES]. No busca en la web. -->

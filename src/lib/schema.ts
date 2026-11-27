@@ -1,6 +1,6 @@
 import { siteRootUrl } from "./seo";
 import { SITE } from "./site";
-import type { Comparison, Tool, Tutorial } from "@/types/content";
+import type { Comparison, Prompt, Tool, Tutorial } from "@/types/content";
 
 export function softwareApplicationJsonLd(
   tool: Tool,
@@ -73,6 +73,23 @@ export function faqJsonLd(items: Array<{ q: string; a: string }>) {
       name: item.q,
       acceptedAnswer: { "@type": "Answer", text: item.a },
     })),
+  };
+}
+
+export function promptJsonLd(prompt: Prompt, locale: string, url: string) {
+  const copy = prompt.copy[locale as "es" | "en"] ?? prompt.copy.en;
+  return {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline: copy.metaTitle,
+    description: copy.metaDescription,
+    articleBody: copy.prompt,
+    datePublished: prompt.publishedAt,
+    dateModified: prompt.lastUpdated,
+    inLanguage: locale,
+    author: { "@type": "Organization", name: SITE.name },
+    publisher: { "@type": "Organization", name: SITE.name, url: siteRootUrl() },
+    mainEntityOfPage: url,
   };
 }
 
