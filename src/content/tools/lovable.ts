@@ -32,6 +32,7 @@ export const lovable: Tool = {
   alternatives: ["v0", "cursor", "chatgpt"],
   relatedTools: ["cursor", "v0", "claude"],
   relatedTutorials: [
+    "lovable-primera-app",
     "cursor-cloud-agent-primer-pr",
     "cursor-repo-existente",
   ],
