@@ -243,7 +243,7 @@ Desde el #60. El siguiente sin usar es el primer número que no lleva `[usado �
 
    https://stackailearn.com/es/compare/zapier-ai-vs-make/
    <!-- fuente: comparativa zapier-ai-vs-make. Muchos pasos por disparo penalizan tareas en Zapier. Zapier: flujo corto, disparador y pocas acciones, sin canvas. Make: el disparo se ramifica, transformas JSON o iteras listas. La IA no sustituye definir disparador, permisos y qué pasa si falla un paso. -->
-87. (claude-auditar-contrato, hilo de 3)
+87. [usado 2026-11-27] (claude-auditar-contrato, hilo de 3)
    1/ «Resúmeme este contrato» es el error caro. Claude te devuelve un texto fluido y no señala la cláusula.
    2/ Prompt listo para copiar:
 
