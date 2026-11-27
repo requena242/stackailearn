@@ -8,6 +8,8 @@
     "toolDescription": "{tagline}",
     "tutorialsTitle": "Step-by-step AI tutorials",
     "tutorialsDescription": "Practical guides for ChatGPT, Claude, Midjourney, Cursor, Perplexity and more. No fluff — a clear method.",
+    "promptsTitle": "Prompts ready to copy",
+    "promptsDescription": "Concrete prompts for Claude, ChatGPT, Perplexity, Cursor, Lovable and NotebookLM, each with an input and output example.",
     "tutorialTitle": "{title}",
     "tutorialDescription": "{excerpt}",
     "compareTitle": "AI tool comparisons",
@@ -24,7 +26,7 @@
     "pathsTitle": "Learning paths",
     "pathsDescription": "Tutorial sequences in a logical order, by level.",
     "searchTitle": "Search",
-    "searchDescription": "Find tools and tutorials by name or by the job to be done.",
+    "searchDescription": "Find tools, tutorials and prompts by name or by the job to be done.",
     "privacyTitle": "Privacy",
     "privacyDescription": "What data StackAI Learn processes, why, and how to contact us.",
     "termsTitle": "Terms of use",
@@ -37,6 +39,7 @@
   "nav": {
     "tools": "Tools",
     "tutorials": "Tutorials",
+    "prompts": "Prompts",
     "compare": "Compare",
     "about": "About",
     "recommended": "Picks",
@@ -69,6 +72,9 @@
     "tutorialsTitle": "Latest tutorials",
     "tutorialsSubtitle": "Short methods you can run again. No endless screenshot tours.",
     "viewAllTutorials": "All tutorials",
+    "promptsTitle": "Prompts to copy",
+    "promptsSubtitle": "A closed prompt, the tool it fits, and an example of what comes back.",
+    "viewAllPrompts": "All prompts",
     "compareTitle": "Choose with a criterion",
     "compareSubtitle": "Comparisons by task: who writes better, who researches, who touches the repo.",
     "viewCompare": "See comparisons"
@@ -86,6 +92,7 @@
     "cons": "Cons",
     "quickTutorial": "Quick tutorial",
     "relatedTutorials": "Related tutorials",
+    "relatedPrompts": "Prompts for this tool",
     "pricing": "Pricing",
     "pricingDetails": "How it is priced",
     "category": "Category",
@@ -149,6 +156,28 @@
     "alsoSee": "You may also like",
     "usedTools": "Tools in this guide"
   },
+  "prompts": {
+    "title": "Prompts",
+    "subtitle": "Ready to copy. Each one says what it is for, which tool it fits, and what the reply looks like.",
+    "filterTool": "Tool",
+    "all": "All",
+    "empty": "No prompts match that filter.",
+    "purpose": "What it is for",
+    "bestWith": "Where it works best",
+    "prompt": "Prompt",
+    "copy": "Copy prompt",
+    "copied": "Copied",
+    "example": "Input and result",
+    "exampleNote": "A concrete case: what you pass in and the shape of the reply. It is not a measured test and it is not a score.",
+    "exampleInput": "Input",
+    "exampleOutput": "Result",
+    "tweaks": "Quick adjustments",
+    "tool": "Tool profile",
+    "relatedTutorials": "Related tutorials",
+    "relatedComparisons": "Related comparisons",
+    "more": "More prompts for this tool",
+    "updated": "Updated"
+  },
   "callout": {
     "tip": "Tip",
     "warning": "Watch out",
@@ -174,10 +203,11 @@
   },
   "search": {
     "title": "Search",
-    "subtitle": "Tools and tutorials. Type the problem or the name.",
+    "subtitle": "Tools, tutorials and prompts. Type the problem or the name.",
     "placeholder": "Search…",
     "tool": "Tool",
-    "tutorial": "Tutorial"
+    "tutorial": "Tutorial",
+    "prompt": "Prompt"
   },
   "categories": {
     "directory": "Directory",

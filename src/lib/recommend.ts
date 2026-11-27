@@ -1,3 +1,4 @@
+import { getAllPrompts } from "@/data/prompts";
 import { getAllTools, getTool } from "@/data/tools";
 import { getAllTutorials, getTutorial } from "@/data/tutorials";
 import type { Tool, Tutorial } from "@/types/content";
@@ -81,6 +82,24 @@ export function searchIndex(locale: "es" | "en") {
       .toLowerCase(),
   }));
 
+  const promptEntries = getAllPrompts().map((prompt) => ({
+    kind: "prompt" as const,
+    slug: prompt.slug,
+    href: `/prompts/${prompt.slug}/`,
+    title: prompt.copy[locale].title,
+    excerpt: prompt.copy[locale].excerpt,
+    haystack: [
+      prompt.copy[locale].title,
+      prompt.copy[locale].excerpt,
+      prompt.copy[locale].purpose,
+      prompt.copy[locale].metaDescription,
+      prompt.copy[locale].prompt,
+      prompt.toolSlug,
+    ]
+      .join(" ")
+      .toLowerCase(),
+  }));
+
   const tutorials = getAllTutorials().map((tutorial) => ({
     kind: "tutorial" as const,
     slug: tutorial.slug,
@@ -98,7 +117,7 @@ export function searchIndex(locale: "es" | "en") {
       .toLowerCase(),
   }));
 
-  return [...tools, ...tutorials];
+  return [...tools, ...tutorials, ...promptEntries];
 }
 
 export function runSearch(locale: "es" | "en", query: string) {

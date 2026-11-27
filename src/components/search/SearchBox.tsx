@@ -36,7 +36,11 @@ export function SearchBox({ compact = false }: { compact?: boolean }) {
               className="block border-b border-line px-4 py-3 last:border-0 hover:bg-elevated"
             >
               <p className="text-[10px] uppercase tracking-[0.14em] text-muted">
-                {item.kind === "tool" ? t("tool") : t("tutorial")}
+                {item.kind === "tool"
+                  ? t("tool")
+                  : item.kind === "tutorial"
+                    ? t("tutorial")
+                    : t("prompt")}
               </p>
               <p className="mt-0.5 text-sm font-medium text-ink">{item.title}</p>
               <p className="line-clamp-1 text-xs text-muted">{item.excerpt}</p>

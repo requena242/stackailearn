@@ -59,6 +59,11 @@ export async function Footer() {
               </Link>
             </li>
             <li>
+              <Link href="/prompts/" className="text-ink/80 hover:text-accent">
+                {nav("prompts")}
+              </Link>
+            </li>
+            <li>
               <Link href="/paths/" className="text-ink/80 hover:text-accent">
                 {nav("paths")}
               </Link>

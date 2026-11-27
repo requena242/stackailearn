@@ -162,6 +162,40 @@ export type Comparison = {
   }>;
 };
 
+export type PromptCopy = {
+  title: string;
+  metaTitle: string;
+  metaDescription: string;
+  excerpt: string;
+  /** Para qué sirve el prompt, en una o dos frases. */
+  purpose: string;
+  /** Con qué modelo o herramienta encaja, y dónde no. */
+  bestWith: string;
+  /** Texto listo para copiar, con huecos entre corchetes. */
+  prompt: string;
+  example: {
+    /** Lo que pegas o adjuntas junto al prompt. */
+    input: string;
+    /** La forma de la respuesta, sin puntuaciones ni métricas inventadas. */
+    output: string;
+  };
+  /** Dos o tres formas de adaptar el mismo prompt. */
+  tweaks: Array<{ title: string; body: string }>;
+};
+
+export type Prompt = {
+  id: string;
+  slug: string;
+  /** Herramienta principal. Tiene que existir en el catálogo. */
+  toolSlug: string;
+  use: UseType;
+  publishedAt: string;
+  lastUpdated: string;
+  relatedTutorials: string[];
+  relatedComparisons: string[];
+  copy: Localized<PromptCopy>;
+};
+
 export type LearningPath = {
   slug: string;
   level: Difficulty;

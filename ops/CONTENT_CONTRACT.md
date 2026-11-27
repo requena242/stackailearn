@@ -9,10 +9,11 @@ Una página por día. Un tipo por PR. ES y EN en el mismo commit.
 | Ficha | `src/content/tools/{slug}.ts` | `src/content/tools/index.ts` |
 | Tutorial | `src/content/tutorials/{slug}.ts` | `src/content/tutorials/index.ts` |
 | Comparativa | bloque en `src/data/comparisons.ts` | el propio array |
+| Prompt | `src/content/prompts/{slug}.ts` | `src/content/prompts/index.ts` |
 
 Slug: minúsculas, ASCII, guiones. Ejemplo: `chatgpt-vs-perplexity`.
 
-## Obligatorio en los tres tipos
+## Obligatorio en los cuatro tipos
 
 - `copy.es` y `copy.en` completos. No dejes un idioma vacío ni un `TODO`.
 - Fechas ISO (`YYYY-MM-DD`).
@@ -49,6 +50,30 @@ Añade un objeto al array de `src/data/comparisons.ts`.
 - `verdict`: una recomendación por caso de uso, no un empate eterno.
 - `faq` opcional (recomendado para schema).
 
+## Prompt (`Prompt`)
+
+Copia `src/content/prompts/claude-auditar-contrato.ts` (o el más cercano).
+
+- `toolSlug`: un slug que exista en el catálogo. Es la herramienta donde se pega el prompt.
+- `use`: un `UseType` que ya exista (`write`, `create`, `code`, `research`, `automate`, `learn`).
+- `copy.prompt`: el texto listo para copiar, con huecos entre corchetes. No es un tutorial de menús.
+- `copy.example.input` y `copy.example.output`: un caso concreto. La entrada es lo que se pega o se adjunta. La salida es la forma de la respuesta.
+- `copy.tweaks`: 2 o 3 ajustes para llevar el mismo prompt a otro caso.
+- `relatedTutorials` y `relatedComparisons`: slugs que existan. Pueden quedar en lista vacía si no hay pieza cercana; no inventes slugs.
+- El ejemplo no dice «lo probé yo» ni trae cifras, porcentajes o puntuaciones que no estén en el material de la entrada.
+- No anuncies idiomas. El locale lo decide el sitio.
+
+## Posts de X a partir de un prompt
+
+Cuando el banco salga de un prompt publicado, el post (o el hilo) lleva el prompt listo para copiar y un resultado, no solo el titular.
+
+- La primera línea es un gancho, y el tipo de gancho cambia de un post a otro.
+- Frases cortas, tuteo, cero hashtags, cero emojis.
+- Cada post cabe en 280 caracteres con el peso de X: una URL cuenta 23.
+- En un suelto, el prompt y el resultado van en el mismo post.
+- En un hilo de 2 o 3 partes, el prompt completo va en un post, listo para copiar, y el enlace a `/es/prompts/{slug}/` va solo en el último.
+- Sin «lo probé yo», sin cifras o valoraciones inventadas, y sin el dominio pelado `grok.com`. Grok Bot no es el chat de Grok.
+
 ## Definition of done
 
 1. TypeScript compila. `npm run build` no debe romper por el archivo nuevo.
@@ -56,6 +81,7 @@ Añade un objeto al array de `src/data/comparisons.ts`.
    - ficha → `/es/tools/{slug}/` y `/en/tools/{slug}/`
    - tutorial → `/es/tutorials/{slug}/`
    - comparativa → `/es/compare/{slug}/`
+   - prompt → `/es/prompts/{slug}/` y `/en/prompts/{slug}/`
 3. En `ops/keyword-queue.md` pasa la fila a `in-pr` (al abrir el PR) y a `published` (tras el merge).
 4. Añade una línea en `ops/publish-log.md`.
 5. Abre **PR**, espera a que `npm run build` pase, mergea. El deploy lo hace GitHub Actions al entrar en `main`.

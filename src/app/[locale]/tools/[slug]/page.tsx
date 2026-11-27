@@ -10,6 +10,7 @@ import { resolveImage } from "@/content/media";
 import { publicAssetExists } from "@/lib/public-file";
 import { getCategory } from "@/data/categories";
 import { getAllTools, getTool } from "@/data/tools";
+import { getPromptsByTool, toPromptListItem } from "@/data/prompts";
 import { getTutorialsByTool } from "@/data/tutorials";
 import { pick } from "@/lib/content";
 import { alsoSeeForTool, relatedToolsFor } from "@/lib/recommend";
@@ -20,6 +21,7 @@ import { Breadcrumbs } from "@/components/ui/Breadcrumbs";
 import { Container } from "@/components/ui/Container";
 import { JsonLd } from "@/components/ui/JsonLd";
 import { ScreenshotSlot } from "@/components/ui/ScreenshotSlot";
+import { PromptCard } from "@/components/prompts/PromptCard";
 import { ToolCard } from "@/components/tools/ToolCard";
 import { ToolMark } from "@/components/tools/ToolMark";
 import { TutorialCard } from "@/components/tutorials/TutorialCard";
@@ -61,6 +63,9 @@ export default async function ToolPage({ params }: Props) {
   const copy = pick(tool.copy, locale);
   const category = getCategory(tool.category);
   const related = getTutorialsByTool(tool.slug);
+  const relatedPrompts = getPromptsByTool(tool.slug).map((item) =>
+    toPromptListItem(item, locale),
+  );
   const alternatives = relatedToolsFor(tool, 3);
   const also = alsoSeeForTool(tool, 3).filter(
     (item) => !related.some((known) => known.slug === item.slug),
@@ -266,6 +271,19 @@ export default async function ToolPage({ params }: Props) {
           </div>
         </aside>
       </div>
+
+      {relatedPrompts.length > 0 ? (
+        <section className="mt-16">
+          <h2 className="text-2xl font-semibold tracking-tight text-ink">
+            {t("relatedPrompts")}
+          </h2>
+          <div className="mt-6 grid gap-4 md:grid-cols-2">
+            {relatedPrompts.map((item) => (
+              <PromptCard key={item.slug} item={item} useLabel={uses(item.use)} />
+            ))}
+          </div>
+        </section>
+      ) : null}
 
       {related.length > 0 ? (
         <section className="mt-16">
