@@ -83,3 +83,4 @@ Una línea por página mergeada.
 | 2026-11-20 | comparativa | mejores-herramientas-ia-automatizar | Mejores herramientas de IA para automatizar 2026 | https://stackailearn.com/es/compare/mejores-herramientas-ia-automatizar/ | https://stackailearn.com/en/compare/mejores-herramientas-ia-automatizar/ |
 | 2026-11-23 | tutorial | ideogram-primer-flujo | Ideogram: primer flujo de imagen con texto | https://stackailearn.com/es/tutorials/ideogram-primer-flujo/ | https://stackailearn.com/en/tutorials/ideogram-primer-flujo/ |
 | 2026-11-25 | comparativa | midjourney-vs-leonardo | Midjourney vs Leonardo para imágenes (2026) | https://stackailearn.com/es/compare/midjourney-vs-leonardo/ | https://stackailearn.com/en/compare/midjourney-vs-leonardo/ |
+| 2026-11-27 | tutorial | lovable-primera-app | Lovable: primera app a partir de un prompt | https://stackailearn.com/es/tutorials/lovable-primera-app/ | https://stackailearn.com/en/tutorials/lovable-primera-app/ |
