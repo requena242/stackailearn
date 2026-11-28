@@ -252,7 +252,7 @@ Desde el #60. El siguiente sin usar es el primer número que no lleva `[usado �
 
    https://stackailearn.com/es/prompts/claude-auditar-contrato/
    <!-- fuente: prompt claude-auditar-contrato. El prompt de la ficha pide obligaciones, plazos, cláusulas desequilibradas y huecos, con [NO ESTÁ EN EL DOCUMENTO] y sin consejo legal. El ejemplo de resultado es una lista por cláusula del anexo, no un resumen. -->
-88. (chatgpt-notas-a-correo, suelto)
+88. [usado 2026-11-28] (chatgpt-notas-a-correo, suelto)
    De notas de reunión a un correo que puedes enviar.
 
    Prompt para ChatGPT:
